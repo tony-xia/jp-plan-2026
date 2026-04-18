@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  /* Warm paper editorial palette */
+  --background: #faf7f2;
+  --surface: #ffffff;
+  --foreground: #1a1a1a;
+  --muted: #6b6660;
+  --hairline: #e5dfd4;
+  --accent: #c8463c;   /* vermillion — used sparingly */
+  --ink-indigo: #2e3a59;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-hairline: var(--hairline);
+  --color-accent: var(--accent);
+  --color-indigo: var(--ink-indigo);
+
+  --font-serif-jp: var(--font-serif-jp);
+  --font-zh: var(--font-zh);
+  --font-ja: var(--font-ja);
+}
+
+html {
+  font-family: var(--font-zh), var(--font-ja), ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "palt";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hanko day seal */
+.hanko {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  background: var(--accent);
+  color: #faf7f2;
+  font-family: var(--font-serif-jp), serif;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(200, 70, 60, 0.15);
+}
+
+/* Vertical Japanese accent text */
+.vertical-ja {
+  writing-mode: vertical-rl;
+  font-family: var(--font-serif-jp), serif;
+  color: var(--muted);
+  letter-spacing: 0.25em;
+  font-weight: 400;
+}
+
+/* Hairline divider */
+.rule {
+  border-top: 1px solid var(--hairline);
+}
+
+/* Annotation row under a primary name */
+.annot {
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.annot-ja {
+  font-family: var(--font-ja), serif;
+}

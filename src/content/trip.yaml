@@ -1,0 +1,148 @@
+# Japan trip itinerary — sample placeholder data.
+# Replace with real content. Validated against src/lib/schema.ts at build time.
+
+title_zh: "日本之旅 2026"
+travelers:
+  - 小明
+  - 阿强
+  - 晓雯
+startDate: "2026-06-10"
+endDate: "2026-06-20"
+
+segments:
+  - id: tokyo
+    name:
+      zh: 东京
+      en: Tokyo
+      ja: 東京
+    days: [day-01, day-02, day-03]
+  - id: kyoto
+    name:
+      zh: 京都
+      en: Kyoto
+      ja: 京都
+    days: [day-04, day-05]
+  - id: osaka
+    name:
+      zh: 大阪
+      en: Osaka
+      ja: 大阪
+    days: [day-06]
+
+places:
+  - id: park-hyatt-tokyo
+    name:
+      zh: 东京柏悦酒店
+      en: Park Hyatt Tokyo
+      ja: パーク ハイアット 東京
+    kind: hotel
+    address:
+      full:
+        zh: 东京都新宿区西新宿 3-7-1-2
+        en: 3-7-1-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo
+        ja: 東京都新宿区西新宿 3-7-1-2
+
+  - id: tsukiji-sushidai
+    name:
+      zh: 寿司大
+      en: Sushi Dai
+      ja: 寿司大
+    kind: restaurant
+    address:
+      full:
+        zh: 东京都江东区丰洲 6-3-1 丰洲市场
+        en: Toyosu Market, 6-3-1 Toyosu, Koto-ku, Tokyo
+        ja: 東京都江東区豊洲 6-3-1 豊洲市場
+    notes_zh: 清晨排队，招牌主厨配套
+    dishes:
+      - { zh: 主厨精选寿司套餐, en: Omakase Set, ja: おまかせ握り }
+      - { zh: 鲔鱼大腹, en: Ōtoro, ja: 大トロ }
+
+  - id: senso-ji
+    name:
+      zh: 浅草寺
+      en: Sensō-ji
+      ja: 浅草寺
+    kind: shrine
+    address:
+      full:
+        zh: 东京都台东区浅草 2-3-1
+        en: 2-3-1 Asakusa, Taito-ku, Tokyo
+        ja: 東京都台東区浅草 2-3-1
+
+bookings:
+  - id: flight-pvg-hnd
+    kind: flight
+    title_zh: 去程航班 上海 → 东京
+    confirmation: ABC123
+    from: { zh: 上海浦东国际机场, en: Shanghai Pudong (PVG), ja: 上海浦東国際空港 }
+    to: { zh: 东京羽田机场, en: Tokyo Haneda (HND), ja: 東京国際空港（羽田） }
+    start: "2026-06-10T08:30:00+08:00"
+    end: "2026-06-10T12:15:00+09:00"
+
+  - id: flight-kix-pvg
+    kind: flight
+    title_zh: 回程航班 大阪 → 上海
+    from: { zh: 关西国际机场, en: Kansai International (KIX), ja: 関西国際空港 }
+    to: { zh: 上海浦东国际机场, en: Shanghai Pudong (PVG), ja: 上海浦東国際空港 }
+    start: "2026-06-20T19:00:00+09:00"
+    end: "2026-06-20T21:00:00+08:00"
+
+days:
+  - id: day-01
+    date: "2026-06-10"
+    city: tokyo
+    title_zh: 抵达东京
+    intro_zh: 落地羽田，稍作休整后去浅草逛逛。
+    activities:
+      - id: arr-hnd
+        start: "12:15"
+        place: { ref: park-hyatt-tokyo }
+        notes_zh: 机场快线 → 新宿 → Check-in
+      - id: sensoji-stroll
+        start: "17:00"
+        place: { ref: senso-ji }
+        notes_zh: 傍晚去灯笼亮起时
+    bookings:
+      - id: hotel-night-1
+        kind: hotel
+        title_zh: 东京柏悦 入住
+        start: "2026-06-10T15:00:00+09:00"
+        address:
+          full:
+            zh: 东京都新宿区西新宿 3-7-1-2
+            en: 3-7-1-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo
+            ja: 東京都新宿区西新宿 3-7-1-2
+
+  - id: day-02
+    date: "2026-06-11"
+    city: tokyo
+    title_zh: 筑地 · 浅草 · 晴空塔
+    activities:
+      - id: sushidai-breakfast
+        start: "06:30"
+        place: { ref: tsukiji-sushidai }
+
+  - id: day-03
+    date: "2026-06-12"
+    city: tokyo
+    title_zh: 涩谷 · 原宿 · 自由活动
+    activities: []
+
+  - id: day-04
+    date: "2026-06-13"
+    city: kyoto
+    title_zh: 新干线前往京都
+    activities: []
+
+  - id: day-05
+    date: "2026-06-14"
+    city: kyoto
+    title_zh: 岚山 · 伏见稻荷
+    activities: []
+
+  - id: day-06
+    date: "2026-06-15"
+    city: osaka
+    title_zh: 大阪一日 + 返程
+    activities: []
