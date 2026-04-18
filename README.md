@@ -39,15 +39,15 @@ name:
 
 ## Deployment
 
-Target: Azure Web App **`jpplan`** (`jpplan.azurewebsites.net`), Linux, Code.
+Target: Azure Web App **`jpplan`** (`jpplan.azurewebsites.net`), **Windows**, Code. IIS fronts the Node process via `iisnode`, wired by [`web.config`](web.config).
 
 ### One-time Azure setup
 
 In the Azure portal for the Web App:
 
-1. **Configuration → General settings → Stack**: Node 20 LTS
-2. **Configuration → General settings → Startup Command**: `node server.js`
-3. **Configuration → Application settings**: `WEBSITE_NODE_DEFAULT_VERSION=~20`
+1. **Configuration → General settings → Stack**: Node 20 LTS, 64-bit
+2. **Configuration → Application settings**: `WEBSITE_NODE_DEFAULT_VERSION=~20`
+3. *(No startup command — IIS reads `web.config`.)*
 4. **Deployment Center → Manage publish profile → Download publish profile**
 
 ### GitHub secret

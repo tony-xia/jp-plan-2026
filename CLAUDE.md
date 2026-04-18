@@ -42,7 +42,7 @@ A **read-only** Japan-trip itinerary site. UI is Chinese; proper nouns (places, 
 
 ## Deployment
 
-Azure Web App **`jpplan`** (Linux, Code, Node 20), startup `node server.js`, deployed by [`.github/workflows/azure-deploy.yml`](.github/workflows/azure-deploy.yml) on push to `main`. Next.js `output: "standalone"` in [`next.config.ts`](next.config.ts) produces the self-contained server bundle the workflow ships.
+Azure Web App **`jpplan`** (Windows, Code, Node 20). IIS + `iisnode` front the Node process — routing wired by [`web.config`](web.config), which the workflow copies into `.next/standalone/` at deploy time. Deployed by [`.github/workflows/azure-deploy.yml`](.github/workflows/azure-deploy.yml) on push to `main`. Next.js `output: "standalone"` in [`next.config.ts`](next.config.ts) produces the self-contained server bundle the workflow ships.
 
 ## Editing guidelines
 
