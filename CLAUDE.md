@@ -42,7 +42,7 @@ A **read-only** Japan-trip itinerary site. UI is Chinese; proper nouns (places, 
 
 ## Deployment
 
-Azure Web App **`jpplan`** (Windows, Code, Node 20). IIS + `iisnode` front the Node process — routing wired by [`web.config`](web.config), which the workflow copies into `.next/standalone/` at deploy time. Deployed by [`.github/workflows/azure-deploy.yml`](.github/workflows/azure-deploy.yml) on push to `main`. Next.js `output: "standalone"` in [`next.config.ts`](next.config.ts) produces the self-contained server bundle the workflow ships.
+Azure Web App **`jp-plan`** (`jp-plan.azurewebsites.net`) — **Linux, Container mode**. [`.github/workflows/azure-deploy.yml`](.github/workflows/azure-deploy.yml) on push to `main` builds the [`Dockerfile`](Dockerfile) multi-stage image, pushes to **GHCR** (`ghcr.io/<owner>/jp-plan-2026:<sha>`), and points the Web App at the new tag via `azure/webapps-deploy@v3`. The container listens on `PORT=8080`; the Web App must have `WEBSITES_PORT=8080` in its app settings. Next.js `output: "standalone"` in [`next.config.ts`](next.config.ts) produces the minimal `server.js` bundle the runner stage copies in.
 
 ## Editing guidelines
 
