@@ -39,7 +39,7 @@ name:
 
 ## Deployment
 
-Target: Azure Web App **`jp-plan`** (`jp-plan.azurewebsites.net`), Linux, Code.
+Target: Azure Web App **`jpplan`** (`jpplan.azurewebsites.net`), Linux, Code.
 
 ### One-time Azure setup
 
