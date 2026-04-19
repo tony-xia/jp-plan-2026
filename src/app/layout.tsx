@@ -1,28 +1,15 @@
 import type { Metadata } from "next";
-import { Noto_Sans_SC, Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 import { getTrip } from "@/lib/content";
 import "./globals.css";
 
-const notoSansSC = Noto_Sans_SC({
-  weight: ["400", "500", "700"],
-  subsets: ["latin"],
-  variable: "--font-zh",
-  display: "swap",
-});
-
-const notoSansJP = Noto_Sans_JP({
-  weight: ["400", "500"],
-  subsets: ["latin"],
-  variable: "--font-ja",
-  display: "swap",
-});
-
-const notoSerifJP = Noto_Serif_JP({
-  weight: ["400", "600", "700"],
-  subsets: ["latin"],
-  variable: "--font-serif-jp",
-  display: "swap",
-});
+const GOOGLE_FONTS_HREF =
+  "https://fonts.googleapis.com/css2?" +
+  [
+    "family=Noto+Sans+SC:wght@400;500;700",
+    "family=Noto+Sans+JP:wght@400;500",
+    "family=Noto+Serif+JP:wght@400;600;700",
+  ].join("&") +
+  "&display=swap";
 
 export function generateMetadata(): Metadata {
   const trip = getTrip();
@@ -36,10 +23,16 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html
-      lang="zh-Hans"
-      className={`${notoSansSC.variable} ${notoSansJP.variable} ${notoSerifJP.variable} h-full antialiased`}
-    >
+    <html lang="zh-Hans" className="h-full antialiased">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link rel="stylesheet" href={GOOGLE_FONTS_HREF} />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
