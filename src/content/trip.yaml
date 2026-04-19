@@ -1,8 +1,8 @@
 # Japan trip itinerary — 2026-12-27 to 2027-01-18 (23 days, 22 nights).
 # Three phases:
 #   Phase 1 (days 01-04, 3 nights)  = Karuizawa (preferred) or Fuji (fallback)
-#   Phase 2 (days 05-17, 13 nights) = Hokkaido: Hakodate → Toyako → Biei → Abashiri → Wakkanai → Otaru → Sapporo
-#   Phase 3 (days 18-23, 6 nights)  = Tokyo (incl. Sapporo→Tokyo transit on day 18)
+#   Phase 2 (days 05-18, 14 nights) = Hokkaido: Hakodate 2 → Toyako 2 → Biei 1 → Abashiri 2 → Wakkanai 1 → Otaru 2 + Neuschloss 1 → Sapporo 3
+#   Phase 3 (days 19-23, 5 nights)  = Tokyo (incl. Sapporo→Tokyo transit on day 19)
 # Full requirements source: docs/requirements.md
 # Validated against src/lib/schema.ts at build time.
 
@@ -41,12 +41,13 @@ segments:
       - day-15
       - day-16
       - day-17
+      - day-18
   - id: tokyo
     name:
       zh: 东京
       en: Tokyo
       ja: 東京
-    days: [day-18, day-19, day-20, day-21, day-22, day-23]
+    days: [day-19, day-20, day-21, day-22, day-23]
 
 places:
   # ────── transit hubs ──────
@@ -301,7 +302,7 @@ places:
     kind: sight
     address:
       full:
-        zh: 北海道上川郡美瑛町（邮编 071-0471）
+        zh: 北海道上川郡美瑛町(邮编 071-0471)
         ja: 〒071-0471 北海道上川郡美瑛町
     notes_zh: >-
       一株独立的云杉，形如圣诞树，积雪时尤其上镜。
@@ -315,7 +316,7 @@ places:
     kind: sight
     address:
       full:
-        zh: 北海道上川郡美瑛町北瑛（邮编 071-0224）
+        zh: 北海道上川郡美瑛町北瑛(邮编 071-0224)
         ja: 〒071-0224 北海道上川郡美瑛町北瑛
     notes_zh: 1976 年被选为日本烟草「セブンスター」包装。有专用停车场（含巴士车位）。
 
@@ -362,7 +363,7 @@ places:
     kind: sight
     address:
       full:
-        zh: 北海道网走市鳟浦（邮编 099-3119）
+        zh: 北海道网走市鳟浦(邮编 099-3119)
         ja: 〒099-3119 北海道網走市鱒浦
     notes_zh: >-
       「感動の径」海岸驾驶路线上的观景停车带。天气好时可远眺知床连山。
@@ -533,7 +534,7 @@ places:
     kind: sight
     address:
       full:
-        zh: 北海道小樽市朝里（邮编 047-0151）
+        zh: 北海道小樽市朝里(邮编 047-0151)
         ja: 〒047-0151 北海道小樽市朝里
     notes_zh: >-
       ★ 航拍日主场：「朝里スカイループ」札樽自動車道 朝里 IC 双层环形高架桥，
@@ -896,12 +897,15 @@ bookings:
 
   - id: phase1-rental-car
     kind: other
-    title_zh: "Phase 1 租车（羽田机场取车，轻井泽方案下直接开到长野；或富士方案下改为新富士取车）"
+    title_zh: "Phase 1 租车（羽田 / 新富士 取车 → day 03 下午还车）"
     start: "2026-12-27"
-    end: "2026-12-30"
+    end: "2026-12-29"
     details_zh: >-
       4 人 + 冬季行李，推荐 SUV / 小型 minivan；带四驱和冬季雪胎。
-      归还地：依最终方案，最晚在 day 04 还车或继续使用到 day 05 的东京端。
+      ★ 用户确认：在 Phase 1 倒数第二天（day 03, 2026-12-29）下午还车。
+      还车地要选住宿步行可达（轻井泽方案：軽井沢駅 附近；富士方案：新富士駅 附近）。
+      day 04 无车 —— 轻井泽高原教会 / 其他活动走路、町内バス 或 出租车。
+      day 05 早上直接从车站乘新干线去东京 → 新函馆北斗。
 
   - id: phase2-hokkaido-shinkansen-outbound
     kind: shinkansen
@@ -915,7 +919,7 @@ bookings:
 
   - id: phase2-windsor-shuttle-in
     kind: other
-    title_zh: "洞爺 Windsor 酒店 免费接驳巴士：JR 洞爺駅 → 酒店"
+    title_zh: "洞爺 Windsor 酒店 免费接驳巴士：JR 洞爺駅 → 酒店（day 07）"
     from: { zh: JR 洞爺駅, en: JR Toya Station, ja: JR 洞爺駅 }
     to: { zh: Windsor 酒店 洞爺, en: Windsor Hotel Toya, ja: ウィンザーホテル洞爺 }
     start: "2027-01-02"
@@ -927,9 +931,9 @@ bookings:
     kind: other
     title_zh: "Phase 2 租车（札幌取车 → 最终还车也在札幌市内）"
     start: "2027-01-04"
-    end: "2027-01-12"
+    end: "2027-01-13"
     details_zh: >-
-      Day 09 从 洞爺→札幌 后取车；day 17 归还。
+      Day 09 从 洞爺→札幌 后取车；day 18 归还（Sapporo 3 晚结束后）。
       必备：四驱 SUV + 冬季雪胎 + 雪链；≥ 2 排座 + 大行李箱容量。
       Abashiri → 稚内 → 小樽 单日长距离行驶，预估冬季 5 – 6+ 小时。
 
@@ -985,7 +989,7 @@ bookings:
 
   - id: phase2-otaru-neuschloss
     kind: hotel
-    title_zh: "住宿：Hotel Neuschloss 小樽（可选 1 – 2 晚，2 间房，价格 OK 时才订）"
+    title_zh: "住宿：Hotel Neuschloss 小樽（可选 1 晚，2 间房，价格 OK 时才订）"
     start: "2027-01-10"
     end: "2027-01-11"
     address:
@@ -998,17 +1002,17 @@ bookings:
 
   - id: phase2-sapporo-hotel
     kind: hotel
-    title_zh: "住宿：札幌市内酒店（2 晚，2 间房，待选）"
+    title_zh: "住宿：札幌市内酒店（3 晚，2 间房，待选）"
     start: "2027-01-11"
-    end: "2027-01-13"
-    details_zh: 札幌駅 / 大通 / 薄野 一带。Day 16 – day 17。
+    end: "2027-01-14"
+    details_zh: 札幌駅 / 大通 / 薄野 一带。Day 16 – day 18，3 晚（用户确认）。
 
   - id: phase2-sapporo-to-tokyo-transit
     kind: shinkansen
-    title_zh: "Sapporo → Tokyo：JR 特急 北斗 + 北海道新干线（day 18，~8 小时）"
+    title_zh: "Sapporo → Tokyo：JR 特急 北斗 + 北海道新干线（day 19，~8 小时）"
     from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
     to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
-    start: "2027-01-13"
+    start: "2027-01-14"
     details_zh: >-
       札幌 → 新函馆北斗（特急 北斗，~3.5 小时）+ 新函馆北斗 → 东京（北海道新干线「はやぶさ」，~4 小时）。
       ⚠️ 北海道新干线延伸到札幌目前改为 FY2038 开通，我们这一趟无直达。
@@ -1016,28 +1020,30 @@ bookings:
 
   - id: phase3-tokyo-hotel
     kind: hotel
-    title_zh: "住宿：东京（涩谷附近，6 晚，2 间房 或 2BR Airbnb，待选）"
-    start: "2027-01-13"
+    title_zh: "住宿：东京（涩谷附近，5 晚，2 间房 或 2BR Airbnb，待选）"
+    start: "2027-01-14"
     end: "2027-01-18"
     details_zh: >-
       涩谷 / 原宿 / 表参道 一带：靠近 massage、剪发、Gonpachi。
-      6 晚 × 2 房的酒店费用偏高 —— 优先比较 Airbnb 2BR/2BA 方案。
+      5 晚 × 2 房的酒店费用偏高 —— 优先比较 Airbnb 2BR/2BA 方案。
 
   - id: phase3-k-two-haircut
     kind: other
     title_zh: "预约：STAR TOKYO 涩谷 by K-two 剪发（需提前 ≥ 2 周预约）"
-    start: "2027-01-15"
+    start: "2027-01-17"
     address:
       full:
         zh: 东京都涩谷区松涛 1-29-1 涩谷 Crossroad 7F
         ja: 〒150-0046 東京都渋谷区松濤1-29-1 渋谷クロスロード7F
-    details_zh: 预约时要指明需英语/中文对应 stylist。
+    details_zh: >-
+      预约时要指明需英语/中文对应 stylist。
+      安排：day 22（周日），骨董市上午 → 下午剪发 → 傍晚 Autobacs / Gonpachi。
 
   - id: phase3-mominotakumi-massage
     kind: other
     title_zh: "预约：もみの匠 涩谷 按摩（online 24/7 可预约）"
-    start: "2027-01-14"
-    details_zh: 60 分钟全身 ¥3,980 起。出发前几天再预约也来得及。
+    start: "2027-01-15"
+    details_zh: 60 分钟全身 ¥3,980 起。出发前几天再预约也来得及。Day 20 购物日晚上安排。
 
   - id: phase3-gonpachi-dinner
     kind: other
@@ -1047,7 +1053,7 @@ bookings:
       full:
         zh: 东京都港区西麻布 1-13-11
         ja: 〒106-0031 東京都港区西麻布1-13-11
-    details_zh: Nice-to-have；Kill Bill 取景经典居酒屋。
+    details_zh: Nice-to-have；Kill Bill 取景经典居酒屋。Day 21 周六 Subaru 完后晚餐。
 
 days:
   # ─────────────────── Phase 1 ───────────────────
@@ -1087,20 +1093,33 @@ days:
   - id: day-03
     date: "2026-12-29"
     city: fuji-or-karuizawa
-    title_zh: 第 3 天
+    title_zh: 第 3 天 · 车山高原 + 下午还车
+    intro_zh: >-
+      ★ 倒数第二天 —— 用好这一天的车。上午 / 中午前开车跑车山高原 + 其他驾车必需行程；
+      下午回到预定还车地点（近住宿步行可达）完成还车。day 04 起无车，全程走路 / 町内バス / 出租。
     activities:
       - id: day-03-kurumayama
         place: { ref: kurumayama-skypark }
-        notes_zh: 不滑雪，乘缆车上车山山顶看雪景与八岳 / 富士山 / 阿尔卑斯山脉全景。
+        notes_zh: 不滑雪，乘缆车上车山山顶看雪景与八岳 / 富士山 / 阿尔卑斯山脉全景。上午出发，确保下午有充分时间回还车点。
+      - id: day-03-car-return
+        start: "16:00"
+        place: { ref: haneda-airport }
+        notes_zh: >-
+          ★ Phase 1 租车还车。实际还车地点取决于 Phase 1 方案：
+          轻井泽方案 → 軽井沢駅 附近租车行；富士方案 → 新富士駅 附近租车行。
+          选步行可达住宿的分店；否则预约出租回住宿。时间定在下午，免影响 day 04 活动。
 
   - id: day-04
     date: "2026-12-30"
     city: fuji-or-karuizawa
-    title_zh: 第 4 天
+    title_zh: 第 4 天 · 无车日（轻井泽 / 富士 市内）
+    intro_zh: >-
+      昨日下午已还车，今天无自驾。活动改走路 / 町内バス / 出租车。轻井泽方案：高原教会 + 星野度假区步行。
+      富士方案：就近景点 + 温泉 + 休整为明日长途做准备。
     activities:
       - id: day-04-karuizawa-kogen-church
         place: { ref: karuizawa-kogen-church }
-        notes_zh: "仅轻井泽方案 —— 星野度假区的历史教会。"
+        notes_zh: "仅轻井泽方案 —— 星野度假区的历史教会；軽井沢駅 町内バス 或 出租 20 分钟可达。"
 
   # ─────────────────── Phase 2: Hokkaido ───────────────────
   - id: day-05
@@ -1258,7 +1277,7 @@ days:
     city: hokkaido
     title_zh: 第 14 天 · 小樽 市区游
     intro_zh: >-
-      小樽白天 + 夜景日。白天：运河 + 堺町通り + 音乐盒堂 + 寿司午餐（鱼真，避开周日，刚好周六 —— 需要查一下）。
+      小樽白天 + 夜景日。白天：运河 + 堺町通り + 音乐盒堂 + 寿司午餐（鱼真，周六开门）。
       黄昏：天狗山缆车夜景。
     activities:
       - id: day-14-otaru-canal
@@ -1270,7 +1289,7 @@ days:
         place: { ref: uomasa-otaru }
         notes_zh: >-
           不接受预订，周日休。开门前 20 – 30 分钟到门口排队更稳。
-          ⚠️ 日程确认：2027-01-09 是周六，开门。若临时改到 2027-01-10（周日）则改去其他店。
+          ★ 2027-01-09 是周六，开门，无问题。
       - id: day-14-tengu-night
         start: "17:00"
         place: { ref: otaru-tengu-ropeway }
@@ -1293,7 +1312,7 @@ days:
   - id: day-16
     date: "2027-01-11"
     city: hokkaido
-    title_zh: 第 16 天 · 祝津 → 札幌
+    title_zh: 第 16 天 · 祝津 → 札幌（Sapporo 夜 1）
     intro_zh: >-
       早上享受 Neuschloss 海景 + 温泉 + 早餐。上午逛小樽水族館（就在酒店隔壁）。
       中午退房开到札幌（~40 km / 45 分钟），下午北海道大学散步，黄昏 白色恋人公园 看工厂 + 亮灯。
@@ -1313,72 +1332,84 @@ days:
   - id: day-17
     date: "2027-01-12"
     city: hokkaido
-    title_zh: 第 17 天 · 札幌
+    title_zh: 第 17 天 · 札幌（夜 2）· 二条 + 頭大仏 + 大倉山 + 蟹本家
     intro_zh: >-
-      札幌第二天。早上 二条市場 海鲜丼；中午 ROYCE' 小镇或 頭大仏（需要选其一，两者离市中心方向相反）；
-      黄昏 大倉山展望台 看日落；晚餐 蟹本家 或 NANDA（其中一个，提前预订）。
-      Nice-to-have：藻岩山 夜景（如果 Day 14 天狗山看过后还想再刷一次）。
-      Day 17 晚上 还车（或明早一早还车）。
+      札幌核心一天。早上 二条市場 海鲜丼；上午 頭大仏 拜观；黄昏 大倉山 看日落；晚餐 蟹本家。
     activities:
       - id: day-17-nijo-market
+        start: "08:30"
         place: { ref: nijo-market-sapporo }
+        notes_zh: 早市开到中午前；海鲜丼当早饭。
       - id: day-17-hill-of-the-buddha
         place: { ref: hill-of-the-buddha }
         notes_zh: 冬季拜观 10:00 – 15:00；水庭冬季放空无反射，景色变成佛首 + 白雪。
       - id: day-17-okurayama
         place: { ref: okurayama-observatory }
+        notes_zh: 1972 冬奥跳台场地；双人吊椅上展望台看日落。
       - id: day-17-kani-honke
         start: "18:30"
         place: { ref: kani-honke-sapporo }
         notes_zh: 4 人提前 2 – 3 周预订。
 
-  # ─────────────────── Phase 3: Tokyo ───────────────────
   - id: day-18
     date: "2027-01-13"
+    city: hokkaido
+    title_zh: 第 18 天 · 札幌（夜 3）· ROYCE' 小镇 + 藻岩山 / NANDA
+    intro_zh: >-
+      ★ 札幌第 3 晚（用户新增）。白天 JR 学园都市线 去 ロイズタウン駅 做巧克力工厂体验；
+      黄昏 / 夜 藻岩山 夜景（完成北海道三大夜景的最后一座，或跳过改旭山展望）。
+      晚餐 海鮮ビュッフェ NANDA 或自由安排。明早（day 19）乘 JR 还车 + 札幌 → 东京。
+    activities:
+      - id: day-18-royce-town
+        start: "11:00"
+        place: { ref: royce-cacao-chocolate-town }
+        notes_zh: >-
+          ★ 必须提前在官网 e-tix 预约；10:00 – 17:00，最后入场 15:00。
+          从 札幌駅 → ロイズタウン駅（学园都市线）约 30 分钟，需非自驾出行。
+      - id: day-18-moiwa
+        start: "16:30"
+        place: { ref: mt-moiwa-ropeway }
+        notes_zh: >-
+          Nice-to-have：北海道三大夜景之一（与已登的 函館山 + 天狗山 组齐全三）。
+          冬季 11:00 – 22:00，末班上行 21:30。年末年始休 —— 1/13 应该正常营业，出行前再确认。
+      - id: day-18-nanda
+        start: "19:30"
+        place: { ref: seafood-buffet-nanda }
+        notes_zh: 提前 2 – 3 周预约；海鲜自助替代蟹本家做晚餐二选一。
+
+  # ─────────────────── Phase 3: Tokyo ───────────────────
+  - id: day-19
+    date: "2027-01-14"
     city: tokyo
-    title_zh: 第 18 天 · 札幌 → 东京（转移日）
+    title_zh: 第 19 天 · 札幌 → 东京（转移日）
     intro_zh: >-
       上午还车，札幌駅乘 JR 特急 北斗 → 新函馆北斗（~3.5 小时）+ 北海道新干线 → 东京（~4 小时）。
       总计约 8 小时 + 换乘；Phase 3 首晚晚上在东京涩谷入住。
     activities:
-      - id: day-18-sapporo-depart
+      - id: day-19-sapporo-depart
         start: "08:30"
         place: { ref: sapporo-station }
-      - id: day-18-tokyo-arrive
+      - id: day-19-tokyo-arrive
         place: { ref: shibuya-scramble }
         notes_zh: 入住涩谷基地。晚上近处随便吃。
-
-  - id: day-19
-    date: "2027-01-14"
-    city: tokyo
-    title_zh: 第 19 天 · 涩谷购物 + 按摩
-    activities:
-      - id: day-19-shibuya-shopping
-        place: { ref: shibuya-scramble }
-        notes_zh: 表参道 / 原宿 / Scramble Square / Miyashita Park 自由行。
-      - id: day-19-massage
-        start: "19:00"
-        place: { ref: mominotakumi-shibuya }
-        notes_zh: 60 分钟全身 ¥3,980。线上提前预约时段。
 
   - id: day-20
     date: "2027-01-15"
     city: tokyo
-    title_zh: 第 20 天 · 东雲 AUTOBACS + 剪发
+    title_zh: 第 20 天 · 涩谷购物 + 按摩
     activities:
-      - id: day-20-autobacs
-        start: "10:00"
-        place: { ref: a-pit-autobacs-shinonome }
-        notes_zh: ★ 用户要求至少 2 小时；按半天档排。りんかい線 東雲駅 步行 10 分钟。
-      - id: day-20-haircut
-        start: "15:00"
-        place: { ref: star-tokyo-k-two-shibuya }
-        notes_zh: K-two 需提前 ≥ 2 周预约；回程顺路回涩谷基地。
+      - id: day-20-shibuya-shopping
+        place: { ref: shibuya-scramble }
+        notes_zh: 表参道 / 原宿 / Scramble Square / Miyashita Park 自由行。
+      - id: day-20-massage
+        start: "19:00"
+        place: { ref: mominotakumi-shibuya }
+        notes_zh: 60 分钟全身 ¥3,980。线上提前预约时段。
 
   - id: day-21
     date: "2027-01-16"
     city: tokyo
-    title_zh: 第 21 天 · 三鹰 Subaru + 根津 + 权八晚餐
+    title_zh: 第 21 天 · 三鹰 Subaru + 权八晚餐（周六）
     intro_zh: >-
       2027-01-16 是周六 —— Subaru Mitaka 开门（只在周二、周三休）。白天车迷行程，晚上 Gonpachi。
     activities:
@@ -1388,7 +1419,7 @@ days:
         notes_zh: ⚠️ 周二周三休，本日周六开门。中央线 三鷹駅 + 公交。
       - id: day-21-nezu-museum
         place: { ref: nezu-museum }
-        notes_zh: 回表参道区途中，看东亚古代艺术品，呼应用户对「古代遗产」的兴趣。
+        notes_zh: 时间允许的话回表参道区中途插入根津美术馆看东亚古美术 —— 与用户「古代遗产」兴趣共鸣。可跳过。
       - id: day-21-gonpachi
         start: "19:30"
         place: { ref: gonpachi-nishiazabu }
@@ -1397,18 +1428,23 @@ days:
   - id: day-22
     date: "2027-01-17"
     city: tokyo
-    title_zh: 第 22 天 · 大江户骨董市 + 丸之内
+    title_zh: 第 22 天 · 大江户骨董市（周日）+ 剪发 + 东雲 Autobacs
     intro_zh: >-
       2027-01-17 是第 3 周日 —— ★ 大江户骨董市 在东京国际论坛户外广场 09:00 – 16:00 开市，
-      约 250 家古董商；这是本次旅行接触「公开骨董」的最好固定机会。
+      约 250 家古董商。下午回涩谷剪发，傍晚去东雲 Autobacs。
     activities:
       - id: day-22-oedo-antique
         start: "09:30"
         place: { ref: oedo-antique-market }
-        notes_zh: 户外市集；雨雪天可能取消，前一天查官网 antique-market.jp。
-      - id: day-22-marunouchi
-        place: { ref: meiji-shrine }
-        notes_zh: 下午可选：明治神宫（初詣期） 或 丸之内区漫步 + 看下拍卖预展（毎日 / Shinwa / 东京中央 等 —— 根据 1 月中旬当月档期）。
+        notes_zh: 户外市集；雨雪天可能取消，前一天查官网 antique-market.jp。预算 09:30 – 13:30。
+      - id: day-22-haircut
+        start: "14:30"
+        place: { ref: star-tokyo-k-two-shibuya }
+        notes_zh: 周日 10:00 – 19:00 营业；提前 ≥ 2 周预约。
+      - id: day-22-autobacs
+        start: "17:00"
+        place: { ref: a-pit-autobacs-shinonome }
+        notes_zh: ★ 用户要求至少 2 小时。营业到 22:00，剪发后顺路去。りんかい線 東雲駅 步行 10 分钟。
 
   - id: day-23
     date: "2027-01-18"

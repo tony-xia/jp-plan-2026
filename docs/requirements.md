@@ -8,6 +8,17 @@ This list is the source of truth for trip-planning decisions. The itinerary in [
 - **Dates:** 2026-12-27 → 2027-01-18 (23 days, 22 nights)
 - **Three phases:** Phase 1 = **Karuizawa (preferred)** with **Fuji as fallback** if Karuizawa accommodation is too expensive; Phase 2 = Hokkaido; Phase 3 = Tokyo.
 
+## Confirmed night allocation (2026-04-19)
+
+| Phase | Nights | Breakdown |
+|---|---|---|
+| Phase 1 (Karuizawa / Fuji) | 3 | 2026-12-27 → 2026-12-30 |
+| Phase 2 (Hokkaido) | **14** | Hakodate 2 · Toyako / Windsor 2 · Biei 1 · Abashiri 2 · Wakkanai 1 · Otaru 2 + Neuschloss 1 · **Sapporo 3** |
+| Phase 3 (Tokyo) | 5 | 2027-01-14 → 2027-01-18 (incl. Sapporo→Tokyo transit on arrival day) |
+| **Total** | **22** | |
+
+> ✅ **Night-count locked**: user confirmed Sapporo = 3 nights; Phase 3 = 5 nights (trimmed from 6). `src/content/trip.yaml` is aligned with this split.
+
 ## Group composition (applies to every phase)
 
 - 4 travelers: **2 gentlemen + 2 ladies** → **always need 2 rooms / 2 bedrooms** (no single-room option). This drives hotel vs. Airbnb cost comparisons throughout the trip.
@@ -151,11 +162,11 @@ Phase 2 shape: **Hakodate → Lake Toya (Windsor Hotel) → train to Sapporo for
   - **Shakotan Peninsula / 神威岬 (Cape Kamui)** — Shakotan blue coast. ⚠️ Cape Kamui's 遊歩道 is **closed in winter** due to snow; only the base area / 積丹岬 area is accessible. Coastal drive still rewarding on clear days.
   - **Daytime Tengu Ski** — optional for anyone who skis; we're "explicitly not skiing" per Phase 1 note, but Tengu has a beginner area if interest shifts.
 
-### Sapporo (2–4 nights) — end of Phase 2
+### Sapporo (3 nights — confirmed) — end of Phase 2
 
 - **Drive:** Otaru → Sapporo is short, **~40 km / 45 min** on 札樽自動車道. Drop the rental car in Sapporo on the way in or on the morning of Phase 3 departure (whichever is simpler for the lease terms).
 - **Car return:** most major rental chains have Sapporo city branches (Sapporo Station / Susukino) and New Chitose Airport branches. Confirm drop-off point when booking the rental back in Sapporo at the start of the Biei leg.
-- **Stay:** central Sapporo (Sapporo Station / Odori / Susukino corridor), 2–4 nights, 2 rooms. Hotel not yet shortlisted.
+- **Stay:** central Sapporo (Sapporo Station / Odori / Susukino corridor), **3 nights (confirmed)**, 2 rooms. Hotel not yet shortlisted.
 - **Transit to Tokyo (user-confirmed plan: overland train + Shinkansen):**
   - **Leg 1:** JR 特急 北斗 (Limited Express Hokuto) 札幌 → 新函館北斗. **~3 hr 30 min.**
   - **Leg 2:** 北海道新幹線 (Hokkaido Shinkansen) 新函館北斗 → 東京. **~4 hr.**
@@ -179,9 +190,20 @@ Phase 2 shape: **Hakodate → Lake Toya (Windsor Hotel) → train to Sapporo for
   - **狸小路 / ススキノ (Susukino)** — night food/drink district; Sapporo Ramen row.
   - **札幌市時計台** (Clock Tower) — compact historic landmark, 5-min stop.
 
-## Phase 3 — Tokyo
+## Phase 3 — Tokyo (5 nights — confirmed)
 
-Phase 3 base: probably **Shibuya** area (shopping + in-line with salon/massage/Gonpachi walkable). Trip wraps **2027-01-18**. Phase 3 duration is gated by how much Phase 2 gets trimmed (see open questions).
+Phase 3 base: **Shibuya** area (shopping + in-line with salon / massage / Gonpachi walkable). Trip wraps **2027-01-18**. **5 nights locked** (2027-01-14 → 2027-01-18) — trimmed from the original 6 to give Sapporo a 3rd night. The day-19 (arrival) half-day is largely consumed by the Sapporo→Tokyo transit, so **4 active Tokyo days** remain.
+
+### Day-level Tokyo allocation (locked in `trip.yaml`)
+
+| Day | Date | Weekday | Plan |
+|---|---|---|---|
+| 19 | 2027-01-14 | Thu | Sapporo→Tokyo transit (~8 hr), arrive Shibuya evening |
+| 20 | 2027-01-15 | Fri | Shibuya shopping + Mominotakumi massage (evening) |
+| 21 | 2027-01-16 | Sat | Subaru Mitaka (Sat — open) + Gonpachi dinner |
+| 22 | 2027-01-17 | Sun | Oedo Antique Market (3rd Sun) + K-two haircut + Autobacs evening |
+| 23 | 2027-01-18 | Mon | Departure |
+
 
 ### Must-visit (committed)
 
@@ -221,11 +243,16 @@ User interest: **"public small auctions about old ancient legacies."** Most trad
 ## Open questions / to revisit
 
 - **Phase 1 decision driver = Karuizawa accommodation cost.** Karuizawa is the preferred base; only fall back to Fuji if the Karuizawa 2BR/2BA Airbnb options turn out too expensive. **Next action:** price the two Karuizawa Airbnb candidates for the correct 2026-12-27 → ~12-30 window and compare against a comparable Fuji Airbnb. Either way Peepolo Norikura + Norikura stop + Kurumayama are committed — which matters for geography (see flag above).
+- **Phase 1 — rental car return on the afternoon of day-03 (2026-12-29).** User confirmed: return the Phase 1 car on the second-to-last day afternoon. Implications:
+  - Day-03 itinerary must finish the drive-heavy activities (Kurumayama, any Norikura / Peepolo errands, any geography-required trips) **before** the afternoon return.
+  - Day-04 has **no car** — plan Karuizawa Kogen Church (or Fuji-scenario alternatives) via walk / local bus / taxi only. Karuizawa station ↔ Hoshino area is ~5 km, doable by 町内バス / taxi.
+  - Day-05 morning transit to Tokyo must be station-based (Karuizawa Shinkansen station for Scenario A; walk / taxi to Shin-Fuji station for Scenario B).
+  - ⚠️ Choose a **rental-car return branch that is walkable from our accommodation** (or plan a taxi back). Candidates: Karuizawa Station area drop-off for Scenario A; Shin-Fuji Station area drop-off for Scenario B.
 - **Fuji winter-drive substitutes:** since Fujinomiya 5th and Okuniwa are closed in winter, decide whether a lower-elevation Fuji viewpoint replaces them or whether we drop the high-drive idea entirely.
 - **Mt. Omuro winter view check** — user wants to verify before committing.
 - The Phase 1 `src/content/trip.yaml` segment is labeled `fuji-or-karuizawa` — rename once the scenario is chosen.
 - The Peepolo Norikura stay is tentatively slotted on day-02 (2026-12-28 → 29) in `trip.yaml` but marked 待确认. Adjust once the scenario + booking are confirmed.
-- **Phase 2 — Hakodate nights:** decide **1 vs 2 nights** in Hakodate based on arrival time from Phase 1 and whether we want a full daytime in Hakodate (morning market, Motomachi, Goryōkaku) or just the night-view evening.
+- ~~**Phase 2 — Hakodate nights:** decide **1 vs 2 nights** in Hakodate.~~ ✅ **Resolved 2026-04-19 → 2 nights.** Arrive day-05 afternoon + NYE dinner, day-06 morning 朝市 / Motomachi + Mt. Hakodate night view, day-07 train to Toya.
 - **Phase 2 — how to get around Lake Toya during the 2-night Windsor stay.** Options: (a) rely on the Windsor shuttle for station runs only + taxis for Silo / Usuzan / Noboribetsu, (b) book a short-term rental locally for 1–2 days, (c) arrange a hired driver / local tour. We don't have our own rental until Sapporo. Need to price / decide.
 - **Phase 2 — Sapporo overnight: avoid or accept?** User prefers to skip it, but that only works if rental-car pickup timing allows a safe winter drive to Biei the same day. If pickup runs late, overnight Sapporo (or Chitose) becomes the safer option. Confirm once train + rental pickup time is known.
 - **Phase 2 — Biei / Furano 1-night accommodation** not yet shortlisted. Need 2 rooms.
@@ -234,18 +261,18 @@ User interest: **"public small auctions about old ancient legacies."** Most trad
   - (a) Accept no real drift ice; substitute with the Okhotsk Ryūhyō Museum (indoor −15 °C chamber with preserved ice) + scenic Okhotsk coast. Keeps the 23-day shape.
   - (b) Shift Phase 2 later in the trip (requires compressing Phase 1 or 3).
   - (c) Skip Abashiri / Shiretoko entirely and replace with other Hokkaido content (Otaru, Niseko, etc.) if drift ice was the main reason for this leg.
-- **Phase 2 — Abashiri 1 vs 2 nights** depends on whether we commit to the 天に続く道 / Shiretoko side-trip (adds ~3–4 hr round-trip from Abashiri city) and/or drift-ice-museum + prison-museum combo.
+- ~~**Phase 2 — Abashiri 1 vs 2 nights**~~ ✅ **Resolved → 2 nights.** Day-10 = 网走 + 知床方向 full loop (流氷館 + 能取岬 + 天に続く道 + オシンコシン滝 + 鱒浦); day-11 = drive to Wakkanai.
 - **Phase 2 — Abashiri lodging** not yet shortlisted. Need 2 rooms.
 - **Phase 2 — the Abashiri → Wakkanai winter drive (~326 km, 5–6+ hr in winter) is the trip's toughest single leg.** Confirm all four drivers are comfortable with long snow/ice driving, or consider splitting with an intermediate overnight (e.g. Monbetsu, Hamatonbetsu) or switching to train (JR line exists but slower with transfers).
 - **Phase 2 — 天に続く道 road condition check.** In late Dec / early Jan the road is only reliably plowed in February; morning closures are possible. Plan day-of based on local conditions; have a fallback if the road is shut.
 - **Phase 2 — return path from Wakkanai to Otaru is a commitment.** Wakkanai → Otaru is ~330 km / 5–6+ hr in winter — on par with Abashiri → Wakkanai. Confirm drivers are OK with two back-to-back long winter legs, or consider breaking with an overnight in Rumoi / Asahikawa.
-- **Phase 2 — Otaru 3 vs 4 nights** depends on how many drone-day weather-retry days we want to budget, whether Hotel Neuschloss gets a 1–2 night split, and whether we add Yoichi / Shakotan day-trips.
+- ~~**Phase 2 — Otaru 3 vs 4 nights**~~ ✅ **Resolved → 3 nights total** (2 at central Otaru + 1 at Hotel Neuschloss on drone-day night). No weather-retry buffer; if drone day blows out, accept ground-only filming.
 - **Phase 2 — Hotel Neuschloss split decision** gated on price (user said "if price is ok"). Check rates for 2 rooms (4 guests) for candidate nights; compare against central Otaru hotels. Neuschloss is ~7 km from central Otaru — splitting means changing base mid-stay.
 - **Phase 2 — Otaru → Phase 3 transit.** Otaru to Tokyo most naturally goes Otaru → Sapporo/New-Chitose → Haneda by air, or train to Hakodate → Shinkansen to Tokyo. Decide based on Phase 3 start location and the rental-car drop-off point. (New Chitose drop-off is easiest for flights; Sapporo drop-off is the standard choice if we want the 北海道新幹線 onward.)
 - **Phase 2 — drone day permissions lead time.** If the Asari drone day touches any DID zone or requires other MLIT/JCAB-approved operations, **file the DIPS 2.0 application ≥10 business days in advance** — this is a standing deadline, not a task to leave to the week of. Add to pre-trip checklist once the specific flight area is chosen.
-- **🚨 Phase 2 — total night-count sanity check (UPDATED).** Current Phase 2 shape is **Hakodate 1–2 + Toyako 2 + Biei 1 + Abashiri 1–2 + Wakkanai 1 + Otaru 3–4 + Sapporo 2–4 = 11–16 nights.** With Phase 1 = 3 nights and the trip total = 22 nights, Phase 2 upper bound leaves **only ~3 nights for Phase 3 Tokyo** — that's likely too short for Tokyo given the Phase-3 intent. Phase 2 lower bound (11 nights) leaves **8 nights for Tokyo**, more workable. **Phase 2 almost certainly needs trimming; decide which segments take the cut.** Candidates for trimming: Hakodate → 1 night, Abashiri → 1 night, Otaru → 3 nights, Sapporo → 2 nights = **10 nights total**, giving Tokyo 9.
+- ~~**🚨 Phase 2 — total night-count sanity check.**~~ ✅ **Resolved → 3 / 14 / 5.** See the "Confirmed night allocation" table at the top. Phase 2 = 14 nights (Hakodate 2 · Toyako 2 · Biei 1 · Abashiri 2 · Wakkanai 1 · Otaru 2+1 · Sapporo 3); Phase 3 = 5 nights.
 - **Phase 2 — Uomasa is closed Sundays.** Schedule the Otaru sushi visit on a weekday and arrive before the open time to avoid the queue; otherwise pick a lunch or early-dinner slot on a Monday/Tuesday.
-- **Phase 2 — Sapporo 2 vs 3 vs 4 nights** depends on (a) how many nice-to-haves we accept (Moiwa / Asahiyama / Okurayama / ROYCE' Town) and (b) the Phase-3 Tokyo night budget. Baseline = 2 nights keeps the overall trip compact; 3–4 nights only if trimming elsewhere.
+- ~~**Phase 2 — Sapporo 2 vs 3 vs 4 nights**~~ ✅ **Resolved → 3 nights.** Day-16 = 祝津→札幌 + 白い恋人 illumination; day-17 = 二条 + 頭大仏 + 大倉山 + 蟹本家; day-18 = ROYCE' Town + 藻岩山 + NANDA. (Trimmed from Tokyo: Phase 3 = 5 nights instead of 6.)
 - **Phase 2 — rental-car drop-off point.** Options: (a) Sapporo city branch (convenient if we stay central), (b) New Chitose Airport branch (only makes sense if we flip to the flight option to Tokyo), (c) Otaru branch (if we split Otaru/Sapporo differently). Confirm with the rental company at the original Sapporo pickup booking.
 - **Phase 2 — ROYCE' Cacao & Chocolate Town reservation.** Reservation is **required**. Book on the official e-tix site ≥2 weeks out for weekend slots, ≥1 week for weekdays — entry slots sell out in peak winter season.
 - **Phase 2 — Kani Honke / NANDA reservations.** Both need advance booking for a party of 4; book ≥2–3 weeks out for winter dinner slots.
