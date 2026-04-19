@@ -2,16 +2,18 @@ import { getTrip } from "@/lib/content";
 import { SegmentNav } from "@/components/SegmentNav";
 import { Timeline } from "@/components/Timeline";
 import { BookingItem } from "@/components/BookingItem";
+import { Banner } from "@/components/Banner";
 
 export default function Home() {
   const trip = getTrip();
 
   return (
     <div className="min-h-full bg-background">
-      <div className="mx-auto max-w-3xl px-6 py-14">
+      <Banner src="/banners/home.jpg" alt="" priority />
+      <div className="mx-auto max-w-3xl px-6 pt-6 pb-14">
         <SegmentNav trip={trip} />
 
-        <header className="mt-16 mb-20">
+        <header className="mt-10 mb-20">
           <div className="annot uppercase tracking-[0.3em] text-xs">
             Japan · 日本
           </div>

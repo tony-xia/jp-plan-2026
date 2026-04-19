@@ -42,3 +42,7 @@ next-env.d.ts
 
 # claude code personal settings
 .claude/settings.local.json
+
+# playwright MCP screenshots (per CLAUDE.md: all browser screenshots go here)
+/.playwright/
+/.playwright-mcp/

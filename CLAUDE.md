@@ -55,3 +55,11 @@ Azure Web App **`jp-plan`** (`jp-plan.azurewebsites.net`) — **Linux, Container
 ## Design spec
 
 Full design: [`docs/superpowers/specs/2026-04-19-jp-itinerary-design.md`](docs/superpowers/specs/2026-04-19-jp-itinerary-design.md). Includes rationale for tri-lingual labels, phase-2 hints (comments, AI chat, Postgres migration), and the YAGNI list.
+
+## Trip requirements
+
+The user's trip requirements live at [`docs/requirements.md`](docs/requirements.md) — the **source of truth** for itinerary decisions. Before editing `src/content/trip.yaml`, read that file and reconcile the change against every requirement. When the user states a new requirement, changes one, or resolves an open question, update `docs/requirements.md` first, then update the YAML.
+
+## Browser screenshots — always under `.playwright/`
+
+When taking browser screenshots with the Playwright MCP (`mcp__playwright__browser_take_screenshot`), **always pass a `filename` that begins with `.playwright/`** — e.g. `.playwright/home-viewport.jpeg`. Never let a screenshot land at the repo root or any other path. The `.playwright/` folder is gitignored; do not commit screenshot artifacts.

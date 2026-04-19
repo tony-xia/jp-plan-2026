@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getTrip, getDaysForSegment, getSegment } from "@/lib/content";
 import { SegmentNav } from "@/components/SegmentNav";
 import { DayCard } from "@/components/DayCard";
+import { Banner } from "@/components/Banner";
 
 export function generateStaticParams() {
   return getTrip().segments.map((s) => ({ segment: s.id }));
@@ -29,10 +30,15 @@ export default async function SegmentPage({
 
   return (
     <div className="min-h-full bg-background">
-      <div className="mx-auto max-w-3xl px-6 py-14">
+      <Banner
+        src={`/banners/${segment.id}.jpg`}
+        alt={segment.name.en || segment.name.ja}
+        priority
+      />
+      <div className="mx-auto max-w-3xl px-6 pt-6 pb-14">
         <SegmentNav trip={trip} current={segmentId} />
 
-        <header className="mt-16 mb-16 relative">
+        <header className="mt-10 mb-16 relative">
           <div
             className="vertical-ja absolute right-0 top-0 hidden sm:block text-sm"
             aria-hidden
