@@ -51,7 +51,10 @@ export function BookingItem({ booking }: { booking: Booking }) {
       )}
       {booking.address && (
         <div className="mt-3">
-          <AddressLinks address={booking.address} />
+          <AddressLinks
+            address={booking.address}
+            googleMapsUrl={booking.googleMapsUrl}
+          />
         </div>
       )}
     </div>

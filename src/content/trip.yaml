@@ -1,12 +1,12 @@
 # Japan trip itinerary — 2026-12-27 to 2027-01-18 (23 days, 22 nights).
 # Three phases:
-#   Phase 1 (days 01-04, 3 nights)  = Karuizawa (preferred) or Fuji (fallback)
+#   Phase 1 (days 01-04, 3 nights)  = Karuizawa
 #   Phase 2 (days 05-18, 14 nights) = Hokkaido: Hakodate 2 → Toyako 2 → Biei 1 → Abashiri 2 → Wakkanai 1 → Otaru 2 + Neuschloss 1 → Sapporo 3
 #   Phase 3 (days 19-23, 5 nights)  = Tokyo (incl. Sapporo→Tokyo transit on day 19)
 # Full requirements source: docs/requirements.md
 # Validated against src/lib/schema.ts at build time.
 
-title_zh: "日本之旅 2026-2027"
+title_zh: "日本跨年之旅 2026-2027"
 travelers:
   - Tony
   - AZhu
@@ -16,11 +16,11 @@ startDate: "2026-12-27"
 endDate: "2027-01-18"
 
 segments:
-  - id: fuji-or-karuizawa
+  - id: karuizawa
     name:
-      zh: 富士 或 轻井泽
-      en: Fuji or Karuizawa
-      ja: 富士 または 軽井沢
+      zh: 轻井泽
+      en: Karuizawa
+      ja: 軽井沢
     days: [day-01, day-02, day-03, day-04]
   - id: hokkaido
     name:
@@ -108,13 +108,26 @@ places:
         zh: 北海道札幌市北区北 6 条西 4 丁目
         ja: 〒060-0806 北海道札幌市北区北6条西4丁目
 
-  # ────── Phase 1: Karuizawa / Fuji ──────
+  # ────── Phase 1: Karuizawa ──────
+  - id: karuizawa-station
+    name:
+      zh: 轻井泽站
+      en: Karuizawa Station
+      ja: 軽井沢駅
+    kind: station
+    address:
+      full:
+        zh: 长野县北佐久郡轻井泽町大字轻井泽 1178
+        ja: 〒389-0102 長野県北佐久郡軽井沢町大字軽井沢1178
+    notes_zh: 北陆新干线停靠站；Phase 1 租车还车点、day 05 早上前往东京的出发站。
+
   - id: peepolo-norikura
     name:
       zh: 皮波洛乗鞍
       en: Peepolo Norikura
       ja: ピーポロ乗鞍
     kind: hotel
+    googleMapsUrl: https://maps.app.goo.gl/pvGbjzcmBPzgbhno8
     address:
       full:
         zh: 长野县松本市安昙 4306（邮编 390-1513）
@@ -130,6 +143,7 @@ places:
       en: Kurumayama Kogen SKYPARK
       ja: 車山高原スカイパーク
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/HiFvjatoUm2D692F7
     address:
       full:
         zh: 长野县茅野市北山 3413（邮编 391-0301）
@@ -144,6 +158,7 @@ places:
       en: Takamine Kogen Visitor Center
       ja: 高峰高原ビジターセンター
     kind: other
+    googleMapsUrl: https://maps.app.goo.gl/eV9spDDBfbpCVDyz5
     address:
       full:
         zh: 长野县小诸市高峰高原 704（邮编 384-0041）
@@ -151,7 +166,6 @@ places:
     notes_zh: >-
       黒斑山登山口（车坂峠）所在地；清晨开车到这里作为登山起点。
       注意：游客中心本身 11 月上旬 – 4 月下旬为冬季闭馆，我们来的时候建筑不开放，但登山口与停车场仍可到达。
-      条件性访问 —— 仅当第一段行程包含轻井泽时前往。
 
   - id: kurofu-yama
     name:
@@ -159,12 +173,12 @@ places:
       en: Kurofu-yama
       ja: 黒斑山
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/QJGSUSwnEk115ggY7
     notes_zh: >-
       海拔 2404 m，浅間山外輪山的一座山峰，被誉为观赏浅間山最好的视角。
       计划：从高峰高原登山口上山，到山顶后航拍浅間山，再原路下山。
       冬季（12 月 / 1 月）积雪深、需雪靴 + 冰爪等冬季登山装备；
       浅間山为活火山、且位于上信越高原国立公园内，无人机使用需先确认国立公园飞行申报与火山区限制。
-      条件性访问 —— 仅当第一段行程包含轻井泽时前往。
 
   - id: karuizawa-kogen-church
     name:
@@ -172,6 +186,7 @@ places:
       en: Karuizawa Kogen Church
       ja: 軽井沢高原教会
     kind: shrine
+    googleMapsUrl: https://maps.app.goo.gl/nKpKNUERk1h9fF598
     address:
       full:
         zh: 长野县北佐久郡轻井泽町长仓星野 2144（邮编 389-0195）
@@ -179,7 +194,6 @@ places:
     notes_zh: >-
       位于星野度假区的著名教会。1921 年起源于星野温泉内的「艺术自由教育讲习会」，
       内村鑑三命名当时的木屋为「星野遊学堂」，这个名字至今仍挂在教会入口。
-      条件性访问 —— 仅当第一段行程包含轻井泽时前往。
 
   - id: norikura-info-center
     name:
@@ -187,11 +201,26 @@ places:
       en: Norikura Kogen Tourist Information Center
       ja: 乗鞍高原観光案内所
     kind: other
+    googleMapsUrl: https://maps.app.goo.gl/XCjfPPEbcHXeXyAL8
     address:
       full:
         zh: 长野县松本市安昙 4306-5（邮编 390-1520）
         ja: 〒390-1520 長野県松本市安曇4306-5
     notes_zh: 前往皮波洛乗鞍路上的短暂停留点 —— 买点吃的、喝点水。
+
+  # ────── Phase 1 alt scenario: Fuji (fallback if Karuizawa Airbnb too expensive) ──────
+  - id: mount-omuro-chairlift
+    name:
+      zh: 大室山登山缆车
+      en: Mount Omuro Climbing Chairlifts
+      ja: 大室山登山リフト
+    kind: other
+    googleMapsUrl: https://maps.app.goo.gl/bZqpZULJuGMviKf28
+    address:
+      full:
+        zh: 静冈县伊东市富户 1317-5
+        ja: 静岡県伊東市富戸1317-5
+    notes_zh: 登山缆车 6 分钟到达山顶（标高 580 m）；冬季视野依旧开阔，可看富士山、伊豆七岛、相模湾。条件访问 —— 富士方案（Scenario B）下的可选项。
 
   - id: mount-omuro
     name:
@@ -199,25 +228,51 @@ places:
       en: Mount Omuro
       ja: 大室山
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/o7tHqcbqhDcBxzya8
     address:
       full:
-        zh: 静冈县伊东市富户 1317-5
-        ja: 静岡県伊東市富戸1317-5
+        zh: 静冈县伊东市富户
+        ja: 静岡県伊東市富戸
     notes_zh: >-
-      伊豆半岛的标志性单成火山，锅状山体，乘登山缆车 6 分钟可到山顶（约海拔 580 m）。
-      条件访问 —— 富士方案（Scenario B）下的可选项。
+      伊豆半岛标志性单成火山，锅状山体。山顶「お鉢めぐり」绕火口一周可看富士山、伊豆七岛、相模湾。
+      冬季草已枯黄，2 月的「山焼き」在我们行程之后；视野与全景仍在，但用户想先确认冬日观感是否值得专程去。
 
   - id: kawana-stained-glass-museum
     name:
-      zh: 伊豆高原 · 川奈彩色玻璃美术馆
+      zh: 川奈彩色玻璃美术馆（原伊豆高原彩色玻璃美术馆）
       en: Kawana Stained Glass Museum
       ja: 川奈ステンドグラス美術館
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/TMoBRDxtovzwWS2g6
     address:
       full:
         zh: 静冈县伊东市川奈 1439-1
         ja: 静岡県伊東市川奈1439-1
-    notes_zh: 条件访问 —— 富士方案（Scenario B）下，时间允许时前往。
+    notes_zh: 原名「伊豆高原ステンドグラス美術館」，已更名。条件访问 —— 富士方案下时间允许时前往。
+
+  - id: fujinomiya-5th-station
+    name:
+      zh: 富士宫口 5 合目停车场
+      en: Fujinomiya Trail 5th Station Parking Lot
+      ja: 富士宮口5合目駐車場
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/GuHRYqpnprTyAaNX7
+    notes_zh: >-
+      ⚠️ 富士山スカイライン 2合目→5合目 段每年 11 月上旬至 4 月下旬冬季封闭，
+      我们的整个行程都在封闭期内，自驾无法抵达，徒步进入亦触法。
+      记录用户提供的 Pin 以备存档；实际行程不安排。
+
+  - id: okuniwa-observation-deck
+    name:
+      zh: 奥庭展望台
+      en: Okuniwa Observation Deck
+      ja: 奥庭展望台
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/9mCMcFLJo3xvSv9h6
+    notes_zh: >-
+      ⚠️ 位于富士 Subaru Line 沿线；冬季 Subaru Line 通常只开放至下方的剑丸尾 / 大沢停车场，
+      奥庭本身厕所与避难设施关闭，御中道步道冬季封闭。12-1 月基本不可达。
+      记录用户提供的 Pin 以备存档；实际行程不安排。
 
   # ────── Phase 2: Hakodate ──────
   - id: mt-hakodate-observatory
@@ -226,6 +281,7 @@ places:
       en: Mt. Hakodate Observatory
       ja: 函館山展望台
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7
     address:
       full:
         zh: 北海道函馆市函馆山
@@ -242,6 +298,7 @@ places:
       en: The Windsor Hotel TOYA, Vignette Collection
       ja: ザ・ウィンザーホテル洞爺 Vignette Collection
     kind: hotel
+    googleMapsUrl: https://maps.app.goo.gl/xoQjgjuWjxHSuTPB6
     address:
       full:
         zh: 北海道虻田郡洞爷湖町清水 336
@@ -258,6 +315,7 @@ places:
       en: Toya National Park Silo Observation Deck
       ja: サイロ展望台
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/vbz1fb4sMXW5NMvJ8
     address:
       full:
         zh: 北海道虻田郡洞爷湖町成香 3-5
@@ -272,6 +330,7 @@ places:
       en: Usuzan Ropeway + Toyako Observation Deck
       ja: 有珠山ロープウェイ・洞爺湖展望台
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/XEf1pdWgJFufiVg66
     address:
       full:
         zh: 北海道有珠郡壮瞥町字昭和新山 184-5
@@ -287,6 +346,7 @@ places:
       en: Noboribetsu Jigokudani Valley
       ja: 登別地獄谷
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/FbdgvTbkqZjrhgtx7
     address:
       full:
         zh: 北海道登别市登别温泉町无番地
@@ -300,6 +360,7 @@ places:
       en: Biei Christmas Tree
       ja: クリスマスツリーの木
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/v37b29Xiu6mHhsXE8
     address:
       full:
         zh: 北海道上川郡美瑛町(邮编 071-0471)
@@ -314,6 +375,7 @@ places:
       en: Biei Seven Stars Tree
       ja: セブンスターの木
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/3riQPkZq4ZmvXZEY8
     address:
       full:
         zh: 北海道上川郡美瑛町北瑛(邮编 071-0224)
@@ -326,6 +388,7 @@ places:
       en: Shirogane Blue Pond (Aoiike)
       ja: 白金青い池
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/xM18uZ819nFR4Kz77
     address:
       full:
         zh: 北海道上川郡美瑛町白金
@@ -345,6 +408,7 @@ places:
       en: Abashiri City
       ja: 網走市
     kind: other
+    googleMapsUrl: https://maps.app.goo.gl/T6FTh8gxwZdsac4D8
     address:
       full:
         zh: 北海道网走市
@@ -361,6 +425,7 @@ places:
       en: View Point Parking Ryūhyō-Kaidō Masuura
       ja: ビューポイントパーキング流氷街道・鱒浦
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/vo1ReQWx2c8NjGNF7
     address:
       full:
         zh: 北海道网走市鳟浦(邮编 099-3119)
@@ -375,6 +440,7 @@ places:
       en: Road to Heaven (Tenni Tsuzuku Michi)
       ja: 天に続く道
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/pBAcvmhnakXA1Nkv7
     address:
       full:
         zh: 北海道斜里郡斜里町峰浜（国道 334 号・244 号）
@@ -433,6 +499,7 @@ places:
       en: Cape Sōya
       ja: 宗谷岬
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/JrgXYnrJ37Jim4146
     address:
       full:
         zh: 北海道稚内市宗谷岬
@@ -448,6 +515,7 @@ places:
       en: Surfeel Hotel Wakkanai
       ja: サフィールホテル稚内
     kind: hotel
+    googleMapsUrl: https://maps.app.goo.gl/zGtEvTEBRbSQzsES6
     address:
       full:
         zh: 北海道稚内市开运 1-2-2
@@ -473,6 +541,7 @@ places:
       en: Otaru Tenguyama Ropeway Base Station
       ja: 小樽天狗山ロープウェイ 山麓駅
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/jEUzKT7ByXnta1xF9
     address:
       full:
         zh: 北海道小樽市最上 2-16-15
@@ -488,6 +557,7 @@ places:
       en: Otaru Aquarium
       ja: おたる水族館
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/UNnUot3kmno1LSoQ7
     address:
       full:
         zh: 北海道小樽市祝津 3-303
@@ -500,6 +570,7 @@ places:
       en: Otaru Music Box Museum (Main Hall)
       ja: 小樽オルゴール堂 本館
     kind: shop
+    googleMapsUrl: https://maps.app.goo.gl/3kq8Va1PePPcY8a89
     address:
       full:
         zh: 北海道小樽市住吉町 4-1
@@ -514,6 +585,7 @@ places:
       en: Uomasa (Otaru Sushi)
       ja: 魚真
     kind: restaurant
+    googleMapsUrl: https://maps.app.goo.gl/CPaQc68SWsABcke29
     address:
       full:
         zh: 北海道小樽市稻穗 2-5-11
@@ -532,6 +604,7 @@ places:
       en: Asari District, Otaru (Drone & Self-filming Area)
       ja: 朝里（小樽 空撮・セルフフィルミングエリア）
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/uq4xJXgwdisyyzFa9
     address:
       full:
         zh: 北海道小樽市朝里(邮编 047-0151)
@@ -554,6 +627,7 @@ places:
       en: Hotel Neuschloss Otaru
       ja: ホテルノイシュロス小樽
     kind: hotel
+    googleMapsUrl: https://maps.app.goo.gl/EVydysyveUp9Q3DHA
     address:
       full:
         zh: 北海道小樽市祝津 3-282
@@ -595,6 +669,7 @@ places:
       en: Shiroi Koibito Park
       ja: 白い恋人パーク
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/b1ApSWrbx2XNN8M96
     address:
       full:
         zh: 北海道札幌市西区宫之泽 2-2-11-36
@@ -610,6 +685,7 @@ places:
       en: Hokkaido University (Sapporo Campus)
       ja: 北海道大学 札幌キャンパス
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/Zm63kDKX2KVeC9Ez6
     address:
       full:
         zh: 北海道札幌市北区北 8 条西 5 丁目
@@ -624,6 +700,7 @@ places:
       en: Kani Honke Sapporo Station Main Branch
       ja: かに本家 札幌駅前本店
     kind: restaurant
+    googleMapsUrl: https://maps.app.goo.gl/AjyvERYf8gcbVFik6
     address:
       full:
         zh: 北海道札幌市中央区北 3 条西 2-1-18
@@ -642,6 +719,7 @@ places:
       en: Seafood Buffet NANDA
       ja: 海鮮ビュッフェ NANDA
     kind: restaurant
+    googleMapsUrl: https://maps.app.goo.gl/mh3XyFZpWTyg1W9z5
     address:
       full:
         zh: 北海道札幌市中央区南 4 条西 4-1 丁目
@@ -654,6 +732,7 @@ places:
       en: Hill of the Buddha (Makomanai Takino Cemetery)
       ja: 頭大仏殿（真駒内滝野霊園）
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/FaoXKA6y4uEwWEU8A
     address:
       full:
         zh: 北海道札幌市南区真驹内泷野 2
@@ -672,6 +751,7 @@ places:
       en: Mt. Moiwa Ropeway
       ja: 札幌もいわ山ロープウェイ
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/Gtsbqa2DhGt3RzNF6
     address:
       full:
         zh: 北海道札幌市中央区伏见 5-3-7
@@ -687,6 +767,7 @@ places:
       en: Asahiyama Memorial Park
       ja: 旭山記念公園
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/oCMB4WRPtNXdXhUa6
     address:
       full:
         zh: 北海道札幌市中央区界川 4 丁目
@@ -699,6 +780,7 @@ places:
       en: Mt. Okura Ski Jump Stadium Observatory
       ja: 大倉山ジャンプ競技場展望台
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/bgX3JkzsXUjqXAzS9
     address:
       full:
         zh: 北海道札幌市中央区宫之森 1274
@@ -713,6 +795,7 @@ places:
       en: ROYCE' Cacao & Chocolate Town
       ja: ロイズカカオ＆チョコレートタウン
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/7rrKgTdQvdv2sNUdA
     address:
       full:
         zh: 北海道石狩郡当别町字太美町 record number 109
@@ -754,6 +837,7 @@ places:
       en: Tokyo SUBARU Mitaka
       ja: 東京スバル 三鷹店
     kind: shop
+    googleMapsUrl: https://maps.app.goo.gl/uC6JZiCyG4enm6m27
     address:
       full:
         zh: 东京都三鹰市大泽 3-9-6
@@ -771,6 +855,7 @@ places:
       en: A PIT AUTOBACS SHINONOME
       ja: A PIT オートバックス東雲
     kind: shop
+    googleMapsUrl: https://maps.app.goo.gl/2Qest64bWM4xbK6p6
     address:
       full:
         zh: 东京都江东区东云 2-7-20
@@ -787,6 +872,7 @@ places:
       en: Mominotakumi Shibuya (Massage Spa Shibuya)
       ja: もみの匠 渋谷店
     kind: other
+    googleMapsUrl: https://maps.app.goo.gl/evEUDACWVjCUu5wQ7
     address:
       full:
         zh: 东京都涩谷区神南 1-22-9 Thanks Building 9F
@@ -802,6 +888,7 @@ places:
       en: STAR TOKYO Shibuya by K-two Hair Salon
       ja: STAR TOKYO 渋谷 by K-two
     kind: other
+    googleMapsUrl: https://maps.app.goo.gl/LoKkhxgsmHddXDhm9
     address:
       full:
         zh: 东京都涩谷区松涛 1-29-1 涩谷 Crossroad 7F
@@ -818,6 +905,7 @@ places:
       en: Gonpachi Nishi-Azabu
       ja: 権八 西麻布
     kind: restaurant
+    googleMapsUrl: https://maps.app.goo.gl/v2BupfdH7LTYcA1r9
     address:
       full:
         zh: 东京都港区西麻布 1-13-11
@@ -897,15 +985,14 @@ bookings:
 
   - id: phase1-rental-car
     kind: other
-    title_zh: "Phase 1 租车（羽田 / 新富士 取车 → day 03 下午还车）"
+    title_zh: "Phase 1 租车（羽田取车 → day 03 下午 軽井沢駅 还车）"
     start: "2026-12-27"
     end: "2026-12-29"
     details_zh: >-
       4 人 + 冬季行李，推荐 SUV / 小型 minivan；带四驱和冬季雪胎。
-      ★ 用户确认：在 Phase 1 倒数第二天（day 03, 2026-12-29）下午还车。
-      还车地要选住宿步行可达（轻井泽方案：軽井沢駅 附近；富士方案：新富士駅 附近）。
+      ★ 用户确认：在 Phase 1 倒数第二天（day 03, 2026-12-29）下午还车，选 軽井沢駅 附近、住宿步行可达的分店。
       day 04 无车 —— 轻井泽高原教会 / 其他活动走路、町内バス 或 出租车。
-      day 05 早上直接从车站乘新干线去东京 → 新函馆北斗。
+      day 05 早上从 軽井沢駅 直接乘新干线去东京 → 新函馆北斗。
 
   - id: phase2-hokkaido-shinkansen-outbound
     kind: shinkansen
@@ -914,7 +1001,7 @@ bookings:
     to: { zh: 新函馆北斗站, en: Shin-Hakodate-Hokuto, ja: 新函館北斗駅 }
     start: "2026-12-31"
     details_zh: >-
-      若 Phase 1 选 轻井泽：早上从轻井泽还车 / 坐新干线到东京 → 换 北海道新干线「はやぶさ」到 新函馆北斗（约 4 小时）。
+      早上从 軽井沢駅 乘北陆新干线到东京 → 换 北海道新干线「はやぶさ」到 新函馆北斗（约 4 小时）。
       再换 JR 函館ライナー 到 函馆駅（约 15 分钟）。全段约 6 – 7 小时。
 
   - id: phase2-windsor-shuttle-in
@@ -946,6 +1033,7 @@ bookings:
       full:
         zh: 北海道虻田郡洞爷湖町清水 336
         ja: 〒049-5722 北海道虻田郡洞爺湖町清水336
+    googleMapsUrl: https://maps.app.goo.gl/xoQjgjuWjxHSuTPB6
     details_zh: 日期 day 07 – day 08；4 人 2 间房（2 绅士 + 2 女士不合住）。
 
   - id: phase2-hakodate-hotel
@@ -978,6 +1066,7 @@ bookings:
       full:
         zh: 北海道稚内市开运 1-2-2
         ja: 〒097-0023 北海道稚内市開運1-2-2
+    googleMapsUrl: https://maps.app.goo.gl/zGtEvTEBRbSQzsES6
     details_zh: 用户明确偏好 1 晚。
 
   - id: phase2-otaru-hotel-primary
@@ -996,6 +1085,7 @@ bookings:
       full:
         zh: 北海道小樽市祝津 3-282
         ja: 〒047-0047 北海道小樽市祝津3丁目282
+    googleMapsUrl: https://maps.app.goo.gl/EVydysyveUp9Q3DHA
     details_zh: >-
       Day 15 航拍日晚上入住、day 16 早上早餐后退房，顺路参观 小樽水族館。
       如果价格不合适（单晚超预算）则改住市区酒店 1 晚。
@@ -1035,6 +1125,7 @@ bookings:
       full:
         zh: 东京都涩谷区松涛 1-29-1 涩谷 Crossroad 7F
         ja: 〒150-0046 東京都渋谷区松濤1-29-1 渋谷クロスロード7F
+    googleMapsUrl: https://maps.app.goo.gl/LoKkhxgsmHddXDhm9
     details_zh: >-
       预约时要指明需英语/中文对应 stylist。
       安排：day 22（周日），骨董市上午 → 下午剪发 → 傍晚 Autobacs / Gonpachi。
@@ -1053,13 +1144,14 @@ bookings:
       full:
         zh: 东京都港区西麻布 1-13-11
         ja: 〒106-0031 東京都港区西麻布1-13-11
+    googleMapsUrl: https://maps.app.goo.gl/v2BupfdH7LTYcA1r9
     details_zh: Nice-to-have；Kill Bill 取景经典居酒屋。Day 21 周六 Subaru 完后晚餐。
 
 days:
   # ─────────────────── Phase 1 ───────────────────
   - id: day-01
     date: "2026-12-27"
-    city: fuji-or-karuizawa
+    city: karuizawa
     title_zh: 第 1 天 · 抵达日本
     intro_zh: 早上全员抵达羽田机场，会合后取车（租车自驾），一起出发前往本段行程的住宿地。
     activities:
@@ -1070,7 +1162,7 @@ days:
 
   - id: day-02
     date: "2026-12-28"
-    city: fuji-or-karuizawa
+    city: karuizawa
     title_zh: 第 2 天
     activities:
       - id: day-02-norikura-info-stop
@@ -1086,13 +1178,14 @@ days:
           full:
             zh: 长野县松本市安昙 4306（邮编 390-1513）
             ja: 〒390-1513 長野県松本市安曇4306
+        googleMapsUrl: https://maps.app.goo.gl/pvGbjzcmBPzgbhno8
         details_zh: >-
           《恋爱世纪》女主角理子家的取景地，房间极少、非常抢手、价格较高。
           需订到 2 间房；日期可视全程安排调整。
 
   - id: day-03
     date: "2026-12-29"
-    city: fuji-or-karuizawa
+    city: karuizawa
     title_zh: 第 3 天 · 车山高原 + 下午还车
     intro_zh: >-
       ★ 倒数第二天 —— 用好这一天的车。上午 / 中午前开车跑车山高原 + 其他驾车必需行程；
@@ -1103,23 +1196,21 @@ days:
         notes_zh: 不滑雪，乘缆车上车山山顶看雪景与八岳 / 富士山 / 阿尔卑斯山脉全景。上午出发，确保下午有充分时间回还车点。
       - id: day-03-car-return
         start: "16:00"
-        place: { ref: haneda-airport }
+        place: { ref: karuizawa-station }
         notes_zh: >-
-          ★ Phase 1 租车还车。实际还车地点取决于 Phase 1 方案：
-          轻井泽方案 → 軽井沢駅 附近租车行；富士方案 → 新富士駅 附近租车行。
-          选步行可达住宿的分店；否则预约出租回住宿。时间定在下午，免影响 day 04 活动。
+          ★ Phase 1 租车还车 —— 軽井沢駅 附近租车行，选步行可达住宿的分店；否则预约出租回住宿。
+          时间定在下午，免影响 day 04 活动。
 
   - id: day-04
     date: "2026-12-30"
-    city: fuji-or-karuizawa
-    title_zh: 第 4 天 · 无车日（轻井泽 / 富士 市内）
+    city: karuizawa
+    title_zh: 第 4 天 · 无车日（轻井泽市内）
     intro_zh: >-
-      昨日下午已还车，今天无自驾。活动改走路 / 町内バス / 出租车。轻井泽方案：高原教会 + 星野度假区步行。
-      富士方案：就近景点 + 温泉 + 休整为明日长途做准备。
+      昨日下午已还车，今天无自驾。活动改走路 / 町内バス / 出租车；高原教会 + 星野度假区步行。
     activities:
       - id: day-04-karuizawa-kogen-church
         place: { ref: karuizawa-kogen-church }
-        notes_zh: "仅轻井泽方案 —— 星野度假区的历史教会；軽井沢駅 町内バス 或 出租 20 分钟可达。"
+        notes_zh: "星野度假区的历史教会；軽井沢駅 町内バス 或 出租 20 分钟可达。"
 
   # ─────────────────── Phase 2: Hokkaido ───────────────────
   - id: day-05

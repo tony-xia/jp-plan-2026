@@ -11,7 +11,6 @@ export const t = {
   openInAmap: "高德地图",
   signatureDishes: "招牌",
   backToTrip: "返回行程",
-  backToSegment: "返回城市",
   placeKind: {
     restaurant: "餐厅",
     sight: "景点",

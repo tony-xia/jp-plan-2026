@@ -1,5 +1,4 @@
 import { getTrip } from "@/lib/content";
-import { SegmentNav } from "@/components/SegmentNav";
 import { Timeline } from "@/components/Timeline";
 import { BookingItem } from "@/components/BookingItem";
 import { Banner } from "@/components/Banner";
@@ -9,10 +8,8 @@ export default function Home() {
 
   return (
     <div className="min-h-full bg-background">
-      <Banner src="/banners/home.jpg" alt="" priority />
+      <Banner src="/banners/tokyo.jpg" alt="" priority />
       <div className="mx-auto max-w-3xl px-6 pt-6 pb-14">
-        <SegmentNav trip={trip} />
-
         <header className="mt-10 mb-20">
           <div className="annot uppercase tracking-[0.3em] text-xs">
             Japan · 日本

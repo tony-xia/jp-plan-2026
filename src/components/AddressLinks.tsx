@@ -2,7 +2,13 @@ import type { Address } from "@/lib/schema";
 import { amapUrl, appleMapsUrl, googleMapsUrl } from "@/lib/maps";
 import { t } from "@/lib/strings";
 
-export function AddressLinks({ address }: { address: Address }) {
+export function AddressLinks({
+  address,
+  googleMapsUrl: googleMapsUrlOverride,
+}: {
+  address: Address;
+  googleMapsUrl?: string;
+}) {
   return (
     <div className="text-sm leading-relaxed">
       <div className="text-foreground">{address.full.zh}</div>
@@ -20,7 +26,7 @@ export function AddressLinks({ address }: { address: Address }) {
           {t.openInAppleMaps}
         </a>
         <a
-          href={googleMapsUrl(address)}
+          href={googleMapsUrlOverride ?? googleMapsUrl(address)}
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center px-3 py-1 text-xs border border-hairline rounded-full text-foreground hover:border-accent hover:text-accent transition-colors"

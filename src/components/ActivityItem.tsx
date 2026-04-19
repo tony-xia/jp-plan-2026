@@ -54,7 +54,10 @@ export function ActivityItem({
         )}
         {place.address && (
           <div className="mt-4">
-            <AddressLinks address={place.address} />
+            <AddressLinks
+              address={place.address}
+              googleMapsUrl={place.googleMapsUrl}
+            />
           </div>
         )}
       </div>

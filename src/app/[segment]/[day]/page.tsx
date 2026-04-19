@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTrip, getSegment, getDay } from "@/lib/content";
-import { SegmentNav } from "@/components/SegmentNav";
 import { DaySeal } from "@/components/DaySeal";
 import { ActivityItem } from "@/components/ActivityItem";
 import { BookingItem } from "@/components/BookingItem";
@@ -40,13 +39,11 @@ export default async function DayPage({
   return (
     <div className="min-h-full bg-background">
       <div className="mx-auto max-w-3xl px-6 py-14">
-        <SegmentNav trip={trip} current={segmentId} />
-
         <Link
-          href={`/${segmentId}`}
-          className="mt-10 inline-block text-sm text-muted hover:text-accent transition-colors"
+          href="/"
+          className="inline-block text-sm text-muted hover:text-accent transition-colors"
         >
-          ← {segment.name.zh} {t.backToSegment}
+          ← {t.backToTrip}
         </Link>
 
         <header className="mt-8 mb-12">

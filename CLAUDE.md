@@ -2,6 +2,18 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Trip requirements — read first, keep updated
+
+[`docs/requirements.md`](docs/requirements.md) is the **source of truth** for every itinerary decision. Treat it as a living document.
+
+**Before** editing [`src/content/trip.yaml`](src/content/trip.yaml): read `docs/requirements.md` and reconcile the change against every requirement. If the change conflicts with a requirement, stop and flag it to the user — do not silently override.
+
+**Whenever** the user states a new requirement, refines an existing one, resolves an open question, or rules something out: update `docs/requirements.md` *first*, in the same turn, *before* touching the YAML or any other file. This applies even when the requirement arrives mid-conversation or seems minor — capture it immediately so future sessions inherit it.
+
+**Every Google Maps short-link (`maps.app.goo.gl/...`) the user sends must be stored in `docs/requirements.md`** against the place it describes, verbatim. Never drop one, never substitute your own. These pins are the user's verified location data — they override any address-string search.
+
+If you notice a requirement the YAML violates, surface it rather than quietly "fixing" either side.
+
 ## Next.js version notice
 
 This is **Next.js 16** with the App Router. APIs may differ from older training data. When in doubt, consult `node_modules/next/dist/docs/` and heed deprecation notices. See [AGENTS.md](AGENTS.md).
@@ -33,7 +45,6 @@ A **read-only** Japan-trip itinerary site. UI is Chinese; proper nouns (places, 
 **Routes:**
 
 - `/` — home, timeline, trip-level bookings
-- `/[segment]` — city page (e.g. `/tokyo`)
 - `/[segment]/[day]` — day detail (e.g. `/tokyo/day-01`)
 
 **Visual language** is editorial/Japanese-restrained (not kitsch): warm paper `#FAF7F2` base, Noto Serif JP for headings, hanko (red square seal) for day numbers, `writing-mode: vertical-rl` accents for Japanese text. Defined in [`src/app/globals.css`](src/app/globals.css) via Tailwind v4 `@theme inline`.
@@ -50,15 +61,12 @@ Azure Web App **`jp-plan`** (`jp-plan.azurewebsites.net`) — **Linux, Container
 - **Adding a UI string** → `src/lib/strings.ts` (zh only).
 - **Never** render a proper noun without `<TriName>` — skipping annotations defeats the purpose of the site.
 - **Every address** gets `<AddressLinks>` — not a plain text rendering.
+- **When `docs/requirements.md` has a specific Google Maps link for a place** (e.g. `[Google Maps](https://maps.app.goo.gl/...)`), mirror it onto **both** the matching `Place.googleMapsUrl` field **and** any `Booking.googleMapsUrl` that uses the same address. The user-verified pin overrides the address-string search that the Google button would otherwise generate. Apple Maps and Gaode still derive from the address. Bookings render via `BookingItem` which only honors `booking.googleMapsUrl`, not the library Place pin — so the mirror must be on the booking itself, not just the Place.
 - **Keep render pure.** React 19 compiler flags reassigned variables during render. Precompute indices/maps before the JSX (see `Timeline.tsx` for the pattern).
 
 ## Design spec
 
 Full design: [`docs/superpowers/specs/2026-04-19-jp-itinerary-design.md`](docs/superpowers/specs/2026-04-19-jp-itinerary-design.md). Includes rationale for tri-lingual labels, phase-2 hints (comments, AI chat, Postgres migration), and the YAGNI list.
-
-## Trip requirements
-
-The user's trip requirements live at [`docs/requirements.md`](docs/requirements.md) — the **source of truth** for itinerary decisions. Before editing `src/content/trip.yaml`, read that file and reconcile the change against every requirement. When the user states a new requirement, changes one, or resolves an open question, update `docs/requirements.md` first, then update the YAML.
 
 ## Browser screenshots — always under `.playwright/`
 

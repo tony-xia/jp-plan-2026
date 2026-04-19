@@ -28,6 +28,7 @@ export const Place = z.object({
   name: TriName,
   kind: PlaceKind,
   address: Address.optional(),
+  googleMapsUrl: z.string().url().optional(),
   notes_zh: z.string().optional(),
   dishes: z.array(TriName).optional(),
 });
@@ -58,6 +59,7 @@ export const Booking = z.object({
   start: z.string().min(1),
   end: z.string().optional(),
   address: Address.optional(),
+  googleMapsUrl: z.string().url().optional(),
   details_zh: z.string().optional(),
 });
 export type Booking = z.infer<typeof Booking>;
