@@ -2,6 +2,7 @@ import type { Activity, Trip } from "@/lib/schema";
 import { resolvePlace } from "@/lib/schema";
 import { TriName } from "./TriName";
 import { AddressLinks } from "./AddressLinks";
+import { PhotoGallery } from "./PhotoGallery";
 import { t } from "@/lib/strings";
 
 export function ActivityItem({
@@ -57,6 +58,22 @@ export function ActivityItem({
             <AddressLinks
               address={place.address}
               googleMapsUrl={place.googleMapsUrl}
+            />
+          </div>
+        )}
+        {place.photos && place.photos.length > 0 && (
+          <div className="mt-4">
+            <PhotoGallery
+              photos={place.photos}
+              alt={place.name.zh}
+              externalLinks={[
+                place.bookingUrl
+                  ? { href: place.bookingUrl, label: "Booking.com" }
+                  : null,
+                place.airbnbUrl
+                  ? { href: place.airbnbUrl, label: "Airbnb" }
+                  : null,
+              ].filter((x): x is { href: string; label: string } => x !== null)}
             />
           </div>
         )}

@@ -1,6 +1,7 @@
 import type { Booking } from "@/lib/schema";
 import { TriName } from "./TriName";
 import { AddressLinks } from "./AddressLinks";
+import { PhotoGallery } from "./PhotoGallery";
 import { t } from "@/lib/strings";
 
 function fmt(dt: string): string {
@@ -54,6 +55,22 @@ export function BookingItem({ booking }: { booking: Booking }) {
           <AddressLinks
             address={booking.address}
             googleMapsUrl={booking.googleMapsUrl}
+          />
+        </div>
+      )}
+      {booking.photos && booking.photos.length > 0 && (
+        <div className="mt-4">
+          <PhotoGallery
+            photos={booking.photos}
+            alt={booking.title_zh}
+            externalLinks={[
+              booking.bookingUrl
+                ? { href: booking.bookingUrl, label: "Booking.com" }
+                : null,
+              booking.airbnbUrl
+                ? { href: booking.airbnbUrl, label: "Airbnb" }
+                : null,
+            ].filter((x): x is { href: string; label: string } => x !== null)}
           />
         </div>
       )}
