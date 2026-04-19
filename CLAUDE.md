@@ -38,7 +38,7 @@ A **read-only** Japan-trip itinerary site. UI is Chinese; proper nouns (places, 
 
 **Visual language** is editorial/Japanese-restrained (not kitsch): warm paper `#FAF7F2` base, Noto Serif JP for headings, hanko (red square seal) for day numbers, `writing-mode: vertical-rl` accents for Japanese text. Defined in [`src/app/globals.css`](src/app/globals.css) via Tailwind v4 `@theme inline`.
 
-**Map links** — every `Address` renders with two buttons pointing to Apple Maps and Google Maps, queried using the **Japanese** address string (best geocoding precision in Japan). See [`src/lib/maps.ts`](src/lib/maps.ts).
+**Map links** — every `Address` renders three buttons: Apple Maps and Google Maps (queried with the **Japanese** address string) plus Gaode / 高德地图 (queried with the **Chinese** address string, for Chinese-app users). All queries are prefixed with `日本 ` to disambiguate the country. See [`src/lib/maps.ts`](src/lib/maps.ts).
 
 ## Deployment
 

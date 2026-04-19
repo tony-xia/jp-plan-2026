@@ -1,5 +1,5 @@
 import type { Address } from "@/lib/schema";
-import { appleMapsUrl, googleMapsUrl } from "@/lib/maps";
+import { amapUrl, appleMapsUrl, googleMapsUrl } from "@/lib/maps";
 import { t } from "@/lib/strings";
 
 export function AddressLinks({ address }: { address: Address }) {
@@ -26,6 +26,14 @@ export function AddressLinks({ address }: { address: Address }) {
           className="inline-flex items-center px-3 py-1 text-xs border border-hairline rounded-full text-foreground hover:border-accent hover:text-accent transition-colors"
         >
           {t.openInGoogleMaps}
+        </a>
+        <a
+          href={amapUrl(address)}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center px-3 py-1 text-xs border border-hairline rounded-full text-foreground hover:border-accent hover:text-accent transition-colors"
+        >
+          {t.openInAmap}
         </a>
       </div>
     </div>
