@@ -1116,6 +1116,16 @@ bookings:
       - /photos/airbnb-karuizawa-primary/06.jpg
       - /photos/airbnb-karuizawa-primary/07.jpg
       - /photos/airbnb-karuizawa-primary/08.jpg
+      - /photos/airbnb-karuizawa-primary/09.jpg
+      - /photos/airbnb-karuizawa-primary/10.jpg
+      - /photos/airbnb-karuizawa-primary/11.jpg
+      - /photos/airbnb-karuizawa-primary/12.jpg
+      - /photos/airbnb-karuizawa-primary/13.jpg
+      - /photos/airbnb-karuizawa-primary/14.jpg
+      - /photos/airbnb-karuizawa-primary/15.jpg
+      - /photos/airbnb-karuizawa-primary/16.jpg
+      - /photos/airbnb-karuizawa-primary/17.jpg
+      - /photos/airbnb-karuizawa-primary/18.jpg
     details_zh: >-
       Listing 1085044790321680945 —— 2026-04-19 初筛，已按 2026-12-27 → 12-30 的 3 晚窗口查到可订。
       预订前核对：2BR + 2BA、4 人上限、停车位、冬季供暖、晚 check-in 宽容度、价格。
@@ -1135,6 +1145,37 @@ bookings:
       - /photos/airbnb-karuizawa-alt/06.jpg
       - /photos/airbnb-karuizawa-alt/07.jpg
       - /photos/airbnb-karuizawa-alt/08.jpg
+      - /photos/airbnb-karuizawa-alt/09.jpg
+      - /photos/airbnb-karuizawa-alt/10.jpg
+      - /photos/airbnb-karuizawa-alt/11.jpg
+      - /photos/airbnb-karuizawa-alt/12.jpg
+      - /photos/airbnb-karuizawa-alt/13.jpg
+      - /photos/airbnb-karuizawa-alt/14.jpg
+      - /photos/airbnb-karuizawa-alt/15.jpg
+      - /photos/airbnb-karuizawa-alt/16.jpg
+      - /photos/airbnb-karuizawa-alt/17.jpg
+      - /photos/airbnb-karuizawa-alt/18.jpg
+      - /photos/airbnb-karuizawa-alt/19.jpg
+      - /photos/airbnb-karuizawa-alt/20.jpg
+      - /photos/airbnb-karuizawa-alt/21.jpg
+      - /photos/airbnb-karuizawa-alt/22.jpg
+      - /photos/airbnb-karuizawa-alt/23.jpg
+      - /photos/airbnb-karuizawa-alt/24.jpg
+      - /photos/airbnb-karuizawa-alt/25.jpg
+      - /photos/airbnb-karuizawa-alt/26.jpg
+      - /photos/airbnb-karuizawa-alt/27.jpg
+      - /photos/airbnb-karuizawa-alt/28.jpg
+      - /photos/airbnb-karuizawa-alt/29.jpg
+      - /photos/airbnb-karuizawa-alt/30.jpg
+      - /photos/airbnb-karuizawa-alt/31.jpg
+      - /photos/airbnb-karuizawa-alt/32.jpg
+      - /photos/airbnb-karuizawa-alt/33.jpg
+      - /photos/airbnb-karuizawa-alt/34.jpg
+      - /photos/airbnb-karuizawa-alt/35.jpg
+      - /photos/airbnb-karuizawa-alt/36.jpg
+      - /photos/airbnb-karuizawa-alt/37.jpg
+      - /photos/airbnb-karuizawa-alt/38.jpg
+      - /photos/airbnb-karuizawa-alt/39.jpg
     details_zh: >-
       Listing 32528623 —— 初筛时查询的是 2026-12-25 → 12-28（3 晚），需把日期调整为 12-27 → 12-30 再确认可订。
 
@@ -1145,14 +1186,115 @@ bookings:
     end: "2026-12-30"
     airbnbUrl: https://www.airbnb.com/rooms/1643751316846284459
     photos:
-      - /photos/airbnb-fuji/01.jpg
-      - /photos/airbnb-fuji/02.jpg
-      - /photos/airbnb-fuji/03.jpg
-      - /photos/airbnb-fuji/04.jpg
-      - /photos/airbnb-fuji/05.jpg
-      - /photos/airbnb-fuji/06.jpg
-      - /photos/airbnb-fuji/07.jpg
-      - /photos/airbnb-fuji/08.jpg
+      - /photos/airbnb-fuji/001.jpg
+      - /photos/airbnb-fuji/002.jpg
+      - /photos/airbnb-fuji/003.jpg
+      - /photos/airbnb-fuji/004.jpg
+      - /photos/airbnb-fuji/005.jpg
+      - /photos/airbnb-fuji/006.jpg
+      - /photos/airbnb-fuji/007.jpg
+      - /photos/airbnb-fuji/008.jpg
+      - /photos/airbnb-fuji/009.jpg
+      - /photos/airbnb-fuji/010.jpg
+      - /photos/airbnb-fuji/011.jpg
+      - /photos/airbnb-fuji/012.jpg
+      - /photos/airbnb-fuji/013.jpg
+      - /photos/airbnb-fuji/014.jpg
+      - /photos/airbnb-fuji/015.jpg
+      - /photos/airbnb-fuji/016.jpg
+      - /photos/airbnb-fuji/017.jpg
+      - /photos/airbnb-fuji/018.jpg
+      - /photos/airbnb-fuji/019.jpg
+      - /photos/airbnb-fuji/020.jpg
+      - /photos/airbnb-fuji/021.jpg
+      - /photos/airbnb-fuji/022.jpg
+      - /photos/airbnb-fuji/023.jpg
+      - /photos/airbnb-fuji/024.jpg
+      - /photos/airbnb-fuji/025.jpg
+      - /photos/airbnb-fuji/026.jpg
+      - /photos/airbnb-fuji/027.jpg
+      - /photos/airbnb-fuji/028.jpg
+      - /photos/airbnb-fuji/029.jpg
+      - /photos/airbnb-fuji/030.jpg
+      - /photos/airbnb-fuji/031.jpg
+      - /photos/airbnb-fuji/032.jpg
+      - /photos/airbnb-fuji/033.jpg
+      - /photos/airbnb-fuji/034.jpg
+      - /photos/airbnb-fuji/035.jpg
+      - /photos/airbnb-fuji/036.jpg
+      - /photos/airbnb-fuji/037.jpg
+      - /photos/airbnb-fuji/038.jpg
+      - /photos/airbnb-fuji/039.jpg
+      - /photos/airbnb-fuji/040.jpg
+      - /photos/airbnb-fuji/041.jpg
+      - /photos/airbnb-fuji/042.jpg
+      - /photos/airbnb-fuji/043.jpg
+      - /photos/airbnb-fuji/044.jpg
+      - /photos/airbnb-fuji/045.jpg
+      - /photos/airbnb-fuji/046.jpg
+      - /photos/airbnb-fuji/047.jpg
+      - /photos/airbnb-fuji/048.jpg
+      - /photos/airbnb-fuji/049.jpg
+      - /photos/airbnb-fuji/050.jpg
+      - /photos/airbnb-fuji/051.jpg
+      - /photos/airbnb-fuji/052.jpg
+      - /photos/airbnb-fuji/053.jpg
+      - /photos/airbnb-fuji/054.jpg
+      - /photos/airbnb-fuji/055.jpg
+      - /photos/airbnb-fuji/056.jpg
+      - /photos/airbnb-fuji/057.jpg
+      - /photos/airbnb-fuji/058.jpg
+      - /photos/airbnb-fuji/059.jpg
+      - /photos/airbnb-fuji/060.jpg
+      - /photos/airbnb-fuji/061.jpg
+      - /photos/airbnb-fuji/062.jpg
+      - /photos/airbnb-fuji/063.jpg
+      - /photos/airbnb-fuji/064.jpg
+      - /photos/airbnb-fuji/065.jpg
+      - /photos/airbnb-fuji/066.jpg
+      - /photos/airbnb-fuji/067.jpg
+      - /photos/airbnb-fuji/068.jpg
+      - /photos/airbnb-fuji/069.jpg
+      - /photos/airbnb-fuji/070.jpg
+      - /photos/airbnb-fuji/071.jpg
+      - /photos/airbnb-fuji/072.jpg
+      - /photos/airbnb-fuji/073.jpg
+      - /photos/airbnb-fuji/074.jpg
+      - /photos/airbnb-fuji/075.jpg
+      - /photos/airbnb-fuji/076.jpg
+      - /photos/airbnb-fuji/077.jpg
+      - /photos/airbnb-fuji/078.jpg
+      - /photos/airbnb-fuji/079.jpg
+      - /photos/airbnb-fuji/080.jpg
+      - /photos/airbnb-fuji/081.jpg
+      - /photos/airbnb-fuji/082.jpg
+      - /photos/airbnb-fuji/083.jpg
+      - /photos/airbnb-fuji/084.jpg
+      - /photos/airbnb-fuji/085.jpg
+      - /photos/airbnb-fuji/086.jpg
+      - /photos/airbnb-fuji/087.jpg
+      - /photos/airbnb-fuji/088.jpg
+      - /photos/airbnb-fuji/089.jpg
+      - /photos/airbnb-fuji/090.jpg
+      - /photos/airbnb-fuji/091.jpg
+      - /photos/airbnb-fuji/092.jpg
+      - /photos/airbnb-fuji/093.jpg
+      - /photos/airbnb-fuji/094.jpg
+      - /photos/airbnb-fuji/095.jpg
+      - /photos/airbnb-fuji/096.jpg
+      - /photos/airbnb-fuji/097.jpg
+      - /photos/airbnb-fuji/098.jpg
+      - /photos/airbnb-fuji/099.jpg
+      - /photos/airbnb-fuji/100.jpg
+      - /photos/airbnb-fuji/101.jpg
+      - /photos/airbnb-fuji/102.jpg
+      - /photos/airbnb-fuji/103.jpg
+      - /photos/airbnb-fuji/104.jpg
+      - /photos/airbnb-fuji/105.jpg
+      - /photos/airbnb-fuji/106.jpg
+      - /photos/airbnb-fuji/107.jpg
+      - /photos/airbnb-fuji/108.jpg
+      - /photos/airbnb-fuji/109.jpg
     details_zh: >-
       Listing 1643751316846284459 —— 2026-04-19 初筛，查询日期 2026-12-25 → 12-28（3 晚），Scenario B 启用时需调整到 12-27 → 12-30。
       预订前核对：2BR + 2BA、4 人上限、停车位、与 新富士駅 的距离。
