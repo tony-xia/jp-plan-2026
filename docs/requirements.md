@@ -35,7 +35,11 @@ Day 1 (2026-12-27) begins with **morning landing at Haneda**, all four travelers
 
 ## Phase 1 — Scenario A: Karuizawa base (**preferred**)
 
-- **Transport:** meet at Haneda → **rent a car at/near Haneda** → drive as one group to the stay.
+- **Transport (updated 2026-04-20):** meet at Haneda → **transit to Tokyo Station → Hokuriku Shinkansen (あさま / はくたか) to Karuizawa Station (軽井沢駅)** → **rent the car at/near Karuizawa Station** → drive as one group to the stay.
+  - **Do NOT rent a car at the airport.** The user confirmed on 2026-04-20: car rental happens at the destination station, not at Haneda. This avoids a long same-day drive Tokyo → Karuizawa (~180 km, 2.5–3 hr in winter) on arrival-day fatigue and New-Year traffic.
+  - Haneda → Tokyo Station: Tokyo Monorail → JR Yamanote, or Keikyū → JR, ~30 min.
+  - Tokyo → Karuizawa: Hokuriku Shinkansen, ~70–90 min.
+  - Rental pickup at Karuizawa Station area (same branch used for Phase-1 return on day 03 afternoon — single-branch round trip keeps logistics simple).
 - **Stay:** 2BR / 2BA Airbnb in Karuizawa (hotels too expensive for 2 rooms over these dates). Candidate listings (shortlisted 2026-04-19, not booked):
   1. [Airbnb listing 1085044790321680945](https://www.airbnb.com/rooms/1085044790321680945) — checked for 2026-12-27 → 12-30 (3 nights).
   2. [Airbnb listing 32528623](https://www.airbnb.com/rooms/32528623) — checked 2026-12-25 → 12-28 (dates need shifting).
@@ -56,7 +60,8 @@ Day 1 (2026-12-27) begins with **morning landing at Haneda**, all four travelers
 
 ## Phase 1 — Scenario B: Fuji base (**fallback** if Karuizawa accommodation is too expensive)
 
-- **Transport:** meet at Haneda → transit to Tokyo/Shinagawa → **Tōkaidō Shinkansen to Shin-Fuji Station (新富士駅)** → **rent a car near Shin-Fuji** → drive to the stay.
+- **Transport (confirmed 2026-04-20):** meet at Haneda → transit to Tokyo/Shinagawa → **Tōkaidō Shinkansen (こだま) to Shin-Fuji Station (新富士駅)** → **rent the car at/near Shin-Fuji Station** → drive to the stay.
+  - Consistent with the Karuizawa scenario: **no airport car rental**. Pickup happens at the destination station.
 - **Stay:** Airbnb preferred (hotels not yet checked). Candidate listing (shortlisted 2026-04-19, not booked):
   1. [Airbnb listing 1643751316846284459](https://www.airbnb.com/rooms/1643751316846284459) — checked 2026-12-25 → 12-28 (dates need shifting).
   - Verify before booking: 2 BR + 2 BA, 4-guest cap, parking, winter heating, location vs Shin-Fuji pickup.
@@ -73,9 +78,9 @@ Day 1 (2026-12-27) begins with **morning landing at Haneda**, all four travelers
 
 Phase 2 shape: **Hakodate → Lake Toya (Windsor Hotel) → train to Sapporo for rental-car pickup → drive to Biei / Furano**. User prefers **not** to overnight in Sapporo (pick up the car and drive out the same day if feasible). Phase 2 is a **winter self-drive leg** from Sapporo onward, so snow-driving prep / winter tires are assumed.
 
-### Hakodate (1–2 nights)
+### Hakodate (2 nights — confirmed)
 
-- **Arrival into Hakodate:** Tōhoku/Hokkaido Shinkansen to **新函館北斗 (Shin-Hakodate-Hokuto)**, then local hop into Hakodate city. Exact train leg depends on where Phase 1 ends — resolve once Phase 1 is locked.
+- **Arrival into Hakodate:** Tōhoku/Hokkaido Shinkansen to **新函館北斗 (Shin-Hakodate-Hokuto)**, then local **JR 函館ライナー** into Hakodate city. Per the **Day-4 transit requirement above (2026-04-20)**, arrival is on day-04 (2026-12-30) evening via Karuizawa → Tokyo → Shin-Hakodate-Hokuto → Hakodate. First Hakodate night = NYE-eve day; day-05 = NYE full day; day-06 = New Year's Day full day; day-07 = train to Toya.
 - **Committed must-visit (after sunset, night-view):**
   - **Mt. Hakodate Observatory (函館山展望台)** — [Google Maps](https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7). The iconic "million-dollar" night panorama over Hakodate's hourglass isthmus.
     - ⚠️ **Winter access = ropeway only.** The 登山自動車道 (summit road) is closed to cars/buses/taxis in winter; only the 函館山ロープウェイ (125-person gondola, ~3 min from 山麓駅) operates. Our trip window is entirely inside the winter-ropeway season. Plan for **heavy cold-weather kit** — the summit is exposed and Dec/Jan nights are brutal.
@@ -199,10 +204,19 @@ Phase 3 base: **Shibuya** area (shopping + in-line with salon / massage / Gonpac
 | Day | Date | Weekday | Plan |
 |---|---|---|---|
 | 19 | 2027-01-14 | Thu | Sapporo→Tokyo transit (~8 hr), arrive Shibuya evening |
-| 20 | 2027-01-15 | Fri | Shibuya shopping + Mominotakumi massage (evening) |
-| 21 | 2027-01-16 | Sat | Subaru Mitaka (Sat — open) + Gonpachi dinner |
-| 22 | 2027-01-17 | Sun | Oedo Antique Market (3rd Sun) + K-two haircut + Autobacs evening |
+| 20 | 2027-01-15 | Fri | **Car-enthusiast day 1 — Subaru**: Subaru Star Square Ebisu (flagship showroom, walkable from Shibuya) + Tokyo Subaru Mitaka + light Shibuya shopping + Mominotakumi massage (evening) |
+| 21 | 2027-01-16 | Sat | **Car-enthusiast day 2 — Autobacs**: A PIT Autobacs Shinonome (2+ hr morning/midday) + Nezu Museum optional + Gonpachi dinner |
+| 22 | 2027-01-17 | Sun | Oedo Antique Market (3rd Sun) + K-two haircut |
 | 23 | 2027-01-18 | Mon | Departure |
+
+### Car-enthusiast requirement (2026-04-20)
+
+- **User is a car enthusiast — Autobacs + Subaru are must-visits in Tokyo, and must fall on the first 2 full days after the Tokyo arrival day** (i.e. day-20 and day-21, not day-22+). Arrival day (day-19) is eaten by the ~8 hr Sapporo→Tokyo transit and does not count.
+- **Distribution (chosen 2026-04-20):** bundle both Subaru stops on day-20 (Fri — Subaru Star Square Ebisu + Tokyo Subaru Mitaka; Fri open for Mitaka), and Autobacs Shinonome as a 2+ hr block on day-21 (Sat). This frees day-22 (Sun) for Oedo Antique Market + haircut only.
+- **Venues:**
+  - **Subaru Star Square (スバルスタースクエア)** — Subaru's flagship brand showroom in **Ebisu, Tokyo** (恵比寿). Walkable / one-stop train from Shibuya base — fits day-20 easily alongside existing Shibuya plans.
+  - **Tokyo SUBARU Mitaka (東京スバル 三鷹店)** — already captured above as a committed must-visit; kept and scheduled on day-20 (Fri, Mitaka is closed Tue/Wed so Fri works).
+  - **A PIT AUTOBACS SHINONOME (A PIT オートバックス 東雲)** — already captured above; ≥2 hours on-site, moved from day-22 to day-21.
 
 
 ### Must-visit (committed)
@@ -243,16 +257,29 @@ User interest: **"public small auctions about old ancient legacies."** Most trad
 ## Open questions / to revisit
 
 - **Phase 1 decision driver = Karuizawa accommodation cost.** Karuizawa is the preferred base; only fall back to Fuji if the Karuizawa 2BR/2BA Airbnb options turn out too expensive. **Next action:** price the two Karuizawa Airbnb candidates for the correct 2026-12-27 → ~12-30 window and compare against a comparable Fuji Airbnb. Either way Peepolo Norikura + Norikura stop + Kurumayama are committed — which matters for geography (see flag above).
-- **Phase 1 — rental car return on the afternoon of day-03 (2026-12-29).** User confirmed: return the Phase 1 car on the second-to-last day afternoon. Implications:
-  - Day-03 itinerary must finish the drive-heavy activities (Kurumayama, any Norikura / Peepolo errands, any geography-required trips) **before** the afternoon return.
-  - Day-04 has **no car** — plan Karuizawa Kogen Church (or Fuji-scenario alternatives) via walk / local bus / taxi only. Karuizawa station ↔ Hoshino area is ~5 km, doable by 町内バス / taxi.
-  - Day-05 morning transit to Tokyo must be station-based (Karuizawa Shinkansen station for Scenario A; walk / taxi to Shin-Fuji station for Scenario B).
+- **Phase 1 — rental car pickup and return (updated 2026-04-20).** User confirmed: **pickup** on day-01 afternoon at the destination station (Karuizawa Station for Scenario A, Shin-Fuji Station for Scenario B) — NOT at Haneda airport. **Return** on day-03 afternoon (2026-12-29) at the same station-area branch. Implications:
+  - Day-03 itinerary must finish the drive-heavy activities (Kurumayama, any Norikura / Peepolo errands, any geography-required trips) **before** the afternoon return. **Karuizawa Kogen Church now also slots into day-03** (on the way back from Kurumayama, before car return) since day-04 is now a full transit day to Hakodate.
+  - Day-04 has **no car and leaves Karuizawa entirely** — see the Phase 1 → Phase 2 transit requirement below. Church / Hoshino-area walking is no longer possible on day-04.
   - ⚠️ Choose a **rental-car return branch that is walkable from our accommodation** (or plan a taxi back). Candidates: Karuizawa Station area drop-off for Scenario A; Shin-Fuji Station area drop-off for Scenario B.
+
+## Phase 1 → Phase 2 transit — Day 4 (updated 2026-04-20)
+
+- **Day 4 (2026-12-30) is a full travel day: Karuizawa → Hakodate by train + Shinkansen.** No stops, no sightseeing planned — the user explicitly noted this will take many hours. Morning departure from the Karuizawa accommodation, arrive Hakodate late afternoon / evening. Check in at Hakodate hotel that night (first of 2 Hakodate nights).
+- **Routing (best-judgment, ~6.5–7.5 hr in-motion + transfer buffer):**
+  - **Leg 1:** Karuizawa Station → Tokyo Station via **Hokuriku Shinkansen** (あさま / はくたか), ~70–90 min. Stay on through train to Tokyo rather than transferring at Omiya — Tokyo Station has the simpler cross-platform transfer to the Tohoku/Hokkaido line.
+  - **Leg 2:** Tokyo Station → Shin-Hakodate-Hokuto Station via **Tohoku/Hokkaido Shinkansen** (はやぶさ, through-running), ~4 hr.
+  - **Leg 3:** Shin-Hakodate-Hokuto Station → Hakodate Station via **JR 函館ライナー (Hakodate Liner)** local, ~15–20 min.
+  - Total ~6–7 hr travel + ~45–60 min transfer buffers; realistic 8 hr door-to-door.
+- **Same-day implications:**
+  - **No sightseeing on day 4.** Karuizawa Kogen Church moves to day-03 (while the car is still available). Any other Karuizawa-area stops must fit into day-01 through day-03.
+  - **NYE dinner plan shifts to day-05 (2026-12-31)** in Hakodate — day-04 evening is arrival + check-in only; plan a simple hotel-area dinner for the late arrival.
+  - **Luggage is heavy on this day** — 4 travelers + all Hokkaido-winter kit through 2 Shinkansen + 1 local train. Reserve seats with luggage space (特大荷物スペースつき座席 on the Tohoku/Hokkaido Shinkansen) well in advance — required for oversize bags since 2020, and this route is heavily booked over New Year.
+  - **Book all three legs together** (ideally as a single JR-East / JR-Hokkaido reservation) once the accommodation departure time is confirmed.
 - **Fuji winter-drive substitutes:** since Fujinomiya 5th and Okuniwa are closed in winter, decide whether a lower-elevation Fuji viewpoint replaces them or whether we drop the high-drive idea entirely.
 - **Mt. Omuro winter view check** — user wants to verify before committing.
 - The Phase 1 `src/content/trip.yaml` segment is labeled `fuji-or-karuizawa` — rename once the scenario is chosen.
 - The Peepolo Norikura stay is tentatively slotted on day-02 (2026-12-28 → 29) in `trip.yaml` but marked 待确认. Adjust once the scenario + booking are confirmed.
-- ~~**Phase 2 — Hakodate nights:** decide **1 vs 2 nights** in Hakodate.~~ ✅ **Resolved 2026-04-19 → 2 nights.** Arrive day-05 afternoon + NYE dinner, day-06 morning 朝市 / Motomachi + Mt. Hakodate night view, day-07 train to Toya.
+- ~~**Phase 2 — Hakodate nights:** decide **1 vs 2 nights** in Hakodate.~~ ✅ **Resolved 2026-04-19 → 2 nights.** Updated 2026-04-20 for new day-04 transit: arrive **day-04 (2026-12-30) evening** after Karuizawa → Tokyo → Shin-Hakodate-Hokuto → Hakodate rail day; **day-05 (2026-12-31, NYE)** = 朝市 / 元町坂 / Red-Brick Warehouses + NYE dinner; **day-06 (2027-01-01)** = 元旦 daytime + Mt. Hakodate ropeway night view; **day-07** = JR 特急 北斗 to Toya.
 - **Phase 2 — how to get around Lake Toya during the 2-night Windsor stay.** Options: (a) rely on the Windsor shuttle for station runs only + taxis for Silo / Usuzan / Noboribetsu, (b) book a short-term rental locally for 1–2 days, (c) arrange a hired driver / local tour. We don't have our own rental until Sapporo. Need to price / decide.
 - **Phase 2 — Sapporo overnight: avoid or accept?** User prefers to skip it, but that only works if rental-car pickup timing allows a safe winter drive to Biei the same day. If pickup runs late, overnight Sapporo (or Chitose) becomes the safer option. Confirm once train + rental pickup time is known.
 - **Phase 2 — Biei / Furano 1-night accommodation** not yet shortlisted. Need 2 rooms.
@@ -278,8 +305,9 @@ User interest: **"public small auctions about old ancient legacies."** Most trad
 - **Phase 2 — Kani Honke / NANDA reservations.** Both need advance booking for a party of 4; book ≥2–3 weeks out for winter dinner slots.
 - **Phase 2 — Moiwa redundancy check.** We already commit to 函館山 (Phase 2 start) and 小樽天狗山 (Otaru). Adding Moiwa gives us "all three of Hokkaido's Three Great Night Views" in one trip but repeats the same visual pattern three times. Decide if the completion is worth the extra evening; otherwise skip and use the slot for another Sapporo activity.
 - **Phase 2 — New Year closures (年末年始, 2026-12-31 → 2027-01-03).** Many attractions run reduced/closed schedules over this window (Moiwa Ropeway is explicitly listed as closing 年末年始; temples often free/open, commercial venues often closed). Audit every planned activity in the Dec 28 – Jan 3 window against its holiday schedule before finalizing.
-- **Phase 3 — Subaru Mitaka is closed Tue + Wed.** Schedule any visit on Mon / Thu / Fri / Sat / Sun.
-- **Phase 3 — day for Autobacs Shinonome.** User wants ≥2 hours on-site; easiest is to treat this as a half-day block. Avoid stacking with another full destination on the same day.
+- ~~**Phase 3 — Subaru Mitaka is closed Tue + Wed.**~~ ✅ **Resolved 2026-04-20** → scheduled on day-20 (Fri 2027-01-15), open.
+- ~~**Phase 3 — day for Autobacs Shinonome.**~~ ✅ **Resolved 2026-04-20** → day-21 (Sat 2027-01-16) morning/midday 2+ hr block, ahead of Gonpachi dinner.
+- **Phase 3 — Subaru Star Square Ebisu hours / closed days.** Confirm the flagship showroom's opening hours for Fri 2027-01-15 (and whether Jan mid-month has any special hours). Booking / appointment requirement also TBD — some Subaru brand showrooms in Japan accept walk-ins, others require reservation for cockpit / sim experiences.
 - **Phase 3 — book Mominotakumi + K-two appointments early.** Massage is flexible (365-day operation, online 24/7 booking) so do closer to date; **haircut (K-two) should book ≥2 weeks out**, especially for English-speaking stylist availability and weekend slots.
 - **Phase 3 — confirm Jan 2027 auction / antique-market schedule ~late Dec 2026.** Target = **Oedo Antique Market Jan 17 (3rd Sunday)** if it falls in-window. Also monitor Mainichi / Shinwa / Tokyo Chuo / SBI Art / MEGURU websites for Jan 2027 preview dates once they publish (~1 month out).
 - **Phase 3 — Gonpachi reservation** if committed: book ≥1–2 weeks out for a party of 4, specify 2-hour slot.

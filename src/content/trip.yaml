@@ -1,7 +1,7 @@
 # Japan trip itinerary — 2026-12-27 to 2027-01-18 (23 days, 22 nights).
 # Three phases:
-#   Phase 1 (days 01-04, 3 nights)  = Karuizawa
-#   Phase 2 (days 05-18, 14 nights) = Hokkaido: Hakodate 2 → Toyako 2 → Biei 1 → Abashiri 2 → Wakkanai 1 → Otaru 2 + Neuschloss 1 → Sapporo 3
+#   Phase 1 (days 01-03, 3 nights)  = Karuizawa (day-04 is a full travel day OUT of Karuizawa to Hakodate)
+#   Phase 2 (days 04-18, 14 nights) = Hokkaido: Hakodate 2 (day-04 arrival via Shinkansen) → Toyako 2 → Biei 1 → Abashiri 2 → Wakkanai 1 → Otaru 2 + Neuschloss 1 → Sapporo 3
 #   Phase 3 (days 19-23, 5 nights)  = Tokyo (incl. Sapporo→Tokyo transit on day 19)
 # Full requirements source: docs/requirements.md
 # Validated against src/lib/schema.ts at build time.
@@ -21,13 +21,14 @@ segments:
       zh: 轻井泽
       en: Karuizawa
       ja: 軽井沢
-    days: [day-01, day-02, day-03, day-04]
+    days: [day-01, day-02, day-03]
   - id: hokkaido
     name:
       zh: 北海道
       en: Hokkaido
       ja: 北海道
     days:
+      - day-04
       - day-05
       - day-06
       - day-07
@@ -108,6 +109,22 @@ places:
         zh: 北海道札幌市北区北 6 条西 4 丁目
         ja: 〒060-0806 北海道札幌市北区北6条西4丁目
 
+  - id: tokyo-station
+    name:
+      zh: 东京站
+      en: Tokyo Station
+      ja: 東京駅
+    kind: station
+    address:
+      full:
+        zh: 东京都千代田区丸之内 1-9-1
+        ja: 〒100-0005 東京都千代田区丸の内1-9-1
+    notes_zh: >-
+      Day 01 从羽田过来换乘北陆新干线「あさま / はくたか」前往 軽井沢駅 的换乘点。
+      羽田 → 东京站：东京单轨 + JR 山手线 或 京急 + JR，约 30 分钟。
+      Day 04 从 軽井沢 开过来后再换乘 東北・北海道新幹線「はやぶさ」前往 新函館北斗 的换乘点，
+      东京站內 北陆 ↔ 东北/北海道 换乘约 15 分钟；预留 30 分钟以上缓冲，尤其因带大行李。
+
   # ────── Phase 1: Karuizawa ──────
   - id: karuizawa-station
     name:
@@ -119,7 +136,7 @@ places:
       full:
         zh: 长野县北佐久郡轻井泽町大字轻井泽 1178
         ja: 〒389-0102 長野県北佐久郡軽井沢町大字軽井沢1178
-    notes_zh: 北陆新干线停靠站；Phase 1 租车还车点、day 05 早上前往东京的出发站。
+    notes_zh: 北陆新干线停靠站；day 01 下午 Phase 1 租车取车点、day 03 下午还车点、day 04 早上前往函馆的出发站。
 
   - id: peepolo-norikura
     name:
@@ -831,6 +848,22 @@ places:
     notes_zh: 早市，吃海鲜丼；适合札幌早上的活动。
 
   # ────── Phase 3: Tokyo ──────
+  - id: subaru-star-square-ebisu
+    name:
+      zh: SUBARU 星广场（惠比寿旗舰展厅）
+      en: Subaru Star Square (Ebisu Flagship Showroom)
+      ja: スバルスタースクエア
+    kind: shop
+    address:
+      full:
+        zh: 东京都涩谷区惠比寿 1-20-8 惠比寿 Garden Place Tower B1F
+        ja: 〒150-6090 東京都渋谷区恵比寿1-20-8 恵比寿ガーデンプレイスタワー B1F
+    notes_zh: >-
+      Subaru 品牌旗舰展厅（非经销店），位于 惠比寿 Garden Place Tower 地下一层。
+      展示概念车 / 最新车型 / 汽车文化活动，开放式自由参观。
+      从涩谷基地：JR 山手线 涩谷 → 惠比寿 1 站（~3 分钟）+ 步行 5 – 7 分钟。
+      ⚠️ 营业时间 / 开放日 请在出行前向店方或官网再确认（部分活动 / 企划日需提前预约）。
+
   - id: tokyo-subaru-mitaka
     name:
       zh: 东京 SUBARU 三鹰店
@@ -983,14 +1016,26 @@ bookings:
       四人同行，确认所有人 2026-12-27 早上抵达羽田；2027-01-18 从羽田（或成田）返程。
       具体航班号待最终预订后填入。
 
+  - id: phase1-shinkansen-outbound
+    kind: shinkansen
+    title_zh: "北陆新干线：东京站 → 軽井沢駅（day 01 下午）"
+    from: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
+    to: { zh: 轻井泽站, en: Karuizawa Station, ja: 軽井沢駅 }
+    start: "2026-12-27"
+    details_zh: >-
+      Day 01：羽田抵达集合后 → 单轨 / 京急 + JR 到东京站（约 30 分钟）
+      → 北陆新干线「あさま」或「はくたか」到 軽井沢駅（约 70 – 90 分钟）。
+      ★ 用户确认（2026-04-20）：不在羽田取车，而是在 軽井沢駅 附近取车。
+
   - id: phase1-rental-car
     kind: other
-    title_zh: "Phase 1 租车（羽田取车 → day 03 下午 軽井沢駅 还车）"
+    title_zh: "Phase 1 租车（day 01 下午 軽井沢駅 取车 → day 03 下午 軽井沢駅 还车）"
     start: "2026-12-27"
     end: "2026-12-29"
     details_zh: >-
       4 人 + 冬季行李，推荐 SUV / 小型 minivan；带四驱和冬季雪胎。
-      ★ 用户确认：在 Phase 1 倒数第二天（day 03, 2026-12-29）下午还车，选 軽井沢駅 附近、住宿步行可达的分店。
+      ★ 用户确认（2026-04-20）：取车不在羽田，而是在 軽井沢駅 附近分店 —— day 01 抵达羽田后换新干线到軽井沢駅，当地取车再开往住宿。
+      ★ 用户确认：在 Phase 1 倒数第二天（day 03, 2026-12-29）下午还车，选同一 軽井沢駅 附近、住宿步行可达的分店。
       day 04 无车 —— 轻井泽高原教会 / 其他活动走路、町内バス 或 出租车。
       day 05 早上从 軽井沢駅 直接乘新干线去东京 → 新函馆北斗。
 
@@ -1128,7 +1173,7 @@ bookings:
     googleMapsUrl: https://maps.app.goo.gl/LoKkhxgsmHddXDhm9
     details_zh: >-
       预约时要指明需英语/中文对应 stylist。
-      安排：day 22（周日），骨董市上午 → 下午剪发 → 傍晚 Autobacs / Gonpachi。
+      安排：day 22（周日），骨董市上午 → 下午剪发。车迷行程（Autobacs / Subaru）已挪至 day 20 – 21。
 
   - id: phase3-mominotakumi-massage
     kind: other
@@ -1145,20 +1190,31 @@ bookings:
         zh: 东京都港区西麻布 1-13-11
         ja: 〒106-0031 東京都港区西麻布1-13-11
     googleMapsUrl: https://maps.app.goo.gl/v2BupfdH7LTYcA1r9
-    details_zh: Nice-to-have；Kill Bill 取景经典居酒屋。Day 21 周六 Subaru 完后晚餐。
+    details_zh: Nice-to-have；Kill Bill 取景经典居酒屋。Day 21 周六 Autobacs 车迷日晚餐。
 
 days:
   # ─────────────────── Phase 1 ───────────────────
   - id: day-01
     date: "2026-12-27"
     city: karuizawa
-    title_zh: 第 1 天 · 抵达日本
-    intro_zh: 早上全员抵达羽田机场，会合后取车（租车自驾），一起出发前往本段行程的住宿地。
+    title_zh: 第 1 天 · 抵达日本 · 新干线至轻井泽取车
+    intro_zh: >-
+      早上全员抵达羽田机场会合；从羽田转至东京站，换乘北陆新干线到 軽井沢駅，
+      在 軽井沢駅 附近租车行取车（★ 不在羽田取车）后开往住宿。
     activities:
       - id: day-01-haneda-arrival
         start: "09:00"
         place: { ref: haneda-airport }
-        notes_zh: 所有人早上抵达羽田机场集合，随后取车出发。
+        notes_zh: 所有人早上抵达羽田机场集合；检查行李后前往东京站。
+      - id: day-01-tokyo-station-transit
+        place: { ref: tokyo-station }
+        notes_zh: 羽田 → 东京站约 30 分钟（单轨 + JR 山手线 或 京急 + JR）；在东京站换乘北陆新干线「あさま / はくたか」。
+      - id: day-01-karuizawa-arrival-rental
+        place: { ref: karuizawa-station }
+        notes_zh: >-
+          抵达 軽井沢駅（东京站出发约 70 – 90 分钟）。
+          ★ 在 軽井沢駅 附近租车行取车（Phase 1 租车点）—— 用户 2026-04-20 明确：不在羽田取车。
+          取车后自驾前往住宿地。
 
   - id: day-02
     date: "2026-12-28"
@@ -1186,54 +1242,92 @@ days:
   - id: day-03
     date: "2026-12-29"
     city: karuizawa
-    title_zh: 第 3 天 · 车山高原 + 下午还车
+    title_zh: 第 3 天 · 车山高原 + 高原教会 + 下午还车
     intro_zh: >-
-      ★ 倒数第二天 —— 用好这一天的车。上午 / 中午前开车跑车山高原 + 其他驾车必需行程；
-      下午回到预定还车地点（近住宿步行可达）完成还车。day 04 起无车，全程走路 / 町内バス / 出租。
+      ★ Phase 1 最后一个有车日 —— 上午 / 中午前开车跑车山高原；午后返程顺路停 軽井沢高原教会；
+      下午回到预定还车地点（近住宿步行可达）完成还车。day 04 清早直接拉行李到 軽井沢駅 换乘北陆新干线出发（长途移动日）。
     activities:
       - id: day-03-kurumayama
         place: { ref: kurumayama-skypark }
-        notes_zh: 不滑雪，乘缆车上车山山顶看雪景与八岳 / 富士山 / 阿尔卑斯山脉全景。上午出发，确保下午有充分时间回还车点。
+        notes_zh: 不滑雪，乘缆车上车山山顶看雪景与八岳 / 富士山 / 阿尔卑斯山脉全景。上午出发，确保下午有时间回轻井泽还车。
+      - id: day-03-karuizawa-kogen-church
+        place: { ref: karuizawa-kogen-church }
+        notes_zh: >-
+          车山高原下山回轻井泽途中顺路停 星野度假区内的历史教会。2026-04-20 从 day-04 移来 ——
+          因 day-04 整天是 轻井泽 → 函馆 的新干线移动日，不再有时间在 轻井泽 内活动。趁车还在今天先看。
       - id: day-03-car-return
-        start: "16:00"
+        start: "17:00"
         place: { ref: karuizawa-station }
         notes_zh: >-
           ★ Phase 1 租车还车 —— 軽井沢駅 附近租车行，选步行可达住宿的分店；否则预约出租回住宿。
-          时间定在下午，免影响 day 04 活动。
-
-  - id: day-04
-    date: "2026-12-30"
-    city: karuizawa
-    title_zh: 第 4 天 · 无车日（轻井泽市内）
-    intro_zh: >-
-      昨日下午已还车，今天无自驾。活动改走路 / 町内バス / 出租车；高原教会 + 星野度假区步行。
-    activities:
-      - id: day-04-karuizawa-kogen-church
-        place: { ref: karuizawa-kogen-church }
-        notes_zh: "星野度假区的历史教会；軽井沢駅 町内バス 或 出租 20 分钟可达。"
+          时间定在傍晚，Kurumayama + 高原教会 跑完后交车。还车后晚上留在住宿整理行李。
 
   # ─────────────────── Phase 2: Hokkaido ───────────────────
+  - id: day-04
+    date: "2026-12-30"
+    city: hokkaido
+    title_zh: 第 4 天 · 轻井泽 → 函馆（长途移动日）
+    intro_zh: >-
+      ★ 全天移动日（用户 2026-04-20 明确）：早上从 轻井泽 住宿出发 → 軽井沢駅 乘 北陆新干线 →
+      东京站 站内换乘 東北・北海道新幹線「はやぶさ」→ 新函館北斗駅 → 换 JR 函館ライナー → 函馆駅。
+      车程合计 6 – 7 小时 + 换乘缓冲，门到门约 8 小时。不安排观光，傍晚抵达函馆办理入住。
+      ⚠️ 4 人 + 冬装 + 行李量大：務必预约 東北・北海道新干线「はやぶさ」的「特大荷物スペースつき座席」（大件行李指定席），元旦前后热门，早订。
+    activities:
+      - id: day-04-depart-karuizawa
+        start: "08:30"
+        place: { ref: karuizawa-station }
+        notes_zh: 从住宿拉行李到 軽井沢駅；换乘 北陆新干线 「あさま / はくたか」 前往 东京站（约 70 – 90 分钟）。
+      - id: day-04-tokyo-transfer
+        place: { ref: tokyo-station }
+        notes_zh: >-
+          东京站站内换乘 東北・北海道新幹線「はやぶさ」前往 新函館北斗。
+          北陆新干线 23 – 24 番线 ↔ 东北/北海道新干线 20 – 23 番线，同层过街，换乘 ~15 分钟；
+          有大行李务必预留 30 分钟缓冲，建议提前订好换乘班次，避开太紧的接驳。
+      - id: day-04-shin-hakodate-hokuto
+        place: { ref: shin-hakodate-hokuto-station }
+        notes_zh: >-
+          东京 → 新函館北斗 新干线单程约 4 小时。抵达后下新干线，站内换 JR 函館ライナー，约 15 – 20 分钟到 函馆駅。
+      - id: day-04-hakodate-arrival
+        place: { ref: hakodate-station }
+        notes_zh: 抵达函馆（预计傍晚 / 入夜），办理酒店入住。今晚简单吃点，早休息 —— 跨年夜看 day-05。
+    bookings:
+      - id: day-04-shinkansen-karuizawa-hakodate
+        kind: shinkansen
+        title_zh: "新干线：轻井泽 → 东京 → 新函館北斗 → 函馆（3 段）"
+        start: "2026-12-30"
+        from:
+          zh: 轻井泽站
+          en: Karuizawa Station
+          ja: 軽井沢駅
+        to:
+          zh: 函馆站
+          en: Hakodate Station
+          ja: 函館駅
+        details_zh: >-
+          3 段行程：① 軽井沢 → 东京（北陆新幹線 あさま / はくたか，~70 – 90 分）；
+          ② 东京 → 新函館北斗（東北・北海道新幹線 はやぶさ，~4 小时）；
+          ③ 新函館北斗 → 函馆（JR 函館ライナー，~15 – 20 分）。
+          ★ 务必同时预约 ②「はやぶさ」特大荷物スペースつき座席（大行李指定席）—— 2020 年起强制，
+          元旦前后几乎必售罄，需尽早。三段行程理想上一次预订，JR East / JR Hokkaido 网站或绿色窗口。
+
   - id: day-05
     date: "2026-12-31"
     city: hokkaido
-    title_zh: 第 5 天 · 前往函馆
+    title_zh: 第 5 天 · 跨年夜 · 函馆
     intro_zh: >-
-      早上从 Phase 1 驻地出发，经东京换北海道新干线到 新函馆北斗，再换函馆ライナー 到 函馆駅。
-      全程约 6 – 7 小时，抵达后办理入住。跨年夜 函馆。
+      函馆白日 + 跨年夜。昨晚长途移动后，今天在函馆休整+游览：早上朝市海鲜丼；
+      白天元町坂 + 红砖仓库；傍晚视精力挑一个时段吃跨年大餐。
     activities:
-      - id: day-05-shinkansen
-        place: { ref: shin-hakodate-hokuto-station }
-        notes_zh: 换乘点：从新函馆北斗下新干线，转 JR 函館ライナー 约 15 分钟到 函馆駅。
-      - id: day-05-hakodate-arrival
+      - id: day-05-hakodate-day
         place: { ref: hakodate-station }
-        notes_zh: 抵达函馆入住酒店；晚上可在朝市周边或元町区吃元旦跨年饭。
+        notes_zh: 以函馆駅为中心活动：朝市（海鲜丼）、元町坂、金森红砖仓库、湯の川 / ベイエリア。跨年晚上留在函馆。
 
   - id: day-06
     date: "2027-01-01"
     city: hokkaido
-    title_zh: 第 6 天 · 元旦 · 函馆
+    title_zh: 第 6 天 · 元旦 · 函馆山夜景
     intro_zh: >-
-      函馆白日 + 夜景日。早上朝市吃海鲜丼；白天走元町坂 + 红砖仓库；黄昏前上函馆山看日落接百万夜景。
+      元旦白日函馆自由活动；黄昏前上 函馆山 看日落接百万夜景（冬季只能缆车）。
     activities:
       - id: day-06-mt-hakodate
         start: "16:30"
@@ -1487,28 +1581,51 @@ days:
   - id: day-20
     date: "2027-01-15"
     city: tokyo
-    title_zh: 第 20 天 · 涩谷购物 + 按摩
+    title_zh: 第 20 天 · 车迷日 1 —— Subaru 双店（惠比寿旗舰 + 三鹰店）+ 涩谷购物 + 按摩（周五）
+    intro_zh: >-
+      2027-01-15 是周五 —— Subaru Mitaka 开门（周二 / 周三休）。东京 5 晚的第一个完整日定为 Subaru 车迷日：
+      早上先逛 惠比寿 Garden Place 的 Subaru 品牌旗舰展厅「SUBARU 星广场」，之后赴 三鹰 经销旗舰店。
+      回涩谷补一段购物，晚上 もみの匠 按摩收尾。
     activities:
+      - id: day-20-subaru-star-square
+        start: "10:30"
+        place: { ref: subaru-star-square-ebisu }
+        notes_zh: >-
+          品牌旗舰展厅，非经销店；涩谷 → 惠比寿 1 站即到（JR 山手线 ~3 分钟）。
+          预估 60 – 90 分钟；出行前确认开放时间 / 是否需要预约。
+      - id: day-20-subaru-mitaka
+        start: "13:00"
+        place: { ref: tokyo-subaru-mitaka }
+        notes_zh: >-
+          ⚠️ 周二 / 周三休，本日周五开门（10:00 – 18:00）。
+          从 惠比寿 乘 JR 山手线 → 新宿 → 中央线 三鷹駅，再公交/出租 15 分钟；或打车 ~30 – 40 分钟。
+          逛展厅 + 隔壁 G-PARK 三鷹 中古车店，预估 90 – 120 分钟。
       - id: day-20-shibuya-shopping
+        start: "16:30"
         place: { ref: shibuya-scramble }
-        notes_zh: 表参道 / 原宿 / Scramble Square / Miyashita Park 自由行。
+        notes_zh: 回涩谷后自由购物：表参道 / 原宿 / Scramble Square / Miyashita Park。压缩到傍晚时段。
       - id: day-20-massage
-        start: "19:00"
+        start: "20:00"
         place: { ref: mominotakumi-shibuya }
-        notes_zh: 60 分钟全身 ¥3,980。线上提前预约时段。
+        notes_zh: 60 分钟全身 ¥3,980。线上提前预约时段；Subaru 日跑动多，晚上按摩合适。
 
   - id: day-21
     date: "2027-01-16"
     city: tokyo
-    title_zh: 第 21 天 · 三鹰 Subaru + 权八晚餐（周六）
+    title_zh: 第 21 天 · 车迷日 2 —— A PIT 东雲 Autobacs + 权八晚餐（周六）
     intro_zh: >-
-      2027-01-16 是周六 —— Subaru Mitaka 开门（只在周二、周三休）。白天车迷行程，晚上 Gonpachi。
+      2027-01-16 是周六 —— 东京 5 晚的第二个完整日定为 Autobacs 车迷日。上午/中午在 A PIT 东雲 超级汽配
+      留足 ≥ 2 小时；下午有时间的话回表参道区顺访根津美术馆；晚上 Gonpachi 收官。
     activities:
-      - id: day-21-subaru-mitaka
-        start: "10:30"
-        place: { ref: tokyo-subaru-mitaka }
-        notes_zh: ⚠️ 周二周三休，本日周六开门。中央线 三鷹駅 + 公交。
+      - id: day-21-autobacs
+        start: "10:00"
+        place: { ref: a-pit-autobacs-shinonome }
+        notes_zh: >-
+          ★ 用户要求至少 2 小时。全年 9:00 – 22:00 营业；24 小时停车。
+          りんかい線 東雲駅 步行 10 分钟；从涩谷 约 30 – 40 分钟（地铁 / 车）。
+          预算 10:00 – 13:00，含挑高中庭星巴克午饭 + 汽车杂志 TSUTAYA。
       - id: day-21-nezu-museum
+        start: "15:00"
         place: { ref: nezu-museum }
         notes_zh: 时间允许的话回表参道区中途插入根津美术馆看东亚古美术 —— 与用户「古代遗产」兴趣共鸣。可跳过。
       - id: day-21-gonpachi
@@ -1519,10 +1636,10 @@ days:
   - id: day-22
     date: "2027-01-17"
     city: tokyo
-    title_zh: 第 22 天 · 大江户骨董市（周日）+ 剪发 + 东雲 Autobacs
+    title_zh: 第 22 天 · 大江户骨董市（周日）+ 剪发
     intro_zh: >-
       2027-01-17 是第 3 周日 —— ★ 大江户骨董市 在东京国际论坛户外广场 09:00 – 16:00 开市，
-      约 250 家古董商。下午回涩谷剪发，傍晚去东雲 Autobacs。
+      约 250 家古董商。下午回涩谷剪发。车迷行程已于 day 20 – 21 完成，本日放松。
     activities:
       - id: day-22-oedo-antique
         start: "09:30"
@@ -1532,10 +1649,6 @@ days:
         start: "14:30"
         place: { ref: star-tokyo-k-two-shibuya }
         notes_zh: 周日 10:00 – 19:00 营业；提前 ≥ 2 周预约。
-      - id: day-22-autobacs
-        start: "17:00"
-        place: { ref: a-pit-autobacs-shinonome }
-        notes_zh: ★ 用户要求至少 2 小时。营业到 22:00，剪发后顺路去。りんかい線 東雲駅 步行 10 分钟。
 
   - id: day-23
     date: "2027-01-18"
