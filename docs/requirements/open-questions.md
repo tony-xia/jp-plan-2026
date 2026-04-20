@@ -24,6 +24,24 @@ With Karuizawa parked, 3 nights move from Phase-1 into Hokkaido. Previous clockw
 - **Book all three legs (Haneda→Tokyo, Shinkansen, 函館ライナー) together** once flights are chosen. JR East / JR Hokkaido joint reservation.
 - **Oversize-bag seats on はやぶさ are the pinch point** — New-Year-adjacent dates book out.
 
+## 🆕 Gear & electronics (2026-04-20)
+
+Confirmed packing list (user, 2026-04-20):
+
+- **1–2 drones** — DJI-class. ⚠️ JP drone law: no-fly over populated/DID zones, airports, national parks without permit; sub-100g drones exempt from most rules. Flag activity-by-activity when we plan (Biei, Cape Sōya, Shiretoko candidates).
+- **Insta360 Action6 + mount equipment** — chest/helmet/handlebar action mounts.
+- **360° camera + mount equipment** — brand TBD; invisible-stick / car-roof / bike-helmet mounts.
+- **Tripod** — likely travel tripod; check carry-on liquids+length limits (CA / JL both allow up to ~60 cm folded in cabin typically).
+- **Mirrorless camera** — **TBD**: bringing or not. Decide before final pack.
+- **1× MacBook** — for offload + editing on the road.
+- **Powerbanks** — ⚠️ airline Wh limits (ANA/JAL: ≤100 Wh freely; 100–160 Wh max 2 with approval; >160 Wh forbidden). Tag each bank with Wh before departure.
+- **Power adapters** — Japan = Type A (two flat pins), 100 V / 50–60 Hz. MacBook USB-C handles it; confirm chargers for drones/cameras are 100 V compatible.
+
+**Implications to track:**
+- Drone no-fly zones vs. planned shooting days (Biei, Shiretoko, Cape Sōya, Kurofu — though Kurofu is parked with Karuizawa).
+- Total checked/carry-on baggage weight with 4 travelers + camera kit — affects rental car trunk space on the Hokkaido drive loop.
+- 元旦 shop closures may mean forgotten cables/adapters can't be bought in Hokkaido Jan 1–3.
+
 ## Carried-over questions
 
 *(Phase-1 Karuizawa questions are parked along with the phase itself — see [`phase-1-karuizawa.md`](phase-1-karuizawa.md) for historical context.)*

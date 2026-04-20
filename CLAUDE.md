@@ -49,7 +49,8 @@ Read-only Japan-trip itinerary site. UI in Chinese; proper nouns render tri-ling
 - **Single day** → edit `src/content/days/day-NN.yaml` only (top-level key `day:`; day-level `bookings:` live here).
 - **New place** → `src/content/places/<shard>.yaml` (geographic cluster). Shared transit hubs → `places/00-transit.yaml`. Place `id`s must be globally unique (loader fails the build on collisions). Day files reference via `{ ref: "place-id" }`.
 - **Trip-level booking** (flight, inter-segment shinkansen, hotel master) → `src/content/bookings.yaml`. Day-level bookings stay in the day file.
-- **Segment / trip metadata** → `src/content/trip.yaml` (only `title_zh`, `travelers`, `startDate`, `endDate`, `segments:`).
+- **Segment / trip metadata** → `src/content/trip.yaml` (only `title_zh`, `travelers`, `startDate`, `endDate`, `segments:`, `stays:`).
+- **Stay** = contiguous nights in one city (home-page city list). Update `stays:` in `trip.yaml` whenever a city is added, split (e.g. front vs return leg), or its `dayIds` / `lodgingBookingIds` change.
 - **UI string** → `src/lib/strings.ts` (zh only).
 - **Proper nouns** always use `<TriName>`. **Addresses** always use `<AddressLinks>`.
 - **User-verified Google Maps pins**: mirror onto both `Place.googleMapsUrl` *and* any `Booking.googleMapsUrl` with the same address. `BookingItem` only honors `booking.googleMapsUrl`, not the library Place pin — so bookings need their own copy.

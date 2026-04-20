@@ -54,3 +54,75 @@ segments:
       en: Tokyo
       ja: 東京
     days: [day-20, day-21, day-22, day-23, day-24]
+
+# Stays — contiguous nights in one city. Used by home-page City List to
+# group days + lodging candidates under each destination.
+stays:
+  - id: stay-hakodate
+    city: { zh: 函館, en: Hakodate, ja: 函館 }
+    segmentId: hokkaido
+    dayIds: [day-01, day-02, day-03]
+    lodgingBookingIds:
+      - hokkaido-hakodate-airbnb-primary
+      - hokkaido-hakodate-airbnb-alt
+      - hokkaido-hakodate-hotel-tokyu-stay
+
+  - id: stay-sapporo-front
+    city: { zh: 札幌, en: Sapporo, ja: 札幌 }
+    note_zh: 前段(跨年)
+    segmentId: hokkaido
+    dayIds: [day-04, day-05, day-06]
+    lodgingBookingIds:
+      - hokkaido-sapporo-hotel-front
+
+  - id: stay-wakkanai
+    city: { zh: 稚内, en: Wakkanai, ja: 稚内 }
+    segmentId: hokkaido
+    dayIds: [day-07, day-08]
+    lodgingBookingIds:
+      - hokkaido-wakkanai-hotel
+
+  - id: stay-abashiri
+    city: { zh: 網走, en: Abashiri, ja: 網走 }
+    segmentId: hokkaido
+    dayIds: [day-09, day-10]
+    lodgingBookingIds:
+      - hokkaido-abashiri-hotel
+
+  - id: stay-biei
+    city: { zh: 美瑛, en: Biei, ja: 美瑛 }
+    segmentId: hokkaido
+    dayIds: [day-11]
+    lodgingBookingIds:
+      - hokkaido-biei-hotel
+
+  - id: stay-otaru
+    city: { zh: 小樽, en: Otaru, ja: 小樽 }
+    segmentId: hokkaido
+    dayIds: [day-12, day-13, day-14]
+    lodgingBookingIds:
+      - hokkaido-otaru-hotel-primary
+      - hokkaido-otaru-neuschloss
+
+  - id: stay-toya
+    city: { zh: 洞爺, en: Tōya, ja: 洞爺 }
+    note_zh: Windsor
+    segmentId: hokkaido
+    dayIds: [day-15, day-16]
+    lodgingBookingIds:
+      - hokkaido-windsor-hotel
+
+  - id: stay-sapporo-return
+    city: { zh: 札幌, en: Sapporo, ja: 札幌 }
+    note_zh: 返程
+    segmentId: hokkaido
+    dayIds: [day-17, day-18, day-19]
+    lodgingBookingIds:
+      - hokkaido-sapporo-hotel-return
+
+  - id: stay-tokyo
+    city: { zh: 东京, en: Tokyo, ja: 東京 }
+    segmentId: tokyo
+    dayIds: [day-20, day-21, day-22, day-23, day-24]
+    lodgingBookingIds:
+      - tokyo-hotel

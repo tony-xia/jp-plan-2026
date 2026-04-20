@@ -1,8 +1,7 @@
 import { getTrip } from "@/lib/content";
-import { Timeline } from "@/components/Timeline";
+import { CityList } from "@/components/CityList";
 import { BookingItem } from "@/components/BookingItem";
 import { Banner } from "@/components/Banner";
-import { StaysOverview } from "@/components/StaysOverview";
 
 export default function Home() {
   const trip = getTrip();
@@ -11,7 +10,7 @@ export default function Home() {
     <div className="min-h-full bg-background">
       <Banner src="/banners/tokyo.jpg" alt="" priority />
       <div className="mx-auto max-w-3xl px-6 pt-6 pb-14">
-        <header className="mt-10 mb-20">
+        <header className="mt-10 mb-16">
           <div className="annot uppercase tracking-[0.3em] text-xs">
             Japan · 日本
           </div>
@@ -25,23 +24,29 @@ export default function Home() {
           </div>
         </header>
 
-        <StaysOverview />
+        <CityList trip={trip} />
 
-        <Timeline trip={trip} />
-
-        {trip.bookings.length > 0 && (
-          <section className="mt-20">
-            <h2 className="text-2xl font-serif-jp font-semibold mb-2">
-              往返航班
-            </h2>
-            <span className="annot annot-ja">フライト</span>
-            <div className="mt-4">
-              {trip.bookings.map((b) => (
-                <BookingItem key={b.id} booking={b} />
-              ))}
-            </div>
-          </section>
-        )}
+        {(() => {
+          // Hotels are surfaced inside each stay; here we only show transit
+          // + "其他" (appointments, shuttles, car rental) to avoid duplication.
+          const transit = trip.bookings.filter((b) => b.kind !== "hotel");
+          if (transit.length === 0) return null;
+          return (
+            <section className="mt-20">
+              <h2 className="text-2xl font-serif-jp font-semibold mb-2">
+                交通 & 预约
+              </h2>
+              <span className="annot annot-ja">
+                フライト · 新幹線 · その他
+              </span>
+              <div className="mt-4">
+                {transit.map((b) => (
+                  <BookingItem key={b.id} booking={b} />
+                ))}
+              </div>
+            </section>
+          );
+        })()}
 
         <footer className="mt-24 pt-8 rule text-xs text-muted text-center">
           <span className="vertical-ja inline-block mr-2" aria-hidden>
