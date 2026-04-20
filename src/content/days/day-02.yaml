@@ -1,0 +1,24 @@
+# Day 02 — 2026-12-28 — 第 2 天
+day:
+  id: day-02
+  date: "2026-12-28"
+  city: karuizawa
+  title_zh: 第 2 天
+  activities:
+    - id: day-02-norikura-info-stop
+      place: { ref: norikura-info-center }
+      notes_zh: 前往皮波洛乗鞍的路上短暂停留，补给饮水、吃点东西。
+  bookings:
+    - id: day-02-peepolo-norikura
+      kind: hotel
+      title_zh: "住宿：皮波洛乗鞍（待确认）"
+      start: "2026-12-28"
+      end: "2026-12-29"
+      address:
+        full:
+          zh: 长野县松本市安昙 4306（邮编 390-1513）
+          ja: 〒390-1513 長野県松本市安曇4306
+      googleMapsUrl: https://maps.app.goo.gl/pvGbjzcmBPzgbhno8
+      details_zh: >-
+        《恋爱世纪》女主角理子家的取景地，房间极少、非常抢手、价格较高。
+        需订到 2 间房；日期可视全程安排调整。

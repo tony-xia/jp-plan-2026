@@ -1,0 +1,27 @@
+# Day 17 — 2027-01-12 — 祝津 → 札幌还车 → 洞爷 Windsor
+day:
+  id: day-17
+  date: "2027-01-12"
+  city: hokkaido
+  title_zh: 第 17 天 · 祝津 → 札幌还车 → 洞爷 Windsor
+  intro_zh: >-
+    ★ 顺时针环线收尾：早 Neuschloss 早餐 + 温泉；上午退房，从祝津开到札幌市区租车行还车
+    （~40 km / 45 分钟）。步行 / 出租到 札幌駅，乘 JR 特急 北斗 → 洞爺駅（~2 小时），
+    配合 Windsor 免费接驳巴士发车时间（建议 13:00 / 14:20 / 16:55 其一）。
+    ★ 前一天 18:00 前 从 Neuschloss 那边电话预约接驳。
+  activities:
+    - id: day-17-drive-to-sapporo-dropoff
+      start: "10:00"
+      place: { ref: sapporo-station }
+      notes_zh: 祝津 → 札幌市区租车行还车；步行到札幌駅上车。
+    - id: day-17-toya-station
+      place: { ref: toya-station }
+      notes_zh: JR 洞爺駅 下车，候 Windsor 接驳巴士（约 40 分钟车程到酒店）。
+  bookings:
+    - id: day-17-hokuto-sapporo-toya
+      kind: other
+      title_zh: "JR 特急 北斗：札幌 → 洞爺"
+      start: "2027-01-12"
+      from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+      to: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
+      details_zh: ~2 小时。还车后发车，配合 Windsor 接驳时刻。

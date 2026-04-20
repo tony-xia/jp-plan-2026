@@ -1,0 +1,28 @@
+# Day 08 — 2027-01-03 — 札幌核心日
+day:
+  id: day-08
+  date: "2027-01-03"
+  city: hokkaido
+  title_zh: 第 8 天 · 札幌核心日（夜 2）· 北大 + 二条 + 頭大仏 + 大倉山
+  intro_zh: >-
+    札幌完整一天（车还没取，全程地铁 / 巴士 / 出租）。
+    早上 二条市場 海鲜丼；上午 北海道大学 校园散步；下午 頭大仏（地铁 + 中央巴士 真108，往返 ~2 小时）；
+    黄昏 大倉山 展望台看日落；晚餐 NANDA 海鲜自助 或自由。
+  activities:
+    - id: day-08-nijo-market
+      start: "08:30"
+      place: { ref: nijo-market-sapporo }
+      notes_zh: 早市开到中午前；海鲜丼当早饭。
+    - id: day-08-hokudai
+      place: { ref: hokkaido-university }
+      notes_zh: 札幌駅 北口步行 5 – 10 分钟即到校园。
+    - id: day-08-hill-of-the-buddha
+      place: { ref: hill-of-the-buddha }
+      notes_zh: 冬季拜观 10:00 – 15:00；水庭冬季放空无反射，景色变成佛首 + 白雪。
+    - id: day-08-okurayama
+      place: { ref: okurayama-observatory }
+      notes_zh: 1972 冬奥跳台场地；双人吊椅上展望台看日落。
+    - id: day-08-nanda
+      start: "19:30"
+      place: { ref: seafood-buffet-nanda }
+      notes_zh: 和昨晚蟹本家二选一；提前 2 – 3 周预约。

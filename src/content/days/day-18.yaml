@@ -1,0 +1,20 @@
+# Day 18 — 2027-01-13 — Lake Toya 环湖
+day:
+  id: day-18
+  date: "2027-01-13"
+  city: hokkaido
+  title_zh: 第 18 天 · Lake Toya 环湖一日（Phase 2 最后一夜）
+  intro_zh: >-
+    Windsor 住宿第 2 晚、Phase 2 最后一夜。上午 / 下午借酒店班车或打车跑 Silo 展望台 + 有珠山缆车；
+    如时间 + 体力允许，下午加 登别地狱谷（开车 40 – 50 分钟）。
+    今晚好好享受 Windsor（SPA、晚餐、湖景）；明早（day-19）收拾行李去东京。
+  activities:
+    - id: day-18-silo
+      place: { ref: toyako-silo-observation-deck }
+      notes_zh: 洞爷湖全景免费展望台；冬季营业 8:30 – 17:00。
+    - id: day-18-usuzan
+      place: { ref: usuzan-ropeway }
+      notes_zh: 有珠山缆车上山顶；走到火口原展望台约 7 分钟。冬季外輪山遊歩道封闭。
+    - id: day-18-noboribetsu
+      place: { ref: noboribetsu-jigokudani }
+      notes_zh: 时间允许，下午加 登别地狱谷；傍晚回酒店。

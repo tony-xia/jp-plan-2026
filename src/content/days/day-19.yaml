@@ -1,0 +1,28 @@
+# Day 19 — 2027-01-14 — 洞爷 → 东京
+day:
+  id: day-19
+  date: "2027-01-14"
+  city: tokyo
+  title_zh: 第 19 天 · 洞爷 → 东京（转移日）
+  intro_zh: >-
+    ★ 顺时针重构后：上午 Windsor 退房，班车到 洞爺駅。JR 特急 北斗 → 新函馆北斗（~2.5 小时）→
+    北海道新干线 はやぶさ → 东京（~4 小时）。合计 ~7 小时 + 换乘，略短于旧的札幌直发。
+    Phase 3 首晚晚上在东京涩谷入住。
+  activities:
+    - id: day-19-toya-depart
+      start: "09:00"
+      place: { ref: toya-station }
+      notes_zh: Windsor 早班车到 洞爺駅；前一晚需预约。
+    - id: day-19-tokyo-arrive
+      place: { ref: shibuya-scramble }
+      notes_zh: 入住涩谷基地。晚上近处随便吃。
+  bookings:
+    - id: day-19-toya-tokyo-rail
+      kind: shinkansen
+      title_zh: "特急北斗 + 北海道新干线：洞爷 → 新函馆北斗 → 东京"
+      start: "2027-01-14"
+      from: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
+      to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
+      details_zh: >-
+        ① 特急 北斗 洞爺 → 新函館北斗 ~2.5 小时；② 北海道新干线 はやぶさ 新函館北斗 → 东京 ~4 小时。
+        预约大行李指定席（はやぶさ 必须）。

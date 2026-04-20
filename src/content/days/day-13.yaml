@@ -1,0 +1,19 @@
+# Day 13 — 2027-01-08 — 网走 → 美瑛
+day:
+  id: day-13
+  date: "2027-01-08"
+  city: hokkaido
+  title_zh: 第 13 天 · 网走 → 美瑛（蓝池 + 亮灯夜）
+  intro_zh: >-
+    网走 → 美瑛 ~220 km，冬季 4 – 5 小时（高速线走 R39 → 道央道）。
+    午餐旭川；下午入住美瑛酒店；日落前到 白金青い池 蹲标准 17:00 亮灯（~10 分钟循环灯光 pattern，~21:00 结束）。
+  activities:
+    - id: day-13-drive-to-biei
+      place: { ref: abashiri-city }
+      notes_zh: 早出，午餐旭川 / 上富良野；下午抵美瑛酒店。
+    - id: day-13-blue-pond
+      start: "16:00"
+      place: { ref: shirogane-blue-pond }
+      notes_zh: >-
+        冬季日落后亮灯到 21:00（1 月 ~17:00 开始），日落前 1 小时到位先拍日景 → 接亮灯一次看齐。
+        带三脚架长曝。

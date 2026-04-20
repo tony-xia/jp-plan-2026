@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import yaml from "js-yaml";
 import { Trip, type Day, type CitySegment, type TravelTime } from "./schema";
@@ -10,6 +10,31 @@ function loadYaml<T = unknown>(path: string): T {
   return yaml.load(readFileSync(path, "utf8")) as T;
 }
 
+function loadDayShards(daysDir: string): unknown[] {
+  const files = readdirSync(daysDir)
+    .filter((f) => f.endsWith(".yaml"))
+    .sort(); // day-01.yaml … day-23.yaml lexicographic order matches chronological order
+  return files.map((f) => {
+    const doc = loadYaml<{ day: unknown }>(join(daysDir, f));
+    if (!doc || typeof doc !== "object" || !("day" in doc)) {
+      throw new Error(`Day shard ${f} must contain a top-level 'day:' key`);
+    }
+    return doc.day;
+  });
+}
+
+function assertUnique(ids: string[], label: string) {
+  const seen = new Set<string>();
+  const dupes: string[] = [];
+  for (const id of ids) {
+    if (seen.has(id)) dupes.push(id);
+    seen.add(id);
+  }
+  if (dupes.length > 0) {
+    throw new Error(`Duplicate ${label}(s): ${dupes.join(", ")}`);
+  }
+}
+
 export function getTrip(): Trip {
   if (cached) return cached;
   const root = join(process.cwd(), "src/content");
@@ -18,10 +43,17 @@ export function getTrip(): Trip {
   const bookingsDoc = loadYaml<{ bookings: unknown[] }>(
     join(root, "bookings.yaml"),
   );
+  const days = loadDayShards(join(root, "days"));
+
+  assertUnique(
+    days.map((d) => (d as { id: string }).id),
+    "day id",
+  );
 
   const merged = {
     ...meta,
     bookings: bookingsDoc.bookings,
+    days,
     travelTimes: loadTravelTimes(),
   };
 

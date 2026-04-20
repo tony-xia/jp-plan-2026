@@ -1,0 +1,23 @@
+# Day 01 — 2026-12-27 — 抵达日本 · 新干线至轻井泽取车
+day:
+  id: day-01
+  date: "2026-12-27"
+  city: karuizawa
+  title_zh: 第 1 天 · 抵达日本 · 新干线至轻井泽取车
+  intro_zh: >-
+    早上全员抵达羽田机场会合；从羽田转至东京站，换乘北陆新干线到 軽井沢駅，
+    在 軽井沢駅 附近租车行取车（★ 不在羽田取车）后开往住宿。
+  activities:
+    - id: day-01-haneda-arrival
+      start: "09:00"
+      place: { ref: haneda-airport }
+      notes_zh: 所有人早上抵达羽田机场集合；检查行李后前往东京站。
+    - id: day-01-tokyo-station-transit
+      place: { ref: tokyo-station }
+      notes_zh: 羽田 → 东京站约 30 分钟（单轨 + JR 山手线 或 京急 + JR）；在东京站换乘北陆新干线「あさま / はくたか」。
+    - id: day-01-karuizawa-arrival-rental
+      place: { ref: karuizawa-station }
+      notes_zh: >-
+        抵达 軽井沢駅（东京站出发约 70 – 90 分钟）。
+        ★ 在 軽井沢駅 附近租车行取车（Phase 1 租车点）—— 用户 2026-04-20 明确：不在羽田取车。
+        取车后自驾前往住宿地。

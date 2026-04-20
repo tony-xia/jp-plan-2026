@@ -1,0 +1,31 @@
+# Day 07 — 2027-01-02 — 函馆 → 札幌
+day:
+  id: day-07
+  date: "2027-01-02"
+  city: hokkaido
+  title_zh: 第 7 天 · 函馆 → 札幌（顺时针自驾环线 · 札幌夜 1）
+  intro_zh: >-
+    ★ 2026-04-20 大改 · 顺时针路线起点：上午 JR 特急 北斗 函馆 → 札幌（~3 小时 30 分）。
+    下午抵达札幌、入住市中心酒店。傍晚黄金时段去 白色恋人公园 看工厂 + 亮灯（16:00 – 19:00），
+    晚餐 蟹本家 札幌站本店。今晚是札幌 3 晚中的第 1 晚（车还没取）。
+  activities:
+    - id: day-07-hakodate-to-sapporo
+      start: "09:00"
+      place: { ref: sapporo-station }
+      notes_zh: JR 特急 北斗 函馆 → 札幌 ~3 小时 30 分。预留大行李指定席。
+    - id: day-07-shiroi-koibito
+      start: "15:00"
+      place: { ref: shiroi-koibito-park }
+      notes_zh: 工厂 10:00 – 18:00，付费区最后入园 16:30。亮灯 16:00 – 19:00，看完日落直接出来吃晚饭。
+    - id: day-07-kani-honke
+      start: "18:30"
+      place: { ref: kani-honke-sapporo }
+      notes_zh: 4 人提前 2 – 3 周预订。和 NANDA 二选一今晚。
+  bookings:
+    - id: day-07-hokuto-hakodate-sapporo
+      kind: other
+      title_zh: "JR 特急 北斗：函馆 → 札幌"
+      start: "2027-01-02"
+      from: { zh: 函馆站, en: Hakodate Station, ja: 函館駅 }
+      to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+      details_zh: ~3 小时 30 分。4 人 + 冬装行李 → 预约特大荷物指定席。

@@ -1,0 +1,15 @@
+# Day 06 — 2027-01-01 — 元旦 · 函馆山夜景
+day:
+  id: day-06
+  date: "2027-01-01"
+  city: hokkaido
+  title_zh: 第 6 天 · 元旦 · 函馆山夜景
+  intro_zh: >-
+    元旦白日函馆自由活动；黄昏前上 函馆山 看日落接百万夜景（冬季只能缆车）。
+  activities:
+    - id: day-06-mt-hakodate
+      start: "16:30"
+      place: { ref: mt-hakodate-observatory }
+      notes_zh: >-
+        冬季禁止汽车 / 巴士 / 出租上山，只能缆车。日落约 16:20；提前到山麓站排缆车。
+        保暖必备（厚外套、围巾、手套、帽子）。

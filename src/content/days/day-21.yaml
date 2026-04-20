@@ -1,0 +1,25 @@
+# Day 21 — 2027-01-16 — 车迷日 2 — A PIT 东雲
+day:
+  id: day-21
+  date: "2027-01-16"
+  city: tokyo
+  title_zh: 第 21 天 · 车迷日 2 —— A PIT 东雲 Autobacs + 权八晚餐（周六）
+  intro_zh: >-
+    2027-01-16 是周六 —— 东京 5 晚的第二个完整日定为 Autobacs 车迷日。上午/中午在 A PIT 东雲 超级汽配
+    留足 ≥ 2 小时；下午有时间的话回表参道区顺访根津美术馆；晚上 Gonpachi 收官。
+  activities:
+    - id: day-21-autobacs
+      start: "10:00"
+      place: { ref: a-pit-autobacs-shinonome }
+      notes_zh: >-
+        ★ 用户要求至少 2 小时。全年 9:00 – 22:00 营业；24 小时停车。
+        りんかい線 東雲駅 步行 10 分钟；从涩谷 约 30 – 40 分钟（地铁 / 车）。
+        预算 10:00 – 13:00，含挑高中庭星巴克午饭 + 汽车杂志 TSUTAYA。
+    - id: day-21-nezu-museum
+      start: "15:00"
+      place: { ref: nezu-museum }
+      notes_zh: 时间允许的话回表参道区中途插入根津美术馆看东亚古美术 —— 与用户「古代遗产」兴趣共鸣。可跳过。
+    - id: day-21-gonpachi
+      start: "19:30"
+      place: { ref: gonpachi-nishiazabu }
+      notes_zh: Kill Bill 原型居酒屋。4 人 2 小时席，提前 1 – 2 周预订。

@@ -1,0 +1,22 @@
+# Day 15 — 2027-01-10 — Rusutsu 双线环游
+day:
+  id: day-15
+  date: "2027-01-10"
+  city: hokkaido
+  title_zh: 第 15 天 · Rusutsu 双线环游（中山峠 + ニセコ）
+  intro_zh: >-
+    ★ 2026-04-20 用户新加：开车去 Rusutsu 留寿都，去程和回程走不同路看不同雪景。
+    去 中山峠（R230，羊蹄山 + あげいも）→ Rusutsu 中午午餐 / 雪上活动 → 回 ニセコ + R5 余市沿海 → 小樽。
+    ~7 – 9 小时循环；根据天气 / 光线可反向（ニセコ 去，中山峠 回程日落）。
+  activities:
+    - id: day-15-nakayama-toge
+      start: "09:30"
+      place: { ref: nakayama-toge }
+      notes_zh: Rusutsu 循环去程必停点；羊蹄山 + 名产「あげいも」。
+    - id: day-15-rusutsu
+      start: "11:00"
+      place: { ref: rusutsu-resort }
+      notes_zh: 度假村基地午餐 + 雪上活动 + 散步。~15:00 出发走 ニセコ 回程。
+    - id: day-15-return-to-otaru
+      place: { ref: otaru-canal }
+      notes_zh: 回小樽 ~17:30 – 18:00；若有余力再刷一遍运河夜景。

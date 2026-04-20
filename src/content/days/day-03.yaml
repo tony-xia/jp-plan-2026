@@ -1,0 +1,24 @@
+# Day 03 — 2026-12-29 — 车山高原 + 高原教会 + 下午还车
+day:
+  id: day-03
+  date: "2026-12-29"
+  city: karuizawa
+  title_zh: 第 3 天 · 车山高原 + 高原教会 + 下午还车
+  intro_zh: >-
+    ★ Phase 1 最后一个有车日 —— 上午 / 中午前开车跑车山高原；午后返程顺路停 軽井沢高原教会；
+    下午回到预定还车地点（近住宿步行可达）完成还车。day 04 清早直接拉行李到 軽井沢駅 换乘北陆新干线出发（长途移动日）。
+  activities:
+    - id: day-03-kurumayama
+      place: { ref: kurumayama-skypark }
+      notes_zh: 不滑雪，乘缆车上车山山顶看雪景与八岳 / 富士山 / 阿尔卑斯山脉全景。上午出发，确保下午有时间回轻井泽还车。
+    - id: day-03-karuizawa-kogen-church
+      place: { ref: karuizawa-kogen-church }
+      notes_zh: >-
+        车山高原下山回轻井泽途中顺路停 星野度假区内的历史教会。2026-04-20 从 day-04 移来 ——
+        因 day-04 整天是 轻井泽 → 函馆 的新干线移动日，不再有时间在 轻井泽 内活动。趁车还在今天先看。
+    - id: day-03-car-return
+      start: "17:00"
+      place: { ref: karuizawa-station }
+      notes_zh: >-
+        ★ Phase 1 租车还车 —— 軽井沢駅 附近租车行，选步行可达住宿的分店；否则预约出租回住宿。
+        时间定在傍晚，Kurumayama + 高原教会 跑完后交车。还车后晚上留在住宿整理行李。

@@ -1,0 +1,13 @@
+# Day 05 — 2026-12-31 — 跨年夜 · 函馆
+day:
+  id: day-05
+  date: "2026-12-31"
+  city: hokkaido
+  title_zh: 第 5 天 · 跨年夜 · 函馆
+  intro_zh: >-
+    函馆白日 + 跨年夜。昨晚长途移动后，今天在函馆休整+游览：早上朝市海鲜丼；
+    白天元町坂 + 红砖仓库；傍晚视精力挑一个时段吃跨年大餐。
+  activities:
+    - id: day-05-hakodate-day
+      place: { ref: hakodate-station }
+      notes_zh: 以函馆駅为中心活动：朝市（海鲜丼）、元町坂、金森红砖仓库、湯の川 / ベイエリア。跨年晚上留在函馆。

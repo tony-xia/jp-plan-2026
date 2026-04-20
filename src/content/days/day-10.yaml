@@ -1,0 +1,22 @@
+# Day 10 — 2027-01-05 — 札幌取车 → 稚内
+day:
+  id: day-10
+  date: "2027-01-05"
+  city: hokkaido
+  title_zh: 第 10 天 · 札幌取车 → 稚内（长途日）
+  intro_zh: >-
+    ★ 顺时针环线第 1 天（长途）：早上札幌市区租车行取车，然后一路北上开到稚内
+    （~330 km / 冬季 5 – 6 小时 · 道央道 + R40）。
+    中午在岩见沢 / 旭川 吃午饭；傍晚抵达 Surfeel 入住。
+    体力充沛再加 ノシャップ岬 日本海夕阳（晴天能看见利尻富士）；否则休整为明天的宗谷岬做准备。
+  activities:
+    - id: day-10-sapporo-pickup
+      start: "09:00"
+      place: { ref: sapporo-station }
+      notes_zh: 札幌市区租车行取车（站前 / 薄野），出发时间决定当日行程。
+    - id: day-10-drive-to-wakkanai
+      place: { ref: surfeel-hotel-wakkanai }
+      notes_zh: 札幌 → 稚内 道央道 + R40，冬季估 5 – 6 小时；傍晚到酒店办理入住。
+    - id: day-10-noshappu-cape
+      place: { ref: noshappu-cape }
+      notes_zh: 如到得早有余力，黄昏跑一趟 ノシャップ岬 看日本海夕阳。否则跳过。
