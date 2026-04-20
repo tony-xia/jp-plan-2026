@@ -73,6 +73,19 @@ Phase 2 is a **winter self-drive leg** from Sapporo onward, so snow-driving prep
 - **Car pickup:** book a Sapporo-city rental branch (Sapporo Station / Susukino). Pickup on the morning of night-3 → day 4 of the leg, so the long Wakkanai drive leaves with full daylight.
 - **Activity fit:** 3 nights = 2 full sightseeing days + pickup morning. The Sapporo must-visit list below fits cleanly at this allocation — no forced drop. ROYCE' Town (rail day out) and 頭大仏 (real travel time) are both doable without compression.
 
+### NYE (Dec 31) + 元旦 (Jan 1) activities in front-Sapporo — user list (2026-04-20)
+
+User-requested NYE/元旦 program to slot into the 3-night front-Sapporo window:
+
+- **NYE (Dec 31):**
+  - **Sapporo White Illumination (さっぽろホワイトイルミネーション)** + **Munich Christmas Market (ミュンヘン・クリスマス市 in Sapporo)** — both centered on 大通公園. ⚠️ **Date risk:** the 大通会場 (sites 1-2-3-4-5) illumination and the Munich Market traditionally wrap **around Dec 24–25** each year — they are likely **already over** by NYE. The **駅前通会場 / 南一条通会場** portions of the illumination run Dec → Feb and should still be live on Dec 31. **Verify 2026/27 end dates** on the official 札幌観光協会 page before committing.
+  - **Countdown at Odori Park / Sapporo TV Tower (さっぽろテレビ塔)** — TV Tower runs a paid late-night special event most years (extended hours past midnight). Verify 2026→27 line-up; book tower-top tickets if that's the format.
+  - **Food — either/or:** 二条市場 seafood breakfast (already in plan) *or* 札幌ラーメン (Sapporo miso ramen) to warm up. NYE evening — many shops close early; a ramen shop near 狸小路 / 薄野 is the safer warm-up fallback if the pre-booked NANDA buffet gets cancelled.
+
+- **元旦 (Jan 1) morning — Hatsuhinode (初日の出 / first sunrise) + Hatsumode (初詣 / first shrine visit):**
+  - **Hatsuhinode:** target **JR Tower T38 (JRタワー展望室 タワー・スリーエイト)** on top of JR 札幌駅 — on 元旦 the deck opens extra early (~6:00) for Hatsuhinode viewers. Sapporo sunrise ~7:00. Fallback: Mt. Moiwa (藻岩山) if booked a dedicated 初日の出 ropeway run (they sometimes sell this as a paid package) or if weather favors the summit.
+  - **Hatsumode:** **Hokkaido Jingu (北海道神宮)** in 円山公園 — the central Sapporo shrine for 三が日 (first-3-days) initial worship. Peak crowds 10:00–14:00; arrive early (pre-9:00) to thin the queue. Already in plan as day-06 morning; next iteration should use 北海道神宮 as its own Place (currently the day-06 activity borrows hokkaido-university as a placeholder — promote to proper place entry).
+
 ## Sapporo → Wakkanai drive (day 1 of loop)
 
 - **Realistic distance flag:** Sapporo → Wakkanai is **~330 km / ~4 hr** in summer on Dōō Expressway + Route 40; in winter with snow/ice and coastal wind gusts budget **5–6 hr**. Start early; this is the longest single drive in the new plan.
