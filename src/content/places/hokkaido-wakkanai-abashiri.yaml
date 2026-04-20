@@ -1,5 +1,17 @@
 # Hokkaido · Wakkanai + Abashiri + coastal drive — Surfeel, Cape Sōya, 流冰馆, 通天之路, 知床.
 places:
+  - id: ryuhyo-monogatari-train
+    name:
+      zh: 流冰物语号 观光列车
+      en: Ryuhyo Monogatari Train
+      ja: 流氷物語号
+    kind: other
+    bookingUrl: https://www.jrhokkaido.co.jp/global/english/travel/tour-train/tour-train02.html
+    notes_zh: >-
+      JR 北海道 冬季观光列车，网走駅 ↔ 知床斜里駅，每年 1–2 月运行，车窗外鄂霍次克流冰 + 远处知床连峰，
+      有机会看到白尾海雕、海豹。⚠️ 可选活动：我们 Phase 2 的网走日大约在 2027-01-06/07，
+      列车季节通常 1 月下旬起跑 — 预订前请到 JR 北海道官网确认 2027 年的开季日期。
+
   - id: abashiri-city
     name:
       zh: 网走市

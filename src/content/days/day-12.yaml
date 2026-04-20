@@ -24,3 +24,8 @@ day:
     - id: day-12-masuura
       place: { ref: masuura-viewpoint-parking }
       notes_zh: 回网走前最后一个观景停车带。
+    - id: day-12-ryuhyo-monogatari-train
+      place: { ref: ryuhyo-monogatari-train }
+      notes_zh: >-
+        可选活动：如果 2027 年 1 月上旬流冰物语号已开季（通常 1 月下旬起），可以替代或串联 知床斜里 方向的自驾 —
+        网走 → 知床斜里 约 50 分钟车程、列车约 1 小时。预订前到 JR 北海道官网确认当年开季日期。
