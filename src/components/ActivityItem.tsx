@@ -1,6 +1,6 @@
-import type { Activity, Trip } from "@/lib/schema";
+import type { Activity, Day, Trip } from "@/lib/schema";
 import { resolvePlace } from "@/lib/schema";
-import { findTravelTime } from "@/lib/content";
+import { findTravelTime, findCoveringBooking } from "@/lib/content";
 import { TriName } from "./TriName";
 import { AddressLinks } from "./AddressLinks";
 import { PhotoGallery } from "./PhotoGallery";
@@ -9,17 +9,23 @@ import { t } from "@/lib/strings";
 export function ActivityItem({
   activity,
   nextActivity,
+  day,
   trip,
 }: {
   activity: Activity;
   nextActivity?: Activity;
+  day: Day;
   trip: Trip;
 }) {
   const place = resolvePlace(activity.place, trip);
   const timeLabel = [activity.start, activity.end].filter(Boolean).join(" – ");
   const nextPlace = nextActivity ? resolvePlace(nextActivity.place, trip) : null;
-  const travel =
+  const coveredBy =
     nextPlace && nextPlace.id !== place.id
+      ? findCoveringBooking(trip, day, place.id, nextPlace.id)
+      : undefined;
+  const travel =
+    nextPlace && nextPlace.id !== place.id && !coveredBy
       ? findTravelTime(trip, place.id, nextPlace.id)
       : undefined;
 

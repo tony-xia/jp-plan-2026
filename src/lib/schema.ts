@@ -52,6 +52,12 @@ export type Activity = z.infer<typeof Activity>;
 export const BookingKind = z.enum(["flight", "hotel", "shinkansen", "other"]);
 export type BookingKind = z.infer<typeof BookingKind>;
 
+export const CoveredLeg = z.object({
+  from: z.string().min(1),
+  to: z.string().min(1),
+});
+export type CoveredLeg = z.infer<typeof CoveredLeg>;
+
 export const Booking = z.object({
   id: z.string().min(1),
   kind: BookingKind,
@@ -67,6 +73,7 @@ export const Booking = z.object({
   photos: z.array(z.string().min(1)).optional(),
   bookingUrl: z.string().url().optional(),
   airbnbUrl: z.string().url().optional(),
+  coveredLegs: z.array(CoveredLeg).optional(),
 });
 export type Booking = z.infer<typeof Booking>;
 

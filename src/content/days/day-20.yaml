@@ -25,6 +25,8 @@ day:
       start: "2027-01-15"
       from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
       to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
+      coveredLegs:
+        - { from: sapporo-station, to: shibuya-scramble }
       details_zh: >-
         ① 特急 北斗 札幌 → 新函館北斗 ~3.5 小时；② 北海道新干线 はやぶさ 新函館北斗 → 东京 ~4 小时。
         预约大行李指定席（はやぶさ 必须）。坏天气备选：新千歳 → 羽田 飞行。

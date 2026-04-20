@@ -18,6 +18,10 @@ bookings:
     from: { zh: 东京羽田机场, en: Haneda Airport, ja: 東京国際空港（羽田） }
     to: { zh: 函馆站, en: Hakodate Station, ja: 函館駅 }
     start: "2026-12-27"
+    coveredLegs:
+      - { from: haneda-airport, to: tokyo-station }
+      - { from: tokyo-station, to: shin-hakodate-hokuto-station }
+      - { from: shin-hakodate-hokuto-station, to: hakodate-station }
     details_zh: >-
       3 段行程：① 羽田 → 东京站（单轨 / 京急 + JR 山手，~30 – 40 分）；
       ② 东京站 → 新函館北斗（東北・北海道新幹線「はやぶさ」，~4 小时）；

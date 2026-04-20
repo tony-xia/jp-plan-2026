@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import yaml from "js-yaml";
-import { Trip, type Day, type CitySegment, type TravelTime } from "./schema";
+import { Trip, type Day, type CitySegment, type TravelTime, type Booking } from "./schema";
 import { loadTravelTimes } from "./travel-times";
 
 let cached: Trip | null = null;
@@ -96,6 +96,20 @@ export function findTravelTime(
 ): TravelTime | undefined {
   return (trip.travelTimes ?? []).find(
     (t) => t.from === fromPlaceId && t.to === toPlaceId,
+  );
+}
+
+export function findCoveringBooking(
+  trip: Trip,
+  day: Day,
+  fromPlaceId: string,
+  toPlaceId: string,
+): Booking | undefined {
+  const candidates: Booking[] = [...(day.bookings ?? []), ...trip.bookings];
+  return candidates.find((b) =>
+    (b.coveredLegs ?? []).some(
+      (l) => l.from === fromPlaceId && l.to === toPlaceId,
+    ),
   );
 }
 

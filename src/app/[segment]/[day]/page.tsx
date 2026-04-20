@@ -76,6 +76,7 @@ export default async function DayPage({
                   key={a.id}
                   activity={a}
                   nextActivity={day.activities[i + 1]}
+                  day={day}
                   trip={trip}
                 />
               ))}
