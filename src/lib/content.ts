@@ -6,21 +6,31 @@ import { loadTravelTimes } from "./travel-times";
 
 let cached: Trip | null = null;
 
+function loadYaml<T = unknown>(path: string): T {
+  return yaml.load(readFileSync(path, "utf8")) as T;
+}
+
 export function getTrip(): Trip {
   if (cached) return cached;
-  const file = join(process.cwd(), "src/content/trip.yaml");
-  const raw = readFileSync(file, "utf8");
-  const parsed = yaml.load(raw);
-  const merged =
-    parsed && typeof parsed === "object"
-      ? { ...(parsed as object), travelTimes: loadTravelTimes() }
-      : parsed;
+  const root = join(process.cwd(), "src/content");
+
+  const meta = loadYaml<Record<string, unknown>>(join(root, "trip.yaml"));
+  const bookingsDoc = loadYaml<{ bookings: unknown[] }>(
+    join(root, "bookings.yaml"),
+  );
+
+  const merged = {
+    ...meta,
+    bookings: bookingsDoc.bookings,
+    travelTimes: loadTravelTimes(),
+  };
+
   const result = Trip.safeParse(merged);
   if (!result.success) {
     const issues = result.error.issues
       .map((i) => `  - ${i.path.join(".")}: ${i.message}`)
       .join("\n");
-    throw new Error(`Invalid trip.yaml:\n${issues}`);
+    throw new Error(`Invalid trip content:\n${issues}`);
   }
   cached = result.data;
   return cached;
