@@ -5,22 +5,27 @@ import { TravelTime } from "./schema";
 const SECTION_HEADER = "## Travel times (auto-generated — do not edit by hand)";
 const SECTION_MARKER_END = "<!-- /travel-times -->";
 
-// Parses the auto-generated table in docs/requirements.md and returns the
-// successful entries. Errored rows (marked with ⚠️) are skipped. Returns [] if
-// the section is missing — the site still builds without travel times.
+// Parses the auto-generated table in docs/requirements/travel-times.md and
+// returns the successful entries. Errored rows (marked with ⚠️) are skipped.
+// Throws if the file is missing or the section cannot be located — a silent
+// empty result would mask a path regression after the content split.
 export function loadTravelTimes(): TravelTime[] {
-  const reqPath = join(process.cwd(), "docs/requirements.md");
-  if (!existsSync(reqPath)) return [];
+  const reqPath = join(process.cwd(), "docs/requirements/travel-times.md");
+  if (!existsSync(reqPath)) {
+    throw new Error(`Travel-times file missing: ${reqPath}`);
+  }
   const md = readFileSync(reqPath, "utf8");
   const start = md.indexOf(SECTION_HEADER);
-  if (start < 0) return [];
+  if (start < 0) {
+    throw new Error(
+      `Travel-times header not found in ${reqPath}; expected "${SECTION_HEADER}"`,
+    );
+  }
   const endMarker = md.indexOf(SECTION_MARKER_END, start);
   const end = endMarker === -1 ? md.length : endMarker;
   const section = md.slice(start, end);
 
   const out: TravelTime[] = [];
-  // Row format emitted by fetch-travel-times.mjs:
-  // | `from-id` → `to-id` | Label → Label | **42 min** / 12.3 km |
   const rowRegex =
     /\|\s*`([a-z0-9-]+)`\s*→\s*`([a-z0-9-]+)`\s*\|[^|]+\|\s*\*\*(\d+)\s*min\*\*\s*\/\s*([\d.]+)\s*km\s*\|/g;
   let m: RegExpExecArray | null;
