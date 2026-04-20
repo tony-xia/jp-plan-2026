@@ -2,6 +2,7 @@ import { getTrip } from "@/lib/content";
 import { Timeline } from "@/components/Timeline";
 import { BookingItem } from "@/components/BookingItem";
 import { Banner } from "@/components/Banner";
+import { StaysOverview } from "@/components/StaysOverview";
 
 export default function Home() {
   const trip = getTrip();
@@ -21,10 +22,10 @@ export default function Home() {
             <span>
               {trip.startDate} — {trip.endDate}
             </span>
-            <span>·</span>
-            <span>{trip.travelers.join(" / ")}</span>
           </div>
         </header>
+
+        <StaysOverview />
 
         <Timeline trip={trip} />
 
