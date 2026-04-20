@@ -1,80 +1,65 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Guidance for Claude Code in this repo.
 
-## Trip requirements — read first, keep updated
+## Trip requirements — source of truth
 
-[`docs/requirements.md`](docs/requirements.md) is the index and decision log (trip basics, night allocation, group composition). The phase-specific requirements live in [`docs/requirements/phase-1-karuizawa.md`](docs/requirements/phase-1-karuizawa.md), [`docs/requirements/phase-2-hokkaido.md`](docs/requirements/phase-2-hokkaido.md), and [`docs/requirements/phase-3-tokyo.md`](docs/requirements/phase-3-tokyo.md). Treat the whole set as the living source of truth for itinerary decisions.
+Index/decision log: [`docs/requirements.md`](docs/requirements.md). Phase files: [`phase-1-karuizawa.md`](docs/requirements/phase-1-karuizawa.md), [`phase-2-hokkaido.md`](docs/requirements/phase-2-hokkaido.md), [`phase-3-tokyo.md`](docs/requirements/phase-3-tokyo.md). Cross-phase open items: [`open-questions.md`](docs/requirements/open-questions.md).
 
-**Before** editing any file under [`src/content/`](src/content/): read the relevant phase file(s) and reconcile the change against every requirement. If the change conflicts with a requirement, stop and flag it to the user — do not silently override.
+- **Before editing `src/content/`**: read the relevant phase file(s), reconcile against every requirement. If the change conflicts, stop and flag — never silently override.
+- **When the user states/refines/resolves/rules-out a requirement**: update the matching phase file *first*, same turn, before any YAML edit.
+- **Google Maps short-links** (`maps.app.goo.gl/...`) from the user: store verbatim in the matching phase file. These pins override any address-string search.
+- Surface YAML/requirement conflicts — don't quietly fix either side.
 
-**Whenever** the user states a new requirement, refines an existing one, resolves an open question, or rules something out: update the matching phase file (or [`docs/requirements/open-questions.md`](docs/requirements/open-questions.md) for cross-phase items) *first*, in the same turn, *before* touching any YAML or other file. Capture requirements immediately so future sessions inherit them.
+## Stack & commands
 
-**Every Google Maps short-link (`maps.app.goo.gl/...`) the user sends must be stored in the matching phase file** against the place it describes, verbatim. Never drop one, never substitute your own. These pins override any address-string search.
-
-If you notice a requirement the YAML violates, surface it rather than quietly "fixing" either side.
-
-## Next.js version notice
-
-This is **Next.js 16** with the App Router. APIs may differ from older training data. When in doubt, consult `node_modules/next/dist/docs/` and heed deprecation notices. See [AGENTS.md](AGENTS.md).
-
-## Commands
+**Next.js 16** (App Router). When APIs differ from training data, check `node_modules/next/dist/docs/`. See [AGENTS.md](AGENTS.md).
 
 ```bash
-npm install              # install deps
-npm run dev              # dev server on :3000
-npm run build            # production build → .next/standalone/
-npm run start            # run the production build
-npm run typecheck        # tsc --noEmit
-npm run lint             # ESLint
+npm install
+npm run dev        # :3000
+npm run build      # → .next/standalone/
+npm run start
+npm run typecheck
+npm run lint
 ```
 
-## Travel times
+## Architecture
 
-Drive times between places live in a delimited section of `docs/requirements/travel-times.md` (between `## Travel times (auto-generated — do not edit by hand)` and `<!-- /travel-times -->`). Claude populates this by directly querying OSM public services (Nominatim for geocoding, OSRM demo for routing) — no runtime or build-time API calls, no keys, no pipeline script. `src/lib/travel-times.ts` parses the section at build time; `src/lib/content.ts` merges the entries into the returned `Trip` under `travelTimes`; `ActivityItem` renders `→ 下一站 X min · Y km` when a matching pair exists. Ask Claude to refresh the table when the itinerary changes.
+Read-only Japan-trip itinerary site. UI in Chinese; proper nouns render tri-lingually (zh + en + ja) so users can show their phone to locals.
 
-## Architecture in one page
+**Content → schema → render.** Source of truth: [`src/content/`](src/content/) — `trip.yaml` (metadata + segments), `bookings.yaml` (trip-level), `places/*.yaml` (by geographic cluster), `days/day-NN.yaml` (one per day). Build-time assembly in [`src/lib/content.ts`](src/lib/content.ts), validated by Zod schema in [`src/lib/schema.ts`](src/lib/schema.ts). Fully static via `generateStaticParams` — no runtime API/DB/auth.
 
-A **read-only** Japan-trip itinerary site. UI is Chinese; proper nouns (places, dishes, addresses) render tri-lingually (zh primary + en + ja inline) so users can point their phone at locals.
-
-**Content → schema → render.** The single source of truth is the content tree under [`src/content/`](src/content/): `trip.yaml` (metadata + segments), `bookings.yaml` (trip-level bookings), `places/*.yaml` (places grouped by geographic cluster), and `days/day-NN.yaml` (one file per day). At build time, [`src/lib/content.ts`](src/lib/content.ts) assembles these into a single `Trip` and validates against the Zod schema in [`src/lib/schema.ts`](src/lib/schema.ts). Pages are fully statically rendered via `generateStaticParams` — there is no runtime API, DB, or auth.
-
-**Key entities** (all have stable `id` for future comments / AI edits):
-
-- `Trip` → `segments[]` (cities) → `days[]` (referenced by id)
+**Entities** (all have stable `id`):
+- `Trip` → `segments[]` → `days[]`
 - `Day` → `activities[]` + day-level `bookings[]`
-- `Activity.place` is either inline `Place` OR `{ ref: "place-id" }` into `Trip.places` (shared library, e.g. the hotel you return to each night). Use `resolvePlace()`.
-- `TriName = { zh, en?, ja }` — `en` optional, others required. Always render via the `<TriName>` component.
+- `Activity.place` = inline `Place` OR `{ ref: "place-id" }` into `Trip.places`. Use `resolvePlace()`.
+- `TriName = { zh, en?, ja }` — render via `<TriName>`.
 
-**Routes:**
+**Routes:** `/` (home/timeline) · `/[segment]/[day]`.
 
-- `/` — home, timeline, trip-level bookings
-- `/[segment]/[day]` — day detail (e.g. `/tokyo/day-01`)
+**Visual language**: editorial/Japanese-restrained — warm paper `#FAF7F2`, Noto Serif JP headings, hanko seal for day numbers, `writing-mode: vertical-rl` accents. See [`src/app/globals.css`](src/app/globals.css) (Tailwind v4 `@theme inline`).
 
-**Visual language** is editorial/Japanese-restrained (not kitsch): warm paper `#FAF7F2` base, Noto Serif JP for headings, hanko (red square seal) for day numbers, `writing-mode: vertical-rl` accents for Japanese text. Defined in [`src/app/globals.css`](src/app/globals.css) via Tailwind v4 `@theme inline`.
+**Map links**: every `Address` → Apple Maps + Google Maps (JP address string) + Gaode (ZH address string). All queries prefixed with `日本 `. See [`src/lib/maps.ts`](src/lib/maps.ts).
 
-**Map links** — every `Address` renders three buttons: Apple Maps and Google Maps (queried with the **Japanese** address string) plus Gaode / 高德地图 (queried with the **Chinese** address string, for Chinese-app users). All queries are prefixed with `日本 ` to disambiguate the country. See [`src/lib/maps.ts`](src/lib/maps.ts).
-
-## Deployment
-
-Azure Web App **`jp-plan`** (`jp-plan.azurewebsites.net`) — **Linux, Container mode**. [`.github/workflows/azure-deploy.yml`](.github/workflows/azure-deploy.yml) on push to `main` builds the [`Dockerfile`](Dockerfile) multi-stage image, pushes to **GHCR** (`ghcr.io/<owner>/jp-plan-2026:<sha>`), and points the Web App at the new tag via `azure/webapps-deploy@v3`. The container listens on `PORT=8080`; the Web App must have `WEBSITES_PORT=8080` in its app settings. Next.js `output: "standalone"` in [`next.config.ts`](next.config.ts) produces the minimal `server.js` bundle the runner stage copies in.
+**Travel times**: delimited section in [`docs/requirements/travel-times.md`](docs/requirements/travel-times.md) (between `## Travel times (auto-generated — do not edit by hand)` and `<!-- /travel-times -->`). Claude populates via OSM (Nominatim + OSRM demo) — no keys, no build/runtime calls. Parsed by [`src/lib/travel-times.ts`](src/lib/travel-times.ts), merged in [`src/lib/content.ts`](src/lib/content.ts), rendered by `ActivityItem` as `→ 下一站 X min · Y km`. Ask Claude to refresh when the itinerary changes.
 
 ## Editing guidelines
 
-- **Adding / editing a single day** = edit `src/content/days/day-NN.yaml` only. The file's top-level key is `day:`; schema fields match the `Day` Zod type. Day-level `bookings:` live inside the day file.
-- **Adding a new place** = put it in the matching `src/content/places/<shard>.yaml` (geographic cluster). Transit hubs referenced by multiple phases go in `places/00-transit.yaml`. Place `id`s must be globally unique — the loader fails the build on collisions. Day files reference places via `{ ref: "place-id" }`.
-- **Adding a trip-level booking** (flight, trans-segment shinkansen, hotel master entry) = edit `src/content/bookings.yaml`. Day-level bookings stay inside the matching day file.
-- **Adding a segment or changing trip metadata** = edit `src/content/trip.yaml`. This file now only holds metadata (`title_zh`, `travelers`, `startDate`, `endDate`) and `segments:`. The build will fail loudly if the schema is violated.
-- **Adding a UI string** → `src/lib/strings.ts` (zh only).
-- **Never** render a proper noun without `<TriName>` — skipping annotations defeats the purpose of the site.
-- **Every address** gets `<AddressLinks>` — not a plain text rendering.
-- **When a phase file under `docs/requirements/` has a specific Google Maps link for a place** (e.g. `[Google Maps](https://maps.app.goo.gl/...)`), mirror it onto **both** the matching `Place.googleMapsUrl` field **and** any `Booking.googleMapsUrl` that uses the same address. The user-verified pin overrides the address-string search that the Google button would otherwise generate. Apple Maps and Gaode still derive from the address. Bookings render via `BookingItem` which only honors `booking.googleMapsUrl`, not the library Place pin — so the mirror must be on the booking itself, not just the Place.
-- **Keep render pure.** React 19 compiler flags reassigned variables during render. Precompute indices/maps before the JSX (see `Timeline.tsx` for the pattern).
+- **Single day** → edit `src/content/days/day-NN.yaml` only (top-level key `day:`; day-level `bookings:` live here).
+- **New place** → `src/content/places/<shard>.yaml` (geographic cluster). Shared transit hubs → `places/00-transit.yaml`. Place `id`s must be globally unique (loader fails the build on collisions). Day files reference via `{ ref: "place-id" }`.
+- **Trip-level booking** (flight, inter-segment shinkansen, hotel master) → `src/content/bookings.yaml`. Day-level bookings stay in the day file.
+- **Segment / trip metadata** → `src/content/trip.yaml` (only `title_zh`, `travelers`, `startDate`, `endDate`, `segments:`).
+- **UI string** → `src/lib/strings.ts` (zh only).
+- **Proper nouns** always use `<TriName>`. **Addresses** always use `<AddressLinks>`.
+- **User-verified Google Maps pins**: mirror onto both `Place.googleMapsUrl` *and* any `Booking.googleMapsUrl` with the same address. `BookingItem` only honors `booking.googleMapsUrl`, not the library Place pin — so bookings need their own copy.
+- **Keep render pure** — React 19 compiler flags reassigned variables in render. Precompute indices/maps before JSX (see `Timeline.tsx`).
 
-## Design spec
+## Deployment
 
-Full design: [`docs/superpowers/specs/2026-04-19-jp-itinerary-design.md`](docs/superpowers/specs/2026-04-19-jp-itinerary-design.md). Includes rationale for tri-lingual labels, phase-2 hints (comments, AI chat, Postgres migration), and the YAGNI list.
+Azure Web App **`jp-plan`** (`jp-plan.azurewebsites.net`), Linux/Container mode. [`.github/workflows/azure-deploy.yml`](.github/workflows/azure-deploy.yml) on push to `main` builds [`Dockerfile`](Dockerfile) → GHCR (`ghcr.io/<owner>/jp-plan-2026:<sha>`) → `azure/webapps-deploy@v3`. Container listens on `PORT=8080`; Web App needs `WEBSITES_PORT=8080`. Next.js `output: "standalone"` ([`next.config.ts`](next.config.ts)) produces the minimal `server.js` bundle.
 
-## Browser screenshots — always under `.playwright/`
+## Misc
 
-When taking browser screenshots with the Playwright MCP (`mcp__playwright__browser_take_screenshot`), **always pass a `filename` that begins with `.playwright/`** — e.g. `.playwright/home-viewport.jpeg`. Never let a screenshot land at the repo root or any other path. The `.playwright/` folder is gitignored; do not commit screenshot artifacts.
+- **Design spec**: [`docs/superpowers/specs/2026-04-19-jp-itinerary-design.md`](docs/superpowers/specs/2026-04-19-jp-itinerary-design.md).
+- **Playwright screenshots**: `filename` must start with `.playwright/` (gitignored, never committed).
