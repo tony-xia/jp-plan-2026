@@ -37,7 +37,7 @@ Drive times between places live in a delimited section of `docs/requirements/tra
 
 A **read-only** Japan-trip itinerary site. UI is Chinese; proper nouns (places, dishes, addresses) render tri-lingually (zh primary + en + ja inline) so users can point their phone at locals.
 
-**Content → schema → render.** The single source of truth is [`src/content/trip.yaml`](src/content/trip.yaml). At build time, [`src/lib/content.ts`](src/lib/content.ts) reads it and validates against the Zod schema in [`src/lib/schema.ts`](src/lib/schema.ts). Pages are fully statically rendered via `generateStaticParams` — there is no runtime API, DB, or auth.
+**Content → schema → render.** The single source of truth is the content tree under [`src/content/`](src/content/): `trip.yaml` (metadata + segments), `bookings.yaml` (trip-level bookings), `places/*.yaml` (places grouped by geographic cluster), and `days/day-NN.yaml` (one file per day). At build time, [`src/lib/content.ts`](src/lib/content.ts) assembles these into a single `Trip` and validates against the Zod schema in [`src/lib/schema.ts`](src/lib/schema.ts). Pages are fully statically rendered via `generateStaticParams` — there is no runtime API, DB, or auth.
 
 **Key entities** (all have stable `id` for future comments / AI edits):
 
@@ -61,11 +61,14 @@ Azure Web App **`jp-plan`** (`jp-plan.azurewebsites.net`) — **Linux, Container
 
 ## Editing guidelines
 
-- **Adding a day / place / booking** = edit `trip.yaml` only. The build will fail loudly if the schema is violated.
+- **Adding / editing a single day** = edit `src/content/days/day-NN.yaml` only. The file's top-level key is `day:`; schema fields match the `Day` Zod type. Day-level `bookings:` live inside the day file.
+- **Adding a new place** = put it in the matching `src/content/places/<shard>.yaml` (geographic cluster). Transit hubs referenced by multiple phases go in `places/00-transit.yaml`. Place `id`s must be globally unique — the loader fails the build on collisions. Day files reference places via `{ ref: "place-id" }`.
+- **Adding a trip-level booking** (flight, trans-segment shinkansen, hotel master entry) = edit `src/content/bookings.yaml`. Day-level bookings stay inside the matching day file.
+- **Adding a segment or changing trip metadata** = edit `src/content/trip.yaml`. This file now only holds metadata (`title_zh`, `travelers`, `startDate`, `endDate`) and `segments:`. The build will fail loudly if the schema is violated.
 - **Adding a UI string** → `src/lib/strings.ts` (zh only).
 - **Never** render a proper noun without `<TriName>` — skipping annotations defeats the purpose of the site.
 - **Every address** gets `<AddressLinks>` — not a plain text rendering.
-- **When `docs/requirements.md` has a specific Google Maps link for a place** (e.g. `[Google Maps](https://maps.app.goo.gl/...)`), mirror it onto **both** the matching `Place.googleMapsUrl` field **and** any `Booking.googleMapsUrl` that uses the same address. The user-verified pin overrides the address-string search that the Google button would otherwise generate. Apple Maps and Gaode still derive from the address. Bookings render via `BookingItem` which only honors `booking.googleMapsUrl`, not the library Place pin — so the mirror must be on the booking itself, not just the Place.
+- **When a phase file under `docs/requirements/` has a specific Google Maps link for a place** (e.g. `[Google Maps](https://maps.app.goo.gl/...)`), mirror it onto **both** the matching `Place.googleMapsUrl` field **and** any `Booking.googleMapsUrl` that uses the same address. The user-verified pin overrides the address-string search that the Google button would otherwise generate. Apple Maps and Gaode still derive from the address. Bookings render via `BookingItem` which only honors `booking.googleMapsUrl`, not the library Place pin — so the mirror must be on the booking itself, not just the Place.
 - **Keep render pure.** React 19 compiler flags reassigned variables during render. Precompute indices/maps before the JSX (see `Timeline.tsx` for the pattern).
 
 ## Design spec
