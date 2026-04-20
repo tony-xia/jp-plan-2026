@@ -58,7 +58,11 @@ This list is the source of truth for trip-planning decisions. The itinerary in [
 - **Dates:** 2026-12-27 → 2027-01-18 (23 days, 22 nights)
 - **Three phases:** Phase 1 = **Karuizawa (preferred)** with **Fuji as fallback** if Karuizawa accommodation is too expensive; Phase 2 = Hokkaido; Phase 3 = Tokyo.
 
-## Confirmed night allocation (2026-04-19)
+## Confirmed night allocation
+
+Two competing allocations below — one confirmed historic (2026-04-19), one proposed (2026-04-20) with the clockwise-roadtrip restructure. **Phase 2 total is locked at 14 nights; the proposed plan currently sums to 12 and has a 2-night gap to resolve (see open questions).**
+
+### Historic (2026-04-19, anti-clockwise) — what `trip.yaml` currently reflects
 
 | Phase | Nights | Breakdown |
 |---|---|---|
@@ -67,7 +71,24 @@ This list is the source of truth for trip-planning decisions. The itinerary in [
 | Phase 3 (Tokyo) | 5 | 2027-01-14 → 2027-01-18 (incl. Sapporo→Tokyo transit on arrival day) |
 | **Total** | **22** | |
 
-> ✅ **Night-count locked**: user confirmed Sapporo = 3 nights; Phase 3 = 5 nights (trimmed from 6). `src/content/trip.yaml` is aligned with this split.
+### Confirmed (2026-04-20, clockwise restructure with A+B gap-close) — ✅ sums to 22
+
+| Phase | Nights | Breakdown |
+|---|---|---|
+| Phase 1 (Karuizawa / Fuji) | 3 | 2026-12-27 → 2026-12-30 |
+| Phase 2 (Hokkaido) | **14** | Hakodate 2 · **Sapporo 3 (car pickup)** · Wakkanai 1 · Abashiri 2 · Biei 1 · **Otaru 3** · **Windsor Toya 2 (end)** |
+| Phase 3 (Tokyo) | 5 | unchanged |
+| **Total** | **22** | |
+
+> ✅ **Night-count gap closed 2026-04-20**: user chose **A + B** — Sapporo +1 (3 front-end nights) and Otaru +1 (3 nights). Sapporo +1 restores the full must-visit list (Shiroi Koibito, Hokudai, 二条, Kani Honke, NANDA, 頭大仏, 大倉山, Moiwa, ROYCE' Town — pick based on time, not forced compression). Otaru +1 restores the Rusutsu two-route loop + drone-day weather retry buffer; optional Neuschloss re-add is back on the table for the drone-day night.
+
+> ✅ **Windsor Toya availability + cost (checked 2026-04-20 on Booking.com):** NYE-peak window 2027-01-01 → 01-03 shows **every room type "Not available"** for 2 rooms × 4 adults — essentially sold out on Booking.com. Late-Phase-2 window 2027-01-10 → 01-12 is **open with the cheapest 2-room × 2-night combo at AUD 1,347** (2 × Premium Queen Sea Side, room-only; breakfast +AUD 43 each). The restructure is validated on both cost and availability. Direct-booking (Vignette / Hotel Story) is the confirm-step before locking.
+
+**Rationale for restructure (user, 2026-04-20):**
+
+1. **Driving direction → sea-side views.** Japan drives on the left. In the old anti-clockwise route, Abashiri → Wakkanai put the Sea of Okhotsk on the **passenger side** — the driver misses the coast. Flipping to **clockwise** (Sapporo → Wakkanai up the Sea of Japan coast; Wakkanai → Cape Sōya → Abashiri eastward along the Okhotsk top) keeps the ocean on the **driver's side** throughout the coastal legs.
+2. **Lake Toya cost + availability.** Windsor + Toya-area hotels are priced up for 元旦 (first few days of January) — and Booking.com confirmed 2026-04-20 that the NYE window (Jan 1–3) is essentially **not bookable** for 2 rooms × 4 adults. Moving the Toya stay to the **end of Phase 2** pushes it ~10 days past the peak and into full availability (cheapest 2-rm × 2-night at AUD 1,347 for Jan 10–12).
+3. **Hotel continuity.** All previously shortlisted stays (Hakodate Airbnbs, Surfeel Wakkanai, Windsor Toya) remain in the plan — only their **dates** shift. With the A+B gap-close giving Otaru 3 nights, **Hotel Neuschloss Otaru is back in consideration** for 1 of those nights (the drone-day / 祝津 night) if pricing holds.
 
 ## Group composition (applies to every phase)
 
@@ -126,7 +147,24 @@ Day 1 (2026-12-27) begins with **morning landing at Haneda**, all four travelers
 
 ## Phase 2 — Hokkaido
 
-Phase 2 shape: **Hakodate → Lake Toya (Windsor Hotel) → train to Sapporo for rental-car pickup → drive to Biei / Furano**. User prefers **not** to overnight in Sapporo (pick up the car and drive out the same day if feasible). Phase 2 is a **winter self-drive leg** from Sapporo onward, so snow-driving prep / winter tires are assumed.
+**Phase 2 shape (proposed 2026-04-20, clockwise self-drive loop):**
+
+**Hakodate → train to Sapporo → 2 nights Sapporo (car pickup) → drive NW to Wakkanai (1 night) → Cape Sōya → drive E along Okhotsk coast to Abashiri (2 nights) → drive W to Biei (1 night) → drive SW to Otaru (2 nights) → drop car in Sapporo → train to 洞爺 → Windsor Toya (2 nights, end of Phase 2) → JR 特急 北斗 + 北海道新幹線 to Tokyo.**
+
+Key differences vs. the old anti-clockwise plan:
+
+- **Sapporo is now at the START of the drive loop**, not the end. Car pickup happens after a 2-night city stay — this gives the Sapporo must-visits at least one full day (the non-pickup day), but most of Sapporo's heavy activity list (Shiroi Koibito, Hokudai, 二条市場, 頭大仏, 大倉山, Kani Honke, NANDA, Moiwa, ROYCE' Town) originally spread across 3 back-end nights must now compress or move.
+- **Windsor Toya is at the END of Phase 2**, accessed car-free via the hotel shuttle from JR 洞爺駅 (same ~40-min free shuttle, reservation-required; schedule unchanged). From Toya, onward to Tokyo is JR 特急 北斗 → 北海道新幹線 はやぶさ (via 新函館北斗).
+- **Biei only once** in the loop (between Abashiri and Otaru), skipping the old Sapporo → Biei → Abashiri direction.
+- **Hotel Neuschloss Otaru is dropped** from the proposed plan (Otaru = 2 nights, not 2 + 1). Re-add if the user wants to restore the coastal-castle night.
+- **Drive legs (winter estimates):**
+  - Sapporo → Wakkanai: ~330 km / **5–6 hr winter** via Dōō Expressway + Route 5 / 231. Longest single leg of the trip; consider splitting with an intermediate overnight (Rumoi / Mashike / Asahikawa) — this is also one way to close the 2-night gap.
+  - Wakkanai → Cape Sōya → Abashiri: ~380–400 km including the Cape detour / ~**6–7 hr winter** on Route 238 along the Okhotsk coast (this is the "ocean on the driver's side" leg — the whole point of the clockwise flip). Long + scenic; start early.
+  - Abashiri → Biei: ~220 km / **4–5 hr winter**.
+  - Biei → Otaru: ~200 km / **3–4 hr winter** (via Asahikawa → Dōō Expressway).
+  - Otaru → Sapporo (car drop): ~40 km / 45 min.
+
+Phase 2 is a **winter self-drive leg** from Sapporo onward, so snow-driving prep / winter tires are assumed.
 
 ### Hakodate (2 nights — confirmed)
 
@@ -142,33 +180,53 @@ Phase 2 shape: **Hakodate → Lake Toya (Windsor Hotel) → train to Sapporo for
   - **Mt. Hakodate Observatory (函館山展望台)** — [Google Maps](https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7). The iconic "million-dollar" night panorama over Hakodate's hourglass isthmus.
     - ⚠️ **Winter access = ropeway only.** The 登山自動車道 (summit road) is closed to cars/buses/taxis in winter; only the 函館山ロープウェイ (125-person gondola, ~3 min from 山麓駅) operates. Our trip window is entirely inside the winter-ropeway season. Plan for **heavy cold-weather kit** — the summit is exposed and Dec/Jan nights are brutal.
 
-### Lake Toya — Windsor Hotel base (2 nights)
+### Lake Toya — Windsor Hotel base (2 nights) — NOW END OF PHASE 2
+
+> 📍 **Position change (2026-04-20):** in the clockwise restructure this stay moves from **early Phase 2** (right after Hakodate) to the **end of Phase 2**, after Otaru + car drop in Sapporo. Rationale: Windsor and the Toya area are most expensive during 元旦 (the first few days of January); shifting ~10 days later should cut rates materially. We enter Toya car-free via the JR 特急 北斗 + hotel shuttle, and leave directly to Tokyo via Shinkansen without returning to Sapporo.
 
 - **Stay:** **The Windsor Hotel TOYA, Vignette Collection (ザ・ウィンザーホテル洞爺)** — [Google Maps](https://maps.app.goo.gl/xoQjgjuWjxHSuTPB6) · [Booking.com](https://www.booking.com/hotel/jp/the-windsor-toya-resort-spa.html) · address 〒049-5722 北海道虻田郡洞爺湖町清水336 · photos `public/photos/windsor-hotel-toya/1,2,3,5,6,7.jpg` (from official site, pulled 2026-04-20). 2 nights, must book **2 rooms**.
   - **Hotel shuttle from JR 洞爺駅 (Toya Station):** hotel runs a **free shuttle, advance reservation required by 18:00 the day before**. Current published departures from JR Toya Station: **11:00 / 13:00 / 14:20 / 16:55 / 19:00** (~40-min ride). Coordinate our arriving train to hit one of these slots; taxi only if we miss them. Verify schedule with the hotel at booking — times drift seasonally.
+  - **Arrival (new plan):** from Sapporo Station on JR 特急 北斗 → 洞爺駅 (~2 hr), then shuttle. Book shuttle the day before from the Otaru hotel.
+  - **Departure (new plan):** JR 特急 北斗 洞爺駅 → 新函館北斗 (~2.5 hr) → 北海道新幹線 はやぶさ → 東京 (~4 hr). ~7 hr in motion + transfers; this replaces the Sapporo → Tokyo transit in the old plan (the train legs are roughly the same, just starting from Toya instead of Sapporo).
 - **During-stay visits (all rim-of-Lake-Toya / Usu volcano viewpoints, reachable by hotel shuttle or taxi; may need a rental or a hotel-arranged car since we don't pick up our own rental until Sapporo):**
   - **Silo Observation Deck (サイロ展望台)** — [Google Maps](https://maps.app.goo.gl/vbz1fb4sMXW5NMvJ8). Free entry, **winter hours 8:30–17:00 (Nov–Apr)**. In Jan–Mar a courtyard "snow play area" (スノーモービル / スノーラフティング) runs — extra winter activity option.
   - **Usuzan Ropeway summit lookouts (有珠山ロープウェイ・洞爺湖展望台 + 火口原展望台)** — [Google Maps](https://maps.app.goo.gl/XEf1pdWgJFufiVg66) — base station: 〒052-0102 北海道有珠郡壮瞥町字昭和新山184-5. **Winter hours 9:00–16:00** (seasonal). Two lookouts are reachable from the summit station: 洞爺湖展望台 right beside the station, and 火口原展望台 a ~7-min walk further. ⚠️ The 外輪山遊歩道 (outer-rim trail) and the longer walk to **銀沼大火口 / 外輪山展望台 is closed Nov–Apr** — that extended walk is **not** available on our trip.
   - **Noboribetsu Jigokudani (登別地獄谷)** — [Google Maps](https://maps.app.goo.gl/FbdgvTbkqZjrhgtx7). Volcanic "hell valley" with active sulfur vents + onsen town. **Time-permitting**, ~40–50 min drive east of Lake Toya.
 
-### Sapporo → Biei / Furano drive leg (1 night)
+### Sapporo pickup (3 nights, START of Phase 2 drive loop) — NEW 2026-04-20, A+B gap-close
 
-- **Transport:** train from Toyako area into Sapporo → **pick up rental car in Sapporo**. User prefers **not** to overnight in Sapporo — pick up and drive out same day if feasible.
-- **Realistic distance flag:** Sapporo → Biei is **~180 km / ~2.5 hr** on expressway in summer; in winter with snow and careful driving budget **3–3.5 hr**. If we clear the rental pickup by mid-afternoon we can reach Biei before dinner; if pickup is late, consider overnight in Chitose / Tomakomai / Sapporo despite the preference.
-- **Stay:** 1 night in **Biei / Furano area** (hotel or Airbnb, 2 rooms). Not yet shortlisted.
-- **Must-visit trees (Biei patchwork hills — in winter these are lone trees on a pure-white snow field):**
-  - **Christmas Tree (クリスマスツリーの木)** — [Google Maps](https://maps.app.goo.gl/v37b29Xiu6mHhsXE8) — 〒071-0471 北海道上川郡美瑛町. Lone spruce shaped like a Christmas tree; ~10 min drive from 美瑛駅. ⚠️ **No parking on site; access road is residential and all surrounding land is private farmland.** Do not park on the road and **never step onto snow fields / pastures** — this is an explicit local request from the 観光協会. View and shoot from the roadside only.
-  - **Seven Stars Tree (セブンスターの木)** — [Google Maps](https://maps.app.goo.gl/3riQPkZq4ZmvXZEY8) — 〒071-0224 北海道上川郡美瑛町北瑛. Oak featured on the Seven Star cigarette pack (1976). **Has a parking lot** (including bus parking). Easier stop than Christmas Tree.
-- **Shirogane Blue Pond (白金青い池)** — [Google Maps](https://maps.app.goo.gl/xM18uZ819nFR4Kz77). User asked: **what time of day is best?**
-  - **Daytime in our window:** the pond is largely frozen/snow-covered in late Dec / Jan, so the signature bright-blue daytime effect **is not the main draw in winter** (clearest blue is May–June). Afternoon is better than morning if going by daylight, but don't chase the summer photos here.
-  - **Winter light-up — this is the main event for us:** runs **2026-10-24 → 2027-04-22 (equivalent dates), from sunset until 21:00 daily.** Month-by-month start times relevant to our trip: **December ~16:30**, **January ~17:00**. A ~10-min lighting pattern loops throughout the evening.
-  - **Special extended hours for our dates:** **Dec 31 → Jan 3, light-up is extended until 2:00 AM** (we'll be in Hokkaido over New Year — plan accordingly if schedule allows).
-  - **→ Recommended plan:** arrive ~1 hr before sunset, photograph the daylight pond briefly, then stay through light-up start so we see both states in one visit. Budget ~45–60 min at the pond. Bring a tripod if any of us wants to shoot — night exposure is long.
+> 📍 **New role:** Sapporo is now the **entry point** for the Hokkaido self-drive leg — not the exit. **3 nights** here (Hakodate → JR 特急 北斗 → Sapporo Station) before picking up the rental car and driving NW to Wakkanai.
 
-### Biei/Furano → Abashiri (1–2 nights)
+- **Transport in:** JR 特急 北斗 Hakodate → 札幌駅 (~3 hr 30 min). Book reserved seats with luggage space.
+- **Stay:** central Sapporo (Sapporo Station / Odori / Susukino corridor), **3 nights**, 2 rooms. Hotel not yet shortlisted.
+- **Car pickup:** book a Sapporo-city rental branch (Sapporo Station / Susukino). Pickup on the morning of night-3 → day 4 of the leg, so the long Wakkanai drive leaves with full daylight.
+- **Activity fit:** 3 nights = 2 full sightseeing days + pickup morning. The Sapporo must-visit list below fits cleanly at this allocation — no forced drop. ROYCE' Town (rail day out) and 頭大仏 (real travel time) are both doable without compression.
 
-- **Drive:** Biei → Abashiri is **~220 km / ~3–4 hr** on expressway in summer; in winter with snow/ice, budget **4–5 hr**. Plan a mid-morning start to arrive by mid-afternoon with daylight.
-- **Stay:** **Abashiri (網走)** city — [Google Maps](https://maps.app.goo.gl/T6FTh8gxwZdsac4D8). 1–2 nights, 2 rooms. Hotel not yet shortlisted.
+### Sapporo → Wakkanai drive (day 1 of loop)
+
+- **Realistic distance flag:** Sapporo → Wakkanai is **~330 km / ~4 hr** in summer on Dōō Expressway + Route 40; in winter with snow/ice and coastal wind gusts budget **5–6 hr**. Start early; this is the longest single drive in the new plan.
+- **Intermediate stop options (optional, and one way to close the 2-night gap):** Rumoi / Mashike on the Sea of Japan coast (Route 231) or Asahikawa on the expressway. Rumoi-area overnight splits the drive into 2 × ~3 hr legs and adds a west-coast sunset.
+
+### Wakkanai (1 night, Surfeel Hotel)
+
+> 📍 **New flow (2026-04-20):** Wakkanai is reached **from Sapporo** (not from Abashiri) on day 1 of the drive loop. Cape Sōya is done as a **same-trip detour on the way out** toward Abashiri the next morning — not as a round-trip from Wakkanai. This keeps the Okhotsk coast on the driver's side.
+
+- **Drive in:** Sapporo → Wakkanai (see above, ~330 km / 5–6 hr winter).
+- **Stay:** **Surfeel Hotel Wakkanai (サフィールホテル稚内)** — [Google Maps](https://maps.app.goo.gl/zGtEvTEBRbSQzsES6) · [Booking.com](https://www.booking.com/hotel/jp/ana-crowne-plaza-wakkanai.html) · address 〒097-0023 北海道稚内市開運1-2-2 · photos `public/photos/surfeel-hotel-wakkanai/01-06.jpg` (from official site, pulled 2026-04-20). **1 night**, 2 rooms. Central Wakkanai location (near 稚内駅 / port area).
+- **Evening-of-arrival options (after the long drive):** ノシャップ岬 for sunset over the Sea of Japan with Rishiri-Fuji silhouette on clear days (co-located 寒流水族館 as winter indoor fallback); 稚内公園 / 氷雪の門 if daylight remains; otherwise hotel + early dinner to bank rest for the next day.
+- **Next-morning Cape Sōya run (before continuing to Abashiri):**
+  - **Cape Sōya / 宗谷岬 (Sōya-misaki)** — [Google Maps](https://maps.app.goo.gl/JrgXYnrJ37Jim4146). **The northernmost point of mainland Japan.** ~30 km / ~40 min drive north of Wakkanai city along Route 238. The 最北端の地 monument + the "Song of Cape Sōya" stone are the key photo subjects. On clear days Sakhalin is visible ~43 km across the strait.
+    - **Winter access:** Route 238 is maintained year-round; own car is straightforward.
+    - ⚠️ **Weather warning:** Wakkanai has one of the worst winter flight-cancellation rates in Japan; gale-force winds + whiteouts + ice on the cape plateau are common. Plan a flexible morning window; if whiteout-cancelled, this is the argument for **Wakkanai 2 nights** (weather buffer) — see the 2-night gap open question.
+- **Dropped in winter:** 白い道 (Soya Hills) disappears under snow — out of the plan.
+
+### Wakkanai → Cape Sōya → Abashiri (long Okhotsk-coast leg)
+
+- **Drive:** Cape Sōya → Abashiri via Route 238 is **~320 km / ~5–6 hr winter** along the Sea of Okhotsk coast (Hamatonbetsu → Monbetsu → Saroma → Abashiri). Together with the Cape Sōya detour this is effectively a full driving day — leave Wakkanai at dawn, budget arrivals at Abashiri after dark.
+- **Winter caveat:** coastal Route 238 is prone to closures during blizzards / high winds. Check the Hokkaido Development Bureau road-info page morning-of; have a fallback of re-routing inland via Route 40 + 39 through Asahikawa if the coast shuts (adds ~1 hr and removes the ocean view — i.e. negates the whole point of the clockwise flip).
+
+### Abashiri (2 nights)
+- **Stay:** **Abashiri (網走)** city — [Google Maps](https://maps.app.goo.gl/T6FTh8gxwZdsac4D8). 2 nights, 2 rooms. Hotel not yet shortlisted.
 - **🚨 CRITICAL DRIFT-ICE TIMING FLAG:** Abashiri's headline winter attraction is the **Sea of Okhotsk drift ice (流氷 / ryūhyō)**. The ice arrives at the coast **mid-to-late January**, with **peak viewing in February to early March**. Our Phase 2 window likely falls in **early–mid January at the latest** — meaning drift ice may not have arrived yet, and the **「おーろら」icebreaker cruise does not start operating until late January**. **Substitute plan needed:** rely on indoor/simulated drift-ice experiences (see Okhotsk Ryūhyō Museum below) and scenic winter coast/snow landscapes instead of actual pack ice on water. If we specifically want to see real drift ice, Phase 2 timing would need to shift later — which conflicts with the 23-day trip shape.
 - **Must-visit (from user):**
   - **ビューポイントパーキング流氷街道・鱒浦 (View Point Parking Ryūhyō-Kaidō Masuura)** — [Google Maps](https://maps.app.goo.gl/vo1ReQWx2c8NjGNF7) — 〒099-3119 北海道網走市鱒浦. Roadside parking/viewpoint on the "感動の径 (Road of Emotion)" coastal drive. Clear-day views of the Shiretoko mountains across the bay. Named for drift-ice viewing — in our window the ice isn't there yet, but the coast and snowscape are still worthwhile.
@@ -184,25 +242,33 @@ Phase 2 shape: **Hakodate → Lake Toya (Windsor Hotel) → train to Sapporo for
     - **オシンコシンの滝 (Oshinkoshin Falls)** — visible year-round; often partially frozen in deep winter, dramatic.
     - **Shiretoko National Park winter closures flag:** 知床峠 (Shiretoko Pass) is **closed Nov–late-April**; 知床五湖 winter access requires a registered guide. Plan for the coast-and-Utoro side only, not the cross-peninsula drive.
 
-### Abashiri → Wakkanai / Cape Sōya (1 night preferred, 2 nights possible)
+### Abashiri → Biei (1 night)
 
-- **Drive:** Abashiri → Wakkanai is **~326 km / ~4 hr** in summer on Route 238 coastal road; in winter budget **5–6+ hr** with snow, ice, and wind gusts along the Okhotsk coast. This is a **long, serious winter drive** — arguably the toughest on the whole trip. Start early, leave buffer, monitor road closures (coastal Route 238 is prone to closures during blizzards / high winds).
-- **Stay:** **Surfeel Hotel Wakkanai (サフィールホテル稚内)** — [Google Maps](https://maps.app.goo.gl/zGtEvTEBRbSQzsES6) · [Booking.com](https://www.booking.com/hotel/jp/ana-crowne-plaza-wakkanai.html) · address 〒097-0023 北海道稚内市開運1-2-2 · photos `public/photos/surfeel-hotel-wakkanai/01-06.jpg` (from official site, pulled 2026-04-20). **User preference: 1 night**, 2 rooms. Central Wakkanai location (near 稚内駅 / port area).
-- **Must-visit (main reason for the leg):**
-  - **Cape Sōya / 宗谷岬 (Sōya-misaki)** — [Google Maps](https://maps.app.goo.gl/JrgXYnrJ37Jim4146). **The northernmost point of mainland Japan.** ~30 km / ~40 min drive north of Wakkanai city along Route 238. The 最北端の地 monument + the "Song of Cape Sōya" stone are the key photo subjects. On clear days Sakhalin is visible ~43 km across the strait.
-    - **Winter access:** Route 238 is maintained year-round; own car is straightforward. Bus (宗谷バス, ~¥1,390 one-way) and taxi (~¥10,000 one-way from city) also run year-round. We have the rental, so drive.
-    - ⚠️ **Weather warning:** Wakkanai has one of the worst winter flight-cancellation rates in Japan; gale-force winds + whiteouts + ice on the cape plateau are common. Plan a flexible window (morning-of check), not a single fixed slot.
-- **Additional "amazing view" suggestions near Wakkanai (for judgment call on 1 vs 2 nights):**
-  - **ノシャップ岬 (Noshappu Cape) + ノシャップ寒流水族館** — westernmost cape of the Wakkanai peninsula, sunset views over the Sea of Japan with Rishiri-Fuji silhouette on clear days. Co-located aquarium has winter indoor option.
-  - **稚内公園 / 氷雪の門 (Wakkanai Park / Gate of Ice & Snow monument)** — hillside park above the town with Karafuto (Sakhalin) memorials and a 100-m observatory tower. Commanding view of the port, Rishiri, Rebun on clear days.
-  - **白い道 (White Road, Soya Hills)** — famous summer scallop-shell white road inland from Cape Sōya. **In winter this disappears under snow** — drop from the list for our trip.
-- **→ 1-night recommendation rationale:** Wakkanai's main payoff (Cape Sōya) is a 2–3 hr round-trip from the hotel. One full day covering drive-in + Cape Sōya + Noshappu + overnight + early drive-out next morning is adequate. A second night only makes sense if the Cape Sōya weather window requires a redo the next day.
+- **Drive:** Abashiri → Biei is **~220 km / ~3–4 hr** on expressway in summer; in winter with snow/ice, budget **4–5 hr**. Plan a mid-morning start to arrive by mid-afternoon with daylight.
+- **Stay:** 1 night in **Biei / Furano area** (hotel or Airbnb, 2 rooms). Not yet shortlisted.
+- **Must-visit trees + Blue Pond:** see the Biei place details below (moved from the old "Sapporo → Biei" section — content is identical, only the arrival direction changed).
 
-### Wakkanai → Otaru (3–4 nights)
+_Biei place details (unchanged — trees + Blue Pond)_
 
-- **Drive:** Wakkanai → Otaru is **~330 km / ~4 hr** in summer, likely **5–6+ hr in winter** via Dōō Expressway + Route 5. Similar magnitude to the Abashiri → Wakkanai leg. Start early, plan a lunch stop (e.g. Rumoi / Mashike on Route 231 coastal option, or Asahikawa on the expressway option).
-- **Stay (primary):** central Otaru, 3–4 nights, 2 rooms. Hotel not yet shortlisted.
-- **Stay (optional split):** **Hotel Neuschloss Otaru (ホテルノイシュロス小樽)** — [Google Maps](https://maps.app.goo.gl/EVydysyveUp9Q3DHA) · [Booking.com](https://www.booking.com/hotel/jp/hotel-neuschloss.html) — 〒047-0047 北海道小樽市祝津3丁目282 · photos `public/photos/hotel-neuschloss-otaru/01-07.jpg` (from official site, pulled 2026-04-20). **1–2 nights if price is acceptable.** All-ocean-view castle-style resort inside the Niseko-Shakotan-Otaru Kaigan Quasi-National Park. Every room has a private open-air bath (源泉掛け流し). Western-style doubles (2 guests) and Japanese-Western quad rooms (4 guests) both exist. Check-in 15:00, check-out 11:00. Located in **Shukutsu** on the northwest coast, **adjacent to Otaru Aquarium** — handy combined day. Creative French dinner. TEL 0134-22-9111.
+- **Christmas Tree (クリスマスツリーの木)** — [Google Maps](https://maps.app.goo.gl/v37b29Xiu6mHhsXE8) — 〒071-0471 北海道上川郡美瑛町. Lone spruce shaped like a Christmas tree; ~10 min drive from 美瑛駅. ⚠️ **No parking on site; access road is residential and all surrounding land is private farmland.** Do not park on the road and **never step onto snow fields / pastures** — this is an explicit local request from the 観光協会. View and shoot from the roadside only.
+- **Seven Stars Tree (セブンスターの木)** — [Google Maps](https://maps.app.goo.gl/3riQPkZq4ZmvXZEY8) — 〒071-0224 北海道上川郡美瑛町北瑛. Oak featured on the Seven Star cigarette pack (1976). **Has a parking lot** (including bus parking). Easier stop than Christmas Tree.
+- **Shirogane Blue Pond (白金青い池)** — [Google Maps](https://maps.app.goo.gl/xM18uZ819nFR4Kz77). User asked: **what time of day is best?**
+  - **Daytime in our window:** the pond is largely frozen/snow-covered in late Dec / Jan, so the signature bright-blue daytime effect **is not the main draw in winter** (clearest blue is May–June). Afternoon is better than morning if going by daylight, but don't chase the summer photos here.
+  - **Winter light-up:** runs **2026-10-24 → 2027-04-22 (equivalent dates), from sunset until 21:00 daily.** January ~17:00 start. A ~10-min lighting pattern loops throughout the evening.
+  - **Special extended hours** (Dec 31 → Jan 3, light-up until 02:00) **does NOT apply in the new plan** — we're past Jan 3 by the time we reach Biei in the clockwise route. Standard 21:00 close applies.
+  - **→ Recommended plan:** arrive ~1 hr before sunset, photograph the daylight pond briefly, then stay through light-up start so we see both states in one visit. Budget ~45–60 min at the pond. Bring a tripod if any of us wants to shoot — night exposure is long.
+
+### Biei → Otaru (3 nights) — A+B gap-close
+
+- **Drive:** Biei → Otaru is **~200 km / ~3–4 hr** in winter via Asahikawa → Dōō Expressway. Lunch stop around Asahikawa is natural.
+- **Stay (primary):** central Otaru, **2 nights**, 2 rooms. Hotel not yet shortlisted.
+- **Stay (split, 1 night):** **Hotel Neuschloss Otaru (ホテルノイシュロス小樽)** — [Google Maps](https://maps.app.goo.gl/EVydysyveUp9Q3DHA) · [Booking.com](https://www.booking.com/hotel/jp/hotel-neuschloss.html) — 〒047-0047 北海道小樽市祝津3丁目282 · photos `public/photos/hotel-neuschloss-otaru/01-07.jpg` (from official site, pulled 2026-04-20). **1 night, pairs with the drone day / 祝津 coastal day** (adjacent to Otaru Aquarium). All-ocean-view castle-style resort inside the Niseko-Shakotan-Otaru Kaigan Quasi-National Park. Every room has a private open-air bath (源泉掛け流し). Western-style doubles (2 guests) and Japanese-Western quad rooms (4 guests) both exist. Check-in 15:00, check-out 11:00. Creative French dinner. TEL 0134-22-9111. ⚠️ **Gated on price** — check 2 rooms × 1 night vs. central Otaru room rate for the same date; if unexpectedly expensive, fall back to 3 nights central Otaru.
+- **Day allocation (3 nights, 2 full days + 1 half):**
+  - **Night 1 (central Otaru, arrival):** check-in late afternoon after Biei drive; evening **天狗山 night view** (after sunset) + **Otaru Canal** gas-lamp walk. Dinner in Sakaimachi.
+  - **Day 2 (central Otaru):** **Uomasa lunch** (pick a non-Sunday, arrive 20–30 min pre-opening) + **Otaru Music Box Museum** + Sakaimachi shopping + glass/LeTAO. Evening either canal retry or early rest.
+  - **Day 3 (Rusutsu two-route loop):** full-day 7–9 hr drive, 中山峠 outbound / Niseko-coast return (or flipped). Overnight central Otaru.
+  - **Day 4 (drone day + 祝津):** morning flight window at 朝里 (Sky Loop, Asari Dam), afternoon **Otaru Aquarium** + check-in Hotel Neuschloss; sunset shoot from the Shukutsu coast + Neuschloss dinner + private open-air bath.
+  - **Morning of day 5:** check out Neuschloss → drive to Sapporo, drop car, board 特急 北斗 to 洞爺. (Weather blowout contingency: if drone day is un-flyable, ground-only filming + Nikka Whisky Yoichi as Plan B.)
 - **Must-visit (from user):**
   - **Mt. Tengu Ropeway / 小樽天狗山ロープウェイ base station** — [Google Maps](https://maps.app.goo.gl/jEUzKT7ByXnta1xF9). 532 m summit, ~4-min ride. **Winter ropeway season: 2026-11-29 → 2027-03-31 (equivalent dates), daily 09:00–20:00** (last up 19:48, last down 20:00). Round-trip ¥1,800 adult. **One of Hokkaido's "Three Great Night Views"** (with 函館山 Phase 2 and 藻岩山 Sapporo — we'll hit 2 of the 3). Summit has a "heart object" photo spot. Go **after sunset** for the night-view payoff.
   - **Otaru Aquarium / おたる水族館** — [Google Maps](https://maps.app.goo.gl/UNnUot3kmno1LSoQ7). On the Shukutsu coast, co-located with Hotel Neuschloss. Winter program includes sea lion / penguin shows; well-regarded family attraction. Verify winter hours at time of booking — some outdoor exhibits may run reduced schedules.
@@ -215,11 +281,7 @@ Phase 2 shape: **Hakodate → Lake Toya (Windsor Hotel) → train to Sapporo for
     - **Return — south / Niseko-coastal route:** Rusutsu → R276 west → Niseko (ニセコ) → Kutchan (倶知安) → R5 north along the coast via Yoichi (余市) → Otaru. ~95–105 km / ~2–2.5 hr in winter. Passes the Niseko ski-resort corridor (different mountain views) and the R5 coastal stretch back into Otaru.
     - **Can flip direction** (Niseko outbound, 中山峠 return) for sunset on the return mountain pass — pick based on weather/light on the day.
   - ⚠️ **Winter-driving flag:** 中山峠 and the Niseko corridor both sit at higher elevations; closures / chain restrictions happen in blizzards. Check the Hokkaido Development Bureau road conditions page (北海道開発局 道路情報) morning-of. Allow **7–9 hr** door-to-door for the loop + on-site time.
-  - **Scheduling conflict to resolve:** the natural slot is **day-14 (2027-01-09, Sat)**, but day-14 currently holds the **Uomasa sushi lunch** (open Sat, closed Sun — can't move to day-15) **+ Otaru Canal + Music Box + Tengu Mountain night view**. Day-15 (Sun Jan 10) is the drone day + Uomasa closed + Hotel Neuschloss check-in. Day-13 (Fri) ends with the long Wakkanai → Otaru drive — no room. **Need user decision on one of:**
-    1. Keep Uomasa / Otaru-city on day-14 and make Rusutsu a **half-day afternoon** (single-route only, can't do the two-route loop in a half day).
-    2. Swap day-14 / day-15: Rusutsu full-day on day-14 (skip Uomasa — Sunday-closed means we lose it entirely), Otaru-city on day-15 morning + shorter drone window.
-    3. Accept losing Uomasa, full Rusutsu loop on day-14, Otaru-city compressed into day-14 evening / day-15 morning.
-    4. Extend Otaru by one night (adds a 4th Otaru-area night — breaks the confirmed 3-night allocation).
+  - ✅ **Fit (A+B gap-close, 3 Otaru nights):** Rusutsu two-route loop is the **day-3 full-day** slot in the allocation above. Uomasa keeps day-2 lunch (must-be-weekday), drone-day is day-4 with Neuschloss overnight. 中山峠 outbound / Niseko return is the default; flip to Niseko-out / 中山峠-return for sunset on the mountain pass if the weather favors it.
 
 - **Full drone / self-filming day — 朝里 (Asari) area:**
   - User target: **Asari district, Otaru (朝里, 〒047-0151)** — [Google Maps](https://maps.app.goo.gl/uq4xJXgwdisyyzFa9). Dedicated full day for drone aerials + ground self-filming.
@@ -230,24 +292,25 @@ Phase 2 shape: **Hakodate → Lake Toya (Windsor Hotel) → train to Sapporo for
     3. **Quasi-National Park layer:** the Otaru coast (and Hotel Neuschloss area) is inside the **Niseko-Shakotan-Otaru Kaigan Quasi-National Park**. Drone flight in Hokkaido 国定公園 / 道立自然公園 is **not explicitly permit-required** by Hokkaido rules, but check each 自然保護官事務所 / local signage for restrictions, especially around protected cliffs / seabird areas.
     4. **Weather / wind:** winter Hokkaido coast gusts are brutal. Consumer drones are marginal above ~10 m/s; have a no-fly fallback plan (ground-only filming day) if conditions are bad. Plan the drone day flexibly, not on a fixed date.
     5. **Battery cold performance:** LiPo batteries lose ~30–40% capacity at −10 °C. Bring extras, keep in inside pockets, pre-warm before flights.
-- **Suggested extra Otaru content (3–4 nights gives room):**
+- **Suggested extra Otaru content (only partially doable with 2 nights — full list if the gap-close adds a 3rd Otaru night):**
   - **Otaru Canal (小樽運河)** at dusk — gas-lamp street and canal walk, iconic Otaru postcard scene.
   - **Sakaimachi-dōri (堺町通り)** — main shopping / snack / glassware street; includes Music Box Museum.
   - **Nikka Whisky Yoichi distillery (ニッカウヰスキー余市蒸溜所)** — ~30 km / 40 min drive west, free tours. (Note: production tours require online reservations far in advance.)
   - **Shakotan Peninsula / 神威岬 (Cape Kamui)** — Shakotan blue coast. ⚠️ Cape Kamui's 遊歩道 is **closed in winter** due to snow; only the base area / 積丹岬 area is accessible. Coastal drive still rewarding on clear days.
   - **Daytime Tengu Ski** — optional for anyone who skis; we're "explicitly not skiing" per Phase 1 note, but Tengu has a beginner area if interest shifts.
 
-### Sapporo (3 nights — confirmed) — end of Phase 2
+### Otaru → Sapporo car drop + onward to Toya (end of drive loop)
 
-- **Drive:** Otaru → Sapporo is short, **~40 km / 45 min** on 札樽自動車道. Drop the rental car in Sapporo on the way in or on the morning of Phase 3 departure (whichever is simpler for the lease terms).
-- **Car return:** most major rental chains have Sapporo city branches (Sapporo Station / Susukino) and New Chitose Airport branches. Confirm drop-off point when booking the rental back in Sapporo at the start of the Biei leg.
-- **Stay:** central Sapporo (Sapporo Station / Odori / Susukino corridor), **3 nights (confirmed)**, 2 rooms. Hotel not yet shortlisted.
-- **Transit to Tokyo (user-confirmed plan: overland train + Shinkansen):**
-  - **Leg 1:** JR 特急 北斗 (Limited Express Hokuto) 札幌 → 新函館北斗. **~3 hr 30 min.**
-  - **Leg 2:** 北海道新幹線 (Hokkaido Shinkansen) 新函館北斗 → 東京. **~4 hr.**
-  - **Total: ~8 hours + transfer buffer.** This is effectively a full travel day — lose ~1 Phase-3 Tokyo day to transit.
-  - ⚠️ **Hokkaido Shinkansen extension to Sapporo is NOT available** in our window — opening was revised in Dec 2024 from FY2030 to **FY2038**. The Shin-Hakodate-Hokuto transfer is unavoidable.
-  - **Alternative (for reference, not user-preferred):** fly Sapporo 新千歳 (CTS) → Tokyo 羽田 (HND) or 成田 (NRT) in ~1.5 hr flight time; ~3.5–4 hr total door-to-door. Much faster but user explicitly chose rail. Keep as a bad-weather backup.
+> 📍 **No back-end Sapporo stay in the clockwise plan.** The rental car is dropped at a Sapporo-city branch on the morning of the Otaru → Toya transit day; we then take JR 特急 北斗 to 洞爺駅 and the Windsor shuttle to the hotel (see **Lake Toya — Windsor Hotel base** section above for end-of-Phase-2 detail).
+
+- **Drive:** Otaru → Sapporo is short, **~40 km / 45 min** on 札樽自動車道. Morning drop-off gives us daylight for the Toya transit (Sapporo → 洞爺駅 ~2 hr by 特急 北斗; catch one of the Windsor shuttle slots, e.g. 13:00 / 14:20 / 16:55 — the 19:00 slot is a safety net).
+- **Car return branch:** Sapporo-city (Sapporo Station / Susukino) is the natural drop-off; confirm branch + hours when booking the Sapporo-pickup rental. New Chitose Airport is the wrong direction for the Toya leg — avoid.
+- **Luggage:** same 4-traveler + winter kit haul. Book reserved 特大荷物 seats on the 北斗 (and pre-book Windsor shuttle the evening before).
+
+### Sapporo activity inventory (3 front-end nights + car-drop morning ~10 days later)
+
+> 📍 **Allocation (2026-04-20, A+B gap-close):** Sapporo = **3 front-end nights** (2 full sightseeing days + pickup morning of day 4) + the Otaru → Sapporo car-drop morning later in Phase 2 (no overnight). The full must-visit list below fits at this allocation — no forced drop.
+- **Transit to Tokyo (new clockwise plan — departs from Toya, not Sapporo):** see the Lake Toya — Windsor Hotel base section above. Route: 洞爺駅 → 新函館北斗 on JR 特急 北斗 (~2.5 hr) → 東京 on 北海道新幹線 はやぶさ (~4 hr). Total ~7 hr in motion + transfer buffer. Shorter than the old Sapporo → Tokyo transit (~8 hr) because we're already ~200 km south.
 - **Must-visit (from user):**
   - **Shiroi Koibito Park (白い恋人パーク)** — [Google Maps](https://maps.app.goo.gl/b1ApSWrbx2XNN8M96). Ishiya's chocolate-factory theme park in 宮の沢 (west Sapporo). Park hours **10:00–18:00**; paid-area last entry 16:30. **Winter illumination "Blooming Snow Fantasy" runs 2026-11-15 → 2027-03-31 (equivalent), 16:00–19:00 nightly, free viewing.** Nearest subway: 東西線 宮の沢駅 (7-min walk). Plan a late-afternoon visit so daytime factory + evening illumination stack in one trip.
   - **Hokkaido University / 北海道大学 (札幌キャンパス)** — [Google Maps](https://maps.app.goo.gl/Zm63kDKX2KVeC9Ez6). Famous open campus, walkable from JR 札幌駅 北口. **Winter highlights:** the Poplar Avenue (ポプラ並木) and main road snow-covered, Clark bust, Furukawa Memorial Hall. The Ginkgo Avenue (イチョウ並木) is bare in winter — that's a fall attraction, not ours. Free entry; self-guided walk.
@@ -350,32 +413,33 @@ User interest: **"public small auctions about old ancient legacies."** Most trad
 - **Mt. Omuro winter view check** — user wants to verify before committing.
 - The Phase 1 `src/content/trip.yaml` segment is labeled `fuji-or-karuizawa` — rename once the scenario is chosen.
 - The Peepolo Norikura stay is tentatively slotted on day-02 (2026-12-28 → 29) in `trip.yaml` but marked 待确认. Adjust once the scenario + booking are confirmed.
-- ~~**Phase 2 — Hakodate nights:** decide **1 vs 2 nights** in Hakodate.~~ ✅ **Resolved 2026-04-19 → 2 nights.** Updated 2026-04-20 for new day-04 transit: arrive **day-04 (2026-12-30) evening** after Karuizawa → Tokyo → Shin-Hakodate-Hokuto → Hakodate rail day; **day-05 (2026-12-31, NYE)** = 朝市 / 元町坂 / Red-Brick Warehouses + NYE dinner; **day-06 (2027-01-01)** = 元旦 daytime + Mt. Hakodate ropeway night view; **day-07** = JR 特急 北斗 to Toya.
-- **Phase 2 — how to get around Lake Toya during the 2-night Windsor stay.** Options: (a) rely on the Windsor shuttle for station runs only + taxis for Silo / Usuzan / Noboribetsu, (b) book a short-term rental locally for 1–2 days, (c) arrange a hired driver / local tour. We don't have our own rental until Sapporo. Need to price / decide.
-- **Phase 2 — Sapporo overnight: avoid or accept?** User prefers to skip it, but that only works if rental-car pickup timing allows a safe winter drive to Biei the same day. If pickup runs late, overnight Sapporo (or Chitose) becomes the safer option. Confirm once train + rental pickup time is known.
+- ~~**Phase 2 — Hakodate nights:** decide **1 vs 2 nights** in Hakodate.~~ ✅ **Resolved 2026-04-19 → 2 nights.** (Day-number labels from the old anti-clockwise plan are now stale — in the clockwise plan: arrive day-04 evening, NYE + 元旦 in Hakodate, depart day-07 morning on JR 特急 北斗 to **Sapporo**, not Toya.)
+- ~~**🚨 Phase 2 — the 2-night gap.**~~ ✅ **Resolved 2026-04-20 → A+B**: Sapporo +1 (3 front-end nights) + Otaru +1 (3 nights, with optional Neuschloss 1-night split on the drone-day / 祝津 night). Sums to 14.
+- ~~**Phase 2 — Sapporo activity compression.**~~ ✅ **Resolved by Sapporo +1**: full must-visit list fits at 3 nights.
+- **Phase 2 — how to get around Lake Toya during the 2-night Windsor stay.** Same options as before (shuttle + taxi / local rental / hired driver). Note: in the new plan Toya is **end of Phase 2**, so Noboribetsu-Jigokudani is now a side trip **from** Windsor, not **on the way to** Sapporo — and there's no rental car there since we dropped it in Sapporo.
+- ~~**Phase 2 — Sapporo overnight: avoid or accept?**~~ ✅ **Resolved 2026-04-20 (clockwise plan) → 2 front-end nights.** Supersedes the old "skip Sapporo" preference.
 - **Phase 2 — Biei / Furano 1-night accommodation** not yet shortlisted. Need 2 rooms.
-- **Phase 2 — confirm Blue Pond plan around New Year.** We're in Hokkaido over 2026-12-31 → 2027-01-03; Blue Pond extends light-up to 02:00 during that window. Decide whether to deliberately schedule the visit inside that extended-hours window for the novelty, or take the standard late-afternoon-into-evening visit.
-- **🚨 Phase 2 — drift-ice timing reconciliation (biggest Phase-2 decision).** Abashiri's headline attraction is drift ice, but it typically arrives only **mid-to-late January**. Our Phase 2 falls earlier. Decide:
-  - (a) Accept no real drift ice; substitute with the Okhotsk Ryūhyō Museum (indoor −15 °C chamber with preserved ice) + scenic Okhotsk coast. Keeps the 23-day shape.
-  - (b) Shift Phase 2 later in the trip (requires compressing Phase 1 or 3).
-  - (c) Skip Abashiri / Shiretoko entirely and replace with other Hokkaido content (Otaru, Niseko, etc.) if drift ice was the main reason for this leg.
-- ~~**Phase 2 — Abashiri 1 vs 2 nights**~~ ✅ **Resolved → 2 nights.** Day-10 = 网走 + 知床方向 full loop (流氷館 + 能取岬 + 天に続く道 + オシンコシン滝 + 鱒浦); day-11 = drive to Wakkanai.
+- ~~**Phase 2 — confirm Blue Pond plan around New Year.**~~ ✅ **Resolved by re-ordering.** In the clockwise plan Biei comes **after** Jan 3, so the extended 02:00 light-up window no longer applies — standard 21:00 close. Plan a standard late-afternoon-into-light-up visit.
+- **🚨 Phase 2 — drift-ice timing reconciliation.** Unchanged in spirit: Abashiri's headline attraction is drift ice, and our window (Abashiri roughly early-mid-January in the clockwise plan) is still on the early-edge of arrival. Same options as before: (a) accept no real drift ice + Okhotsk Ryūhyō Museum substitute, (b) shift Phase 2 later, (c) skip Abashiri / Shiretoko. Option (a) is the working plan.
+- ~~**Phase 2 — Abashiri 1 vs 2 nights**~~ ✅ **Resolved → 2 nights** (carries over).
 - **Phase 2 — Abashiri lodging** not yet shortlisted. Need 2 rooms.
-- **Phase 2 — the Abashiri → Wakkanai winter drive (~326 km, 5–6+ hr in winter) is the trip's toughest single leg.** Confirm all four drivers are comfortable with long snow/ice driving, or consider splitting with an intermediate overnight (e.g. Monbetsu, Hamatonbetsu) or switching to train (JR line exists but slower with transfers).
+- **🚨 Phase 2 — the long winter drives (new 2026-04-20, clockwise plan).** The old Abashiri → Wakkanai "toughest single leg" is replaced by **two** long legs: **Sapporo → Wakkanai (~330 km, 5–6 hr winter)** and **Wakkanai → Cape Sōya → Abashiri (~380–400 km, 6–7 hr winter)** — back-to-back. Confirm drivers are OK; consider a Rumoi overnight on the first leg to soften it (doubles as a gap-close).
 - **Phase 2 — 天に続く道 road condition check.** In late Dec / early Jan the road is only reliably plowed in February; morning closures are possible. Plan day-of based on local conditions; have a fallback if the road is shut.
-- **Phase 2 — return path from Wakkanai to Otaru is a commitment.** Wakkanai → Otaru is ~330 km / 5–6+ hr in winter — on par with Abashiri → Wakkanai. Confirm drivers are OK with two back-to-back long winter legs, or consider breaking with an overnight in Rumoi / Asahikawa.
-- ~~**Phase 2 — Otaru 3 vs 4 nights**~~ ✅ **Resolved → 3 nights total** (2 at central Otaru + 1 at Hotel Neuschloss on drone-day night). No weather-retry buffer; if drone day blows out, accept ground-only filming.
-- **Phase 2 — Hotel Neuschloss split decision** gated on price (user said "if price is ok"). Check rates for 2 rooms (4 guests) for candidate nights; compare against central Otaru hotels. Neuschloss is ~7 km from central Otaru — splitting means changing base mid-stay.
-- **Phase 2 — Otaru → Phase 3 transit.** Otaru to Tokyo most naturally goes Otaru → Sapporo/New-Chitose → Haneda by air, or train to Hakodate → Shinkansen to Tokyo. Decide based on Phase 3 start location and the rental-car drop-off point. (New Chitose drop-off is easiest for flights; Sapporo drop-off is the standard choice if we want the 北海道新幹線 onward.)
-- **Phase 2 — drone day permissions lead time.** If the Asari drone day touches any DID zone or requires other MLIT/JCAB-approved operations, **file the DIPS 2.0 application ≥10 business days in advance** — this is a standing deadline, not a task to leave to the week of. Add to pre-trip checklist once the specific flight area is chosen.
-- ~~**🚨 Phase 2 — total night-count sanity check.**~~ ✅ **Resolved → 3 / 14 / 5.** See the "Confirmed night allocation" table at the top. Phase 2 = 14 nights (Hakodate 2 · Toyako 2 · Biei 1 · Abashiri 2 · Wakkanai 1 · Otaru 2+1 · Sapporo 3); Phase 3 = 5 nights.
-- **Phase 2 — Uomasa is closed Sundays.** Schedule the Otaru sushi visit on a weekday and arrive before the open time to avoid the queue; otherwise pick a lunch or early-dinner slot on a Monday/Tuesday.
-- ~~**Phase 2 — Sapporo 2 vs 3 vs 4 nights**~~ ✅ **Resolved → 3 nights.** Day-16 = 祝津→札幌 + 白い恋人 illumination; day-17 = 二条 + 頭大仏 + 大倉山 + 蟹本家; day-18 = ROYCE' Town + 藻岩山 + NANDA. (Trimmed from Tokyo: Phase 3 = 5 nights instead of 6.)
-- **Phase 2 — rental-car drop-off point.** Options: (a) Sapporo city branch (convenient if we stay central), (b) New Chitose Airport branch (only makes sense if we flip to the flight option to Tokyo), (c) Otaru branch (if we split Otaru/Sapporo differently). Confirm with the rental company at the original Sapporo pickup booking.
-- **Phase 2 — ROYCE' Cacao & Chocolate Town reservation.** Reservation is **required**. Book on the official e-tix site ≥2 weeks out for weekend slots, ≥1 week for weekdays — entry slots sell out in peak winter season.
-- **Phase 2 — Kani Honke / NANDA reservations.** Both need advance booking for a party of 4; book ≥2–3 weeks out for winter dinner slots.
-- **Phase 2 — Moiwa redundancy check.** We already commit to 函館山 (Phase 2 start) and 小樽天狗山 (Otaru). Adding Moiwa gives us "all three of Hokkaido's Three Great Night Views" in one trip but repeats the same visual pattern three times. Decide if the completion is worth the extra evening; otherwise skip and use the slot for another Sapporo activity.
-- **Phase 2 — New Year closures (年末年始, 2026-12-31 → 2027-01-03).** Many attractions run reduced/closed schedules over this window (Moiwa Ropeway is explicitly listed as closing 年末年始; temples often free/open, commercial venues often closed). Audit every planned activity in the Dec 28 – Jan 3 window against its holiday schedule before finalizing.
+- ~~**Phase 2 — return path from Wakkanai to Otaru**~~ ✅ **Resolved by re-routing.** In the clockwise plan Otaru is reached from Biei (inland), not directly from Wakkanai. The old ~330 km Wakkanai → Otaru back-end leg no longer exists.
+- ~~**Phase 2 — Otaru 3 vs 4 nights**~~ ✅ **Resolved 2026-04-20 (A+B) → 3 nights total**: 2 central Otaru + 1 Hotel Neuschloss (drone-day / 祝津 night). Matches the original resolution structure.
+- **Phase 2 — Hotel Neuschloss pricing check.** Re-added to the primary plan as the drone-day night. Price-check 2 rooms × 1 night; if materially more expensive than an equivalent central Otaru room, fall back to 3 nights central Otaru and drop the split.
+- ~~**Phase 2 — Otaru → Phase 3 transit.**~~ ✅ **Resolved 2026-04-20 (clockwise plan).** Otaru → Sapporo (car drop) → JR 特急 北斗 → 洞爺駅 → Windsor 2 nights → JR 特急 北斗 → 新函館北斗 → 北海道新幹線 → 東京. Rail throughout; New-Chitose flight path not used.
+- **Phase 2 — drone day permissions lead time.** If the Asari drone day touches any DID zone or requires other MLIT/JCAB-approved operations, **file the DIPS 2.0 application ≥10 business days in advance** — this is a standing deadline, not a task to leave to the week of. Add to pre-trip checklist once the specific flight area is chosen. ⚠️ Even tighter in the 2-night Otaru plan — if drone day gets weather-blown there is no retry slot.
+- ~~**🚨 Phase 2 — total night-count sanity check.**~~ ✅ **Resolved 2026-04-20 (A+B) → 3 / 14 / 5.** Phase 2 breakdown: Hakodate 2 · Sapporo 3 (front-end) · Wakkanai 1 · Abashiri 2 · Biei 1 · Otaru 3 (2 central + 1 Neuschloss) · Windsor Toya 2 (end).
+- **Phase 2 — Uomasa is closed Sundays.** Schedule the Otaru sushi visit on a weekday and arrive before the open time to avoid the queue; otherwise pick a lunch or early-dinner slot on a Monday/Tuesday. ⚠️ Date mapping changes in the clockwise plan — re-check day-of-week once YAML dates are fixed.
+- ~~**Phase 2 — Sapporo 2 vs 3 vs 4 nights**~~ ✅ **Resolved 2026-04-20 (A+B) → 3 front-end nights** (no back-end stay). Full must-visit list fits.
+- **Phase 2 — rental-car drop-off point (new clockwise plan).** Sapporo-city branch on the Otaru → Toya transit morning. New Chitose not used (wrong direction); Otaru branch not used (car drives us into Sapporo anyway). Confirm branch + morning hours at pickup-booking time.
+- **Phase 2 — ROYCE' Cacao & Chocolate Town reservation.** Reservation is **required**. Book on the official e-tix site ≥2 weeks out for weekend slots, ≥1 week for weekdays — entry slots sell out in peak winter season. Fits cleanly in the 3-night Sapporo allocation (rail-ride day).
+- **Phase 2 — Kani Honke + NANDA reservations.** Both need advance booking for a party of 4; book ≥2–3 weeks out. With 3 Sapporo nights we have **2 dinner slots** — both fit (one each night, pick which on arrival vs. post-activity day).
+- **Phase 2 — Moiwa redundancy check.** Still true: we already commit to 函館山 + 小樽天狗山. Decide whether the "all three of Hokkaido's Three Great Night Views" completion is worth the evening slot vs. an alternative Sapporo activity. With 3 Sapporo nights there's room for it if wanted.
+- **Phase 2 — New Year closures (年末年始, 2026-12-31 → 2027-01-03).** Date mapping changes in the clockwise plan — the Jan 2–3 window now falls in **Sapporo** (not Otaru / Sapporo back-end). Audit every Sapporo activity against 年末年始 hours once dates are fixed.
+- **Phase 2 — Windsor Toya shuttle reservation from Otaru.** In the new plan the Windsor shuttle is booked from the Otaru hotel the evening before the transit day (deadline 18:00 the day before). Don't forget — miss the slot and it's taxi (~¥15k+ from 洞爺駅).
+- **Phase 2 — Windsor + Toya-area pricing check (the cost motivation for this restructure).** The whole point of moving Windsor to the end of Phase 2 is to escape the 元旦 price peak. Price-check Windsor + any Toya fallbacks for the new late-window dates before locking the restructure; if the savings aren't material, the old anti-clockwise plan (Toya early) may still be right for cost.
 - ~~**Phase 3 — Subaru Mitaka is closed Tue + Wed.**~~ ✅ **Resolved 2026-04-20** → scheduled on day-20 (Fri 2027-01-15), open.
 - ~~**Phase 3 — day for Autobacs Shinonome.**~~ ✅ **Resolved 2026-04-20** → day-21 (Sat 2027-01-16) morning/midday 2+ hr block, ahead of Gonpachi dinner.
 - **Phase 3 — Subaru Star Square Ebisu hours / closed days.** Confirm the flagship showroom's opening hours for Fri 2027-01-15 (and whether Jan mid-month has any special hours). Booking / appointment requirement also TBD — some Subaru brand showrooms in Japan accept walk-ins, others require reservation for cockpit / sim experiences.

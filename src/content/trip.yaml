@@ -1,8 +1,15 @@
 # Japan trip itinerary — 2026-12-27 to 2027-01-18 (23 days, 22 nights).
-# Three phases:
+# Three phases (2026-04-20: Phase 2 restructured to clockwise self-drive loop + Windsor moved to end):
 #   Phase 1 (days 01-03, 3 nights)  = Karuizawa (day-04 is a full travel day OUT of Karuizawa to Hakodate)
-#   Phase 2 (days 04-18, 14 nights) = Hokkaido: Hakodate 2 (day-04 arrival via Shinkansen) → Toyako 2 → Biei 1 → Abashiri 2 → Wakkanai 1 → Otaru 2 + Neuschloss 1 → Sapporo 3
-#   Phase 3 (days 19-23, 5 nights)  = Tokyo (incl. Sapporo→Tokyo transit on day 19)
+#   Phase 2 (days 04-18, 15 nights) = Hokkaido clockwise loop:
+#                                     Hakodate 3 (day-04 arrival via Shinkansen)
+#                                     → Sapporo 3 (JR 特急 北斗 in · car pickup at end · day-07 → day-09)
+#                                     → Wakkanai 1 (Surfeel; long drive from Sapporo · day-10)
+#                                     → Cape Sōya → Abashiri 2 (Okhotsk coast drive · day-11 + day-12)
+#                                     → Biei 1 (Blue Pond light-up · day-13)
+#                                     → Otaru 3 (central 2 + Hotel Neuschloss 1 · day-14 → day-16)
+#                                     → Sapporo car drop → Windsor Toya 2 (end; day-17 + day-18)
+#   Phase 3 (days 19-23, 4 nights)  = Tokyo (day-19 = Toya → Tokyo transit via 北斗 + 新幹線)
 # Full requirements source: docs/requirements.md
 # Validated against src/lib/schema.ts at build time.
 
@@ -1191,29 +1198,29 @@ bookings:
 
   - id: phase2-windsor-shuttle-in
     kind: other
-    title_zh: "洞爺 Windsor 酒店 免费接驳巴士：JR 洞爺駅 → 酒店（day 07）"
+    title_zh: "洞爺 Windsor 酒店 免费接驳巴士：JR 洞爺駅 → 酒店（day 17）"
     from: { zh: JR 洞爺駅, en: JR Toya Station, ja: JR 洞爺駅 }
     to: { zh: Windsor 酒店 洞爺, en: Windsor Hotel Toya, ja: ウィンザーホテル洞爺 }
-    start: "2027-01-02"
+    start: "2027-01-12"
     details_zh: >-
       免费接驳，需 ≥ 前一日 18:00 电话预约。
       当前班次（出发时间待再次确认）：11:00 / 13:00 / 14:20 / 16:55 / 19:00，单程约 40 分钟。
 
   - id: phase2-sapporo-rental-car
     kind: other
-    title_zh: "Phase 2 租车（札幌取车 → 最终还车也在札幌市内）"
-    start: "2027-01-04"
-    end: "2027-01-13"
+    title_zh: "Phase 2 租车（札幌市内取车 day-10 → 札幌市内还车 day-17，顺时针自驾环线）"
+    start: "2027-01-05"
+    end: "2027-01-12"
     details_zh: >-
-      Day 09 从 洞爺→札幌 后取车；day 18 归还（Sapporo 3 晚结束后）。
+      Day 10 在札幌 3 晚结束后取车；day 17 祝津→札幌市区还车后乘 北斗 去洞爺。
       必备：四驱 SUV + 冬季雪胎 + 雪链；≥ 2 排座 + 大行李箱容量。
-      Abashiri → 稚内 → 小樽 单日长距离行驶，预估冬季 5 – 6+ 小时。
+      最硬单日：day-11 稚内→宗谷岬→网走（~380 – 400 km, 冬季 6 – 7 小时）。
 
   - id: phase2-windsor-hotel
     kind: hotel
-    title_zh: "住宿：The Windsor Hotel TOYA（2 晚，2 间房）"
-    start: "2027-01-02"
-    end: "2027-01-04"
+    title_zh: "住宿：The Windsor Hotel TOYA（2 晚，2 间房，Phase 2 收尾）"
+    start: "2027-01-12"
+    end: "2027-01-14"
     address:
       full:
         zh: 北海道虻田郡洞爷湖町清水 336
@@ -1227,13 +1234,13 @@ bookings:
       - /photos/windsor-hotel-toya/5.jpg
       - /photos/windsor-hotel-toya/6.jpg
       - /photos/windsor-hotel-toya/7.jpg
-    details_zh: 日期 day 07 – day 08；4 人 2 间房（2 绅士 + 2 女士不合住）。
+    details_zh: 日期 day 17 – day 18（Phase 2 最后 2 晚，顺时针环线收尾）；4 人 2 间房（2 绅士 + 2 女士不合住）。2026-04-20 Booking.com 查询：2027-01-12 → 01-14 开放预订，最便宜 2 间房 × 2 晚 AUD 1,347（Premium Queen Sea Side，room-only）。旧窗口 2027-01-01 → 01-03 在 Booking.com 上显示全部房型「Not available」—— 新年元旦峰期已订满，不可预订。
 
   - id: phase2-hakodate-airbnb-primary
     kind: hotel
-    title_zh: "候选 Airbnb (主推)：函馆元町 HIST Terrace I（2 晚，4 人）"
+    title_zh: "候选 Airbnb (主推)：函馆元町 HIST Terrace I（3 晚，4 人）"
     start: "2026-12-30"
-    end: "2027-01-01"
+    end: "2027-01-02"
     airbnbUrl: https://www.airbnb.com.au/rooms/1461937569120840875
     details_zh: >-
       Listing 1461937569120840875 — Hakodate Motomachi HIST Terrace I。
@@ -1245,9 +1252,9 @@ bookings:
 
   - id: phase2-hakodate-airbnb-alt
     kind: hotel
-    title_zh: "候选 Airbnb (备选)：函馆湾 Japandi 整栋（2 晚，4 人）"
+    title_zh: "候选 Airbnb (备选)：函馆湾 Japandi 整栋（3 晚，4 人）"
     start: "2026-12-30"
-    end: "2027-01-01"
+    end: "2027-01-02"
     airbnbUrl: https://www.airbnb.com.au/rooms/896063721679005442
     details_zh: >-
       Listing 896063721679005442 — Hakodate Bay 3-min walk · Japandi 风 136 ㎡ 整栋建筑。
@@ -1259,9 +1266,9 @@ bookings:
 
   - id: phase2-hakodate-hotel-tokyu-stay
     kind: hotel
-    title_zh: "候选酒店：東急ステイ函館朝市 灯の湯（2 晚，2 间房，待询价）"
+    title_zh: "候选酒店：東急ステイ函館朝市 灯の湯（3 晚，2 间房，待询价）"
     start: "2026-12-30"
-    end: "2027-01-01"
+    end: "2027-01-02"
     googleMapsUrl: https://maps.app.goo.gl/NB15MnFHp38YbuYz8
     details_zh: >-
       TOKYU STAY Hakodate-Asaichi Akari no Yu（東急ステイ函館朝市 灯の湯）。
@@ -1274,22 +1281,22 @@ bookings:
   - id: phase2-biei-hotel
     kind: hotel
     title_zh: "住宿：美瑛 / 富良野 酒店或 Airbnb（1 晚，2 间房，待选）"
-    start: "2027-01-04"
-    end: "2027-01-05"
-    details_zh: 日程 day 09 夜晚；藍い池 夜灯场后回住处。
+    start: "2027-01-08"
+    end: "2027-01-09"
+    details_zh: 日程 day 13 夜晚；藍い池 夜灯场后回住处。
 
   - id: phase2-abashiri-hotel
     kind: hotel
     title_zh: "住宿：网走市内酒店（2 晚，2 间房，待选）"
-    start: "2027-01-05"
-    end: "2027-01-07"
-    details_zh: 日程 day 10 – day 11；近网走駅 / 港区 选址。
+    start: "2027-01-06"
+    end: "2027-01-08"
+    details_zh: 日程 day 11 – day 12（稚内→宗谷岬→网走 长途日 + 网走 + 知床 全天）。近网走駅 / 港区 选址。
 
   - id: phase2-wakkanai-hotel
     kind: hotel
     title_zh: "住宿：Surfeel Hotel 稚内（1 晚，2 间房）"
-    start: "2027-01-07"
-    end: "2027-01-08"
+    start: "2027-01-05"
+    end: "2027-01-06"
     address:
       full:
         zh: 北海道稚内市开运 1-2-2
@@ -1303,20 +1310,20 @@ bookings:
       - /photos/surfeel-hotel-wakkanai/04.jpg
       - /photos/surfeel-hotel-wakkanai/05.jpg
       - /photos/surfeel-hotel-wakkanai/06.jpg
-    details_zh: 用户明确偏好 1 晚。
+    details_zh: 用户明确偏好 1 晚（day-10）。2026-04-20 顺时针重构：从札幌出发到这里是 Phase 2 自驾环线的第 1 天（~330 km / 5 – 6 小时冬季）。
 
   - id: phase2-otaru-hotel-primary
     kind: hotel
     title_zh: "住宿：小樽市内酒店（主基地，2 晚，2 间房，待选）"
-    start: "2027-01-08"
-    end: "2027-01-10"
-    details_zh: 运河 / 小樽駅 一带选址；day 13 – day 14。
+    start: "2027-01-09"
+    end: "2027-01-11"
+    details_zh: 运河 / 小樽駅 一带选址；day 14（中心入住 + Uomasa + 天狗夜景）和 day 15（Rusutsu 循环）两晚。
 
   - id: phase2-otaru-neuschloss
     kind: hotel
-    title_zh: "住宿：Hotel Neuschloss 小樽（可选 1 晚，2 间房，价格 OK 时才订）"
-    start: "2027-01-10"
-    end: "2027-01-11"
+    title_zh: "住宿：Hotel Neuschloss 小樽（1 晚，2 间房；价格合适则订）"
+    start: "2027-01-11"
+    end: "2027-01-12"
     address:
       full:
         zh: 北海道小樽市祝津 3-282
@@ -1332,26 +1339,26 @@ bookings:
       - /photos/hotel-neuschloss-otaru/06.jpg
       - /photos/hotel-neuschloss-otaru/07.jpg
     details_zh: >-
-      Day 15 航拍日晚上入住、day 16 早上早餐后退房，顺路参观 小樽水族館。
+      Day 16 航拍日晚上入住、day 17 早上早餐后退房，再顺路参观 小樽水族館（祝津紧邻酒店）。
       如果价格不合适（单晚超预算）则改住市区酒店 1 晚。
 
   - id: phase2-sapporo-hotel
     kind: hotel
-    title_zh: "住宿：札幌市内酒店（3 晚，2 间房，待选）"
-    start: "2027-01-11"
-    end: "2027-01-14"
-    details_zh: 札幌駅 / 大通 / 薄野 一带。Day 16 – day 18，3 晚（用户确认）。
+    title_zh: "住宿：札幌市内酒店（3 晚，2 间房，待选；顺时针前置）"
+    start: "2027-01-02"
+    end: "2027-01-05"
+    details_zh: 札幌駅 / 大通 / 薄野 一带。Day 07 – day 09，3 晚（2026-04-20 A+B gap-close 确认）。
 
-  - id: phase2-sapporo-to-tokyo-transit
+  - id: phase2-toya-to-tokyo-transit
     kind: shinkansen
-    title_zh: "Sapporo → Tokyo：JR 特急 北斗 + 北海道新干线（day 19，~8 小时）"
-    from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+    title_zh: "Toya → Tokyo：JR 特急 北斗 + 北海道新干线（day 19，~7 小时）"
+    from: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
     to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
     start: "2027-01-14"
     details_zh: >-
-      札幌 → 新函馆北斗（特急 北斗，~3.5 小时）+ 新函馆北斗 → 东京（北海道新干线「はやぶさ」，~4 小时）。
-      ⚠️ 北海道新干线延伸到札幌目前改为 FY2038 开通，我们这一趟无直达。
-      ⚠️ 本日几乎整天在路上，Phase 3 有效天数少 1 天。坏天气时可改飞 新千歳→羽田（~1.5 小时飞行）。
+      洞爺 → 新函馆北斗（特急 北斗，~2.5 小时）+ 新函馆北斗 → 东京（北海道新干线「はやぶさ」，~4 小时）。
+      ⚠️ 北海道新干线延伸到札幌目前改为 FY2038 开通 —— 我们从 Toya 出发反而比从札幌出发省 ~200 km 铁路。
+      ⚠️ 本日几乎整天在路上，Phase 3 有效天数少 1 天。坏天气时可改飞 新千歳→羽田（需绕回札幌 + 新千歳，约 2 小时额外）。
 
   - id: phase3-tokyo-hotel
     kind: hotel
@@ -1541,262 +1548,310 @@ days:
   - id: day-07
     date: "2027-01-02"
     city: hokkaido
-    title_zh: 第 7 天 · 函馆 → 洞爷 Windsor
+    title_zh: 第 7 天 · 函馆 → 札幌（顺时针自驾环线 · 札幌夜 1）
     intro_zh: >-
-      早上 / 中午坐 JR 特急 北斗 从 函馆 → 洞爺駅（约 2 小时 20 分）。
-      配合 Windsor 免费接驳巴士发车时间（11:00 / 13:00 / 14:20 / 16:55 / 19:00）到站。
-      ★ 前一天 18:00 前务必电话预约接驳。
+      ★ 2026-04-20 大改 · 顺时针路线起点：上午 JR 特急 北斗 函馆 → 札幌（~3 小时 30 分）。
+      下午抵达札幌、入住市中心酒店。傍晚黄金时段去 白色恋人公园 看工厂 + 亮灯（16:00 – 19:00），
+      晚餐 蟹本家 札幌站本店。今晚是札幌 3 晚中的第 1 晚（车还没取）。
     activities:
-      - id: day-07-toya-station
-        place: { ref: toya-station }
-        notes_zh: JR 洞爺駅 下车，候 Windsor 接驳巴士。
+      - id: day-07-hakodate-to-sapporo
+        start: "09:00"
+        place: { ref: sapporo-station }
+        notes_zh: JR 特急 北斗 函馆 → 札幌 ~3 小时 30 分。预留大行李指定席。
+      - id: day-07-shiroi-koibito
+        start: "15:00"
+        place: { ref: shiroi-koibito-park }
+        notes_zh: 工厂 10:00 – 18:00，付费区最后入园 16:30。亮灯 16:00 – 19:00，看完日落直接出来吃晚饭。
+      - id: day-07-kani-honke
+        start: "18:30"
+        place: { ref: kani-honke-sapporo }
+        notes_zh: 4 人提前 2 – 3 周预订。和 NANDA 二选一今晚。
+    bookings:
+      - id: day-07-hokuto-hakodate-sapporo
+        kind: other
+        title_zh: "JR 特急 北斗：函馆 → 札幌"
+        start: "2027-01-02"
+        from: { zh: 函馆站, en: Hakodate Station, ja: 函館駅 }
+        to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+        details_zh: ~3 小时 30 分。4 人 + 冬装行李 → 预约特大荷物指定席。
 
   - id: day-08
     date: "2027-01-03"
     city: hokkaido
-    title_zh: 第 8 天 · Lake Toya 周边
+    title_zh: 第 8 天 · 札幌核心日（夜 2）· 北大 + 二条 + 頭大仏 + 大倉山
     intro_zh: >-
-      Windsor 住宿第 2 晚。上午 / 下午借酒店班车或打车跑 Silo 展望台 + 有珠山缆车；
-      如时间 + 体力允许，加 登别地狱谷（开车 40 – 50 分钟）。
+      札幌完整一天（车还没取，全程地铁 / 巴士 / 出租）。
+      早上 二条市場 海鲜丼；上午 北海道大学 校园散步；下午 頭大仏（地铁 + 中央巴士 真108，往返 ~2 小时）；
+      黄昏 大倉山 展望台看日落；晚餐 NANDA 海鲜自助 或自由。
     activities:
-      - id: day-08-silo
-        place: { ref: toyako-silo-observation-deck }
-        notes_zh: 洞爷湖全景免费展望台；冬季营业 8:30 – 17:00。
-      - id: day-08-usuzan
-        place: { ref: usuzan-ropeway }
-        notes_zh: 有珠山缆车上山顶；走到火口原展望台约 7 分钟。冬季外輪山遊歩道封闭。
-      - id: day-08-noboribetsu
-        place: { ref: noboribetsu-jigokudani }
-        notes_zh: 时间允许，下午加 登别地狱谷；傍晚回酒店。
+      - id: day-08-nijo-market
+        start: "08:30"
+        place: { ref: nijo-market-sapporo }
+        notes_zh: 早市开到中午前；海鲜丼当早饭。
+      - id: day-08-hokudai
+        place: { ref: hokkaido-university }
+        notes_zh: 札幌駅 北口步行 5 – 10 分钟即到校园。
+      - id: day-08-hill-of-the-buddha
+        place: { ref: hill-of-the-buddha }
+        notes_zh: 冬季拜观 10:00 – 15:00；水庭冬季放空无反射，景色变成佛首 + 白雪。
+      - id: day-08-okurayama
+        place: { ref: okurayama-observatory }
+        notes_zh: 1972 冬奥跳台场地；双人吊椅上展望台看日落。
+      - id: day-08-nanda
+        start: "19:30"
+        place: { ref: seafood-buffet-nanda }
+        notes_zh: 和昨晚蟹本家二选一；提前 2 – 3 周预约。
 
   - id: day-09
     date: "2027-01-04"
     city: hokkaido
-    title_zh: 第 9 天 · 洞爷 → 札幌取车 → 美瑛
+    title_zh: 第 9 天 · ROYCE' 小镇 + 藻岩山夜景（札幌夜 3）
     intro_zh: >-
-      JR 洞爺 → 札幌（特急 北斗 约 2 小时）。札幌取租车。下午开到美瑛 / 富良野
-      （180 km，冬季估 3 – 3.5 小时）。如果取车拖到晚，考虑先在札幌过一晚 —— 用户偏好不过札幌，
-      以取车时间当日判断。
+      白天 JR 学园都市线 去 ロイズタウン駅 做巧克力工厂体验（必提前官网 e-tix 预约）；
+      黄昏 / 夜 藻岩山 夜景（完成北海道三大夜景之一，与 函館山 + 天狗山 组齐）。
+      晚餐随意。明早取车开始自驾环线。
     activities:
-      - id: day-09-sapporo-pickup
-        place: { ref: sapporo-station }
-        notes_zh: 札幌站附近取车。
-      - id: day-09-drive-to-biei
-        place: { ref: shirogane-blue-pond }
-        notes_zh: 若到美瑛已黄昏，可直接开去 白金青い池 赶 16:30 – 21:00 灯光时段。
+      - id: day-09-royce-town
+        start: "11:00"
+        place: { ref: royce-cacao-chocolate-town }
+        notes_zh: >-
+          ★ 必须提前在官网 e-tix 预约；10:00 – 17:00，最后入场 15:00。
+          从 札幌駅 → ロイズタウン駅（学园都市线）约 30 分钟，非自驾出行。
+      - id: day-09-moiwa
+        start: "16:30"
+        place: { ref: mt-moiwa-ropeway }
+        notes_zh: >-
+          北海道三大夜景之三。冬季 11:00 – 22:00，末班上行 21:30。
+          1/4（周一）非年末年始，正常营业；出行前再确认。
 
   - id: day-10
     date: "2027-01-05"
     city: hokkaido
-    title_zh: 第 10 天 · 美瑛 → 网走
+    title_zh: 第 10 天 · 札幌取车 → 稚内（长途日）
     intro_zh: >-
-      早上跑 美瑛丘陵（クリスマスツリー + セブンスター）。下午开到网走
-      （约 220 km，冬季估 4 – 5 小时）。入住 网走。
+      ★ 顺时针环线第 1 天（长途）：早上札幌市区租车行取车，然后一路北上开到稚内
+      （~330 km / 冬季 5 – 6 小时 · 道央道 + R40）。
+      中午在岩见沢 / 旭川 吃午饭；傍晚抵达 Surfeel 入住。
+      体力充沛再加 ノシャップ岬 日本海夕阳（晴天能看见利尻富士）；否则休整为明天的宗谷岬做准备。
     activities:
-      - id: day-10-christmas-tree
-        place: { ref: biei-christmas-tree }
-        notes_zh: ⚠️ 无停车场 + 私人农地，路边取景即走，绝不踏入田地。
-      - id: day-10-seven-stars-tree
-        place: { ref: biei-seven-stars-tree }
-        notes_zh: 有停车场，比 クリスマスツリー 好停。
-      - id: day-10-drive-to-abashiri
-        place: { ref: abashiri-city }
-        notes_zh: 中午后出发开到网走；注意冬季行车时间。
+      - id: day-10-sapporo-pickup
+        start: "09:00"
+        place: { ref: sapporo-station }
+        notes_zh: 札幌市区租车行取车（站前 / 薄野），出发时间决定当日行程。
+      - id: day-10-drive-to-wakkanai
+        place: { ref: surfeel-hotel-wakkanai }
+        notes_zh: 札幌 → 稚内 道央道 + R40，冬季估 5 – 6 小时；傍晚到酒店办理入住。
+      - id: day-10-noshappu-cape
+        place: { ref: noshappu-cape }
+        notes_zh: 如到得早有余力，黄昏跑一趟 ノシャップ岬 看日本海夕阳。否则跳过。
 
   - id: day-11
     date: "2027-01-06"
     city: hokkaido
-    title_zh: 第 11 天 · 网走 + 知床方向
+    title_zh: 第 11 天 · 宗谷岬 → 鄂霍次克海岸 → 网走（超长途日）
     intro_zh: >-
-      网走全天。上午 オホーツク流氷館（-15℃ 室内真冰替代品）+ 天都山展望台；
-      可选 能取岬；下午前往 天に続く道（斜里町，从网走约 1 小时车程）；回程加 オシンコシン滝 + 鱒浦 ビューポイント。
+      🚨 顺时针环线最硬一天：早上 宗谷岬（日本最北端）→ R238 沿鄂霍次克海岸一路东南到网走
+      （宗谷岬 → 网走 ~330 km，加稚内 → 宗谷岬 ~30 km 绕行，总 ~380 – 400 km，冬季 6 – 7 小时）。
+      ★ 左侧驾驶 + 向东行驶 = 海在驾驶员一侧，这是顺时针路线的核心体验。
+      中途 音威子府 / 枝幸 / 雄武 / 紋別 / サロマ湖 可以短停；遇暴风 / 白化走 R40 → 旭川 → R39 内陆备案（放弃海景）。
     activities:
-      - id: day-11-ryuhyo-museum
-        place: { ref: okhotsk-ryuhyo-museum }
-        notes_zh: 流氷未到时这里是真冰替代体验的首选。
-      - id: day-11-cape-notoro
-        place: { ref: cape-notoro }
-        notes_zh: 冬日鄂霍次克海岸；天气好时非常出片。
-      - id: day-11-road-to-heaven
-        place: { ref: road-to-heaven-shari }
-        notes_zh: >-
-          冬季注意事项：起点观景台冬季关闭；道路只有 2 月才保证除雪。当日实地观察再决定是否驾入。
-      - id: day-11-oshinkoshin
-        place: { ref: oshinkoshin-falls }
-        notes_zh: 部分结冰的大瀑布，回程顺路。
-      - id: day-11-masuura
-        place: { ref: masuura-viewpoint-parking }
-        notes_zh: 回网走前最后一个观景停车带。
+      - id: day-11-cape-soya
+        start: "08:30"
+        place: { ref: cape-soya }
+        notes_zh: 日本最北端纪念碑；稚内冬季风暴大，出发前查天气 + 道路封闭信息。
+      - id: day-11-drive-to-abashiri
+        place: { ref: abashiri-city }
+        notes_zh: R238 沿鄂霍次克海岸东南行；傍晚抵达网走入住。
 
   - id: day-12
     date: "2027-01-07"
     city: hokkaido
-    title_zh: 第 12 天 · 网走 → 稚内（长途日）
+    title_zh: 第 12 天 · 网走 + 知床方向全天
     intro_zh: >-
-      🚨 本日最硬的一段：网走 → 稚内 约 326 km，冬季 5 – 6+ 小时，海岸国道 238 号遇暴风/白化时易封路。
-      早出；带充足零食 + 饮水 + 燃油余量。到稚内入住 Surfeel。
+      网走全天。上午 オホーツク流氷館（-15℃ 室内真冰 · 我们窗口海面流氷可能未到的替代）+ 天都山展望台；
+      下午跑 能取岬 → 天に続く道（斜里町，冬季保留观察路况）→ オシンコシン滝 → 鱒浦 ビューポイント 回程。
     activities:
-      - id: day-12-drive-to-wakkanai
-        place: { ref: surfeel-hotel-wakkanai }
-        notes_zh: 抵达后办理入住。
+      - id: day-12-ryuhyo-museum
+        place: { ref: okhotsk-ryuhyo-museum }
+        notes_zh: 流氷未到时这里是真冰替代体验的首选。
+      - id: day-12-cape-notoro
+        place: { ref: cape-notoro }
+        notes_zh: 冬日鄂霍次克海岸；天气好时非常出片。
+      - id: day-12-road-to-heaven
+        place: { ref: road-to-heaven-shari }
+        notes_zh: >-
+          冬季注意事项：起点观景台冬季关闭；道路只有 2 月才保证除雪。当日实地观察再决定是否驾入。
+      - id: day-12-oshinkoshin
+        place: { ref: oshinkoshin-falls }
+        notes_zh: 部分结冰的大瀑布，回程顺路。
+      - id: day-12-masuura
+        place: { ref: masuura-viewpoint-parking }
+        notes_zh: 回网走前最后一个观景停车带。
 
   - id: day-13
     date: "2027-01-08"
     city: hokkaido
-    title_zh: 第 13 天 · 宗谷岬 → 小樽（超长途日）
+    title_zh: 第 13 天 · 网走 → 美瑛（蓝池 + 亮灯夜）
     intro_zh: >-
-      🚨 双长途日之二：早上跑 宗谷岬（日本最北端），然后一路南下开到小樽
-      （约 330 km，冬季 5 – 6+ 小时）。尽量早起；中途可在 羽幌 / 留萌 吃午饭。
+      网走 → 美瑛 ~220 km，冬季 4 – 5 小时（高速线走 R39 → 道央道）。
+      午餐旭川；下午入住美瑛酒店；日落前到 白金青い池 蹲标准 17:00 亮灯（~10 分钟循环灯光 pattern，~21:00 结束）。
     activities:
-      - id: day-13-cape-soya
-        start: "08:30"
-        place: { ref: cape-soya }
-        notes_zh: 稚内冬季风暴大，出发前查当天天气；必要时调整出发时间。
-      - id: day-13-noshappu-cape
-        place: { ref: noshappu-cape }
-        notes_zh: 如果时间允许回程前顺便看一眼。
-      - id: day-13-drive-to-otaru
-        place: { ref: otaru-canal }
-        notes_zh: 黄昏/夜抵达小樽，先入住；如有体力可在运河边看亮灯。
+      - id: day-13-drive-to-biei
+        place: { ref: abashiri-city }
+        notes_zh: 早出，午餐旭川 / 上富良野；下午抵美瑛酒店。
+      - id: day-13-blue-pond
+        start: "16:00"
+        place: { ref: shirogane-blue-pond }
+        notes_zh: >-
+          冬季日落后亮灯到 21:00（1 月 ~17:00 开始），日落前 1 小时到位先拍日景 → 接亮灯一次看齐。
+          带三脚架长曝。
 
   - id: day-14
     date: "2027-01-09"
     city: hokkaido
-    title_zh: 第 14 天 · 小樽市区 + Rusutsu 往返（日程冲突待定）
+    title_zh: 第 14 天 · 美瑛丘陵 → 小樽（鱼真午餐 · 运河 · 天狗山夜）
     intro_zh: >-
-      ★ 2026-04-20 用户新加：在小樽期间开车去 Rusutsu（留寿都），去程和回程走不同的路
-      看不同雪景。建议外道：去 中山峠（R230）→ 回 ニセコ + R5 沿海，或反向；循环 7 – 9 小时。
-      ⚠️ 日程冲突 —— 如果做 Rusutsu 全天循环，会挤掉 运河 / 音乐盒堂 / 鱼真 寿司（鱼真周日休，
-      无法推到 day 15），需用户在四种方案中挑一种（详见 requirements.md Rusutsu 章节）。
-      现阶段把 Rusutsu 当作新加活动放在此日，旧的 Otaru 市区 + Tengu 夜景 也保留；真正开行前决定。
+      ★ 小樽 3 晚的第 1 晚（中心街）。上午美瑛丘陵两棵树（クリスマスツリー + セブンスター）；
+      然后开到小樽（~200 km / 冬季 3 – 4 小时 · 旭川 → 道央道）。
+      ⚠️ 2027-01-09 是周六 —— 鱼真开门，不接受预订。开门前 20 – 30 分钟排队；
+      赶得上就午餐鱼真，赶不上改小樽市区其它寿司。下午 运河 + 音乐盒堂 + 堺町通り；日落后 天狗山 夜景。
     activities:
-      - id: day-14-rusutsu-trip
-        start: "09:00"
-        place: { ref: rusutsu-resort }
-        notes_zh: >-
-          出发 ~09:00；中途在 中山峠 展望所停 20 分钟（食 あげいも、看 羊蹄山）。
-          到 Rusutsu 约 11:00；在度假村基地午餐 + 雪上活动 + 散步。
-          ~15:00 出发回程，改走 ニセコ + R5 沿海，预计 17:30 – 18:00 回到小樽。
-      - id: day-14-nakayama-toge
-        place: { ref: nakayama-toge }
-        notes_zh: Rusutsu 循环的必停点；羊蹄山望景 + 名产「あげいも」。
-      - id: day-14-otaru-canal
+      - id: day-14-christmas-tree
+        start: "08:00"
+        place: { ref: biei-christmas-tree }
+        notes_zh: ⚠️ 无停车场 + 私人农地，路边取景即走，绝不踏入田地。
+      - id: day-14-seven-stars-tree
+        place: { ref: biei-seven-stars-tree }
+        notes_zh: 有停车场，比 クリスマスツリー 好停。
+      - id: day-14-drive-to-otaru
         place: { ref: otaru-canal }
-        notes_zh: 如果 Rusutsu 全天循环启动则今天放弃；如果只做半日 Rusutsu，则早上留给运河 / 堺町通り。
-      - id: day-14-music-box
-        place: { ref: otaru-music-box-museum }
-        notes_zh: 同上，取决于 Rusutsu 方案。
+        notes_zh: 美瑛 → 小樽 旭川 → 道央道 → 札樽道；冬季估 3 – 4 小时。
       - id: day-14-uomasa
-        start: "11:40"
+        start: "13:30"
         place: { ref: uomasa-otaru }
         notes_zh: >-
-          不接受预订，周日休。开门前 20 – 30 分钟到门口排队更稳。
-          ★ 2027-01-09 是周六，开门，无问题。
-          ⚠️ Rusutsu 全天方案下会冲掉此项（鱼真周日也关，无法推到 day 15）。
+          不接受预订，周日休。2027-01-09 周六开门。到达时间不稳定；
+          如果 13:00 之前能到小樽就午餐鱼真，否则直接放弃改晚饭 / 运河边店。
+      - id: day-14-music-box
+        place: { ref: otaru-music-box-museum }
+        notes_zh: 堺町本通り尽头；顺带逛 LeTAO / 玻璃店。
       - id: day-14-tengu-night
         start: "17:00"
         place: { ref: otaru-tengu-ropeway }
         notes_zh: >-
           北海道三大夜景之一。日落后上山。冬季营业 09:00 – 20:00，末班上行 19:48。
-          Rusutsu 循环 18:00 回到小樽后仍可赶上。
 
   - id: day-15
     date: "2027-01-10"
     city: hokkaido
-    title_zh: 第 15 天 · 小樽 朝里 航拍日
+    title_zh: 第 15 天 · Rusutsu 双线环游（中山峠 + ニセコ）
     intro_zh: >-
-      ★ 整天留给 朝里 航拍 + 自拍摄影。主目标：朝里スカイループ（札樽道环形高架）。
-      附近朝里ダム、朝里川温泉 做备选取景。天气不好改走纯地面自拍备用方案。
-      ⚠️ 无人机规定详见 place notes（DID、高速上空禁飞、国定公园等）。
-      当晚入住 Hotel Neuschloss 小樽（祝津海岸），明早起床看海。
+      ★ 2026-04-20 用户新加：开车去 Rusutsu 留寿都，去程和回程走不同路看不同雪景。
+      去 中山峠（R230，羊蹄山 + あげいも）→ Rusutsu 中午午餐 / 雪上活动 → 回 ニセコ + R5 余市沿海 → 小樽。
+      ~7 – 9 小时循环；根据天气 / 光线可反向（ニセコ 去，中山峠 回程日落）。
     activities:
-      - id: day-15-asari-drone
-        place: { ref: asari-otaru }
-        notes_zh: 至少留一天备用于天气窗口；飞行日前 ≥ 10 工作日 完成 DIPS 2.0 申请（若进入 DID）。
+      - id: day-15-nakayama-toge
+        start: "09:30"
+        place: { ref: nakayama-toge }
+        notes_zh: Rusutsu 循环去程必停点；羊蹄山 + 名产「あげいも」。
+      - id: day-15-rusutsu
+        start: "11:00"
+        place: { ref: rusutsu-resort }
+        notes_zh: 度假村基地午餐 + 雪上活动 + 散步。~15:00 出发走 ニセコ 回程。
+      - id: day-15-return-to-otaru
+        place: { ref: otaru-canal }
+        notes_zh: 回小樽 ~17:30 – 18:00；若有余力再刷一遍运河夜景。
 
   - id: day-16
     date: "2027-01-11"
     city: hokkaido
-    title_zh: 第 16 天 · 祝津 → 札幌（Sapporo 夜 1）
+    title_zh: 第 16 天 · 朝里 航拍 + 祝津 · Neuschloss 夜
     intro_zh: >-
-      早上享受 Neuschloss 海景 + 温泉 + 早餐。上午逛小樽水族館（就在酒店隔壁）。
-      中午退房开到札幌（~40 km / 45 分钟），下午北海道大学散步，黄昏 白色恋人公园 看工厂 + 亮灯。
+      ★ 上午 / 中午 朝里 航拍 + 自拍摄影（主目标 朝里スカイループ；备选 朝里ダム / 朝里川温泉）。
+      下午到 祝津 小樽水族館。当晚入住 Hotel Neuschloss 小樽（祝津海岸、全海景、私人露天风吕、法式晚餐）。
+      ⚠️ 无人机规定详见 place notes（DID、高速上空禁飞、国定公园等）；≥ 10 工作日前提交 DIPS 2.0 申请。
+      天气不好改纯地面自拍 / 余市 Nikka 威士忌 工厂 备案。
     activities:
+      - id: day-16-asari-drone
+        start: "09:30"
+        place: { ref: asari-otaru }
+        notes_zh: 这是整个行程唯一的航拍窗口 —— 没有天气备用日。天气不行就只拍地面。
       - id: day-16-otaru-aquarium
         place: { ref: otaru-aquarium }
-      - id: day-16-drive-to-sapporo
-        place: { ref: sapporo-station }
-      - id: day-16-hokudai
-        place: { ref: hokkaido-university }
-        notes_zh: 札幌駅 北口步行 5 – 10 分钟即到校园。
-      - id: day-16-shiroi-koibito
-        start: "15:00"
-        place: { ref: shiroi-koibito-park }
-        notes_zh: 工厂 10:00 – 18:00，付费区最后入园 16:30。亮灯 16:00 – 19:00，看完日落直接出来吃晚饭。
+        notes_zh: 祝津海岸，紧邻 Neuschloss；冬季程序含海狮 / 企鹅秀。入住 Hotel Neuschloss 的详情见 phase2-otaru-neuschloss booking。
 
   - id: day-17
     date: "2027-01-12"
     city: hokkaido
-    title_zh: 第 17 天 · 札幌（夜 2）· 二条 + 頭大仏 + 大倉山 + 蟹本家
+    title_zh: 第 17 天 · 祝津 → 札幌还车 → 洞爷 Windsor
     intro_zh: >-
-      札幌核心一天。早上 二条市場 海鲜丼；上午 頭大仏 拜观；黄昏 大倉山 看日落；晚餐 蟹本家。
+      ★ 顺时针环线收尾：早 Neuschloss 早餐 + 温泉；上午退房，从祝津开到札幌市区租车行还车
+      （~40 km / 45 分钟）。步行 / 出租到 札幌駅，乘 JR 特急 北斗 → 洞爺駅（~2 小时），
+      配合 Windsor 免费接驳巴士发车时间（建议 13:00 / 14:20 / 16:55 其一）。
+      ★ 前一天 18:00 前 从 Neuschloss 那边电话预约接驳。
     activities:
-      - id: day-17-nijo-market
-        start: "08:30"
-        place: { ref: nijo-market-sapporo }
-        notes_zh: 早市开到中午前；海鲜丼当早饭。
-      - id: day-17-hill-of-the-buddha
-        place: { ref: hill-of-the-buddha }
-        notes_zh: 冬季拜观 10:00 – 15:00；水庭冬季放空无反射，景色变成佛首 + 白雪。
-      - id: day-17-okurayama
-        place: { ref: okurayama-observatory }
-        notes_zh: 1972 冬奥跳台场地；双人吊椅上展望台看日落。
-      - id: day-17-kani-honke
-        start: "18:30"
-        place: { ref: kani-honke-sapporo }
-        notes_zh: 4 人提前 2 – 3 周预订。
+      - id: day-17-drive-to-sapporo-dropoff
+        start: "10:00"
+        place: { ref: sapporo-station }
+        notes_zh: 祝津 → 札幌市区租车行还车；步行到札幌駅上车。
+      - id: day-17-toya-station
+        place: { ref: toya-station }
+        notes_zh: JR 洞爺駅 下车，候 Windsor 接驳巴士（约 40 分钟车程到酒店）。
+    bookings:
+      - id: day-17-hokuto-sapporo-toya
+        kind: other
+        title_zh: "JR 特急 北斗：札幌 → 洞爺"
+        start: "2027-01-12"
+        from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+        to: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
+        details_zh: ~2 小时。还车后发车，配合 Windsor 接驳时刻。
 
   - id: day-18
     date: "2027-01-13"
     city: hokkaido
-    title_zh: 第 18 天 · 札幌（夜 3）· ROYCE' 小镇 + 藻岩山 / NANDA
+    title_zh: 第 18 天 · Lake Toya 环湖一日（Phase 2 最后一夜）
     intro_zh: >-
-      ★ 札幌第 3 晚（用户新增）。白天 JR 学园都市线 去 ロイズタウン駅 做巧克力工厂体验；
-      黄昏 / 夜 藻岩山 夜景（完成北海道三大夜景的最后一座，或跳过改旭山展望）。
-      晚餐 海鮮ビュッフェ NANDA 或自由安排。明早（day 19）乘 JR 还车 + 札幌 → 东京。
+      Windsor 住宿第 2 晚、Phase 2 最后一夜。上午 / 下午借酒店班车或打车跑 Silo 展望台 + 有珠山缆车；
+      如时间 + 体力允许，下午加 登别地狱谷（开车 40 – 50 分钟）。
+      今晚好好享受 Windsor（SPA、晚餐、湖景）；明早（day-19）收拾行李去东京。
     activities:
-      - id: day-18-royce-town
-        start: "11:00"
-        place: { ref: royce-cacao-chocolate-town }
-        notes_zh: >-
-          ★ 必须提前在官网 e-tix 预约；10:00 – 17:00，最后入场 15:00。
-          从 札幌駅 → ロイズタウン駅（学园都市线）约 30 分钟，需非自驾出行。
-      - id: day-18-moiwa
-        start: "16:30"
-        place: { ref: mt-moiwa-ropeway }
-        notes_zh: >-
-          Nice-to-have：北海道三大夜景之一（与已登的 函館山 + 天狗山 组齐全三）。
-          冬季 11:00 – 22:00，末班上行 21:30。年末年始休 —— 1/13 应该正常营业，出行前再确认。
-      - id: day-18-nanda
-        start: "19:30"
-        place: { ref: seafood-buffet-nanda }
-        notes_zh: 提前 2 – 3 周预约；海鲜自助替代蟹本家做晚餐二选一。
+      - id: day-18-silo
+        place: { ref: toyako-silo-observation-deck }
+        notes_zh: 洞爷湖全景免费展望台；冬季营业 8:30 – 17:00。
+      - id: day-18-usuzan
+        place: { ref: usuzan-ropeway }
+        notes_zh: 有珠山缆车上山顶；走到火口原展望台约 7 分钟。冬季外輪山遊歩道封闭。
+      - id: day-18-noboribetsu
+        place: { ref: noboribetsu-jigokudani }
+        notes_zh: 时间允许，下午加 登别地狱谷；傍晚回酒店。
 
   # ─────────────────── Phase 3: Tokyo ───────────────────
   - id: day-19
     date: "2027-01-14"
     city: tokyo
-    title_zh: 第 19 天 · 札幌 → 东京（转移日）
+    title_zh: 第 19 天 · 洞爷 → 东京（转移日）
     intro_zh: >-
-      上午还车，札幌駅乘 JR 特急 北斗 → 新函馆北斗（~3.5 小时）+ 北海道新干线 → 东京（~4 小时）。
-      总计约 8 小时 + 换乘；Phase 3 首晚晚上在东京涩谷入住。
+      ★ 顺时针重构后：上午 Windsor 退房，班车到 洞爺駅。JR 特急 北斗 → 新函馆北斗（~2.5 小时）→
+      北海道新干线 はやぶさ → 东京（~4 小时）。合计 ~7 小时 + 换乘，略短于旧的札幌直发。
+      Phase 3 首晚晚上在东京涩谷入住。
     activities:
-      - id: day-19-sapporo-depart
-        start: "08:30"
-        place: { ref: sapporo-station }
+      - id: day-19-toya-depart
+        start: "09:00"
+        place: { ref: toya-station }
+        notes_zh: Windsor 早班车到 洞爺駅；前一晚需预约。
       - id: day-19-tokyo-arrive
         place: { ref: shibuya-scramble }
         notes_zh: 入住涩谷基地。晚上近处随便吃。
+    bookings:
+      - id: day-19-toya-tokyo-rail
+        kind: shinkansen
+        title_zh: "特急北斗 + 北海道新干线：洞爷 → 新函馆北斗 → 东京"
+        start: "2027-01-14"
+        from: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
+        to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
+        details_zh: >-
+          ① 特急 北斗 洞爺 → 新函館北斗 ~2.5 小时；② 北海道新干线 はやぶさ 新函館北斗 → 东京 ~4 小时。
+          预约大行李指定席（はやぶさ 必须）。
 
   - id: day-20
     date: "2027-01-15"
