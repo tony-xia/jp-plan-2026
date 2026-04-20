@@ -1,16 +1,27 @@
-# Day 17 — 2027-01-12 — 洞爷湖全天（Silo + 有珠山）
+# Day 17 — 2027-01-12 — 洞爷 → 札幌（返程第 1 晚）
 day:
   id: day-17
   date: "2027-01-12"
   city: hokkaido
-  title_zh: 第 17 天 · Lake Toya 环湖（Windsor 夜 2）
+  title_zh: 第 17 天 · 洞爷 → 札幌（Sapporo 返程 3 晚的第 1 晚）
   intro_zh: >-
-    Windsor 夜 2。上午 / 下午借酒店班车或打车跑 Silo 展望台 + 有珠山缆车；
-    天气好时可以走一圈湖畔。今晚享受 Windsor（SPA、晚餐、湖景）。明天 day-18 还是在 Toya（第 3 晚）。
+    ★ 2026-04-20 第三版新增：Windsor 退房 → 酒店班车到 洞爺駅 → JR 特急 北斗 → 札幌駅（~2 小时），
+    开始 Sapporo 返程 3 晚。下午抵札幌入住市中心酒店。
+    返程的核心任务：补齐年末年始期间关门的景点（ROYCE' Town、頭大佛、大倉山、白い恋人 亮灯重游 等）。
+    今晚轻量 —— 狸小路 / 薄野 食街随便吃；明天起密集活动。
   activities:
-    - id: day-17-silo
-      place: { ref: toyako-silo-observation-deck }
-      notes_zh: 洞爷湖全景免费展望台；冬季营业 8:30 – 17:00。1 – 3 月院内有雪上活动区，可补充玩乐。
-    - id: day-17-usuzan
-      place: { ref: usuzan-ropeway }
-      notes_zh: 有珠山缆车上山顶；走到火口原展望台约 7 分钟。冬季外輪山遊歩道封闭。
+    - id: day-17-depart-toya
+      start: "09:00"
+      place: { ref: toya-station }
+      notes_zh: Windsor 早班车到 洞爺駅；前一晚需预约。
+    - id: day-17-sapporo-arrive
+      place: { ref: sapporo-station }
+      notes_zh: 特急 北斗 ~2 小时到札幌；下午入住 Sapporo 返程酒店。晚上市内自由活动。
+  bookings:
+    - id: day-17-hokuto-toya-sapporo
+      kind: other
+      title_zh: "JR 特急 北斗：洞爺 → 札幌"
+      start: "2027-01-12"
+      from: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
+      to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+      details_zh: ~2 小时。4 人 + 行李 → 预约特大荷物指定席。

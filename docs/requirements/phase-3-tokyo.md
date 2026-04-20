@@ -1,23 +1,23 @@
-# Phase 3 — Tokyo (5 nights — confirmed)
+# Phase 2 (live) — Tokyo (4 nights — 2026-04-20 fourth-pass)
 
-> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation.
+> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. **This is the live Phase 2** after the 2026-04-20 fourth-pass restructure (trip extended by 1 day → Tokyo 3 → 4 nights, Monday slack added after the Sat/Sun heavy block). File still named `phase-3-tokyo.md` from the original three-phase plan.
 
-Phase 3 base: **Shibuya** area (shopping + in-line with salon / massage / Gonpachi walkable). Trip wraps **2027-01-18**. **5 nights locked** (2027-01-14 → 2027-01-18) — trimmed from the original 6 to give Sapporo a 3rd night. The day-19 (arrival) half-day is largely consumed by the Sapporo→Tokyo transit, so **4 active Tokyo days** remain.
+Phase base: **Shibuya** area (shopping + in-line with salon / massage / Gonpachi walkable). Trip wraps **2027-01-19**. **4 nights locked** (2027-01-15 → 2027-01-19) — arrival day-20 (2027-01-15 Fri) is fully consumed by the Sapporo → Tokyo transit; Sat + Sun are the heavy activity days; **Mon day-23 is now a slack / spillover day** before the Tue day-24 departure.
 
-## Day-level Tokyo allocation (locked in `trip.yaml`)
+## Day-level Tokyo allocation (2026-04-20 fourth-pass — unbundled)
 
 | Day | Date | Weekday | Plan |
 |---|---|---|---|
-| 19 | 2027-01-14 | Thu | Sapporo→Tokyo transit (~8 hr), arrive Shibuya evening |
-| 20 | 2027-01-15 | Fri | **Car-enthusiast day 1 — Subaru**: Subaru Star Square Ebisu (flagship showroom, walkable from Shibuya) + Tokyo Subaru Mitaka + light Shibuya shopping + Mominotakumi massage (evening) |
-| 21 | 2027-01-16 | Sat | **Car-enthusiast day 2 — Autobacs**: A PIT Autobacs Shinonome (2+ hr morning/midday) + Nezu Museum optional + Gonpachi dinner |
-| 22 | 2027-01-17 | Sun | Oedo Antique Market (3rd Sun) + K-two haircut |
-| 23 | 2027-01-18 | Mon | Departure |
+| 20 | 2027-01-15 | Fri | Sapporo→Tokyo transit (~7.5 – 8 hr on 特急 北斗 + 北海道新幹線), arrive Shibuya evening. Light Shibuya dinner; book massage for Sat evening. |
+| 21 | 2027-01-16 | Sat | **Car-enthusiast day** (bundled): Subaru Star Square Ebisu (walkable from Shibuya) + Tokyo Subaru Mitaka (Sat open; closed Tue/Wed) + A PIT Autobacs Shinonome (≥2 hr) + **Gonpachi Sat dinner**. Mominotakumi massage late evening. ⚠️ If Sat runs out of daylight, drop Mitaka and move it to day-23 Mon (Mon also open). |
+| 22 | 2027-01-17 | Sun | **Oedo Antique Market** (3rd Sun, 09:00 – 16:00 at 東京国際フォーラム) + **K-two haircut** afternoon. |
+| 23 | 2027-01-18 | Mon | **Slack / spillover day.** Uses: ① Mitaka Subaru if day-21 skipped it (Mon open 10:00–18:00); ② Nezu Museum (ancient East Asian art — pairs with Oedo interest); ③ Shibuya / Harajuku / Omotesando shopping; ④ Meiji Shrine; ⑤ chill. |
+| 24 | 2027-01-19 | Tue | Departure. Haneda ~40 min from Shibuya. |
 
 ## Car-enthusiast requirement (2026-04-20)
 
-- **User is a car enthusiast — Autobacs + Subaru are must-visits in Tokyo, and must fall on the first 2 full days after the Tokyo arrival day** (i.e. day-20 and day-21, not day-22+). Arrival day (day-19) is eaten by the ~8 hr Sapporo→Tokyo transit and does not count.
-- **Distribution (chosen 2026-04-20):** bundle both Subaru stops on day-20 (Fri — Subaru Star Square Ebisu + Tokyo Subaru Mitaka; Fri open for Mitaka), and Autobacs Shinonome as a 2+ hr block on day-21 (Sat). This frees day-22 (Sun) for Oedo Antique Market + haircut only.
+- **User is a car enthusiast — Autobacs + Subaru are must-visits in Tokyo.** With the fourth-pass +1 night (3 full days Sat/Sun/Mon), Sat day-21 stays as the primary car day but Mitaka has a safety net on Mon day-23 if Sat is too heavy.
+- **Distribution (2026-04-20 fourth-pass):** day-21 Sat default = Subaru Star Square Ebisu + Tokyo Subaru Mitaka + A PIT Autobacs Shinonome + Gonpachi Sat dinner. Sunday day-22 = Oedo 骨董市 + haircut. Monday day-23 = Mitaka spillover if needed + Nezu + shopping. ⚠️ Mitaka Mon open 10:00 – 18:00 (closed Tue/Wed only) — Mon is a safe alt.
 - **Venues:**
   - **Subaru Star Square (スバルスタースクエア)** — Subaru's flagship brand showroom in **Ebisu, Tokyo** (恵比寿). Walkable / one-stop train from Shibuya base — fits day-20 easily alongside existing Shibuya plans.
   - **Tokyo SUBARU Mitaka (東京スバル 三鷹店)** — already captured above as a committed must-visit; kept and scheduled on day-20 (Fri, Mitaka is closed Tue/Wed so Fri works).

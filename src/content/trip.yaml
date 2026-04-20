@@ -1,14 +1,15 @@
-# Japan trip itinerary — 2026-12-27 to 2027-01-18 (23 days, 22 nights).
-# Two phases (2026-04-20 restructure: Karuizawa parked; Day-1 = Haneda → Hakodate Shinkansen):
-#   Phase 1 (days 01-18, 18 nights) = Hokkaido clockwise loop:
+# Japan trip itinerary — 2026-12-27 to 2027-01-19 (24 days, 23 nights).
+# Two phases (2026-04-20 fourth-pass: Tokyo +1 night · trip extended by 1 day):
+#   Phase 1 (days 01-19, 19 nights) = Hokkaido clockwise loop + Sapporo return:
 #                                     Hakodate 3 (day-01 arrival via Haneda + 東北・北海道新幹線)
-#                                     → Sapporo 4 (JR 特急 北斗 in · NYE in Sapporo · car pickup day-08)
-#                                     → Wakkanai 2 (Surfeel; long drive from Sapporo + weather-buffer day)
+#                                     → Sapporo 3 front (NYE + NYD; car pickup day-07)
+#                                     → Wakkanai 2 (Surfeel; long drive from Sapporo + 宗谷岬 buffer day)
 #                                     → Cape Sōya → Abashiri 2 (Okhotsk coast drive)
 #                                     → Biei 1 (Blue Pond light-up)
 #                                     → Otaru 3 (central 2 + Hotel Neuschloss 1 drone-day)
-#                                     → Sapporo car drop → Windsor Toya 3 (end of Hokkaido)
-#   Phase 2 (days 19-23, 4 nights)  = Tokyo (day-19 = Toya → Tokyo transit via 北斗 + 新幹線)
+#                                     → Sapporo car drop → Windsor Toya 2
+#                                     → Sapporo return 3 (end of Hokkaido; catches 年末年始 closures like ROYCE'/頭大佛)
+#   Phase 2 (days 20-24, 4 nights)  = Tokyo (day-20 = Sapporo → Tokyo transit via 北斗 + 新幹線; day-23 = slack day)
 # Full requirements source: docs/requirements.md
 # Validated against src/lib/schema.ts at build time.
 
@@ -19,7 +20,7 @@ travelers:
   - Crystal
   - Du
 startDate: "2026-12-27"
-endDate: "2027-01-18"
+endDate: "2027-01-19"
 
 segments:
   - id: hokkaido
@@ -46,9 +47,10 @@ segments:
       - day-16
       - day-17
       - day-18
+      - day-19
   - id: tokyo
     name:
       zh: 东京
       en: Tokyo
       ja: 東京
-    days: [day-19, day-20, day-21, day-22, day-23]
+    days: [day-20, day-21, day-22, day-23, day-24]

@@ -1,19 +1,27 @@
-# Day 15 — 2027-01-10 — 朝里航拍 + 祝津 · Neuschloss 夜
+# Day 15 — 2027-01-10 — 祝津 → 札幌还车 → 洞爷 Windsor
 day:
   id: day-15
   date: "2027-01-10"
   city: hokkaido
-  title_zh: 第 15 天 · 朝里 航拍 + 祝津 · Neuschloss 夜
+  title_zh: 第 15 天 · 祝津 → 札幌还车 → 洞爷 Windsor
   intro_zh: >-
-    ★ 上午 / 中午 朝里 航拍 + 自拍摄影（主目标 朝里スカイループ；备选 朝里ダム / 朝里川温泉）。
-    下午到 祝津 小樽水族館。当晚入住 Hotel Neuschloss 小樽（祝津海岸、全海景、私人露天风吕、法式晚餐）。
-    ⚠️ 无人机规定详见 place notes（DID、高速上空禁飞、国定公园等）；≥ 10 工作日前提交 DIPS 2.0 申请。
-    天气不好改纯地面自拍 / 余市 Nikka 威士忌 工厂 备案。
+    ★ 顺时针环线收尾：早 Neuschloss 早餐 + 温泉；上午退房，从祝津开到札幌市区租车行还车
+    （~40 km / 45 分钟）。步行 / 出租到 札幌駅，乘 JR 特急 北斗 → 洞爺駅（~2 小时），
+    配合 Windsor 免费接驳巴士发车时间（建议 13:00 / 14:20 / 16:55 其一）。
+    ★ 前一天 18:00 前从 Neuschloss 那边电话预约接驳。
   activities:
-    - id: day-15-asari-drone
-      start: "09:30"
-      place: { ref: asari-otaru }
-      notes_zh: 整个行程唯一的航拍窗口 —— 没有天气备用日。天气不行就只拍地面。
-    - id: day-15-otaru-aquarium
-      place: { ref: otaru-aquarium }
-      notes_zh: 祝津海岸，紧邻 Neuschloss；冬季程序含海狮 / 企鹅秀。入住 Hotel Neuschloss 的详情见 hokkaido-otaru-neuschloss booking。
+    - id: day-15-drive-to-sapporo-dropoff
+      start: "10:00"
+      place: { ref: sapporo-station }
+      notes_zh: 祝津 → 札幌市区租车行还车；步行到札幌駅上车。
+    - id: day-15-toya-station
+      place: { ref: toya-station }
+      notes_zh: JR 洞爺駅 下车，候 Windsor 接驳巴士（约 40 分钟车程到酒店）。
+  bookings:
+    - id: day-15-hokuto-sapporo-toya
+      kind: other
+      title_zh: "JR 特急 北斗：札幌 → 洞爺"
+      start: "2027-01-10"
+      from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+      to: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
+      details_zh: ~2 小时。还车后发车，配合 Windsor 接驳时刻。

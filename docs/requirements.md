@@ -17,20 +17,20 @@ This list is the source of truth for trip-planning decisions. The itinerary in [
 ## Trip basics
 
 - **Travelers:** Tony, AZhu, Crystal, Du
-- **Dates:** 2026-12-27 → 2027-01-18 (23 days, 22 nights)
+- **Dates:** 2026-12-27 → 2027-01-19 (24 days, 23 nights) *(2026-04-20 fourth-pass: trip extended by 1 day to give Tokyo a slack Monday)*
 - **Two phases (2026-04-20 restructure):** Phase 1 = **Hokkaido** (Day-1 lands at Haneda and heads straight to Hakodate by Shinkansen); Phase 2 = **Tokyo**. Karuizawa is **parked** — user decision 2026-04-20 to simplify to two phases and redirect those 3 nights into Hokkaido.
 
 ## Confirmed night allocation
 
-### Current plan (2026-04-20, Karuizawa parked + 3 nights redirected to Hokkaido) — ✅ sums to 22
+### Current plan (2026-04-20 fourth-pass — trip extended to 2027-01-19; Tokyo +1) — ✅ sums to 23
 
 | Phase | Nights | Breakdown |
 |---|---|---|
-| Phase 1 (Hokkaido) | **18** | Hakodate N₁ · Sapporo N₂ (car pickup) · Wakkanai N₃ · Abashiri N₄ · Biei N₅ · Otaru N₆ · Windsor Toya N₇ — individual N's to be set (see open questions) |
-| Phase 2 (Tokyo) | 4 | 2027-01-14 → 2027-01-18, unchanged |
-| **Total** | **22** | |
+| Phase 1 (Hokkaido) | **19** | Hakodate 3 · **Sapporo 3 (front, includes NYE + NYD)** · Wakkanai 2 · Abashiri 2 · Biei 1 · Otaru 3 · Windsor Toya 2 · **Sapporo 3 (return, end of Hokkaido)** |
+| Phase 2 (Tokyo) | **4** | 2027-01-15 → 2027-01-19 (fourth-pass: +1 Monday slack day after the Sat/Sun heavy block) |
+| **Total** | **23** | |
 
-> ⚠️ **Open: where do the 3 extra Hokkaido nights go?** The previous clockwise plan ran Hakodate 2 · Sapporo 3 · Wakkanai 1 · Abashiri 2 · Biei 1 · Otaru 3 · Toya 2 = 14 (requirements-table tally; YAML had 15 via an extra Hakodate night already absorbed). The 3 new nights are unallocated — see [`requirements/open-questions.md`](requirements/open-questions.md) for candidates (Hakodate jetlag-absorber, Wakkanai weather-buffer, Abashiri Shiretoko/Utoro day, Rumoi mid-drive split, etc.). User decides before the YAML refactor.
+> ✅ **Extra-nights distribution locked (user, 2026-04-20 second pass):** Sapporo +1 (front, for NYE + NYD spread), Wakkanai +1 (weather buffer), Toya +1 initially. Then a third-pass restructure the same day: Sapporo -1 and Toya -1 and Tokyo -1, with **3 new nights added back as a Sapporo return leg AFTER Toya**. Final allocation per table above. Rationale for the return leg: (a) catches 年末年始 closures (ROYCE' Town, 頭大佛, 大倉山, 白い恋人 illumination) that likely miss out in the Dec 31 / Jan 1 front-Sapporo window when many attractions are closed; (b) converts the Toya → Tokyo transit day into two legs (Toya → Sapporo via 特急 北斗, then Sapporo → Tokyo later) so we don't burn a full travel day in one shot; (c) gives flight-out flexibility via 新千歳 as backup if weather closes the Shinkansen.
 
 > ✅ **Windsor Toya availability + cost (checked 2026-04-20 on Booking.com):** NYE-peak window 2027-01-01 → 01-03 shows **every room type "Not available"** for 2 rooms × 4 adults — essentially sold out on Booking.com. Late-Phase-1 window 2027-01-10 → 01-12 is **open with the cheapest 2-room × 2-night combo at AUD 1,347** (2 × Premium Queen Sea Side, room-only; breakfast +AUD 43 each). The end-of-Hokkaido slot is validated on both cost and availability. Direct-booking (Vignette / Hotel Story) is the confirm-step before locking.
 

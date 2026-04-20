@@ -1,32 +1,30 @@
-# Day 20 — 2027-01-15 — 车迷日 1 — Subaru 双店
+# Day 20 — 2027-01-15 — 札幌 → 东京（转移日）
 day:
   id: day-20
   date: "2027-01-15"
   city: tokyo
-  title_zh: 第 20 天 · 车迷日 1 —— Subaru 双店（惠比寿旗舰 + 三鹰店）+ 涩谷购物 + 按摩（周五）
+  title_zh: 第 20 天 · 札幌 → 东京（转移日）
   intro_zh: >-
-    2027-01-15 是周五 —— Subaru Mitaka 开门（周二 / 周三休）。东京 5 晚的第一个完整日定为 Subaru 车迷日：
-    早上先逛 惠比寿 Garden Place 的 Subaru 品牌旗舰展厅「SUBARU 星广场」，之后赴 三鹰 经销旗舰店。
-    回涩谷补一段购物，晚上 もみの匠 按摩收尾。
+    ★ 2026-04-20 第三版：Tokyo 压缩到 3 晚 —— 本日几乎整天在路上。
+    ~08:00 从酒店出发 → 札幌駅 乘 JR 特急 北斗 → 新函馆北斗（~3.5 小时）→ 北海道新干线 はやぶさ → 东京（~4 小时）。
+    合计 ~7.5 – 8 小时 + 换乘；下午 / 晚 抵达东京涩谷基地。
+    ⚠️ 暴雪天气时可转飞 新千歳 → 羽田（快速エアポート 札幌 → 新千歳 ~35 分钟 + 1.5 小时飞行）。
+    今晚就近涩谷随便吃；明早开始车迷密集日。
   activities:
-    - id: day-20-subaru-star-square
-      start: "10:30"
-      place: { ref: subaru-star-square-ebisu }
-      notes_zh: >-
-        品牌旗舰展厅，非经销店；涩谷 → 惠比寿 1 站即到（JR 山手线 ~3 分钟）。
-        预估 60 – 90 分钟；出行前确认开放时间 / 是否需要预约。
-    - id: day-20-subaru-mitaka
-      start: "13:00"
-      place: { ref: tokyo-subaru-mitaka }
-      notes_zh: >-
-        ⚠️ 周二 / 周三休，本日周五开门（10:00 – 18:00）。
-        从 惠比寿 乘 JR 山手线 → 新宿 → 中央线 三鷹駅，再公交/出租 15 分钟；或打车 ~30 – 40 分钟。
-        逛展厅 + 隔壁 G-PARK 三鷹 中古车店，预估 90 – 120 分钟。
-    - id: day-20-shibuya-shopping
-      start: "16:30"
+    - id: day-20-sapporo-depart
+      start: "08:00"
+      place: { ref: sapporo-station }
+      notes_zh: 札幌駅 上 特急 北斗；带大行李必须预约 特大荷物指定席。
+    - id: day-20-tokyo-arrive
       place: { ref: shibuya-scramble }
-      notes_zh: 回涩谷后自由购物：表参道 / 原宿 / Scramble Square / Miyashita Park。压缩到傍晚时段。
-    - id: day-20-massage
-      start: "20:00"
-      place: { ref: mominotakumi-shibuya }
-      notes_zh: 60 分钟全身 ¥3,980。线上提前预约时段；Subaru 日跑动多，晚上按摩合适。
+      notes_zh: 抵达东京 → JR 山手线 或 东京メトロ 到涩谷入住。晚上近处自由晚餐。
+  bookings:
+    - id: day-20-sapporo-tokyo-rail
+      kind: shinkansen
+      title_zh: "特急北斗 + 北海道新干线：札幌 → 新函馆北斗 → 东京"
+      start: "2027-01-15"
+      from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+      to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
+      details_zh: >-
+        ① 特急 北斗 札幌 → 新函館北斗 ~3.5 小时；② 北海道新干线 はやぶさ 新函館北斗 → 东京 ~4 小时。
+        预约大行李指定席（はやぶさ 必须）。坏天气备选：新千歳 → 羽田 飞行。

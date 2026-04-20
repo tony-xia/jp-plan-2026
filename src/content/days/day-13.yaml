@@ -1,36 +1,22 @@
-# Day 13 — 2027-01-08 — 美瑛丘陵 → 小樽（鱼真 · 运河 · 天狗山夜）
+# Day 13 — 2027-01-08 — Rusutsu 双线环游
 day:
   id: day-13
   date: "2027-01-08"
   city: hokkaido
-  title_zh: 第 13 天 · 美瑛丘陵 → 小樽（鱼真午餐 · 运河 · 天狗山夜）
+  title_zh: 第 13 天 · Rusutsu 双线环游（中山峠 + ニセコ）
   intro_zh: >-
-    ★ 小樽 3 晚的第 1 晚（中心街）。上午美瑛丘陵两棵树（クリスマスツリー + セブンスター）；
-    然后开到小樽（~200 km / 冬季 3 – 4 小时 · 旭川 → 道央道）。
-    ⚠️ 2027-01-08 是周五 —— 鱼真 开门（周日休），不接受预订；开门前 20 – 30 分钟排队。
-    赶得上就午餐鱼真，赶不上改小樽市区其它寿司。下午 运河 + 音乐盒堂 + 堺町通り；日落后 天狗山 夜景。
+    ★ 开车去 Rusutsu 留寿都，去程和回程走不同路看不同雪景。
+    去 中山峠（R230，羊蹄山 + あげいも）→ Rusutsu 中午午餐 / 雪上活动 → 回 ニセコ + R5 余市沿海 → 小樽。
+    ~7 – 9 小时循环；根据天气 / 光线可反向（ニセコ 去，中山峠 回程日落）。
   activities:
-    - id: day-13-christmas-tree
-      start: "08:00"
-      place: { ref: biei-christmas-tree }
-      notes_zh: ⚠️ 无停车场 + 私人农地，路边取景即走，绝不踏入田地。
-    - id: day-13-seven-stars-tree
-      place: { ref: biei-seven-stars-tree }
-      notes_zh: 有停车场，比 クリスマスツリー 好停。
-    - id: day-13-drive-to-otaru
+    - id: day-13-nakayama-toge
+      start: "09:30"
+      place: { ref: nakayama-toge }
+      notes_zh: Rusutsu 循环去程必停点；羊蹄山 + 名产「あげいも」。
+    - id: day-13-rusutsu
+      start: "11:00"
+      place: { ref: rusutsu-resort }
+      notes_zh: 度假村基地午餐 + 雪上活动 + 散步。~15:00 出发走 ニセコ 回程。
+    - id: day-13-return-to-otaru
       place: { ref: otaru-canal }
-      notes_zh: 美瑛 → 小樽 旭川 → 道央道 → 札樽道；冬季估 3 – 4 小时。
-    - id: day-13-uomasa
-      start: "13:30"
-      place: { ref: uomasa-otaru }
-      notes_zh: >-
-        不接受预订，周日休；2027-01-08 周五开门。到达时间不稳定 —— 13:00 前到小樽就午餐鱼真，
-        否则直接放弃改晚饭 / 运河边店。
-    - id: day-13-music-box
-      place: { ref: otaru-music-box-museum }
-      notes_zh: 堺町本通り尽头；顺带逛 LeTAO / 玻璃店。
-    - id: day-13-tengu-night
-      start: "17:00"
-      place: { ref: otaru-tengu-ropeway }
-      notes_zh: >-
-        北海道三大夜景之一。日落后上山。冬季营业 09:00 – 20:00，末班上行 19:48。
+      notes_zh: 回小樽 ~17:30 – 18:00；若有余力再刷一遍运河夜景。

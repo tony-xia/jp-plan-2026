@@ -1,31 +1,19 @@
-# Day 11 — 2027-01-06 — 网走全天（流冰館 + 能取岬 + 知床方向）
+# Day 11 — 2027-01-06 — 网走 → 美瑛（蓝池 + 亮灯夜）
 day:
   id: day-11
   date: "2027-01-06"
   city: hokkaido
-  title_zh: 第 11 天 · 网走 + 知床方向全天
+  title_zh: 第 11 天 · 网走 → 美瑛（蓝池 + 亮灯夜）
   intro_zh: >-
-    网走全天。上午 オホーツク流氷館（-15℃ 室内真冰 · 我们窗口海面流冰未到的替代）+ 天都山展望台；
-    下午跑 能取岬 → 天に続く道（斜里町，冬季先看路况再开）→ オシンコシン滝 → 鱒浦 ビューポイント 回程。
+    网走 → 美瑛 ~220 km，冬季 4 – 5 小时（走 R39 → 道央道）。
+    午餐旭川；下午入住美瑛酒店；日落前到 白金青い池 蹲标准 17:00 亮灯（~10 分钟循环灯光 pattern，~21:00 结束）。
   activities:
-    - id: day-11-ryuhyo-museum
-      place: { ref: okhotsk-ryuhyo-museum }
-      notes_zh: 流冰未到时这里是真冰替代体验的首选。同址还有 天都山展望台 360° 全景。
-    - id: day-11-cape-notoro
-      place: { ref: cape-notoro }
-      notes_zh: 冬日鄂霍次克海岸 + 灯塔；天气好时非常出片。距网走市中心 ~20 分钟。
-    - id: day-11-road-to-heaven
-      place: { ref: road-to-heaven-shari }
+    - id: day-11-drive-to-biei
+      place: { ref: abashiri-city }
+      notes_zh: 早出，午餐旭川 / 上富良野；下午抵美瑛酒店。
+    - id: day-11-blue-pond
+      start: "16:00"
+      place: { ref: shirogane-blue-pond }
       notes_zh: >-
-        冬季注意事项：起点观景台冬季关闭；道路只有 2 月才保证除雪。当日实地观察再决定是否驾入。
-    - id: day-11-oshinkoshin
-      place: { ref: oshinkoshin-falls }
-      notes_zh: 部分结冰的大瀑布，回程顺路。
-    - id: day-11-masuura
-      place: { ref: masuura-viewpoint-parking }
-      notes_zh: 回网走前最后一个观景停车带。
-    - id: day-11-ryuhyo-monogatari-train
-      place: { ref: ryuhyo-monogatari-train }
-      notes_zh: >-
-        可选：如 2027 年 1 月上旬 流氷物語号 已开季（通常 1 月下旬），可替代 / 串联 知床斜里 方向的自驾。
-        网走 → 知床斜里 自驾 ~50 分钟 / 列车 ~1 小时。预订前到 JR 北海道官网确认开季日期。
+        冬季日落后亮灯到 21:00（1 月 ~17:00 开始），日落前 1 小时到位先拍日景 → 接亮灯一次看齐。
+        带三脚架长曝。

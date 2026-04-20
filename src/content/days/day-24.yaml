@@ -1,0 +1,10 @@
+# Day 24 — 2027-01-19 — 返程
+day:
+  id: day-24
+  date: "2027-01-19"
+  city: tokyo
+  title_zh: 第 24 天 · 返程
+  intro_zh: 按航班时间整理行李，前往 羽田 / 成田。注意元旦后 1 月中旬的机场通关仍可能繁忙，提前到达。
+  activities:
+    - id: day-24-haneda-depart
+      place: { ref: haneda-airport }

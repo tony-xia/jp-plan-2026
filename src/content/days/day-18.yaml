@@ -1,24 +1,36 @@
-# Day 18 — 2027-01-13 — 登别地狱谷 + Windsor 收尾夜
+# Day 18 — 2027-01-13 — Sapporo 返程（ROYCE' + 頭大佛 + 大倉山）
 day:
   id: day-18
   date: "2027-01-13"
   city: hokkaido
-  title_zh: 第 18 天 · 登别地狱谷 + Windsor 收尾夜（Hokkaido 最后一夜）
+  title_zh: 第 18 天 · Sapporo 返程（ROYCE' + 頭大佛 + 大倉山）
   intro_zh: >-
-    ★ 2026-04-20 新增一日（Toya +1）：有充裕时间跑 登别地狱谷 + 温泉街。
-    上午酒店出发（打车 / 酒店安排用车） → 登别地狱谷（~40 – 50 分钟）→ 登别温泉街午餐 → 可加 クマ牧場 /
-    大湯沼川天然足湯（冬季仍开放的战术性热点）→ 下午回 Windsor 享受 SPA / 晚餐 / 湖景。
-    今晚是 Hokkaido 的最后一夜 —— Windsor 的晚餐值得留出完整时段。明早（day-19）收拾行李 + 酒店班车去 洞爺駅，
-    乘 北斗 + 新幹線 到东京。
+    ★ 返程重点日 —— 年末年始期间关门的景点 1/13（周三）基本全部恢复正常营业。
+    上午 JR 学园都市线 去 ロイズタウン駅 做 ROYCE' 可可与巧克力小镇 体验（★ 官网 e-tix 必预约）；
+    中午回城吃午饭，下午 頭大佛（真駒内滝野霊園）→ 黄昏 大倉山 跳台展望台看日落。
+    ⚠️ 头大佛冬季拜观 10:00 – 15:00（较夏季缩短），务必 15:00 前入场。
+    ⚠️ 大倉山 11/1 – 4/28 营业 9:00 – 17:00。
   activities:
-    - id: day-18-noboribetsu
-      start: "09:30"
-      place: { ref: noboribetsu-jigokudani }
+    - id: day-18-royce-town
+      start: "10:00"
+      place: { ref: royce-cacao-chocolate-town }
       notes_zh: >-
-        活火山造就的硫磺地狱谷 + 温泉街。酒店 → 地狱谷 ~40 – 50 分钟（可让酒店代叫出租）。
-        现场建议 2 – 3 小时（散步 + 温泉街午餐）。
-    - id: day-18-windsor-evening
-      place: { ref: windsor-hotel-toya }
+        ★ 必提前在 royce.com/town e-tix 预约。10:00 – 17:00，最后入场 15:00。
+        札幌駅 → ロイズタウン駅（JR 学园都市线）约 30 分钟 + 免费接驳 7 分钟。
+        现场建议 ~2 小时（体验 + 商店）。
+    - id: day-18-lunch
+      place: { ref: sapporo-station }
+      notes_zh: 回札幌駅 或大通附近吃午餐；二条市場（如前段未去）也可补刀。
+    - id: day-18-hill-of-the-buddha
+      start: "13:30"
+      place: { ref: hill-of-the-buddha }
       notes_zh: >-
-        下午回酒店享受 SPA + 室内温泉。晚上 Windsor 主餐厅预订一顿正式的 Hokkaido 收尾晚餐。
-        ⚠️ Windsor 多家餐厅需入住当天预约；办理入住时同时订好 day-17 和 day-18 两晚晚餐。
+        冬季 10:00 – 15:00，务必 15:00 前入场。水庭冬季排空无反射，景色变成佛首 + 白雪。
+        札幌駅自驾 ~40 分，或 地下鉄真駒内駅 + 中央バス 真 108（~20 分 / ¥500）。
+    - id: day-18-okurayama
+      start: "16:00"
+      place: { ref: okurayama-observatory }
+      notes_zh: >-
+        1972 冬奥跳台场地；双人吊椅上展望台看日落（1 月日落约 16:30）。
+        冬季 9:00 – 17:00，缆椅往返成人 ¥1,000。免费停车 113 位。
+        从 头大佛开车 ~30 – 40 分钟。

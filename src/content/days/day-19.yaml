@@ -1,28 +1,26 @@
-# Day 19 — 2027-01-14 — 洞爷 → 东京
+# Day 19 — 2027-01-14 — Sapporo 返程机动日（白い恋人 亮灯重游 / 补遗）
 day:
   id: day-19
   date: "2027-01-14"
-  city: tokyo
-  title_zh: 第 19 天 · 洞爷 → 东京（转移日）
+  city: hokkaido
+  title_zh: 第 19 天 · Sapporo 返程机动日（Hokkaido 最后一夜）
   intro_zh: >-
-    ★ 顺时针重构后：上午 Windsor 退房，班车到 洞爺駅。JR 特急 北斗 → 新函馆北斗（~2.5 小时）→
-    北海道新干线 はやぶさ → 东京（~4 小时）。合计 ~7 小时 + 换乘，略短于旧的札幌直发。
-    Tokyo 首晚晚上在东京涩谷入住。
+    Sapporo 返程第 3 晚 —— Hokkaido 的最后一夜。机动补遗日，按前段 NYE / NYD 漏掉的内容与当日天气动态决定。
+    候选：①白い恋人 亮灯重游（前段 12/30 到得匆忙可再去；或夜景更稳定）；② 二条市場 早饭（如前段未去）；
+    ③ 藻岩山 再访（前段天气不好可换日）；④ 札幌近郊小樽 JR 1 日游（已住过小樽 3 晚，可跳）；
+    ⑤ 旭山動物園（旭川，往返 JR ライラック ~3 小时，需早出 —— 重兴趣者才值得）。
+    晚上打包行李，明早（day-20）早起乘 特急 北斗 + 新幹線 去东京。
   activities:
-    - id: day-19-toya-depart
-      start: "09:00"
-      place: { ref: toya-station }
-      notes_zh: Windsor 早班车到 洞爺駅；前一晚需预约。
-    - id: day-19-tokyo-arrive
-      place: { ref: shibuya-scramble }
-      notes_zh: 入住涩谷基地。晚上近处随便吃。
-  bookings:
-    - id: day-19-toya-tokyo-rail
-      kind: shinkansen
-      title_zh: "特急北斗 + 北海道新干线：洞爷 → 新函馆北斗 → 东京"
-      start: "2027-01-14"
-      from: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
-      to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
-      details_zh: >-
-        ① 特急 北斗 洞爺 → 新函館北斗 ~2.5 小时；② 北海道新干线 はやぶさ 新函館北斗 → 东京 ~4 小时。
-        预约大行李指定席（はやぶさ 必须）。
+    - id: day-19-free-morning
+      place: { ref: sapporo-station }
+      notes_zh: >-
+        按天气与前段漏掉的内容挑 —— 前段 NYE 二条市場关门就今早补；或去 中央卸売市場 海鲜丼。
+    - id: day-19-shiroi-koibito-revisit
+      start: "15:30"
+      place: { ref: shiroi-koibito-park }
+      notes_zh: >-
+        如前段 12/30 亮灯匆忙，今日再访。亮灯「Blooming Snow Fantasy」16:00 – 19:00，观赏免费。
+        也可改为 札幌市時計台 / 大通 TV 塔白天登顶 等短行程。
+    - id: day-19-packing
+      place: { ref: sapporo-station }
+      notes_zh: 晚上早回酒店打包行李；明早（day-20）~07:30 – 08:00 出发去札幌駅。

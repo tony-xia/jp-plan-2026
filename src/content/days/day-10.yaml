@@ -1,21 +1,31 @@
-# Day 10 — 2027-01-05 — 稚内 → 鄂霍次克海岸 → 网走（超长途日）
+# Day 10 — 2027-01-05 — 网走全天（流冰館 + 能取岬 + 知床方向）
 day:
   id: day-10
   date: "2027-01-05"
   city: hokkaido
-  title_zh: 第 10 天 · 稚内 → 鄂霍次克海岸 → 网走（超长途日 · 顺时针路线精髓）
+  title_zh: 第 10 天 · 网走 + 知床方向全天
   intro_zh: >-
-    🚨 顺时针环线最硬一天：早离稚内走 R238 沿鄂霍次克海岸东南到网走（~320 km / 冬季 5 – 6 小时）。
-    ★ 左侧驾驶 + 向东行驶 = 海在驾驶员一侧，是顺时针路线的核心体验。
-    中途 音威子府 / 枝幸 / 雄武 / 紋別 / サロマ湖 可以短停；遇暴风 / 白化走 R40 → 旭川 → R39 内陆备案（放弃海景）。
-    傍晚抵达网走，市内入住。⚠️ 宗谷岬已在 day-09 完成，不再往返。
+    网走全天。上午 オホーツク流氷館（-15℃ 室内真冰 · 我们窗口海面流冰未到的替代）+ 天都山展望台；
+    下午跑 能取岬 → 天に続く道（斜里町，冬季先看路况再开）→ オシンコシン滝 → 鱒浦 ビューポイント 回程。
   activities:
-    - id: day-10-depart-wakkanai
-      start: "07:30"
-      place: { ref: surfeel-hotel-wakkanai }
-      notes_zh: 早出，争取中午前抵达 紋別 / サロマ湖 段，下午日光充足时段过 能取岬。
-    - id: day-10-drive-to-abashiri
-      place: { ref: abashiri-city }
+    - id: day-10-ryuhyo-museum
+      place: { ref: okhotsk-ryuhyo-museum }
+      notes_zh: 流冰未到时这里是真冰替代体验的首选。同址还有 天都山展望台 360° 全景。
+    - id: day-10-cape-notoro
+      place: { ref: cape-notoro }
+      notes_zh: 冬日鄂霍次克海岸 + 灯塔；天气好时非常出片。距网走市中心 ~20 分钟。
+    - id: day-10-road-to-heaven
+      place: { ref: road-to-heaven-shari }
       notes_zh: >-
-        R238 沿鄂霍次克海岸东南行；傍晚抵达网走入住。
-        ⚠️ 海岸公路暴雪 / 大浪时易封闭；备选 R40 → 旭川 → R39 走内陆（+~1 小时，失去海景）。
+        冬季注意事项：起点观景台冬季关闭；道路只有 2 月才保证除雪。当日实地观察再决定是否驾入。
+    - id: day-10-oshinkoshin
+      place: { ref: oshinkoshin-falls }
+      notes_zh: 部分结冰的大瀑布，回程顺路。
+    - id: day-10-masuura
+      place: { ref: masuura-viewpoint-parking }
+      notes_zh: 回网走前最后一个观景停车带。
+    - id: day-10-ryuhyo-monogatari-train
+      place: { ref: ryuhyo-monogatari-train }
+      notes_zh: >-
+        可选：如 2027 年 1 月上旬 流氷物語号 已开季（通常 1 月下旬），可替代 / 串联 知床斜里 方向的自驾。
+        网走 → 知床斜里 自驾 ~50 分钟 / 列车 ~1 小时。预订前到 JR 北海道官网确认开季日期。

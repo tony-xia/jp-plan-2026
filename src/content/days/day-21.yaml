@@ -1,25 +1,39 @@
-# Day 21 — 2027-01-16 — 车迷日 2 — A PIT 东雲
+# Day 21 — 2027-01-16 — 东京车迷 bundled 日（Subaru + Autobacs + Gonpachi）
 day:
   id: day-21
   date: "2027-01-16"
   city: tokyo
-  title_zh: 第 21 天 · 车迷日 2 —— A PIT 东雲 Autobacs + 权八晚餐（周六）
+  title_zh: 第 21 天 · 车迷 bundled 日（Subaru 旗舰 + Mitaka + A PIT 东雲 + Gonpachi 晚餐）
   intro_zh: >-
-    2027-01-16 是周六 —— 东京 5 晚的第二个完整日定为 Autobacs 车迷日。上午/中午在 A PIT 东雲 超级汽配
-    留足 ≥ 2 小时；下午有时间的话回表参道区顺访根津美术馆；晚上 Gonpachi 收官。
+    ★ 2026-04-20 第三版：Tokyo 只有 2 全天，车迷任务全部压到周六一天。
+    ~09:30 惠比寿 Subaru Star Square（walkable from 涩谷，60 – 90 分钟）→
+    中午 三鷹 Tokyo SUBARU Mitaka（周六开门 10:00 – 18:00；闭馆日只周二 / 周三 —— 打车 ~30 – 40 分钟，或 JR 山手 + 中央线）→
+    下午 A PIT 东雲 Autobacs（用户要求 ≥ 2 小时）→ 晚上 Gonpachi 西麻布 晚餐。
+    もみの匠 按摩 可再往后挪到 22:00 后 late 场。
+    ⚠️ 非常紧凑 —— 如 Mitaka 当天时间不够，优先保留 Star Square + Autobacs；Mitaka 可 Sun 早上再补。
   activities:
+    - id: day-21-subaru-star-square
+      start: "09:30"
+      place: { ref: subaru-star-square-ebisu }
+      notes_zh: 品牌旗舰展厅，非经销店；涩谷 → 惠比寿 1 站（JR 山手 ~3 分）。预估 60 – 90 分钟。
+    - id: day-21-subaru-mitaka
+      start: "12:00"
+      place: { ref: tokyo-subaru-mitaka }
+      notes_zh: >-
+        周六 10:00 – 18:00 开门。惠比寿 → 三鷹 打车 30 – 40 分；
+        逛展厅 + 隔壁 G-PARK 中古车 ~90 分钟。
     - id: day-21-autobacs
-      start: "10:00"
+      start: "15:00"
       place: { ref: a-pit-autobacs-shinonome }
       notes_zh: >-
-        ★ 用户要求至少 2 小时。全年 9:00 – 22:00 营业；24 小时停车。
-        りんかい線 東雲駅 步行 10 分钟；从涩谷 约 30 – 40 分钟（地铁 / 车）。
-        预算 10:00 – 13:00，含挑高中庭星巴克午饭 + 汽车杂志 TSUTAYA。
-    - id: day-21-nezu-museum
-      start: "15:00"
-      place: { ref: nezu-museum }
-      notes_zh: 时间允许的话回表参道区中途插入根津美术馆看东亚古美术 —— 与用户「古代遗产」兴趣共鸣。可跳过。
+        ★ 用户要求至少 2 小时。9:00 – 22:00 营业；三鷹 → 東雲 自驾 / 打车 ~40 – 60 分（或 地铁 ~60 分）。
+        挑高中庭星巴克 + 汽车杂志 TSUTAYA 可当晚饭前过渡。
     - id: day-21-gonpachi
       start: "19:30"
       place: { ref: gonpachi-nishiazabu }
-      notes_zh: Kill Bill 原型居酒屋。4 人 2 小时席，提前 1 – 2 周预订。
+      notes_zh: Kill Bill 原型居酒屋。提前 1 – 2 周预订 4 人 2 小时席。
+    - id: day-21-massage
+      start: "22:15"
+      place: { ref: mominotakumi-shibuya }
+      notes_zh: >-
+        60 分钟全身 ¥3,980。营业 11:00 – 23:00（末次 22:00）；晚餐后 walk-in or 线上预约 late 场。
