@@ -73,7 +73,10 @@ stays:
     segmentId: hokkaido
     dayIds: [day-04, day-05, day-06]
     lodgingBookingIds:
-      - hokkaido-sapporo-hotel-front
+      - hokkaido-sapporo-front-hotel-stream
+      - hokkaido-sapporo-front-hotel-vessel-campana
+      - hokkaido-sapporo-front-airbnb-homeoflove
+      - hokkaido-sapporo-front-airbnb-homeofhope
 
   - id: stay-wakkanai
     city: { zh: 稚内, en: Wakkanai, ja: 稚内 }
@@ -87,7 +90,8 @@ stays:
     segmentId: hokkaido
     dayIds: [day-09, day-10]
     lodgingBookingIds:
-      - hokkaido-abashiri-hotel
+      - hokkaido-abashiri-hotel-dormy-inn
+      - hokkaido-abashiri-hotel-toyoko-inn-ekimae
 
   - id: stay-biei
     city: { zh: 美瑛, en: Biei, ja: 美瑛 }

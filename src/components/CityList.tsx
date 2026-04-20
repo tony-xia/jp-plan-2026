@@ -31,30 +31,32 @@ export function CityList({ trip }: { trip: Trip }) {
     return lastDate === trip.endDate ? days.length - 1 : days.length;
   };
 
-  const dayDateToSegment = new Map<string, string>();
-  trip.segments.forEach((seg) => {
-    seg.days.forEach((dayId) => {
+  const dateToStay = new Map<string, Stay>();
+  trip.stays.forEach((s) => {
+    s.dayIds.forEach((dayId) => {
       const d = dayById.get(dayId);
-      if (d) dayDateToSegment.set(d.date, seg.id);
+      if (d) dateToStay.set(d.date, s);
     });
   });
 
-  const bookingsBySegment = new Map<string, Booking[]>();
+  const bookingsByStay = new Map<string, Booking[]>();
   trip.bookings.forEach((b) => {
     if (b.kind === "hotel") return;
-    const segId = dayDateToSegment.get(b.start);
-    if (!segId) return;
-    const list = bookingsBySegment.get(segId) ?? [];
+    const stay = dateToStay.get(b.start);
+    if (!stay) return;
+    const list = bookingsByStay.get(stay.id) ?? [];
     list.push(b);
-    bookingsBySegment.set(segId, list);
+    bookingsByStay.set(stay.id, list);
   });
+  bookingsByStay.forEach((list) =>
+    list.sort((a, b) => a.start.localeCompare(b.start)),
+  );
 
   return (
     <div className="space-y-14">
       {trip.segments.map((segment) => {
         const stays = staysBySegment.get(segment.id) ?? [];
         const segmentNights = stays.reduce((n, s) => n + nightsFor(s), 0);
-        const segmentBookings = bookingsBySegment.get(segment.id) ?? [];
         return (
           <section key={segment.id}>
             <header className="mb-4 flex items-baseline gap-3">
@@ -77,26 +79,12 @@ export function CityList({ trip }: { trip: Trip }) {
                   bookingById={bookingById}
                   segmentId={segment.id}
                   nights={nightsFor(stay)}
+                  stayBookings={bookingsByStay.get(stay.id) ?? []}
                 />
               ))}
             </div>
             {stays.length === 0 && (
               <p className="text-sm text-muted">（暂无城市）</p>
-            )}
-            {segmentBookings.length > 0 && (
-              <div className="mt-8">
-                <h3 className="text-sm font-serif-jp font-semibold text-muted mb-1">
-                  交通 & 预约
-                </h3>
-                <span className="annot annot-ja">
-                  フライト · 新幹線 · その他
-                </span>
-                <div className="mt-2">
-                  {segmentBookings.map((b) => (
-                    <BookingItem key={b.id} booking={b} />
-                  ))}
-                </div>
-              </div>
             )}
           </section>
         );
@@ -112,6 +100,7 @@ function StayCard({
   bookingById,
   segmentId,
   nights,
+  stayBookings,
 }: {
   stay: Stay;
   trip: Trip;
@@ -119,6 +108,7 @@ function StayCard({
   bookingById: Map<string, Booking>;
   segmentId: string;
   nights: number;
+  stayBookings: Booking[];
 }) {
   const days = stay.dayIds
     .map((id) => dayById.get(id))
@@ -167,6 +157,22 @@ function StayCard({
             <span className="annot annot-ja">宿泊候補 · {lodgings.length} 项</span>
             <div className="mt-2">
               {lodgings.map((b) => (
+                <BookingItem key={b.id} booking={b} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {stayBookings.length > 0 && (
+          <div>
+            <h3 className="text-sm font-serif-jp font-semibold text-muted mb-1">
+              交通 & 预约
+            </h3>
+            <span className="annot annot-ja">
+              フライト · 新幹線 · その他
+            </span>
+            <div className="mt-2">
+              {stayBookings.map((b) => (
                 <BookingItem key={b.id} booking={b} />
               ))}
             </div>
