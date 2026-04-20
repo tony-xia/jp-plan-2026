@@ -1229,12 +1229,47 @@ bookings:
       - /photos/windsor-hotel-toya/7.jpg
     details_zh: 日期 day 07 – day 08；4 人 2 间房（2 绅士 + 2 女士不合住）。
 
-  - id: phase2-hakodate-hotel
+  - id: phase2-hakodate-airbnb-primary
     kind: hotel
-    title_zh: "住宿：函馆市内酒店（2 晚，2 间房，待选）"
-    start: "2026-12-31"
-    end: "2027-01-02"
-    details_zh: 候选：函馆站周边 / 元町 / 汤の川温泉。按夜景日程灵活选。
+    title_zh: "候选 Airbnb (主推)：函馆元町 HIST Terrace I（2 晚，4 人）"
+    start: "2026-12-30"
+    end: "2027-01-01"
+    airbnbUrl: https://www.airbnb.com.au/rooms/1461937569120840875
+    details_zh: >-
+      Listing 1461937569120840875 — Hakodate Motomachi HIST Terrace I。
+      6 人 · 3BR · 6 床 · 2 浴；4.92 ★ / 12 条评价 · Guest favourite；"Rare find — 常年满房"。
+      元町历史山坡区，近 函館山ロープウェイ 和 朝市。
+      查询日期：2026-12-30 → 2027-01-01 (2 晚, 4 大人)，总价 A$854.45 (~A$427/晚)。
+      预订前核对：2BR + 2BA、4 人上限、冬季供暖、晚 check-in 宽容度（day-04 傍晚/夜间到达）、价格仍有效。
+      ⚠️ Hakodate 住宿 2 晚 vs 3 晚的日期窗口问题见 docs/requirements.md，决定后再下订。
+
+  - id: phase2-hakodate-airbnb-alt
+    kind: hotel
+    title_zh: "候选 Airbnb (备选)：函馆湾 Japandi 整栋（2 晚，4 人）"
+    start: "2026-12-30"
+    end: "2027-01-01"
+    airbnbUrl: https://www.airbnb.com.au/rooms/896063721679005442
+    details_zh: >-
+      Listing 896063721679005442 — Hakodate Bay 3-min walk · Japandi 风 136 ㎡ 整栋建筑。
+      10 人 · 2BR · 5 床 · 2 浴；新房源，暂无评价（新房东 Fuyuko）。
+      步行 3 分钟到函馆湾，近 赤レンガ倉庫 / BAY HAKODATE。免费住宅车库 + 室内洗衣烘干机。
+      查询日期：2026-12-30 → 2027-01-01 (2 晚, 4 大人)，原价 A$922.10，折后 A$767.10 总价 (~A$384/晚)。
+      预订前核对：2BR + 2BA、4 人上限、冬季供暖、晚 check-in 宽容度、价格仍有效。
+      ⚠️ 无评价为主要风险 —— 与主推房源相比节省约 A$87，但缺少历史反馈。
+
+  - id: phase2-hakodate-hotel-tokyu-stay
+    kind: hotel
+    title_zh: "候选酒店：東急ステイ函館朝市 灯の湯（2 晚，2 间房，待询价）"
+    start: "2026-12-30"
+    end: "2027-01-01"
+    googleMapsUrl: https://maps.app.goo.gl/NB15MnFHp38YbuYz8
+    details_zh: >-
+      TOKYU STAY Hakodate-Asaichi Akari no Yu（東急ステイ函館朝市 灯の湯）。
+      3 星酒店 · 4.4 ★ / 1,277 条评价；馆内有「灯の湯」温泉大浴场。
+      位置极佳：紧邻 函館朝市、步行可达 JR 函館駅 和 金森赤レンガ倉庫。
+      4 人需 2 间房（2 绅士 + 2 女士不合住）。
+      查询日期：2026-12-30 → 2027-01-01 (2 晚, 4 人)，价格待询。
+      预订前核对：2 间房可预订、Twin / Double 房型、早餐是否含、温泉开放时间、总价 vs Airbnb 主推房。
 
   - id: phase2-biei-hotel
     kind: hotel
