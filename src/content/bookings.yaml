@@ -29,20 +29,6 @@ bookings:
       ★ 务必同时预约 ②「はやぶさ」特大荷物スペースつき座席（大行李指定席）—— 2020 年起强制，
       元旦前后几乎必售罄，需尽早。航班时间确定后一次预订三段。
 
-  - id: hokkaido-hakodate-airbnb-primary
-    kind: hotel
-    title_zh: "备选 Airbnb：函馆元町 HIST Terrace I"
-    start: "2026-12-27"
-    end: "2026-12-30"
-    airbnbUrl: https://www.airbnb.com.au/rooms/1461937569120840875
-
-  - id: hokkaido-hakodate-airbnb-alt
-    kind: hotel
-    title_zh: "备选 Airbnb：函馆湾 Japandi 整栋"
-    start: "2026-12-27"
-    end: "2026-12-30"
-    airbnbUrl: https://www.airbnb.com.au/rooms/896063721679005442
-
   - id: hokkaido-hakodate-hotel-tokyu-stay
     kind: hotel
     title_zh: "住宿：東急ステイ函館朝市 灯の湯（3 晚，2 间房）"
@@ -70,71 +56,26 @@ bookings:
       4 人需 2 间房（2 绅士 + 2 女士不合住）。
       查询日期：2026-12-27 → 2026-12-30（3 晚，4 人），价格待询。
 
-  - id: hokkaido-sapporo-front-hotel-stream
+  - id: hokkaido-hakodate-airbnb-primary
     kind: hotel
-    title_zh: "候选酒店：SAPPORO STREAM HOTEL 札幌 Stream（前段 3 晚跨年，2 间房）"
-    start: "2026-12-30"
-    end: "2027-01-02"
-    address:
-      full:
-        zh: 北海道札幌市中央区南 4 条西 4-1-1
-        ja: 〒064-0804 北海道札幌市中央区南4条西4丁目1番地1
-    googleMapsUrl: https://maps.app.goo.gl/F8u8jswHd4wE4FY68
-    bookingUrl: https://www.booking.com/hotel/jp/sapporo-stream-zha-huang-shi.html
-    photos:
-      - /photos/hotel-sapporo-stream-sapporo/01.jpg
-      - /photos/hotel-sapporo-stream-sapporo/02.jpg
-      - /photos/hotel-sapporo-stream-sapporo/03.jpg
-      - /photos/hotel-sapporo-stream-sapporo/04.jpg
-      - /photos/hotel-sapporo-stream-sapporo/05.jpg
-      - /photos/hotel-sapporo-stream-sapporo/06.jpg
-      - /photos/hotel-sapporo-stream-sapporo/07.jpg
-      - /photos/hotel-sapporo-stream-sapporo/08.jpg
-      - /photos/hotel-sapporo-stream-sapporo/09.jpg
-      - /photos/hotel-sapporo-stream-sapporo/10.jpg
-      - /photos/hotel-sapporo-stream-sapporo/11.jpg
-      - /photos/hotel-sapporo-stream-sapporo/12.jpg
-    details_zh: >-
-      Tokyu Hotels 旗下生活型酒店，位于 COCONO SUSUKINO 大厦高层（2024-01 开业），
-      直连地铁南北线 すすきの駅（距札幌駅一站 / ~4 分钟）。薄野 / 狸小路 / NANDA 就在楼下。
-      Day-04 → Day-07，3 晚（跨年夜 + 元旦 + 1/1→2 过渡）。
-      ⚠️ 跨年峰期需尽早订；确认 2 房（2 绅士 + 2 女士不合住）+ 冬季房价 + 年末年始早餐安排。
+    title_zh: "备选 Airbnb：函馆元町 HIST Terrace I"
+    start: "2026-12-27"
+    end: "2026-12-30"
+    airbnbUrl: https://www.airbnb.com.au/rooms/1461937569120840875
 
-  - id: hokkaido-sapporo-front-hotel-vessel-campana
+  - id: hokkaido-hakodate-airbnb-alt
     kind: hotel
-    title_zh: "候选酒店：Vessel Hotel Campana 薄野（前段 3 晚跨年，2 间房）"
-    start: "2026-12-30"
-    end: "2027-01-02"
-    address:
-      full:
-        zh: 北海道札幌市中央区南 5 条西 6-16-1
-        ja: 〒064-0805 北海道札幌市中央区南5条西6-16-1
-    googleMapsUrl: https://maps.app.goo.gl/r5wvMvwB4XrDriTc6
-    bookingUrl: https://www.booking.com/hotel/jp/vessel-hotel-campana-susukino.html
-    photos:
-      - /photos/hotel-vessel-campana-susukino-sapporo/01.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/02.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/03.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/04.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/05.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/06.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/07.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/08.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/09.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/10.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/11.jpg
-      - /photos/hotel-vessel-campana-susukino-sapporo/12.jpg
-    details_zh: >-
-      薄野中心位置，~4 分钟步行至 地下鉄すすきの駅。
-      含 大浴場 + sauna + 囲炉裏 lounge + 免费早餐 — 价位偏连锁实用派。
-      验价时确认 2 房（twin）+ 冬季房价 + NYE 附加费。
+    title_zh: "备选 Airbnb：函馆湾 Japandi 整栋"
+    start: "2026-12-27"
+    end: "2026-12-30"
+    airbnbUrl: https://www.airbnb.com.au/rooms/896063721679005442
 
   - id: hokkaido-sapporo-front-airbnb-homeoflove
     kind: hotel
-    title_zh: "候选 Airbnb：札幌市中心 HomeOfLove 3BR2BA（前段 3 晚跨年，4 人）"
+    title_zh: "住宿：札幌市中心 HomeOfLove 3BR2BA（前段 3 晚跨年，4 人）"
     start: "2026-12-30"
     end: "2027-01-02"
-    airbnbUrl: https://www.airbnb.com.au/rooms/1430197854674829516
+    airbnbUrl: https://www.airbnb.com.au/rooms/1430197854674829516?check_in=2026-12-30&check_out=2027-01-02&adults=4
     photos:
       - /photos/airbnb-sapporo-central-3br/01.jpg
       - /photos/airbnb-sapporo-central-3br/02.jpg
@@ -152,32 +93,27 @@ bookings:
       Listing 1430197854674829516 — "Sapporo Central｜HomeOfLove｜Private 3BR2BA｜Sleeps 6"。
       6 人 · 3BR · 6 床 · 2 浴；4.91 ★ / 22 条评价 · Guest Favourite。
       3BR / 2BA 可让 2 绅士 + 2 女士各自独立睡房。
-      验价时确认 NYE 窗口可订 + 冬季供暖 + 晚 check-in 宽容度 + 价格仍有效。
+
+  - id: hokkaido-sapporo-front-hotel-stream
+    kind: hotel
+    title_zh: "备选酒店：SAPPORO STREAM HOTEL 札幌 Stream"
+    start: "2026-12-30"
+    end: "2027-01-02"
+    bookingUrl: https://www.booking.com/hotel/jp/sapporo-stream-zha-huang-shi.html
+
+  - id: hokkaido-sapporo-front-hotel-vessel-campana
+    kind: hotel
+    title_zh: "备选酒店：Vessel Hotel Campana 薄野"
+    start: "2026-12-30"
+    end: "2027-01-02"
+    bookingUrl: https://www.booking.com/hotel/jp/vessel-hotel-campana-susukino.html
 
   - id: hokkaido-sapporo-front-airbnb-homeofhope
     kind: hotel
-    title_zh: "候选 Airbnb：札幌中岛 HomeOfHope 3BR2.5BA（前段 3 晚跨年，4 人）"
+    title_zh: "备选 Airbnb：札幌中岛 HomeOfHope 3BR2.5BA"
     start: "2026-12-30"
     end: "2027-01-02"
     airbnbUrl: https://www.airbnb.com.au/rooms/1437968277032342538
-    photos:
-      - /photos/airbnb-sapporo-homeofhope/01.jpg
-      - /photos/airbnb-sapporo-homeofhope/02.jpg
-      - /photos/airbnb-sapporo-homeofhope/03.jpg
-      - /photos/airbnb-sapporo-homeofhope/04.jpg
-      - /photos/airbnb-sapporo-homeofhope/05.jpg
-      - /photos/airbnb-sapporo-homeofhope/06.jpg
-      - /photos/airbnb-sapporo-homeofhope/07.jpg
-      - /photos/airbnb-sapporo-homeofhope/08.jpg
-      - /photos/airbnb-sapporo-homeofhope/09.jpg
-      - /photos/airbnb-sapporo-homeofhope/10.jpg
-      - /photos/airbnb-sapporo-homeofhope/11.jpg
-      - /photos/airbnb-sapporo-homeofhope/12.jpg
-    details_zh: >-
-      Listing 1437968277032342538 — "Sapporo Central｜HomeOfHope｜Private 3BR2BA｜Sleeps 6"。
-      6 人 · 3BR · 6 床 · 2.5 浴；4.69 ★。
-      位于中央区中岛公園附近 — 步行 ~7 分钟到 中島公園駅（南北线），3 站到 すすきの / 狸小路。
-      验价时确认 NYE 窗口可订 + 冬季供暖 + 价格仍有效。
 
   - id: hokkaido-sapporo-rental-car
     kind: other
@@ -213,7 +149,7 @@ bookings:
 
   - id: hokkaido-abashiri-hotel-dormy-inn
     kind: hotel
-    title_zh: "候选酒店：網走 多美迎（天然温泉 天都の湯 ドーミーイン網走，2 晚，2 间房）"
+    title_zh: "住宿：網走 多美迎（天然温泉 天都の湯 ドーミーイン網走，2 晚，2 间房）"
     start: "2027-01-04"
     end: "2027-01-06"
     address:
@@ -241,38 +177,35 @@ bookings:
 
   - id: hokkaido-abashiri-hotel-toyoko-inn-ekimae
     kind: hotel
-    title_zh: "候选酒店：網走 東横INN 駅前店（2 晚，2 间房，近網走駅）"
+    title_zh: "备选酒店：網走 東横INN 駅前店"
     start: "2027-01-04"
     end: "2027-01-06"
-    address:
-      full:
-        zh: 北海道網走市新町 1-3-3
-        ja: 〒093-0046 北海道網走市新町1-3-3
-    googleMapsUrl: https://maps.app.goo.gl/Lk88Eqy43S242vJV6
     bookingUrl: https://www.booking.com/hotel/jp/toyoko-inn-hokkaido-okhotsk-abashiri-ekimae.html
-    photos:
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/01.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/02.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/03.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/04.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/05.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/06.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/07.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/08.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/09.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/10.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/11.jpg
-      - /photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/12.jpg
-    details_zh: >-
-      網走駅 正对面，连锁价位 + 免费简早餐。有停车场（自驾日程适合）。
-      Day-09 – day-10（稚内→宗谷岬→网走 长途日 + 网走 + 知床 全天）。
 
   - id: hokkaido-biei-hotel
     kind: hotel
-    title_zh: "住宿：美瑛 / 富良野 酒店或 Airbnb（1 晚，2 间房，待选）"
+    title_zh: "住宿：Grandeur Biei 整栋 Airbnb（1 晚，4 人）"
     start: "2027-01-06"
     end: "2027-01-07"
-    details_zh: Day-11 夜晚；藍い池 夜灯场后回住处。
+    airbnbUrl: https://www.airbnb.com.au/rooms/1656920797367370172?check_in=2027-01-06&check_out=2027-01-07&adults=4
+    photos:
+      - /photos/airbnb-biei-grandeur/01.jpg
+      - /photos/airbnb-biei-grandeur/02.jpg
+      - /photos/airbnb-biei-grandeur/03.jpg
+      - /photos/airbnb-biei-grandeur/04.jpg
+      - /photos/airbnb-biei-grandeur/05.jpg
+      - /photos/airbnb-biei-grandeur/06.jpg
+      - /photos/airbnb-biei-grandeur/07.jpg
+      - /photos/airbnb-biei-grandeur/08.jpg
+      - /photos/airbnb-biei-grandeur/09.jpg
+      - /photos/airbnb-biei-grandeur/10.jpg
+      - /photos/airbnb-biei-grandeur/11.jpg
+      - /photos/airbnb-biei-grandeur/12.jpg
+    details_zh: >-
+      Listing 1656920797367370172 — "Grandeur Biei | 1st Building for rent"。
+      10 人 · 4BR · 10 床 · 2 浴；新房源，暂无评价。
+      位于美瑛，近 青い池 / 旭川 / 富良野。整栋出租 — 4 卧室可分开睡。
+      Day-11 夜晚；藍い池 夜灯场后回住处。
 
   - id: hokkaido-otaru-hotel-primary
     kind: hotel

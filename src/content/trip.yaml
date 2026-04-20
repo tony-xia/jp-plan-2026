@@ -73,9 +73,9 @@ stays:
     segmentId: hokkaido
     dayIds: [day-04, day-05, day-06]
     lodgingBookingIds:
+      - hokkaido-sapporo-front-airbnb-homeoflove
       - hokkaido-sapporo-front-hotel-stream
       - hokkaido-sapporo-front-hotel-vessel-campana
-      - hokkaido-sapporo-front-airbnb-homeoflove
       - hokkaido-sapporo-front-airbnb-homeofhope
 
   - id: stay-wakkanai
