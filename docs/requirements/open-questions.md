@@ -44,4 +44,4 @@ Confirmed packing list (user, 2026-04-20):
 
 ## Carried-over questions
 
-*(Phase-1 Karuizawa questions are parked along with the phase itself — see [`phase-1-karuizawa.md`](phase-1-karuizawa.md) for historical context.)*
+*(Phase-1 Karuizawa questions were parked with the phase itself on 2026-04-20 and have since been removed from the repo.)*

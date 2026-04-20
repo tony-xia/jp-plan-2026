@@ -4,13 +4,12 @@
 
 This list is the source of truth for trip-planning decisions. The itinerary in [`src/content/trip.yaml`](../src/content/trip.yaml) must always reflect these requirements. Whenever a new requirement is stated or an existing one changes, update this file first, then update the YAML.
 
-> 🗂️ **Filename note (2026-04-20 restructure):** the phase files are still named `phase-1-karuizawa.md` / `phase-2-hokkaido.md` / `phase-3-tokyo.md` after the original three-phase plan. With Karuizawa parked, the **two live phases are now Hokkaido + Tokyo**; the phase-number in the filename no longer matches the phase-number in this doc. Filenames will be renormalized in a follow-up pass.
+> 🗂️ **Filename note (2026-04-20 restructure):** the phase files are still named `phase-2-hokkaido.md` / `phase-3-tokyo.md` after the original three-phase plan. With Karuizawa parked and removed, the **two live phases are now Hokkaido + Tokyo**; the phase-number in the filename no longer matches the phase-number in this doc. Filenames will be renormalized in a follow-up pass.
 
 ## Contents
 
 - [`requirements/phase-2-hokkaido.md`](requirements/phase-2-hokkaido.md) — **Phase 1 (live).** Day-1 Haneda → Hakodate Shinkansen + clockwise drive loop Hakodate → Sapporo → Wakkanai → Abashiri → Biei → Otaru → Toya.
 - [`requirements/phase-3-tokyo.md`](requirements/phase-3-tokyo.md) — **Phase 2 (live).** Tokyo base area, car-enthusiast requirement, antique markets.
-- [`requirements/phase-1-karuizawa.md`](requirements/phase-1-karuizawa.md) — **PARKED 2026-04-20.** Retained for reference; no longer part of the itinerary.
 - [`requirements/travel-times.md`](requirements/travel-times.md) — auto-generated drive-time table
 - [`requirements/open-questions.md`](requirements/open-questions.md) — cross-phase open questions (includes **Gear & electronics** packing list)
 
