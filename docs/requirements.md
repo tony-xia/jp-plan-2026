@@ -328,6 +328,7 @@ User interest: **"public small auctions about old ancient legacies."** Most trad
 ## Phase 1 → Phase 2 transit — Day 4 (updated 2026-04-20)
 
 - **Day 4 (2026-12-30) is a full travel day: Karuizawa → Hakodate by train + Shinkansen.** No stops, no sightseeing planned — the user explicitly noted this will take many hours. Morning departure from the Karuizawa accommodation, arrive Hakodate late afternoon / evening. Check in at Hakodate hotel that night (first of 2 Hakodate nights).
+- **Airbnb → Karuizawa Station on day-04 (confirmed 2026-04-20):** rental car was returned on day-03, so the user will **call an Uber or taxi** from the Karuizawa Airbnb to 軽井沢駅 on day-04 morning with luggage. Do **not** plan to walk or rely on the rental car. (Uber coverage in Karuizawa can be thin — having a local taxi number as backup is prudent; hosts usually help.)
 - **Routing (best-judgment, ~6.5–7.5 hr in-motion + transfer buffer):**
   - **Leg 1:** Karuizawa Station → Tokyo Station via **Hokuriku Shinkansen** (あさま / はくたか), ~70–90 min. Stay on through train to Tokyo rather than transferring at Omiya — Tokyo Station has the simpler cross-platform transfer to the Tohoku/Hokkaido line.
   - **Leg 2:** Tokyo Station → Shin-Hakodate-Hokuto Station via **Tohoku/Hokkaido Shinkansen** (はやぶさ, through-running), ~4 hr.
