@@ -1,6 +1,6 @@
-# Phase 1 (live) — Hokkaido
+# Phase 1 — Hokkaido
 
-> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. **This is the live Phase 1** after the 2026-04-20 restructure (Karuizawa parked and removed). File still named `phase-2-hokkaido.md` from the original three-phase plan; rename is a follow-up.
+> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. Phase 1 was restructured on 2026-04-20 when Karuizawa was parked and removed.
 
 **Phase shape (2026-04-20 third-pass restructure, clockwise self-drive loop + Sapporo return leg):**
 

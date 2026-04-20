@@ -4,7 +4,7 @@ Guidance for Claude Code in this repo.
 
 ## Trip requirements — source of truth
 
-Index/decision log: [`docs/requirements.md`](docs/requirements.md). Phase files: [`phase-2-hokkaido.md`](docs/requirements/phase-2-hokkaido.md) (live Phase 1), [`phase-3-tokyo.md`](docs/requirements/phase-3-tokyo.md) (live Phase 2). Cross-phase open items: [`open-questions.md`](docs/requirements/open-questions.md).
+Index/decision log: [`docs/requirements.md`](docs/requirements.md). Phase files: [`phase-1-hokkaido.md`](docs/requirements/phase-1-hokkaido.md), [`phase-2-tokyo.md`](docs/requirements/phase-2-tokyo.md). Cross-phase open items: [`open-questions.md`](docs/requirements/open-questions.md).
 
 - **Before editing `src/content/`**: read the relevant phase file(s), reconcile against every requirement. If the change conflicts, stop and flag — never silently override.
 - **When the user states/refines/resolves/rules-out a requirement**: update the matching phase file *first*, same turn, before any YAML edit.

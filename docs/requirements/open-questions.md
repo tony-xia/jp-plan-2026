@@ -4,7 +4,7 @@
 
 ## 🆕 Where do the 3 extra Hokkaido nights go? (2026-04-20 restructure)
 
-With Karuizawa parked, 3 nights move from Phase-1 into Hokkaido. Previous clockwise allocation was Hakodate 2 · Sapporo 3 · Wakkanai 1 · Abashiri 2 · Biei 1 · Otaru 3 · Toya 2 = 14. New total = **17-18** depending on which baseline (requirements table said 14; YAML had 15 via an earlier +1 to Hakodate). Candidates for the +3, ranked by the existing rationale in [`phase-2-hokkaido.md`](phase-2-hokkaido.md):
+With Karuizawa parked, 3 nights move from Phase-1 into Hokkaido. Previous clockwise allocation was Hakodate 2 · Sapporo 3 · Wakkanai 1 · Abashiri 2 · Biei 1 · Otaru 3 · Toya 2 = 14. New total = **17-18** depending on which baseline (requirements table said 14; YAML had 15 via an earlier +1 to Hakodate). Candidates for the +3, ranked by the existing rationale in [`phase-1-hokkaido.md`](phase-1-hokkaido.md):
 
 1. **Hakodate +1 (→ 3 nights).** Absorbs Day-1 jetlag after ~6 hr Haneda → Hakodate Shinkansen haul. Gives a gentle Day-2 before NYE hits. Also decouples NYE from the arrival day — NYE can now fall cleanly in Hakodate (Dec 31) rather than having the arrival-and-NYE squeeze.
 2. **Wakkanai +1 (→ 2 nights).** Weather buffer — Wakkanai has one of Japan's worst winter flight/whiteout-cancellation rates; Cape Sōya morning may blow out. Also lets the Sapporo → Wakkanai 5–6 hr winter drive arrive with daylight to spare.

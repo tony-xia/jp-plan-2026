@@ -1,6 +1,6 @@
-# Phase 2 (live) — Tokyo (4 nights — 2026-04-20 fourth-pass)
+# Phase 2 — Tokyo (4 nights — 2026-04-20 fourth-pass)
 
-> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. **This is the live Phase 2** after the 2026-04-20 fourth-pass restructure (trip extended by 1 day → Tokyo 3 → 4 nights, Monday slack added after the Sat/Sun heavy block). File still named `phase-3-tokyo.md` from the original three-phase plan.
+> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. Phase 2 was extended by 1 day in the 2026-04-20 fourth-pass restructure (Tokyo 3 → 4 nights, Monday slack added after the Sat/Sun heavy block).
 
 Phase base: **Shibuya** area (shopping + in-line with salon / massage / Gonpachi walkable). Trip wraps **2027-01-19**. **4 nights locked** (2027-01-15 → 2027-01-19) — arrival day-20 (2027-01-15 Fri) is fully consumed by the Sapporo → Tokyo transit; Sat + Sun are the heavy activity days; **Mon day-23 is now a slack / spillover day** before the Tue day-24 departure.
 
