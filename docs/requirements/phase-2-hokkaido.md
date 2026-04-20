@@ -1,10 +1,22 @@
-# Phase 2 — Hokkaido
+# Phase 1 (live) — Hokkaido
 
-> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation.
+> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. **This is the live Phase 1** after the 2026-04-20 restructure (Karuizawa parked — see [`phase-1-karuizawa.md`](phase-1-karuizawa.md)). File still named `phase-2-hokkaido.md` from the original three-phase plan; rename is a follow-up.
 
-**Phase 2 shape (proposed 2026-04-20, clockwise self-drive loop):**
+**Phase shape (2026-04-20 restructure, clockwise self-drive loop, Day-1 Haneda arrival):**
 
-**Hakodate → train to Sapporo → 2 nights Sapporo (car pickup) → drive NW to Wakkanai (1 night) → Cape Sōya → drive E along Okhotsk coast to Abashiri (2 nights) → drive W to Biei (1 night) → drive SW to Otaru (2 nights) → drop car in Sapporo → train to 洞爺 → Windsor Toya (2 nights, end of Phase 2) → JR 特急 北斗 + 北海道新幹線 to Tokyo.**
+**Day-1 Haneda → Tokyo Station → Tōhoku/Hokkaido Shinkansen → 新函館北斗 → JR 函館ライナー → Hakodate → Sapporo (train, car pickup) → drive NW to Wakkanai → Cape Sōya → drive E along Okhotsk coast to Abashiri → drive W to Biei → drive SW to Otaru → drop car in Sapporo → train to 洞爺 → Windsor Toya (end of Hokkaido) → JR 特急 北斗 + 北海道新幹線 to Tokyo.**
+
+## Day-1 arrival — Haneda → Hakodate (new 2026-04-20)
+
+- **Day-1 (2026-12-27, Sun) is a long travel day.** All four travelers land at Haneda morning → transit to Tokyo Station → Tōhoku/Hokkaido Shinkansen はやぶさ (through-running) to 新函館北斗 → JR 函館ライナー local to 函館駅. Check-in Hakodate evening.
+- **Time budget (after landing + baggage claim):**
+  - Haneda → Tokyo Station: ~30–40 min. Options: Tokyo Monorail → JR Yamanote, or Keikyū → JR Yamanote. Luggage is heavy (4 travelers + Hokkaido winter kit) → reserve seats or keep together.
+  - Tokyo Station → 新函館北斗 (北海道新幹線 はやぶさ): ~4 hr in motion. Reserve **特大荷物スペースつき座席** (oversize-bag seats) well in advance — mandatory for large bags since 2020, and heavily booked over New Year.
+  - 新函館北斗 → 函館駅 (JR 函館ライナー): ~15–20 min.
+  - Realistic door-to-door from Haneda arrival hall to Hakodate hotel check-in: **~6–7 hr in motion + ~1 hr buffer for transfers and meals**. Plan for late-afternoon / early-evening Hakodate check-in — no Day-1 sightseeing; simple hotel-area dinner only.
+- **Luggage:** oversize-bag reservation on the は​やぶさ is the pinch point. Book the whole Shinkansen segment the moment we lock flight arrival time.
+- **No rental car on Day 1.** First rental pickup is in Sapporo after 3 Hakodate nights (consistent with the original clockwise plan — Hakodate is on-foot / public-transit).
+- **Jetlag implication:** same-day international arrival + ~6 hr Shinkansen + Hakodate check-in is taxing. Consider this when allocating the first Hakodate night (see open question on whether Hakodate absorbs one of the +3 extra Hokkaido nights).
 
 Key differences vs. the old anti-clockwise plan:
 
@@ -21,16 +33,17 @@ Key differences vs. the old anti-clockwise plan:
 
 Phase 2 is a **winter self-drive leg** from Sapporo onward, so snow-driving prep / winter tires are assumed.
 
-## Hakodate (2 nights — confirmed)
+## Hakodate (nights TBD — see 3-extra-nights open question)
 
-- **Arrival into Hakodate:** Tōhoku/Hokkaido Shinkansen to **新函館北斗 (Shin-Hakodate-Hokuto)**, then local **JR 函館ライナー** into Hakodate city. Per the **Day-4 transit requirement** (see [`phase-1-karuizawa.md`](phase-1-karuizawa.md)), arrival is on day-04 (2026-12-30) evening via Karuizawa → Tokyo → Shin-Hakodate-Hokuto → Hakodate. First Hakodate night = NYE-eve day; day-05 = NYE full day; day-06 = New Year's Day full day; day-07 = train to Toya.
-- **Stay candidates** (shortlisted 2026-04-20, not booked; 4 guests, 2 gents + 2 ladies ⇒ **2 rooms / 2 bedrooms minimum**). Airbnb candidates priced for 2026-12-30 → 2027-01-01 (2 nights, 4 adults):
+- **Arrival into Hakodate:** Day-1 (2026-12-27) evening via Haneda → Tokyo Station → Tōhoku/Hokkaido Shinkansen → 新函館北斗 → JR 函館ライナー → 函館駅. See Day-1 arrival section above. (Previously this was a day-04 arrival from Karuizawa; after the 2026-04-20 restructure it is a day-01 arrival direct from Haneda.)
+- **Nights in Hakodate (open):** the previous clockwise plan had Hakodate = 2 nights. With 3 extra Hokkaido nights now in hand, a natural +1 here gives a **jetlag-absorber night** (Day-1 = travel exhaustion; Day-2 = gentle first real day; Day-3 = NYE; Day-4 = New Year; Day-5 = train to Sapporo). See [`open-questions.md`](open-questions.md) for distribution options.
+- **Dates (if Hakodate = 3 nights, default):** check-in Dec 27 evening, nights of Dec 27 / 28 / 29, check-out Dec 30 morning on JR 特急 北斗 to Sapporo. NYE (Dec 31) would then fall in Sapporo on this interpretation — ⚠️ rethink whether NYE should still be a Hakodate night (move to Dec 28-31 Hakodate check-in Dec 28?) or stays in Sapporo; flag for user. **Previous plan's assumption that NYE = Hakodate night is no longer automatic** once the arrival date shifts to Dec 27.
+- **Stay candidates** (shortlisted 2026-04-20, not booked; 4 guests, 2 gents + 2 ladies ⇒ **2 rooms / 2 bedrooms minimum**). Airbnb candidates were previously priced for 2026-12-30 → 2027-01-01 (2 nights) — **dates need re-pricing** for the new Dec-27 arrival once night-count is fixed:
   1. **Airbnb — Hakodate Motomachi HIST Terrace I** — [Airbnb listing 1461937569120840875](https://www.airbnb.com.au/rooms/1461937569120840875). 6 guests · 3 BR · 6 beds · 2 baths · **4.92 ★ / 12 reviews · Guest favourite**. **A$854.45 total** (~A$427/night). "Rare find — usually booked." Motomachi historic-hillside area.
   2. **Airbnb — Hakodate Bay Japandi (136 ㎡, entire building)** — [Airbnb listing 896063721679005442](https://www.airbnb.com.au/rooms/896063721679005442). 10 guests · 2 BR · 5 beds · 2 baths · **New listing (0 reviews, new host)**. **A$767.10 total** (discounted from A$922.10; ~A$384/night). 3-min walk to Hakodate Bay (red-brick warehouses). Free residential garage + in-unit dryer.
   3. **Hotel — TOKYU STAY Hakodate-Asaichi Akari no Yu (東急ステイ函館朝市 灯の湯)** — [Google Maps](https://maps.app.goo.gl/NB15MnFHp38YbuYz8). 3-star hotel · 4.4 ★ / 1,277 reviews · in-house 灯の湯 onsen bath · right by 函館朝市 morning market and JR 函館駅 (walking distance). Rates to be priced for 2026-12-30 → 2027-01-01; would require **2 rooms** for our 2-gents-+-2-ladies setup.
-  - Verify before booking (Airbnbs): 2 BR + 2 BA, 4-guest cap, winter heating, late-check-in tolerated (day-04 arrival ~late-afternoon/evening), parking (not strictly required — we have no car in Hakodate), price holds.
+  - Verify before booking (Airbnbs): 2 BR + 2 BA, 4-guest cap, winter heating, late-check-in tolerated (day-01 arrival evening after long travel), parking (not strictly required — we have no car in Hakodate), price holds for new dates.
   - Verify before booking (hotel): 2 rooms available on target dates, twin/double layout, breakfast inclusion, onsen access hours, winter price level vs Airbnb total.
-  - ⚠️ **Open question — Hakodate window is 2 nights or 3?** `trip.yaml` currently has Hakodate = **2026-12-31 → 2027-01-02** (2 nights), but the day-04 transit plan puts us in Hakodate the **evening of 2026-12-30**. The shortlisted Airbnbs were priced for **2026-12-30 → 2027-01-01** (2 nights, which would require shifting Windsor Toya earlier to Jan 1 → Jan 3 — matches the Windsor price-check the user ran on 2026-04-20). Alternative: keep 2 nights at current Dec 31 → Jan 2 and crash cheap near Shin-Hakodate-Hokuto for Dec 30 night, OR extend Hakodate to 3 nights Dec 30 → Jan 2. **Decide before booking either Airbnb.**
 - **Committed must-visit (after sunset, night-view):**
   - **Mt. Hakodate Observatory (函館山展望台)** — [Google Maps](https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7). The iconic "million-dollar" night panorama over Hakodate's hourglass isthmus.
     - ⚠️ **Winter access = ropeway only.** The 登山自動車道 (summit road) is closed to cars/buses/taxis in winter; only the 函館山ロープウェイ (125-person gondola, ~3 min from 山麓駅) operates. Our trip window is entirely inside the winter-ropeway season. Plan for **heavy cold-weather kit** — the summit is exposed and Dec/Jan nights are brutal.

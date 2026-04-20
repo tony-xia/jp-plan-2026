@@ -1,31 +1,37 @@
-# Day 07 — 2027-01-02 — 函馆 → 札幌
+# Day 07 — 2027-01-02 — 札幌补齐日（ROYCE' + 頭大佛 + 大倉山）
 day:
   id: day-07
   date: "2027-01-02"
   city: hokkaido
-  title_zh: 第 7 天 · 函馆 → 札幌（顺时针自驾环线 · 札幌夜 1）
+  title_zh: 第 7 天 · 札幌（夜 4）· ROYCE' 小镇 + 頭大佛 + 大倉山
   intro_zh: >-
-    ★ 2026-04-20 大改 · 顺时针路线起点：上午 JR 特急 北斗 函馆 → 札幌（~3 小时 30 分）。
-    下午抵达札幌、入住市中心酒店。傍晚黄金时段去 白色恋人公园 看工厂 + 亮灯（16:00 – 19:00），
-    晚餐 蟹本家 札幌站本店。今晚是札幌 3 晚中的第 1 晚（车还没取）。
+    ★ 2026-04-20 新增一日（Sapporo +1）：元旦后景点普遍恢复营业。
+    上午 JR 学园都市线 去 ロイズタウン駅 做 ROYCE' 可可与巧克力小镇 体验（★ 官网 e-tix 必预约）；
+    中午回城吃午饭，下午去 頭大佛（真駒内滝野霊園）→ 黄昏 大倉山 跳台展望台 看日落。
+    明早（day-08）札幌市区租车行取车开始顺时针自驾环线。
+    ⚠️ 头大佛冬季拜观 10:00 – 15:00（较夏季缩短）；大倉山 11/1 – 4/28 营业 9:00 – 17:00。
+    ⚠️ ROYCE' Town 元旦后恢复营业的日期请在官网 e-tix 页面二次确认。
   activities:
-    - id: day-07-hakodate-to-sapporo
-      start: "09:00"
+    - id: day-07-royce-town
+      start: "10:00"
+      place: { ref: royce-cacao-chocolate-town }
+      notes_zh: >-
+        ★ 必提前在 royce.com/town e-tix 预约。10:00 – 17:00，最后入场 15:00。
+        札幌駅 → ロイズタウン駅（JR 学园都市线）约 30 分钟 + 免费接驳 7 分钟。
+        现场建议 ~2 小时（体验 + 商店）。
+    - id: day-07-lunch
       place: { ref: sapporo-station }
-      notes_zh: JR 特急 北斗 函馆 → 札幌 ~3 小时 30 分。预留大行李指定席。
-    - id: day-07-shiroi-koibito
-      start: "15:00"
-      place: { ref: shiroi-koibito-park }
-      notes_zh: 工厂 10:00 – 18:00，付费区最后入园 16:30。亮灯 16:00 – 19:00，看完日落直接出来吃晚饭。
-    - id: day-07-kani-honke
-      start: "18:30"
-      place: { ref: kani-honke-sapporo }
-      notes_zh: 4 人提前 2 – 3 周预订。和 NANDA 二选一今晚。
-  bookings:
-    - id: day-07-hokuto-hakodate-sapporo
-      kind: other
-      title_zh: "JR 特急 北斗：函馆 → 札幌"
-      start: "2027-01-02"
-      from: { zh: 函馆站, en: Hakodate Station, ja: 函館駅 }
-      to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
-      details_zh: ~3 小时 30 分。4 人 + 冬装行李 → 预约特大荷物指定席。
+      notes_zh: 回札幌駅 或大通附近吃午餐；二条市場（如前两日未去）也可以补刀。
+    - id: day-07-hill-of-the-buddha
+      start: "13:30"
+      place: { ref: hill-of-the-buddha }
+      notes_zh: >-
+        冬季 10:00 – 15:00，务必 15:00 前入场。水庭冬季排空无反射，景色变成佛首 + 白雪。
+        札幌駅自驾 ~40 分，或 地下鉄真駒内駅 + 中央バス 真 108（~20 分 / ¥500）。
+    - id: day-07-okurayama
+      start: "16:00"
+      place: { ref: okurayama-observatory }
+      notes_zh: >-
+        1972 冬奥跳台场地；双人吊椅上展望台看日落（1 月日落约 16:30）。
+        冬季 9:00 – 17:00，缆椅往返成人 ¥1,000。免费停车 113 位。
+        从 头大佛开车 ~30 – 40 分钟。

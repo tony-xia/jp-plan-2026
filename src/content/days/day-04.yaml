@@ -1,50 +1,36 @@
-# Day 04 — 2026-12-30 — 轻井泽 → 函馆（长途移动日）
+# Day 04 — 2026-12-30 — 函馆 → 札幌（北斗 · 白い恋人 · 蟹本家）
 day:
   id: day-04
   date: "2026-12-30"
   city: hokkaido
-  title_zh: 第 4 天 · 轻井泽 → 函馆（长途移动日）
+  title_zh: 第 4 天 · 函馆 → 札幌（札幌夜 1）
   intro_zh: >-
-    ★ 全天移动日（用户 2026-04-20 明确）：早上从 轻井泽 Airbnb 叫 Uber / 出租车到 軽井沢駅（已无租车）→ 乘 北陆新干线 →
-    东京站 站内换乘 東北・北海道新幹線「はやぶさ」→ 新函館北斗駅 → 换 JR 函館ライナー → 函馆駅。
-    车程合计 6 – 7 小时 + 换乘缓冲，门到门约 8 小时。不安排观光，傍晚抵达函馆办理入住。
-    ⚠️ 4 人 + 冬装 + 行李量大：務必预约 東北・北海道新干线「はやぶさ」的「特大荷物スペースつき座席」（大件行李指定席），元旦前后热门，早订。
+    上午 JR 特急 北斗 函馆 → 札幌（~3 小时 30 分）。下午抵札幌入住市中心酒店。
+    傍晚黄金时段去 白色恋人公园 看工厂 + Blooming Snow Fantasy 亮灯（16:00 – 19:00，免费）；
+    晚餐 蟹本家 札幌站本店。今晚是札幌 4 晚中的第 1 晚（车还没取；后面 3 天包含跨年夜 + 元旦 + 1/2）。
   activities:
-    - id: day-04-depart-karuizawa
-      start: "08:30"
-      place: { ref: karuizawa-station }
+    - id: day-04-hakodate-to-sapporo
+      start: "09:00"
+      place: { ref: sapporo-station }
+      notes_zh: JR 特急 北斗 函馆 → 札幌 ~3 小时 30 分。预留大行李指定席。
+    - id: day-04-shiroi-koibito
+      start: "15:30"
+      place: { ref: shiroi-koibito-park }
       notes_zh: >-
-        ★ 用户确认（2026-04-20）：day-03 已还车，今早从 Airbnb 叫 Uber 或出租车拉行李到 軽井沢駅（轻井泽市区 Uber 覆盖有限，建议事先让房东备一个本地出租电话作为后备）。
-        抵达后换乘 北陆新干线 「あさま / はくたか」 前往 东京站（约 70 – 90 分钟）。
-    - id: day-04-tokyo-transfer
-      place: { ref: tokyo-station }
+        工厂 10:00 – 18:00，付费区最后入园 16:30。
+        亮灯「Blooming Snow Fantasy」16:00 – 19:00（观赏免费）；看完日落直接出来吃晚饭。
+        ⚠️ 2026-12-30（周三）在年末营业日，应正常开门，但 12/31 – 1/3 营业时间可能变动；出发前官网再核一次。
+    - id: day-04-kani-honke
+      start: "19:00"
+      place: { ref: kani-honke-sapporo }
       notes_zh: >-
-        东京站站内换乘 東北・北海道新幹線「はやぶさ」前往 新函館北斗。
-        北陆新干线 23 – 24 番线 ↔ 东北/北海道新干线 20 – 23 番线，同层过街，换乘 ~15 分钟；
-        有大行李务必预留 30 分钟缓冲，建议提前订好换乘班次，避开太紧的接驳。
-    - id: day-04-shin-hakodate-hokuto
-      place: { ref: shin-hakodate-hokuto-station }
-      notes_zh: >-
-        东京 → 新函館北斗 新干线单程约 4 小时。抵达后下新干线，站内换 JR 函館ライナー，约 15 – 20 分钟到 函馆駅。
-    - id: day-04-hakodate-arrival
-      place: { ref: hakodate-station }
-      notes_zh: 抵达函馆（预计傍晚 / 入夜），办理酒店入住。今晚简单吃点，早休息 —— 跨年夜看 day-05。
+        4 人提前 2 – 3 周预订。
+        ⚠️ 年末年始部分日期可能停业或预订紧张（12/31 / 1/1 高风险）；今晚在 12/30 比较保险。
   bookings:
-    - id: day-04-shinkansen-karuizawa-hakodate
-      kind: shinkansen
-      title_zh: "新干线：轻井泽 → 东京 → 新函館北斗 → 函馆（3 段）"
+    - id: day-04-hokuto-hakodate-sapporo
+      kind: other
+      title_zh: "JR 特急 北斗：函馆 → 札幌"
       start: "2026-12-30"
-      from:
-        zh: 轻井泽站
-        en: Karuizawa Station
-        ja: 軽井沢駅
-      to:
-        zh: 函馆站
-        en: Hakodate Station
-        ja: 函館駅
-      details_zh: >-
-        3 段行程：① 軽井沢 → 东京（北陆新幹線 あさま / はくたか，~70 – 90 分）；
-        ② 东京 → 新函館北斗（東北・北海道新幹線 はやぶさ，~4 小时）；
-        ③ 新函館北斗 → 函馆（JR 函館ライナー，~15 – 20 分）。
-        ★ 务必同时预约 ②「はやぶさ」特大荷物スペースつき座席（大行李指定席）—— 2020 年起强制，
-        元旦前后几乎必售罄，需尽早。三段行程理想上一次预订，JR East / JR Hokkaido 网站或绿色窗口。
+      from: { zh: 函馆站, en: Hakodate Station, ja: 函館駅 }
+      to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+      details_zh: ~3 小时 30 分。4 人 + 冬装行李 → 预约特大荷物指定席。

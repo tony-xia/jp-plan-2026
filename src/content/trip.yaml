@@ -1,15 +1,14 @@
 # Japan trip itinerary — 2026-12-27 to 2027-01-18 (23 days, 22 nights).
-# Three phases (2026-04-20: Phase 2 restructured to clockwise self-drive loop + Windsor moved to end):
-#   Phase 1 (days 01-03, 3 nights)  = Karuizawa (day-04 is a full travel day OUT of Karuizawa to Hakodate)
-#   Phase 2 (days 04-18, 15 nights) = Hokkaido clockwise loop:
-#                                     Hakodate 3 (day-04 arrival via Shinkansen)
-#                                     → Sapporo 3 (JR 特急 北斗 in · car pickup at end · day-07 → day-09)
-#                                     → Wakkanai 1 (Surfeel; long drive from Sapporo · day-10)
-#                                     → Cape Sōya → Abashiri 2 (Okhotsk coast drive · day-11 + day-12)
-#                                     → Biei 1 (Blue Pond light-up · day-13)
-#                                     → Otaru 3 (central 2 + Hotel Neuschloss 1 · day-14 → day-16)
-#                                     → Sapporo car drop → Windsor Toya 2 (end; day-17 + day-18)
-#   Phase 3 (days 19-23, 4 nights)  = Tokyo (day-19 = Toya → Tokyo transit via 北斗 + 新幹線)
+# Two phases (2026-04-20 restructure: Karuizawa parked; Day-1 = Haneda → Hakodate Shinkansen):
+#   Phase 1 (days 01-18, 18 nights) = Hokkaido clockwise loop:
+#                                     Hakodate 3 (day-01 arrival via Haneda + 東北・北海道新幹線)
+#                                     → Sapporo 4 (JR 特急 北斗 in · NYE in Sapporo · car pickup day-08)
+#                                     → Wakkanai 2 (Surfeel; long drive from Sapporo + weather-buffer day)
+#                                     → Cape Sōya → Abashiri 2 (Okhotsk coast drive)
+#                                     → Biei 1 (Blue Pond light-up)
+#                                     → Otaru 3 (central 2 + Hotel Neuschloss 1 drone-day)
+#                                     → Sapporo car drop → Windsor Toya 3 (end of Hokkaido)
+#   Phase 2 (days 19-23, 4 nights)  = Tokyo (day-19 = Toya → Tokyo transit via 北斗 + 新幹線)
 # Full requirements source: docs/requirements.md
 # Validated against src/lib/schema.ts at build time.
 
@@ -23,18 +22,15 @@ startDate: "2026-12-27"
 endDate: "2027-01-18"
 
 segments:
-  - id: karuizawa
-    name:
-      zh: 轻井泽
-      en: Karuizawa
-      ja: 軽井沢
-    days: [day-01, day-02, day-03]
   - id: hokkaido
     name:
       zh: 北海道
       en: Hokkaido
       ja: 北海道
     days:
+      - day-01
+      - day-02
+      - day-03
       - day-04
       - day-05
       - day-06

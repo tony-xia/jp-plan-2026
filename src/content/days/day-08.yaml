@@ -1,28 +1,25 @@
-# Day 08 — 2027-01-03 — 札幌核心日
+# Day 08 — 2027-01-03 — 札幌取车 → 稚内（长途）
 day:
   id: day-08
   date: "2027-01-03"
   city: hokkaido
-  title_zh: 第 8 天 · 札幌核心日（夜 2）· 北大 + 二条 + 頭大仏 + 大倉山
+  title_zh: 第 8 天 · 札幌取车 → 稚内（长途日）
   intro_zh: >-
-    札幌完整一天（车还没取，全程地铁 / 巴士 / 出租）。
-    早上 二条市場 海鲜丼；上午 北海道大学 校园散步；下午 頭大仏（地铁 + 中央巴士 真108，往返 ~2 小时）；
-    黄昏 大倉山 展望台看日落；晚餐 NANDA 海鲜自助 或自由。
+    ★ 顺时针环线第 1 天：早上札幌市区租车行取车，然后一路北上到稚内
+    （~330 km / 冬季 5 – 6 小时 · 道央道 + R40）。中午在 岩見沢 / 旭川 吃午饭；傍晚抵达 Surfeel 入住。
+    今晚稚内 2 晚的第 1 晚（用户 +1 晚作为天气缓冲）。体力允许再加 ノシャップ岬 日本海夕阳，否则休整为明天的 宗谷岬 做准备。
   activities:
-    - id: day-08-nijo-market
+    - id: day-08-sapporo-pickup
       start: "08:30"
-      place: { ref: nijo-market-sapporo }
-      notes_zh: 早市开到中午前；海鲜丼当早饭。
-    - id: day-08-hokudai
-      place: { ref: hokkaido-university }
-      notes_zh: 札幌駅 北口步行 5 – 10 分钟即到校园。
-    - id: day-08-hill-of-the-buddha
-      place: { ref: hill-of-the-buddha }
-      notes_zh: 冬季拜观 10:00 – 15:00；水庭冬季放空无反射，景色变成佛首 + 白雪。
-    - id: day-08-okurayama
-      place: { ref: okurayama-observatory }
-      notes_zh: 1972 冬奥跳台场地；双人吊椅上展望台看日落。
-    - id: day-08-nanda
-      start: "19:30"
-      place: { ref: seafood-buffet-nanda }
-      notes_zh: 和昨晚蟹本家二选一；提前 2 – 3 周预约。
+      place: { ref: sapporo-station }
+      notes_zh: >-
+        札幌市区租车行取车（站前 / 薄野）；要求四驱 SUV + 冬季雪胎 + 雪链。
+        取车后立刻检查：胎况 / 雨刮 / 冷启动 / ETC 卡 / 紧急联络方式。
+    - id: day-08-drive-to-wakkanai
+      place: { ref: surfeel-hotel-wakkanai }
+      notes_zh: >-
+        札幌 → 稚内 道央道 + R40，冬季估 5 – 6 小时；午餐岩見沢 / 旭川；傍晚到酒店办理入住。
+        ⚠️ 暴雪 / 道路封闭前查「北海道開発局 道路情報」。
+    - id: day-08-noshappu-cape
+      place: { ref: noshappu-cape }
+      notes_zh: 如到得早有余力，黄昏跑一趟 ノシャップ岬 看日本海夕阳 + 利尻富士剪影。否则跳过留到明天。

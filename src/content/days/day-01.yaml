@@ -1,23 +1,33 @@
-# Day 01 — 2026-12-27 — 抵达日本 · 新干线至轻井泽取车
+# Day 01 — 2026-12-27 — 羽田抵日 → 新干线直达函馆（长途移动日）
 day:
   id: day-01
   date: "2026-12-27"
-  city: karuizawa
-  title_zh: 第 1 天 · 抵达日本 · 新干线至轻井泽取车
+  city: hokkaido
+  title_zh: 第 1 天 · 抵达羽田 → 新干线 → 函馆
   intro_zh: >-
-    早上全员抵达羽田机场会合；从羽田转至东京站，换乘北陆新干线到 軽井沢駅，
-    在 軽井沢駅 附近租车行取车（★ 不在羽田取车）后开往住宿。
+    ★ 2026-04-20 大改：Karuizawa 取消，Day-1 直接从羽田搭新干线去函馆。
+    早上 4 人在 羽田 会合 → 单轨 / 京急 + JR 山手 → 东京站（~30 – 40 分）→ 東北・北海道新幹線「はやぶさ」→
+    新函館北斗 → JR 函館ライナー → 函馆駅。全程 ~6 – 7 小时 + 换乘缓冲，门到门约 8 小时。
+    不安排观光，傍晚 / 入夜抵达函馆办理入住；就近简单晚餐，早点休息，后面几天精力更好。
+    ⚠️ 4 人 + 冬装 + 大件行李：務必预约 はやぶさ「特大荷物スペースつき座席」（大件行李指定席）—— 元旦前后热门，早订。
   activities:
     - id: day-01-haneda-arrival
-      start: "09:00"
+      start: "10:00"
       place: { ref: haneda-airport }
-      notes_zh: 所有人早上抵达羽田机场集合；检查行李后前往东京站。
-    - id: day-01-tokyo-station-transit
-      place: { ref: tokyo-station }
-      notes_zh: 羽田 → 东京站约 30 分钟（单轨 + JR 山手线 或 京急 + JR）；在东京站换乘北陆新干线「あさま / はくたか」。
-    - id: day-01-karuizawa-arrival-rental
-      place: { ref: karuizawa-station }
       notes_zh: >-
-        抵达 軽井沢駅（东京站出发约 70 – 90 分钟）。
-        ★ 在 軽井沢駅 附近租车行取车（Phase 1 租车点）—— 用户 2026-04-20 明确：不在羽田取车。
-        取车后自驾前往住宿地。
+        4 人抵达后会合、取行李；换乘口优先走东京单轨去东京站，或京急 → JR 山手线亦可。
+        行李集中处理，避免每个人单独拖行；去站台前留 60 – 90 分钟机动时间。
+    - id: day-01-tokyo-transfer
+      place: { ref: tokyo-station }
+      notes_zh: >-
+        东京站站内换乘 東北・北海道新幹線「はやぶさ」前往 新函館北斗。
+        提前订好大行李指定席；站内步行到北海道新干线站台 ~10 – 15 分钟，留 30 分钟缓冲为妥。
+    - id: day-01-shin-hakodate-hokuto
+      place: { ref: shin-hakodate-hokuto-station }
+      notes_zh: >-
+        东京 → 新函館北斗 新干线单程约 4 小时。抵达后下新干线，站内换 JR 函館ライナー，约 15 – 20 分钟到 函馆駅。
+    - id: day-01-hakodate-arrival
+      place: { ref: hakodate-station }
+      notes_zh: >-
+        抵达函馆（预计傍晚 / 入夜），办理酒店入住。
+        今晚就近简餐 —— 朝市周边或元町下到底的排挡皆可；不要勉强跑 函馆山 夜景（留到 day-03 精力好时）。

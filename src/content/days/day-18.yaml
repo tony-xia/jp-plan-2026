@@ -1,20 +1,24 @@
-# Day 18 — 2027-01-13 — Lake Toya 环湖
+# Day 18 — 2027-01-13 — 登别地狱谷 + Windsor 收尾夜
 day:
   id: day-18
   date: "2027-01-13"
   city: hokkaido
-  title_zh: 第 18 天 · Lake Toya 环湖一日（Phase 2 最后一夜）
+  title_zh: 第 18 天 · 登别地狱谷 + Windsor 收尾夜（Hokkaido 最后一夜）
   intro_zh: >-
-    Windsor 住宿第 2 晚、Phase 2 最后一夜。上午 / 下午借酒店班车或打车跑 Silo 展望台 + 有珠山缆车；
-    如时间 + 体力允许，下午加 登别地狱谷（开车 40 – 50 分钟）。
-    今晚好好享受 Windsor（SPA、晚餐、湖景）；明早（day-19）收拾行李去东京。
+    ★ 2026-04-20 新增一日（Toya +1）：有充裕时间跑 登别地狱谷 + 温泉街。
+    上午酒店出发（打车 / 酒店安排用车） → 登别地狱谷（~40 – 50 分钟）→ 登别温泉街午餐 → 可加 クマ牧場 /
+    大湯沼川天然足湯（冬季仍开放的战术性热点）→ 下午回 Windsor 享受 SPA / 晚餐 / 湖景。
+    今晚是 Hokkaido 的最后一夜 —— Windsor 的晚餐值得留出完整时段。明早（day-19）收拾行李 + 酒店班车去 洞爺駅，
+    乘 北斗 + 新幹線 到东京。
   activities:
-    - id: day-18-silo
-      place: { ref: toyako-silo-observation-deck }
-      notes_zh: 洞爷湖全景免费展望台；冬季营业 8:30 – 17:00。
-    - id: day-18-usuzan
-      place: { ref: usuzan-ropeway }
-      notes_zh: 有珠山缆车上山顶；走到火口原展望台约 7 分钟。冬季外輪山遊歩道封闭。
     - id: day-18-noboribetsu
+      start: "09:30"
       place: { ref: noboribetsu-jigokudani }
-      notes_zh: 时间允许，下午加 登别地狱谷；傍晚回酒店。
+      notes_zh: >-
+        活火山造就的硫磺地狱谷 + 温泉街。酒店 → 地狱谷 ~40 – 50 分钟（可让酒店代叫出租）。
+        现场建议 2 – 3 小时（散步 + 温泉街午餐）。
+    - id: day-18-windsor-evening
+      place: { ref: windsor-hotel-toya }
+      notes_zh: >-
+        下午回酒店享受 SPA + 室内温泉。晚上 Windsor 主餐厅预订一顿正式的 Hokkaido 收尾晚餐。
+        ⚠️ Windsor 多家餐厅需入住当天预约；办理入住时同时订好 day-17 和 day-18 两晚晚餐。

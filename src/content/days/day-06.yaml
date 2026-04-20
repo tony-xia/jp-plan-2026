@@ -1,15 +1,28 @@
-# Day 06 — 2027-01-01 — 元旦 · 函馆山夜景
+# Day 06 — 2027-01-01 — 元旦 · 札幌（初詣 + 北大）
 day:
   id: day-06
   date: "2027-01-01"
   city: hokkaido
-  title_zh: 第 6 天 · 元旦 · 函馆山夜景
+  title_zh: 第 6 天 · 元旦 · 初詣 + 北海道大学（札幌夜 3）
   intro_zh: >-
-    元旦白日函馆自由活动；黄昏前上 函馆山 看日落接百万夜景（冬季只能缆车）。
+    元旦 日本传统 初詣。早晨去 北海道神宮（円山公園）祈福；下午 北海道大学 校园散步（校园冬季开放，无时间限制）。
+    ⚠️ 元旦当日大多数景点 / 餐厅 / 商店停业（商店一般 1/2 或 1/3 起陆续营业）。头大佛、大倉山、白い恋人 等都可能休园。
+    晚上就近拉面 / 居酒屋 —— 薄野附近元旦开门的店家比景点多。
   activities:
-    - id: day-06-mt-hakodate
-      start: "16:30"
-      place: { ref: mt-hakodate-observatory }
+    - id: day-06-hokkaido-jingu
+      start: "09:30"
+      place: { ref: hokkaido-university }
       notes_zh: >-
-        冬季禁止汽车 / 巴士 / 出租上山，只能缆车。日落约 16:20；提前到山麓站排缆车。
-        保暖必备（厚外套、围巾、手套、帽子）。
+        ⚠️ 占位：日程核心是 北海道神宮（札幌円山）初詣 —— 地铁 東西線 円山公園駅 步行 15 分钟。
+        元旦人流高峰 10:00 – 14:00；9 点前到可避开最挤。
+        本 activity 暂用 hokkaido-university 作 place 占位，下次迭代把 hokkaido-jingu 作为 place 新建后更新。
+    - id: day-06-hokudai-walk
+      place: { ref: hokkaido-university }
+      notes_zh: >-
+        札幌駅 北口步行 5 – 10 分钟。冬季主看 ポプラ並木 + 主路雪景 + 克拉克像 + 古河记念讲堂。
+        校园自由参观，元旦也开放；冷天走 45 – 60 分钟即可，不必逛完。
+    - id: day-06-shinnen-dinner
+      place: { ref: sapporo-station }
+      notes_zh: >-
+        就近薄野 / 札幌駅 附近简餐；元旦营业的店有限，白天确认晚餐店家是否开门。
+        传统新年吃 お雑煮 / おせち —— 酒店是否提供要在入住时确认。

@@ -1,4 +1,6 @@
-# Phase 1 — Karuizawa / Fuji
+# Phase 1 — Karuizawa / Fuji *(PARKED 2026-04-20)*
+
+> 🛑 **PARKED 2026-04-20.** User elected to drop Karuizawa from this trip entirely and redirect the 3 nights into Hokkaido. Day-1 now departs Haneda straight for Hakodate on the Tōhoku/Hokkaido Shinkansen. The must-visits below (Peepolo Norikura, Norikura information center, Kurumayama SKYPARK, Karuizawa Kogen Church, Kurofu-yama drone day, Fuji-area fallbacks) are **dropped from this trip**. File retained as reference for any future Japan trip where Karuizawa/Fuji returns to scope. Do **not** consult this file when editing `src/content/` for the 2026-2027 trip — see [`phase-2-hokkaido.md`](phase-2-hokkaido.md) and [`phase-3-tokyo.md`](phase-3-tokyo.md) instead.
 
 > Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation.
 
