@@ -4,13 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Trip requirements — read first, keep updated
 
-[`docs/requirements.md`](docs/requirements.md) is the **source of truth** for every itinerary decision. Treat it as a living document.
+[`docs/requirements.md`](docs/requirements.md) is the index and decision log (trip basics, night allocation, group composition). The phase-specific requirements live in [`docs/requirements/phase-1-karuizawa.md`](docs/requirements/phase-1-karuizawa.md), [`docs/requirements/phase-2-hokkaido.md`](docs/requirements/phase-2-hokkaido.md), and [`docs/requirements/phase-3-tokyo.md`](docs/requirements/phase-3-tokyo.md). Treat the whole set as the living source of truth for itinerary decisions.
 
-**Before** editing [`src/content/trip.yaml`](src/content/trip.yaml): read `docs/requirements.md` and reconcile the change against every requirement. If the change conflicts with a requirement, stop and flag it to the user — do not silently override.
+**Before** editing any file under [`src/content/`](src/content/): read the relevant phase file(s) and reconcile the change against every requirement. If the change conflicts with a requirement, stop and flag it to the user — do not silently override.
 
-**Whenever** the user states a new requirement, refines an existing one, resolves an open question, or rules something out: update `docs/requirements.md` *first*, in the same turn, *before* touching the YAML or any other file. This applies even when the requirement arrives mid-conversation or seems minor — capture it immediately so future sessions inherit it.
+**Whenever** the user states a new requirement, refines an existing one, resolves an open question, or rules something out: update the matching phase file (or [`docs/requirements/open-questions.md`](docs/requirements/open-questions.md) for cross-phase items) *first*, in the same turn, *before* touching any YAML or other file. Capture requirements immediately so future sessions inherit them.
 
-**Every Google Maps short-link (`maps.app.goo.gl/...`) the user sends must be stored in `docs/requirements.md`** against the place it describes, verbatim. Never drop one, never substitute your own. These pins are the user's verified location data — they override any address-string search.
+**Every Google Maps short-link (`maps.app.goo.gl/...`) the user sends must be stored in the matching phase file** against the place it describes, verbatim. Never drop one, never substitute your own. These pins override any address-string search.
 
 If you notice a requirement the YAML violates, surface it rather than quietly "fixing" either side.
 
@@ -31,7 +31,7 @@ npm run lint             # ESLint
 
 ## Travel times
 
-Drive times between places live in a delimited section of `docs/requirements.md` (between `## Travel times (auto-generated — do not edit by hand)` and `<!-- /travel-times -->`). Claude populates this by directly querying OSM public services (Nominatim for geocoding, OSRM demo for routing) — no runtime or build-time API calls, no keys, no pipeline script. `src/lib/travel-times.ts` parses the section at build time; `src/lib/content.ts` merges the entries into the returned `Trip` under `travelTimes`; `ActivityItem` renders `→ 下一站 X min · Y km` when a matching pair exists. Ask Claude to refresh the table when the itinerary changes.
+Drive times between places live in a delimited section of `docs/requirements/travel-times.md` (between `## Travel times (auto-generated — do not edit by hand)` and `<!-- /travel-times -->`). Claude populates this by directly querying OSM public services (Nominatim for geocoding, OSRM demo for routing) — no runtime or build-time API calls, no keys, no pipeline script. `src/lib/travel-times.ts` parses the section at build time; `src/lib/content.ts` merges the entries into the returned `Trip` under `travelTimes`; `ActivityItem` renders `→ 下一站 X min · Y km` when a matching pair exists. Ask Claude to refresh the table when the itinerary changes.
 
 ## Architecture in one page
 
