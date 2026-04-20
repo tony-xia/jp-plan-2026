@@ -71,8 +71,13 @@ export default async function DayPage({
               {t.activities}
             </h2>
             <div>
-              {day.activities.map((a) => (
-                <ActivityItem key={a.id} activity={a} trip={trip} />
+              {day.activities.map((a, i) => (
+                <ActivityItem
+                  key={a.id}
+                  activity={a}
+                  nextActivity={day.activities[i + 1]}
+                  trip={trip}
+                />
               ))}
             </div>
           </section>

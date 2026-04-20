@@ -29,6 +29,10 @@ npm run typecheck        # tsc --noEmit
 npm run lint             # ESLint
 ```
 
+## Travel times
+
+Drive times between places live in a delimited section of `docs/requirements.md` (between `## Travel times (auto-generated — do not edit by hand)` and `<!-- /travel-times -->`). Claude populates this by directly querying OSM public services (Nominatim for geocoding, OSRM demo for routing) — no runtime or build-time API calls, no keys, no pipeline script. `src/lib/travel-times.ts` parses the section at build time; `src/lib/content.ts` merges the entries into the returned `Trip` under `travelTimes`; `ActivityItem` renders `→ 下一站 X min · Y km` when a matching pair exists. Ask Claude to refresh the table when the itinerary changes.
+
 ## Architecture in one page
 
 A **read-only** Japan-trip itinerary site. UI is Chinese; proper nouns (places, dishes, addresses) render tri-lingually (zh primary + en + ja inline) so users can point their phone at locals.

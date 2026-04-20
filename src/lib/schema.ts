@@ -88,6 +88,14 @@ export const CitySegment = z.object({
 });
 export type CitySegment = z.infer<typeof CitySegment>;
 
+export const TravelTime = z.object({
+  from: z.string().min(1),
+  to: z.string().min(1),
+  durationMin: z.number().int().nonnegative(),
+  distanceKm: z.number().nonnegative(),
+});
+export type TravelTime = z.infer<typeof TravelTime>;
+
 export const Trip = z.object({
   title_zh: z.string().min(1),
   travelers: z.array(z.string().min(1)),
@@ -97,6 +105,7 @@ export const Trip = z.object({
   days: z.array(Day),
   places: z.array(Place),
   bookings: z.array(Booking),
+  travelTimes: z.array(TravelTime).optional(),
 });
 export type Trip = z.infer<typeof Trip>;
 

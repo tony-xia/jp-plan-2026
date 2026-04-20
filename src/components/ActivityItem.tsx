@@ -1,5 +1,6 @@
 import type { Activity, Trip } from "@/lib/schema";
 import { resolvePlace } from "@/lib/schema";
+import { findTravelTime } from "@/lib/content";
 import { TriName } from "./TriName";
 import { AddressLinks } from "./AddressLinks";
 import { PhotoGallery } from "./PhotoGallery";
@@ -7,13 +8,20 @@ import { t } from "@/lib/strings";
 
 export function ActivityItem({
   activity,
+  nextActivity,
   trip,
 }: {
   activity: Activity;
+  nextActivity?: Activity;
   trip: Trip;
 }) {
   const place = resolvePlace(activity.place, trip);
   const timeLabel = [activity.start, activity.end].filter(Boolean).join(" – ");
+  const nextPlace = nextActivity ? resolvePlace(nextActivity.place, trip) : null;
+  const travel =
+    nextPlace && nextPlace.id !== place.id
+      ? findTravelTime(trip, place.id, nextPlace.id)
+      : undefined;
 
   return (
     <div className="grid grid-cols-[5rem_1fr] gap-6 py-6 rule">
@@ -75,6 +83,20 @@ export function ActivityItem({
                   : null,
               ].filter((x): x is { href: string; label: string } => x !== null)}
             />
+          </div>
+        )}
+        {travel && nextPlace && (
+          <div className="mt-4 flex items-center gap-2 text-xs text-muted">
+            <span className="annot">→ 下一站</span>
+            <span className="font-mono tracking-wide">
+              {travel.durationMin >= 60
+                ? `${Math.floor(travel.durationMin / 60)} 小时 ${travel.durationMin % 60} 分`
+                : `${travel.durationMin} 分钟`}
+              {" · "}
+              {travel.distanceKm} km
+            </span>
+            <span className="text-hairline">·</span>
+            <span className="truncate">{nextPlace.name.zh}</span>
           </div>
         )}
       </div>
