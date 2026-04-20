@@ -31,11 +31,30 @@ export function CityList({ trip }: { trip: Trip }) {
     return lastDate === trip.endDate ? days.length - 1 : days.length;
   };
 
+  const dayDateToSegment = new Map<string, string>();
+  trip.segments.forEach((seg) => {
+    seg.days.forEach((dayId) => {
+      const d = dayById.get(dayId);
+      if (d) dayDateToSegment.set(d.date, seg.id);
+    });
+  });
+
+  const bookingsBySegment = new Map<string, Booking[]>();
+  trip.bookings.forEach((b) => {
+    if (b.kind === "hotel") return;
+    const segId = dayDateToSegment.get(b.start);
+    if (!segId) return;
+    const list = bookingsBySegment.get(segId) ?? [];
+    list.push(b);
+    bookingsBySegment.set(segId, list);
+  });
+
   return (
     <div className="space-y-14">
       {trip.segments.map((segment) => {
         const stays = staysBySegment.get(segment.id) ?? [];
         const segmentNights = stays.reduce((n, s) => n + nightsFor(s), 0);
+        const segmentBookings = bookingsBySegment.get(segment.id) ?? [];
         return (
           <section key={segment.id}>
             <header className="mb-4 flex items-baseline gap-3">
@@ -63,6 +82,21 @@ export function CityList({ trip }: { trip: Trip }) {
             </div>
             {stays.length === 0 && (
               <p className="text-sm text-muted">（暂无城市）</p>
+            )}
+            {segmentBookings.length > 0 && (
+              <div className="mt-8">
+                <h3 className="text-sm font-serif-jp font-semibold text-muted mb-1">
+                  交通 & 预约
+                </h3>
+                <span className="annot annot-ja">
+                  フライト · 新幹線 · その他
+                </span>
+                <div className="mt-2">
+                  {segmentBookings.map((b) => (
+                    <BookingItem key={b.id} booking={b} />
+                  ))}
+                </div>
+              </div>
             )}
           </section>
         );
@@ -120,7 +154,7 @@ function StayCard({
           {range}
         </span>
         <span className="font-serif-jp text-sm text-accent w-20 text-right tabular-nums">
-          {days.length} 天 · {nights} 晚
+          {nights} 晚
         </span>
       </summary>
 

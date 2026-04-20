@@ -12,7 +12,7 @@ This list is the source of truth for trip-planning decisions. The itinerary in [
 - [`requirements/phase-3-tokyo.md`](requirements/phase-3-tokyo.md) — **Phase 2 (live).** Tokyo base area, car-enthusiast requirement, antique markets.
 - [`requirements/phase-1-karuizawa.md`](requirements/phase-1-karuizawa.md) — **PARKED 2026-04-20.** Retained for reference; no longer part of the itinerary.
 - [`requirements/travel-times.md`](requirements/travel-times.md) — auto-generated drive-time table
-- [`requirements/open-questions.md`](requirements/open-questions.md) — cross-phase open questions
+- [`requirements/open-questions.md`](requirements/open-questions.md) — cross-phase open questions (includes **Gear & electronics** packing list)
 
 ## Trip basics
 
