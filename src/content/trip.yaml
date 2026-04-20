@@ -63,9 +63,9 @@ stays:
     segmentId: hokkaido
     dayIds: [day-01, day-02, day-03]
     lodgingBookingIds:
+      - hokkaido-hakodate-hotel-tokyu-stay
       - hokkaido-hakodate-airbnb-primary
       - hokkaido-hakodate-airbnb-alt
-      - hokkaido-hakodate-hotel-tokyu-stay
 
   - id: stay-sapporo-front
     city: { zh: 札幌, en: Sapporo, ja: 札幌 }

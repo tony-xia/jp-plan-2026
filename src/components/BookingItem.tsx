@@ -58,7 +58,7 @@ export function BookingItem({ booking }: { booking: Booking }) {
           />
         </div>
       )}
-      {booking.photos && booking.photos.length > 0 && (
+      {booking.photos && booking.photos.length > 0 ? (
         <div className="mt-4">
           <PhotoGallery
             photos={booking.photos}
@@ -73,7 +73,30 @@ export function BookingItem({ booking }: { booking: Booking }) {
             ].filter((x): x is { href: string; label: string } => x !== null)}
           />
         </div>
-      )}
+      ) : (booking.bookingUrl || booking.airbnbUrl) ? (
+        <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted">
+          {booking.bookingUrl && (
+            <a
+              href={booking.bookingUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="underline decoration-hairline underline-offset-2 hover:decoration-accent hover:text-accent"
+            >
+              Booking.com ↗
+            </a>
+          )}
+          {booking.airbnbUrl && (
+            <a
+              href={booking.airbnbUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="underline decoration-hairline underline-offset-2 hover:decoration-accent hover:text-accent"
+            >
+              Airbnb ↗
+            </a>
+          )}
+        </div>
+      ) : null}
     </div>
   );
 }

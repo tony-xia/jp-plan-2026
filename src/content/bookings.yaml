@@ -31,51 +31,21 @@ bookings:
 
   - id: hokkaido-hakodate-airbnb-primary
     kind: hotel
-    title_zh: "候选 Airbnb (主推)：函馆元町 HIST Terrace I（3 晚，4 人）"
+    title_zh: "备选 Airbnb：函馆元町 HIST Terrace I"
     start: "2026-12-27"
     end: "2026-12-30"
     airbnbUrl: https://www.airbnb.com.au/rooms/1461937569120840875
-    photos:
-      - /photos/airbnb-hakodate-hist-terrace/01.jpg
-      - /photos/airbnb-hakodate-hist-terrace/02.jpg
-      - /photos/airbnb-hakodate-hist-terrace/03.jpg
-      - /photos/airbnb-hakodate-hist-terrace/04.jpg
-    details_zh: >-
-      Listing 1461937569120840875 — Hakodate Motomachi HIST Terrace I。
-      6 人 · 3BR · 6 床 · 2 浴；4.92 ★ / 12 条评价 · Guest favourite；"Rare find — 常年满房"。
-      元町历史山坡区，近 函館山ロープウェイ 和 朝市。
-      ⚠️ 2026-04-20 改期：原询价 2026-12-30 → 01-01（2 晚），需重新询价 2026-12-27 → 12-30（3 晚）。
-      预订前核对：2BR + 2BA、4 人上限、冬季供暖、晚 check-in 宽容度（day-01 傍晚/夜间到达），价格仍有效。
 
   - id: hokkaido-hakodate-airbnb-alt
     kind: hotel
-    title_zh: "候选 Airbnb (备选)：函馆湾 Japandi 整栋（3 晚，4 人）"
+    title_zh: "备选 Airbnb：函馆湾 Japandi 整栋"
     start: "2026-12-27"
     end: "2026-12-30"
     airbnbUrl: https://www.airbnb.com.au/rooms/896063721679005442
-    photos:
-      - /photos/airbnb-hakodate-bay-japandi/01.jpg
-      - /photos/airbnb-hakodate-bay-japandi/02.jpg
-      - /photos/airbnb-hakodate-bay-japandi/03.jpg
-      - /photos/airbnb-hakodate-bay-japandi/04.jpg
-      - /photos/airbnb-hakodate-bay-japandi/05.jpg
-      - /photos/airbnb-hakodate-bay-japandi/06.jpg
-      - /photos/airbnb-hakodate-bay-japandi/07.jpg
-      - /photos/airbnb-hakodate-bay-japandi/08.jpg
-      - /photos/airbnb-hakodate-bay-japandi/09.jpg
-      - /photos/airbnb-hakodate-bay-japandi/10.jpg
-      - /photos/airbnb-hakodate-bay-japandi/11.jpg
-      - /photos/airbnb-hakodate-bay-japandi/12.jpg
-    details_zh: >-
-      Listing 896063721679005442 — Hakodate Bay 3-min walk · Japandi 风 136 ㎡ 整栋建筑。
-      10 人 · 2BR · 5 床 · 2 浴；新房源，暂无评价。
-      步行 3 分钟到函馆湾，近 赤レンガ倉庫 / BAY HAKODATE。免费住宅车库 + 室内洗衣烘干机。
-      ⚠️ 2026-04-20 改期：原询价 2026-12-30 → 01-01（2 晚），需重新询价 2026-12-27 → 12-30（3 晚）。
-      ⚠️ 无评价为主要风险。
 
   - id: hokkaido-hakodate-hotel-tokyu-stay
     kind: hotel
-    title_zh: "候选酒店：東急ステイ函館朝市 灯の湯（3 晚，2 间房，待询价）"
+    title_zh: "住宿：東急ステイ函館朝市 灯の湯（3 晚，2 间房）"
     start: "2026-12-27"
     end: "2026-12-30"
     googleMapsUrl: https://maps.app.goo.gl/NB15MnFHp38YbuYz8
