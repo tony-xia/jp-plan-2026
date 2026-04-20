@@ -13,7 +13,7 @@ function loadYaml<T = unknown>(path: string): T {
 function loadDayShards(daysDir: string): unknown[] {
   const files = readdirSync(daysDir)
     .filter((f) => f.endsWith(".yaml"))
-    .sort(); // day-01.yaml … day-23.yaml lexicographic order matches chronological order
+    .sort();
   return files.map((f) => {
     const doc = loadYaml<{ day: unknown }>(join(daysDir, f));
     if (!doc || typeof doc !== "object" || !("day" in doc)) {
@@ -21,6 +21,21 @@ function loadDayShards(daysDir: string): unknown[] {
     }
     return doc.day;
   });
+}
+
+function loadPlaceShards(placesDir: string): unknown[] {
+  const files = readdirSync(placesDir)
+    .filter((f) => f.endsWith(".yaml"))
+    .sort();
+  const out: unknown[] = [];
+  for (const f of files) {
+    const doc = loadYaml<{ places: unknown[] }>(join(placesDir, f));
+    if (!doc || typeof doc !== "object" || !Array.isArray(doc.places)) {
+      throw new Error(`Place shard ${f} must contain a top-level 'places:' array`);
+    }
+    out.push(...doc.places);
+  }
+  return out;
 }
 
 function assertUnique(ids: string[], label: string) {
@@ -43,8 +58,13 @@ export function getTrip(): Trip {
   const bookingsDoc = loadYaml<{ bookings: unknown[] }>(
     join(root, "bookings.yaml"),
   );
+  const places = loadPlaceShards(join(root, "places"));
   const days = loadDayShards(join(root, "days"));
 
+  assertUnique(
+    places.map((p) => (p as { id: string }).id),
+    "place id",
+  );
   assertUnique(
     days.map((d) => (d as { id: string }).id),
     "day id",
@@ -53,6 +73,7 @@ export function getTrip(): Trip {
   const merged = {
     ...meta,
     bookings: bookingsDoc.bookings,
+    places,
     days,
     travelTimes: loadTravelTimes(),
   };

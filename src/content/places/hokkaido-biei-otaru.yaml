@@ -1,0 +1,221 @@
+# Hokkaido · Biei + Otaru + Rusutsu — Blue Pond, Biei trees, Otaru canal/aquarium/天狗山, Neuschloss.
+places:
+  - id: biei-christmas-tree
+    name:
+      zh: 美瑛 圣诞树之木
+      en: Biei Christmas Tree
+      ja: クリスマスツリーの木
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/v37b29Xiu6mHhsXE8
+    address:
+      full:
+        zh: 北海道上川郡美瑛町(邮编 071-0471)
+        ja: 〒071-0471 北海道上川郡美瑛町
+    notes_zh: >-
+      一株独立的云杉，形如圣诞树，积雪时尤其上镜。
+      ⚠️ 无专用停车场；周围全是私有农地与生活道路。不要将车停在生活道路上；绝对不要踏入农田或雪原。只能从路边观赏/拍摄。
+
+  - id: biei-seven-stars-tree
+    name:
+      zh: 美瑛 七星之木
+      en: Biei Seven Stars Tree
+      ja: セブンスターの木
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/3riQPkZq4ZmvXZEY8
+    address:
+      full:
+        zh: 北海道上川郡美瑛町北瑛(邮编 071-0224)
+        ja: 〒071-0224 北海道上川郡美瑛町北瑛
+    notes_zh: 1976 年被选为日本烟草「セブンスター」包装。有专用停车场（含巴士车位）。
+
+  - id: shirogane-blue-pond
+    name:
+      zh: 白金青池
+      en: Shirogane Blue Pond (Aoiike)
+      ja: 白金青い池
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/xM18uZ819nFR4Kz77
+    address:
+      full:
+        zh: 北海道上川郡美瑛町白金
+        ja: 〒071-0235 北海道上川郡美瑛町白金
+    notes_zh: >-
+      用户问：一天中什么时间去最好？
+      ★ 夏季青色最亮（5 – 6 月），冬季池面结冰+积雪，白天的「蓝」不明显。
+      ★ 冬季主看「ライトアップ 灯光秀」：2026-10-24 – 2027-04-22 期间日落后 – 21:00，
+        12 月开始时间约 16:30，1 月约 17:00，每 10 分钟一段光影故事循环。
+      ★ 2026-12-31 → 2027-01-03 灯光延长到凌晨 2:00 —— 我们在北海道过年，可安排在这个特别时段。
+      推荐日程：日落前约 1 小时到达，白天 + 灯光亮起一次看完，约 45 – 60 分钟，带三脚架。
+
+  - id: otaru-tengu-ropeway
+    name:
+      zh: 小樽 天狗山 缆车 (山麓站)
+      en: Otaru Tenguyama Ropeway Base Station
+      ja: 小樽天狗山ロープウェイ 山麓駅
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/jEUzKT7ByXnta1xF9
+    address:
+      full:
+        zh: 北海道小樽市最上 2-16-15
+        ja: 〒047-0024 北海道小樽市最上2-16-15
+    notes_zh: >-
+      532 m 山顶，约 4 分钟缆车到顶。「北海道三大夜景」之一（另两座：函馆山、藻岩山）。
+      冬季营业 2026-11-29 – 2027-03-31（对应我们行程期间），每日 09:00 – 20:00，最后上行 19:48。
+      单程成人 ¥1,800 往返。日落后上山看夜景最佳；山顶还有「心形雕塑」打卡点。
+
+  - id: otaru-aquarium
+    name:
+      zh: 小樽水族馆
+      en: Otaru Aquarium
+      ja: おたる水族館
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/UNnUot3kmno1LSoQ7
+    address:
+      full:
+        zh: 北海道小樽市祝津 3-303
+        ja: 〒047-0047 北海道小樽市祝津3-303
+    notes_zh: 祝津海岸，与 Hotel Neuschloss 几乎同位置，一天里可合并。冬季海狮、企鹅表演有特色。
+
+  - id: otaru-music-box-museum
+    name:
+      zh: 小樽 音乐盒堂 本馆
+      en: Otaru Music Box Museum (Main Hall)
+      ja: 小樽オルゴール堂 本館
+    kind: shop
+    googleMapsUrl: https://maps.app.goo.gl/3kq8Va1PePPcY8a89
+    address:
+      full:
+        zh: 北海道小樽市住吉町 4-1
+        ja: 〒047-0027 北海道小樽市住吉町4-1
+    notes_zh: >-
+      堺町通り 南端的招牌景点。门口蒸汽时钟经典拍照点；两层历史建筑，里面全是音乐盒。
+      可与小樽运河、堺町通り、LeTAO 合并成一天的 downtown 小樽行程。
+
+  - id: uomasa-otaru
+    name:
+      zh: 鱼真 (小樽 寿司)
+      en: Uomasa (Otaru Sushi)
+      ja: 魚真
+    kind: restaurant
+    googleMapsUrl: https://maps.app.goo.gl/CPaQc68SWsABcke29
+    address:
+      full:
+        zh: 北海道小樽市稻穗 2-5-11
+        ja: 〒047-0032 北海道小樽市稲穂2-5-11
+    notes_zh: >-
+      当地人推崇的平价好吃寿司店；距 JR 小樽駅 步行约 6 分钟。
+      ⚠️ 周日休；不接受预订 —— 需现场排队。
+      午 12:00 – 14:00、晚 16:00 – 21:30；建议提前 20 – 30 分钟到门口排。
+    dishes:
+      - { zh: 生鱼片拼盘, ja: 刺身盛り合わせ }
+      - { zh: 厨师推荐握寿司, ja: おまかせ握り }
+
+  - id: asari-otaru
+    name:
+      zh: 朝里 (小樽 航拍区)
+      en: Asari District, Otaru (Drone & Self-filming Area)
+      ja: 朝里（小樽 空撮・セルフフィルミングエリア）
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/uq4xJXgwdisyyzFa9
+    address:
+      full:
+        zh: 北海道小樽市朝里(邮编 047-0151)
+        ja: 〒047-0151 北海道小樽市朝里
+    notes_zh: >-
+      ★ 航拍日主场：「朝里スカイループ」札樽自動車道 朝里 IC 双层环形高架桥，
+      是北海道最出片的航拍结构物之一，周围森林冬季全白。附近 朝里ダム、朝里川温泉 可补充取景。
+      ⚠️ 无人机注意：
+      ① DID 区：小樽市中心属 DID，朝里本地多半不在 DID —— 用地理院地图 DID 图层确认边界；
+         凡 DID 区飞行需 ≥10 工作日前提交 DIPS 2.0 申请获 MLIT/JCAB 许可。
+      ② 严禁直飞高速公路正上方 —— 必须从侧面或相邻非道路地面起飞。
+      ③ 国定公园层：祝津 – 小樽海岸 属于 Niseko-Shakotan-Otaru Kaigan 国定公园 ——
+         按北海道规则不强制申报，但进入自然保护区前检查标识和告示牌。
+      ④ 冬季海边风大；消费级无人机超过约 10 m/s 就危险。天气差时走备用方案 —— 仅地面自拍。
+      ⑤ 锂电池 -10℃ 容量下降约 30 – 40%。多备电池，贴身保温，飞前预热。
+
+  - id: rusutsu-resort
+    name:
+      zh: 留寿都 度假村
+      en: Rusutsu Resort
+      ja: ルスツリゾート
+    kind: sight
+    googleMapsUrl: https://maps.google.com/?q=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88
+    address:
+      full:
+        zh: 北海道虻田郡留寿都村泉川 13
+        ja: 〒048-1711 北海道虻田郡留寿都村泉川13
+    notes_zh: >-
+      北海道最大度假综合体之一，位于小樽南方 ~90 km。我们不滑雪，但冬季可在度假村基地玩
+      snow tubing / 雪上筏 / 雪地摩托、泡温泉、看 羊蹄山（Mt Yōtei）全景。周围村庄是典型的
+      北海道雪乡小镇。★ 此行的重点是「往返走不同的路」，可以看到两边不同的冬景 ——
+      建议去程走 札樽道 → 道央道 → 喜茂別 IC → R230 中山峠（名峠，有「峠の茶屋」炸薯球名店，
+      冬季亦营业）；回程走 R276 → ニセコ → 倶知安 → R5 沿海经 余市 回小樽。
+      也可反向行（ニセコ 去、中山峠 回），让夕照落在回程的山道上。
+      ⚠️ 冬季 中山峠 与 ニセコ 海拔较高，暴雪时可能封路；出发前看「北海道開発局 道路情報」。
+      门到门循环 + 现场游玩估计 7 – 9 小时。
+
+  - id: nakayama-toge
+    name:
+      zh: 中山峠 (岭)
+      en: Nakayama Pass (Route 230)
+      ja: 中山峠
+    kind: sight
+    googleMapsUrl: https://maps.google.com/?q=%E4%B8%AD%E5%B1%B1%E5%B3%A0
+    address:
+      full:
+        zh: 北海道虻田郡喜茂別町川上 345
+        ja: 〒044-0222 北海道虻田郡喜茂別町川上345
+    notes_zh: >-
+      国道 230 号横跨的经典 Hokkaido 山口，海拔 ~835 m，可远望 羊蹄山（Mt Yōtei）。
+      展望所有名产「中山峠 あげいも」（炸薯球，3 粒 ¥400 左右）全年营业。冬季暴雪时注意路况、
+      可能有雪链要求。Rusutsu 往返的首选外道。
+
+  - id: hotel-neuschloss-otaru
+    name:
+      zh: 酒店 Neuschloss 小樽
+      en: Hotel Neuschloss Otaru
+      ja: ホテルノイシュロス小樽
+    kind: hotel
+    googleMapsUrl: https://maps.app.goo.gl/EVydysyveUp9Q3DHA
+    bookingUrl: https://www.booking.com/hotel/jp/hotel-neuschloss.html
+    address:
+      full:
+        zh: 北海道小樽市祝津 3-282
+        ja: 〒047-0047 北海道小樽市祝津3丁目282
+    photos:
+      - /photos/hotel-neuschloss-otaru/01.jpg
+      - /photos/hotel-neuschloss-otaru/02.jpg
+      - /photos/hotel-neuschloss-otaru/03.jpg
+      - /photos/hotel-neuschloss-otaru/04.jpg
+      - /photos/hotel-neuschloss-otaru/05.jpg
+      - /photos/hotel-neuschloss-otaru/06.jpg
+      - /photos/hotel-neuschloss-otaru/07.jpg
+    notes_zh: >-
+      位于 祝津海岸（近 小樽水族館）的「维也纳城堡」造型度假酒店。全房海景，
+      每间房私人露天温泉（源泉掛け流し）。58 间房，有双人西洋房 + 四人和洋房。
+      Check-in 15:00 / out 11:00；晚餐创意法餐；TEL 0134-22-9111。
+      价格 OK 的话，抽 1 – 2 晚在这里；价格不行就留在市区酒店。
+
+  - id: otaru-canal
+    name:
+      zh: 小樽运河
+      en: Otaru Canal
+      ja: 小樽運河
+    kind: sight
+    address:
+      full:
+        zh: 北海道小樽市港町 5
+        ja: 〒047-0007 北海道小樽市港町5
+    notes_zh: 黄昏煤气路灯 + 雪景 + 运河是小樽明信片经典画面。冬季堪称最美时段之一。
+
+  - id: nikka-yoichi-distillery
+    name:
+      zh: Nikka 威士忌 余市蒸馏所
+      en: Nikka Whisky Yoichi Distillery
+      ja: ニッカウヰスキー余市蒸溜所
+    kind: sight
+    address:
+      full:
+        zh: 北海道余市郡余市町黑川町 7-6
+        ja: 〒046-0003 北海道余市郡余市町黒川町7-6
+    notes_zh: 距小樽约 30 km / 40 分钟车程。参观免费但制造工程参观需提前网上预约，可能要提前数月。时间允许时前往。

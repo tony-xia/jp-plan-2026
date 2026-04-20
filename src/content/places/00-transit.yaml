@@ -1,0 +1,74 @@
+# Shared transit hubs — airports and major stations referenced across phases.
+places:
+  - id: haneda-airport
+    name:
+      zh: 羽田机场
+      en: Haneda Airport
+      ja: 羽田空港
+    kind: station
+    address:
+      full:
+        zh: 东京都大田区羽田机场
+        en: Haneda Airport, Ota, Tokyo
+        ja: 東京都大田区羽田空港
+
+  - id: shin-hakodate-hokuto-station
+    name:
+      zh: 新函馆北斗站
+      en: Shin-Hakodate-Hokuto Station
+      ja: 新函館北斗駅
+    kind: station
+    address:
+      full:
+        zh: 北海道北斗市市渡 1-1-1
+        ja: 〒041-1245 北海道北斗市市渡1丁目1-1
+    notes_zh: 北海道新干线终点站；从东京 → 这里 约 4 小时。再换 JR 特急 北斗 → 札幌 约 3.5 小时。
+
+  - id: hakodate-station
+    name:
+      zh: 函馆站
+      en: Hakodate Station
+      ja: 函館駅
+    kind: station
+    address:
+      full:
+        zh: 北海道函馆市若松町 12-13
+        ja: 〒040-0063 北海道函館市若松町12-13
+
+  - id: toya-station
+    name:
+      zh: 洞爷站
+      en: Toya Station
+      ja: 洞爺駅
+    kind: station
+    address:
+      full:
+        zh: 北海道虻田郡洞爷湖町旭町 8
+        ja: 〒049-5605 北海道虻田郡洞爺湖町旭町8
+
+  - id: sapporo-station
+    name:
+      zh: 札幌站
+      en: Sapporo Station
+      ja: 札幌駅
+    kind: station
+    address:
+      full:
+        zh: 北海道札幌市北区北 6 条西 4 丁目
+        ja: 〒060-0806 北海道札幌市北区北6条西4丁目
+
+  - id: tokyo-station
+    name:
+      zh: 东京站
+      en: Tokyo Station
+      ja: 東京駅
+    kind: station
+    address:
+      full:
+        zh: 东京都千代田区丸之内 1-9-1
+        ja: 〒100-0005 東京都千代田区丸の内1-9-1
+    notes_zh: >-
+      Day 01 从羽田过来换乘北陆新干线「あさま / はくたか」前往 軽井沢駅 的换乘点。
+      羽田 → 东京站：东京单轨 + JR 山手线 或 京急 + JR，约 30 分钟。
+      Day 04 从 軽井沢 开过来后再换乘 東北・北海道新幹線「はやぶさ」前往 新函館北斗 的换乘点，
+      东京站內 北陆 ↔ 东北/北海道 换乘约 15 分钟；预留 30 分钟以上缓冲，尤其因带大行李。

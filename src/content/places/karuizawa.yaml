@@ -1,0 +1,165 @@
+# Phase 1 places — Karuizawa (preferred) and Fuji-fallback sights, restaurants, hotels.
+places:
+  - id: karuizawa-station
+    name:
+      zh: 轻井泽站
+      en: Karuizawa Station
+      ja: 軽井沢駅
+    kind: station
+    address:
+      full:
+        zh: 长野县北佐久郡轻井泽町大字轻井泽 1178
+        ja: 〒389-0102 長野県北佐久郡軽井沢町大字軽井沢1178
+    notes_zh: 北陆新干线停靠站；day 01 下午 Phase 1 租车取车点、day 03 下午还车点、day 04 早上前往函馆的出发站。
+
+  - id: peepolo-norikura
+    name:
+      zh: 皮波洛乗鞍
+      en: Peepolo Norikura
+      ja: ピーポロ乗鞍
+    kind: hotel
+    googleMapsUrl: https://maps.app.goo.gl/pvGbjzcmBPzgbhno8
+    address:
+      full:
+        zh: 长野县松本市安昙 4306（邮编 390-1513）
+        ja: 〒390-1513 長野県松本市安曇4306
+    notes_zh: >-
+      1997 年富士电视台经典日剧《恋爱世纪》（ラブジェネレーション）女主角理子家的取景地，
+      位于乘鞍高原温泉。是一间保存得很好的日式旅馆，房间很少、非常难订。
+      如果能订到 2 间房（价格偏高），我们就在这里住一晚。
+
+  - id: kurumayama-skypark
+    name:
+      zh: 车山高原 SKYPARK
+      en: Kurumayama Kogen SKYPARK
+      ja: 車山高原スカイパーク
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/HiFvjatoUm2D692F7
+    address:
+      full:
+        zh: 长野县茅野市北山 3413（邮编 391-0301）
+        ja: 〒391-0301 長野県茅野市北山3413
+    notes_zh: >-
+      车山高原观景地（冬季为滑雪场）。我们不滑雪，纯粹上去看雪景、
+      欣赏八岳、富士山与南北阿尔卑斯的全景。可乘缆车登顶，山顶视野非常开阔。
+
+  - id: takamine-kogen-visitor-center
+    name:
+      zh: 高峰高原游客中心
+      en: Takamine Kogen Visitor Center
+      ja: 高峰高原ビジターセンター
+    kind: other
+    googleMapsUrl: https://maps.app.goo.gl/eV9spDDBfbpCVDyz5
+    address:
+      full:
+        zh: 长野县小诸市高峰高原 704（邮编 384-0041）
+        ja: 〒384-0041 長野県小諸市高峰高原704
+    notes_zh: >-
+      黒斑山登山口（车坂峠）所在地；清晨开车到这里作为登山起点。
+      注意：游客中心本身 11 月上旬 – 4 月下旬为冬季闭馆，我们来的时候建筑不开放，但登山口与停车场仍可到达。
+
+  - id: kurofu-yama
+    name:
+      zh: 黒斑山
+      en: Kurofu-yama
+      ja: 黒斑山
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/QJGSUSwnEk115ggY7
+    notes_zh: >-
+      海拔 2404 m，浅間山外輪山的一座山峰，被誉为观赏浅間山最好的视角。
+      计划：从高峰高原登山口上山，到山顶后航拍浅間山，再原路下山。
+      冬季（12 月 / 1 月）积雪深、需雪靴 + 冰爪等冬季登山装备；
+      浅間山为活火山、且位于上信越高原国立公园内，无人机使用需先确认国立公园飞行申报与火山区限制。
+
+  - id: karuizawa-kogen-church
+    name:
+      zh: 轻井泽高原教会
+      en: Karuizawa Kogen Church
+      ja: 軽井沢高原教会
+    kind: shrine
+    googleMapsUrl: https://maps.app.goo.gl/nKpKNUERk1h9fF598
+    address:
+      full:
+        zh: 长野县北佐久郡轻井泽町长仓星野 2144（邮编 389-0195）
+        ja: 〒389-0195 長野県北佐久郡軽井沢町長倉星野2144
+    notes_zh: >-
+      位于星野度假区的著名教会。1921 年起源于星野温泉内的「艺术自由教育讲习会」，
+      内村鑑三命名当时的木屋为「星野遊学堂」，这个名字至今仍挂在教会入口。
+
+  - id: norikura-info-center
+    name:
+      zh: 乘鞍高原观光案内所
+      en: Norikura Kogen Tourist Information Center
+      ja: 乗鞍高原観光案内所
+    kind: other
+    googleMapsUrl: https://maps.app.goo.gl/XCjfPPEbcHXeXyAL8
+    address:
+      full:
+        zh: 长野县松本市安昙 4306-5（邮编 390-1520）
+        ja: 〒390-1520 長野県松本市安曇4306-5
+    notes_zh: 前往皮波洛乗鞍路上的短暂停留点 —— 买点吃的、喝点水。
+
+  - id: mount-omuro-chairlift
+    name:
+      zh: 大室山登山缆车
+      en: Mount Omuro Climbing Chairlifts
+      ja: 大室山登山リフト
+    kind: other
+    googleMapsUrl: https://maps.app.goo.gl/bZqpZULJuGMviKf28
+    address:
+      full:
+        zh: 静冈县伊东市富户 1317-5
+        ja: 静岡県伊東市富戸1317-5
+    notes_zh: 登山缆车 6 分钟到达山顶（标高 580 m）；冬季视野依旧开阔，可看富士山、伊豆七岛、相模湾。条件访问 —— 富士方案（Scenario B）下的可选项。
+
+  - id: mount-omuro
+    name:
+      zh: 大室山
+      en: Mount Omuro
+      ja: 大室山
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/o7tHqcbqhDcBxzya8
+    address:
+      full:
+        zh: 静冈县伊东市富户
+        ja: 静岡県伊東市富戸
+    notes_zh: >-
+      伊豆半岛标志性单成火山，锅状山体。山顶「お鉢めぐり」绕火口一周可看富士山、伊豆七岛、相模湾。
+      冬季草已枯黄，2 月的「山焼き」在我们行程之后；视野与全景仍在，但用户想先确认冬日观感是否值得专程去。
+
+  - id: kawana-stained-glass-museum
+    name:
+      zh: 川奈彩色玻璃美术馆（原伊豆高原彩色玻璃美术馆）
+      en: Kawana Stained Glass Museum
+      ja: 川奈ステンドグラス美術館
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/TMoBRDxtovzwWS2g6
+    address:
+      full:
+        zh: 静冈县伊东市川奈 1439-1
+        ja: 静岡県伊東市川奈1439-1
+    notes_zh: 原名「伊豆高原ステンドグラス美術館」，已更名。条件访问 —— 富士方案下时间允许时前往。
+
+  - id: fujinomiya-5th-station
+    name:
+      zh: 富士宫口 5 合目停车场
+      en: Fujinomiya Trail 5th Station Parking Lot
+      ja: 富士宮口5合目駐車場
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/GuHRYqpnprTyAaNX7
+    notes_zh: >-
+      ⚠️ 富士山スカイライン 2合目→5合目 段每年 11 月上旬至 4 月下旬冬季封闭，
+      我们的整个行程都在封闭期内，自驾无法抵达，徒步进入亦触法。
+      记录用户提供的 Pin 以备存档；实际行程不安排。
+
+  - id: okuniwa-observation-deck
+    name:
+      zh: 奥庭展望台
+      en: Okuniwa Observation Deck
+      ja: 奥庭展望台
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/9mCMcFLJo3xvSv9h6
+    notes_zh: >-
+      ⚠️ 位于富士 Subaru Line 沿线；冬季 Subaru Line 通常只开放至下方的剑丸尾 / 大沢停车场，
+      奥庭本身厕所与避难设施关闭，御中道步道冬季封闭。12-1 月基本不可达。
+      记录用户提供的 Pin 以备存档；实际行程不安排。

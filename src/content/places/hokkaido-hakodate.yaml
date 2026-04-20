@@ -1,0 +1,17 @@
+# Hokkaido · Hakodate — sights, restaurants, Airbnbs.
+places:
+  - id: mt-hakodate-observatory
+    name:
+      zh: 函馆山展望台
+      en: Mt. Hakodate Observatory
+      ja: 函館山展望台
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7
+    address:
+      full:
+        zh: 北海道函馆市函馆山
+        ja: 〒040-0000 北海道函館市函館山
+    notes_zh: >-
+      「百万夫人夜景」所在地。冬季函馆山登山道路封闭，禁止汽车、巴士、出租上山，
+      只能乘函馆山缆车（125 人大轿厢，3 分钟，冬季 2026-11 – 2027-04 运营）。
+      山顶风大气温低，务必带厚外套、围巾、手套、帽子。日落后看夜景最佳。
