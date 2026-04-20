@@ -13,4 +13,5 @@ build
 README.md
 CLAUDE.md
 AGENTS.md
-docs
+docs/**
+!docs/requirements/travel-times.md
