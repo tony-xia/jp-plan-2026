@@ -338,12 +338,28 @@ bookings:
 
   - id: tokyo-hotel
     kind: hotel
-    title_zh: "住宿：东京（涩谷附近，4 晚，2 间房 或 2BR Airbnb，待选）"
+    title_zh: "候选 Airbnb：浅草 / SkyTree 4BR 时尚整栋（4 晚，4 人）"
     start: "2027-01-15"
     end: "2027-01-19"
+    airbnbUrl: https://www.airbnb.com.au/rooms/1489650534115740682?check_in=2027-01-15&check_out=2027-01-19&adults=4
+    photos:
+      - /photos/airbnb-tokyo-asakusa/01.jpg
+      - /photos/airbnb-tokyo-asakusa/02.jpg
+      - /photos/airbnb-tokyo-asakusa/03.jpg
+      - /photos/airbnb-tokyo-asakusa/04.jpg
+      - /photos/airbnb-tokyo-asakusa/05.jpg
+      - /photos/airbnb-tokyo-asakusa/06.jpg
+      - /photos/airbnb-tokyo-asakusa/07.jpg
+      - /photos/airbnb-tokyo-asakusa/08.jpg
+      - /photos/airbnb-tokyo-asakusa/09.jpg
+      - /photos/airbnb-tokyo-asakusa/10.jpg
+      - /photos/airbnb-tokyo-asakusa/11.jpg
+      - /photos/airbnb-tokyo-asakusa/12.jpg
     details_zh: >-
-      涩谷 / 原宿 / 表参道 一带：靠近 massage、剪发、Gonpachi。
-      4 晚 × 2 房（trip 延长后，2026-04-20 第四版）；优先比较 Airbnb 2BR/2BA 方案。
+      Listing 1489650534115740682 — "Asakusa/SkyTree Area, 4BR Chic House Near Station"。
+      10 人 · 4BR · 9 床 · 5 浴 · 墨田区 · Guest favourite（23 条评价）。
+      位于浅草 / 晴空塔一带 — 与原先「涩谷/原宿/表参道」定位不同，离剪发 / massage / Gonpachi 更远，
+      但整栋 4 卧可完全分房。⚠️ 待核对：与 day-21 Gonpachi (西麻布)、day-22 K-two (涩谷) 通勤时间。
 
   - id: tokyo-k-two-haircut
     kind: other

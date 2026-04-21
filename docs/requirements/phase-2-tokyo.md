@@ -40,6 +40,16 @@ Phase base: **Shibuya** area (shopping + in-line with salon / massage / Gonpachi
 - **Alternative bases worth considering:** 新宿 (more hotel inventory, similar access), 銀座/丸の内 (closer to Oedo Antique Market + auction houses), 六本木 (closest to Gonpachi, but less shopping).
 - **2BR/2BA equivalent for 4 guests:** harder in Tokyo hotels; check Airbnb in Shibuya / Harajuku / Omotesando as Phase 1/2 — Tokyo hotel rates for 2 rooms × 7+ nights over New-Year-adjacent window can be steep, verify before committing.
 
+### Stay candidates (shortlisted 2026-04-21, not booked)
+
+- **Airbnb — Asakusa / SkyTree Area, 4BR Chic House Near Station** — [Airbnb listing 1489650534115740682](https://www.airbnb.com.au/rooms/1489650534115740682?check_in=2027-01-15&check_out=2027-01-19&adults=4). 10 guests · 4 BR · 9 beds · 5 baths · Sumida-ku · Guest favourite (23 reviews). Photos `public/photos/airbnb-tokyo-asakusa/01-12.jpg` (from listing, pulled 2026-04-21). ⚠️ **Location trade-off:** this is in **墨田区 (Asakusa / Skytree)**, NOT the user-preferred Shibuya base. Commute implications to verify before committing:
+  - Shibuya (massage, K-two haircut): ~30–40 min via Ginza Line / Hanzomon Line.
+  - Nishi-Azabu (Gonpachi): ~40 min via Hibiya + Oedo lines.
+  - Tokyo International Forum (Oedo Antique Market day-22): ~15 min via Ginza Line — actually easier from Asakusa than from Shibuya.
+  - Autobacs Shinonome: ~25–30 min (closer than from Shibuya).
+  - Subaru Mitaka: ~55–60 min (farther than from Shibuya).
+  - Trade-off summary: loses Shibuya walkability but gains Asakusa-side culture access + entire 4BR house for 4 guests.
+
 ## Public antique / ancient-art auctions & markets
 
 User interest: **"public small auctions about old ancient legacies."** Most traditional Japanese dealer-syndicate auctions (e.g. 東京美術倶楽部) are **trade-only** — you must be a licensed antique dealer to bid. The public-accessible path splits into (1) modern-style auction houses with open preview + bidding, and (2) public antique markets where you buy direct from dealers. Recommendations for our ~Jan 11–18 window:
