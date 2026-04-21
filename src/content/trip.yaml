@@ -106,6 +106,7 @@ stays:
     dayIds: [day-12, day-13, day-14]
     lodgingBookingIds:
       - hokkaido-otaru-hotel-primary
+      - hokkaido-otaru-airbnb-alt
       - hokkaido-otaru-neuschloss
 
   - id: stay-toya

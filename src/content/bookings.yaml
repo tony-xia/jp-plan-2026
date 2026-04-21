@@ -209,11 +209,34 @@ bookings:
 
   - id: hokkaido-otaru-hotel-primary
     kind: hotel
-    title_zh: "住宿：小樽市内酒店（主基地，2 晚，2 间房，待选）"
-    start: "2027-01-07"
-    end: "2027-01-09"
+    title_zh: "住宿：小樽整栋 Airbnb 主基地（2 晚，4 人）"
+    start: "2027-01-08"
+    end: "2027-01-10"
+    airbnbUrl: https://www.airbnb.com.au/rooms/1308367449883578040?check_in=2027-01-08&check_out=2027-01-10&adults=4
+    photos:
+      - /photos/airbnb-otaru-primary/01.jpg
+      - /photos/airbnb-otaru-primary/02.jpg
+      - /photos/airbnb-otaru-primary/03.jpg
+      - /photos/airbnb-otaru-primary/04.jpg
+      - /photos/airbnb-otaru-primary/05.jpg
+      - /photos/airbnb-otaru-primary/06.jpg
+      - /photos/airbnb-otaru-primary/07.jpg
+      - /photos/airbnb-otaru-primary/08.jpg
+      - /photos/airbnb-otaru-primary/09.jpg
+      - /photos/airbnb-otaru-primary/10.jpg
+      - /photos/airbnb-otaru-primary/11.jpg
+      - /photos/airbnb-otaru-primary/12.jpg
     details_zh: >-
-      运河 / 小樽駅 一带选址。Day-12（中心入住 + Uomasa + 天狗夜景）+ day-13（Rusutsu 循环）。
+      Listing 1308367449883578040 — "Entire building for rent / Up to 6 people / Parking for 2 cars"。
+      6 人 · 3BR · 6 床 · 2 浴 · Guest favourite。自带 2 车位停车。
+      运河 / 小樽駅 一带。Day-12（中心入住 + Uomasa + 天狗夜景）+ day-13（Rusutsu 循环）。
+
+  - id: hokkaido-otaru-airbnb-alt
+    kind: hotel
+    title_zh: "备选 Airbnb：小樽湾全景整栋（Panoramic View of Otaru Bay）"
+    start: "2027-01-09"
+    end: "2027-01-11"
+    airbnbUrl: https://www.airbnb.com.au/rooms/42695671?check_in=2027-01-09&check_out=2027-01-11&adults=4
 
   - id: hokkaido-otaru-neuschloss
     kind: hotel
@@ -283,13 +306,24 @@ bookings:
 
   - id: hokkaido-sapporo-hotel-return
     kind: hotel
-    title_zh: "住宿：札幌市内酒店（返程 3 晚，Hokkaido 收尾 · 2 间房）"
+    title_zh: "住宿：THE GATE HOTEL 札幌 by HULIC（返程 3 晚，2 间房）"
     start: "2027-01-12"
     end: "2027-01-15"
+    address:
+      full:
+        zh: 北海道札幌市中央区北三条西 3-1-44
+        ja: 〒060-0003 北海道札幌市中央区北三条西3-1-44
+    googleMapsUrl: https://maps.app.goo.gl/3f492XGijpdi8ynJA
+    bookingUrl: https://www.booking.com/hotel/jp/the-gate-zha-huang-by-hulic.html
+    photos:
+      - /photos/hotel-gate-sapporo/01.jpg
+      - /photos/hotel-gate-sapporo/02.jpg
+      - /photos/hotel-gate-sapporo/03.jpg
+      - /photos/hotel-gate-sapporo/04.jpg
     details_zh: >-
-      Day-17 → day-20 出发，3 晚。主要任务：补齐年末年始期间关门的景点
-      （ROYCE' Town、頭大佛、大倉山、白い恋人 亮灯重游 等）。
-      可换区选址 —— 前段住 札幌駅 就换 薄野 / 中島公園，反之亦然，换个氛围。
+      ザ・ゲートホテル札幌 by HULIC（HULIC 旗下生活型酒店，近 JR 札幌駅 / 大通 / 北三条通 铺石区）。
+      TEL 011-206-4588。Day-17 → day-20 出发，3 晚。
+      主要任务：补齐年末年始期间关门的景点（ROYCE' Town、頭大佛、大倉山、白い恋人 亮灯重游 等）。
 
   - id: hokkaido-sapporo-to-tokyo-transit
     kind: shinkansen
