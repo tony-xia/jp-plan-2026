@@ -123,7 +123,7 @@ function StayCard({
 
   return (
     <details className="group rule [&_summary::-webkit-details-marker]:hidden">
-      <summary className="cursor-pointer list-none flex items-baseline gap-4 -mx-2 px-2 py-6 rounded-sm hover:bg-white/60 transition-colors">
+      <summary className="sticky top-0 z-10 bg-background cursor-pointer list-none flex items-baseline gap-4 -mx-2 px-2 py-6 rounded-sm hover:bg-white/60 transition-colors">
         <span
           className="font-serif-jp text-muted text-base transition-transform group-open:rotate-90 inline-block w-3"
           aria-hidden
