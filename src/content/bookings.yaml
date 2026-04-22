@@ -151,13 +151,6 @@ bookings:
       距 網走駅 ~10 分钟步行。館内有 天然温泉 天都の湯 大浴場 + ドーミーイン 标志性夜鳴きそば（夜宵拉面）
       + 海鮮丼 早餐。Day-09 – day-13（稚内→宗谷岬→网走 长途日 + 网走 + 知床 全天）。
 
-  - id: hokkaido-abashiri-hotel-toyoko-inn-ekimae
-    kind: hotel
-    title_zh: "备选酒店：網走 東横INN 駅前店"
-    start: "2027-01-06"
-    end: "2027-01-09"
-    bookingUrl: https://www.booking.com/hotel/jp/toyoko-inn-hokkaido-okhotsk-abashiri-ekimae.html
-
   - id: hokkaido-otaru-hotel-primary
     kind: hotel
     title_zh: "住宿：小樽整栋 Airbnb 主基地（2 晚，4 人）"
@@ -182,13 +175,6 @@ bookings:
       6 人 · 3BR · 6 床 · 2 浴 · Guest favourite。自带 2 车位停车。
       运河 / 小樽駅 一带。2 晚：day-15（01-09 Sat 中心入住 + Uomasa + 天狗夜景）+ day-16（01-10 Sun Rusutsu 循环）。
       Day-17 换到 Neuschloss（祝津海岸 + 航拍日）。
-
-  - id: hokkaido-otaru-airbnb-alt
-    kind: hotel
-    title_zh: "备选 Airbnb：小樽湾全景整栋（Panoramic View of Otaru Bay）"
-    start: "2027-01-09"
-    end: "2027-01-11"
-    airbnbUrl: https://www.airbnb.com.au/rooms/42695671?check_in=2027-01-09&check_out=2027-01-11&adults=4
 
   - id: hokkaido-otaru-neuschloss
     kind: hotel

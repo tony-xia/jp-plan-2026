@@ -87,7 +87,6 @@ stays:
     dayIds: [day-12, day-13, day-14]
     lodgingBookingIds:
       - hokkaido-abashiri-hotel-dormy-inn
-      - hokkaido-abashiri-hotel-toyoko-inn-ekimae
 
   - id: stay-otaru
     city: { zh: 小樽, en: Otaru, ja: 小樽 }
@@ -95,7 +94,6 @@ stays:
     dayIds: [day-15, day-16, day-17]
     lodgingBookingIds:
       - hokkaido-otaru-hotel-primary
-      - hokkaido-otaru-airbnb-alt
       - hokkaido-otaru-neuschloss
 
   - id: stay-toya
