@@ -14,22 +14,24 @@ This list is the source of truth for trip-planning decisions. The itinerary in [
 ## Trip basics
 
 - **Travelers:** Tony, AZhu, Crystal, Du
-- **Dates:** 2026-12-26 → 2027-01-19 (25 days, 24 nights) *(2026-04-22 fifth-pass: start pulled 1 day earlier; Hakodate -1; Biei overnight dropped; Sapporo front +4; Sapporo return -1)*
+- **Dates:** 2026-12-26 → 2027-01-19 (25 days, 24 nights) *(2026-04-22 sixth-pass: Sapporo return leg dropped; those 2 nights redistributed — +1 Abashiri, +1 Toya. Otaru unchanged at 3.)*
 - **Two phases (2026-04-20 restructure):** Phase 1 = **Hokkaido** (Day-1 lands at Haneda and heads straight to Hakodate by Shinkansen); Phase 2 = **Tokyo**. Karuizawa is **parked** — user decision 2026-04-20 to simplify to two phases and redirect those 3 nights into Hokkaido.
 
 ## Confirmed night allocation
 
-### Current plan (2026-04-22 fifth-pass — Sapporo front expanded, Hakodate & Biei & return trimmed) — ✅ sums to 24
+### Current plan (2026-04-22 sixth-pass — Sapporo return dropped; +1 Abashiri, +1 Toya) — ✅ sums to 24
 
 | Phase | Nights | Breakdown |
 |---|---|---|
-| Phase 1 (Hokkaido) | **20** | Hakodate 2 · **Sapporo 7 (front, includes NYE + NYD)** · Wakkanai 2 · Abashiri 2 · Biei 0 (day-stop only) · Otaru 3 · Windsor Toya 2 · **Sapporo 2 (return, end of Hokkaido)** |
+| Phase 1 (Hokkaido) | **20** | Hakodate 2 · **Sapporo 7 (only — includes NYE + NYD; rental pickup on arrival)** · Wakkanai 2 · **Abashiri 3** · Biei 0 (day-stop only) · Otaru 3 · **Windsor Toya 3** |
 | Phase 2 (Tokyo) | **4** | 2027-01-15 → 2027-01-19 |
 | **Total** | **24** | |
 
-> 🔄 **2026-04-22 fifth-pass changes:** (1) start date pulled 1 day earlier to 2026-12-26 (adds 1 night at the front of the trip); (2) Hakodate reduced from 3 → 2 nights; (3) Biei overnight dropped — Biei becomes a daytime drive-through stop on the Abashiri → Otaru leg only (trees + Blue Pond light-up must fit into that drive-day); (4) Sapporo front grows from 3 → 7 nights (+2 user-requested, +1 moved from Sapporo return, +1 absorbed from the start-date shift); (5) Sapporo return trims from 3 → 2 nights (1 moved to front). Net Hokkaido +1 (was 19 → 20); Tokyo unchanged at 4.
+> 🔄 **2026-04-22 sixth-pass changes (user, 2026-04-22):** (1) **Sapporo return leg removed** (was 2 nights at end of Hokkaido); (2) initial sixth-pass distributed these to Otaru +1 and Toya +1, but user then **moved the Otaru extra night to Abashiri** (final: **Abashiri +1** 2→3, **Toya +1** 2→3, **Otaru unchanged at 3**). Net Hokkaido nights unchanged at 20; Tokyo unchanged at 4. Only a single Sapporo stay now (front leg, 7 nights). Toya → Tokyo transit on day-21 goes **direct** via 特急 北斗 洞爺 → 新函館北斗 → 北海道新幹線 → 東京, no longer looping back through Sapporo. Abashiri extra night uses day-14 for 知床 Utoro (オシンコシンの滝 / 天に続く道 / 流冰物語号 if operating) + Okhotsk weather buffer.
 
-> ✅ **Extra-nights distribution locked (user, 2026-04-20 second pass):** Sapporo +1 (front, for NYE + NYD spread), Wakkanai +1 (weather buffer), Toya +1 initially. Then a third-pass restructure the same day: Sapporo -1 and Toya -1 and Tokyo -1, with **3 new nights added back as a Sapporo return leg AFTER Toya**. Final allocation per table above. Rationale for the return leg: (a) catches 年末年始 closures (ROYCE' Town, 頭大佛, 大倉山, 白い恋人 illumination) that likely miss out in the Dec 31 / Jan 1 front-Sapporo window when many attractions are closed; (b) converts the Toya → Tokyo transit day into two legs (Toya → Sapporo via 特急 北斗, then Sapporo → Tokyo later) so we don't burn a full travel day in one shot; (c) gives flight-out flexibility via 新千歳 as backup if weather closes the Shinkansen.
+> 🚗 **Rental-car timing change (user, 2026-04-22):** Car pickup moves to **day-3 (first day in Sapporo, 2026-12-28 afternoon after JR 特急 北斗 arrival from Hakodate)** — previously was day-10 morning (end of Sapporo front). Car dropoff stays on **first Toya day (day-18, 2027-01-12 morning)**: drive Otaru → Sapporo car-return branch, then 特急 北斗 洞爺駅 + Windsor shuttle. Rental duration ~16 days (Dec 28 → Jan 12). Cost implication: ~7 extra rental days at a Sapporo-city winter rate — user has accepted.
+
+> ⚠️ **Orphaned Sapporo-return activities — redistribute into Sapporo front blank days:** the return leg was the designated slot for **ROYCE' Town**, **頭大佛**, **大倉山**, and any **白い恋人 illumination re-visit** (year-end closures). With the return leg gone, these must fit into the Sapporo-front blank slots (currently day-04, day-05, day-08, day-09). ROYCE' Town 1/2 is a Sat — a natural fit; 頭大佛 + 大倉山 can pair into a single afternoon (winter 10:00–15:00 / 9:00–17:00 respectively). Day-07 元旦 must stay light; avoid scheduling any year-end-closure-prone item there.
 
 > ✅ **Windsor Toya availability + cost (checked 2026-04-20 on Booking.com):** NYE-peak window 2027-01-01 → 01-03 shows **every room type "Not available"** for 2 rooms × 4 adults — essentially sold out on Booking.com. Late-Phase-1 window 2027-01-10 → 01-12 is **open with the cheapest 2-room × 2-night combo at AUD 1,347** (2 × Premium Queen Sea Side, room-only; breakfast +AUD 43 each). The end-of-Hokkaido slot is validated on both cost and availability. Direct-booking (Vignette / Hotel Story) is the confirm-step before locking.
 

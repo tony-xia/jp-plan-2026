@@ -1,36 +1,25 @@
-# Day 14 — 2027-01-08 — 美瑛丘陵 → 小樽（鱼真 · 运河 · 天狗山夜）
+# Day 14 — 2027-01-08 — 知床 Utoro 出日（天に続く道 + オシンコシン滝）
 day:
   id: day-14
   date: "2027-01-08"
   city: hokkaido
-  title_zh: 第 14 天 · 美瑛丘陵 → 小樽（鱼真午餐 · 运河 · 天狗山夜）
+  title_zh: 第 14 天 · 知床 Utoro 方向出日 · 天に続く道 + オシンコシン滝（Abashiri 第 3 晚）
   intro_zh: >-
-    ★ 小樽 3 晚的第 1 晚（中心街）。上午美瑛丘陵两棵树（クリスマスツリー + セブンスター）；
-    然后开到小樽（~200 km / 冬季 3 – 4 小时 · 旭川 → 道央道）。
-    ⚠️ 2027-01-08 是周四 —— 鱼真 开门（周日休），不接受预订；开门前 20 – 30 分钟排队。
-    赶得上就午餐鱼真，赶不上改小樽市区其它寿司。下午 运河 + 音乐盒堂 + 堺町通り；日落后 天狗山 夜景。
+    ★ 2026-04-22 第六版新增第 3 网走晚 —— 用于专门出去 知床斜里 / Utoro。
+    早出自驾 ~1 小时去 斜里，串 天に続く道（冬季起点观景台关闭 + 除雪只保 2 月，看天看路况）
+    → オシンコシン滝（部分冻结）→ 回程前可加 流冰物語号 体验（若 2027 年 1 月上旬已开季）。
+    ★ 也作天气缓冲日：若 day-12 长途或 day-13 城内计划被风雪打断，今天补课。
   activities:
-    - id: day-14-christmas-tree
-      start: "08:00"
-      place: { ref: biei-christmas-tree }
-      notes_zh: ⚠️ 无停车场 + 私人农地，路边取景即走，绝不踏入田地。
-    - id: day-14-seven-stars-tree
-      place: { ref: biei-seven-stars-tree }
-      notes_zh: 有停车场，比 クリスマスツリー 好停。
-    - id: day-14-drive-to-otaru
-      place: { ref: otaru-canal }
-      notes_zh: 美瑛 → 小樽 旭川 → 道央道 → 札樽道；冬季估 3 – 4 小时。
-    - id: day-14-uomasa
-      start: "13:30"
-      place: { ref: uomasa-otaru }
+    - id: day-14-oshinkoshin
+      place: { ref: oshinkoshin-falls }
+      notes_zh: 部分结冰大瀑布；由网走开车 ~1 小时到斜里方向。
+    - id: day-14-road-to-heaven
+      place: { ref: road-to-heaven-shari }
       notes_zh: >-
-        不接受预订，周日休；2027-01-08 周四开门。到达时间不稳定 —— 13:00 前到小樽就午餐鱼真，
-        否则直接放弃改晚饭 / 运河边店。
-    - id: day-14-music-box
-      place: { ref: otaru-music-box-museum }
-      notes_zh: 堺町本通り尽头；顺带逛 LeTAO / 玻璃店。
-    - id: day-14-tengu-night
-      start: "17:00"
-      place: { ref: otaru-tengu-ropeway }
+        ⚠️ 冬季起点观景台关闭；道路只有 2 月才保证除雪。
+        当日先查 北海道開発局 道路情報，实地再决定是否驾入；否则路边远观。
+    - id: day-14-ryuhyo-monogatari-train
+      place: { ref: ryuhyo-monogatari-train }
       notes_zh: >-
-        北海道三大夜景之一。日落后上山。冬季营业 09:00 – 20:00，末班上行 19:48。
+        可选：如 2027 年 1 月上旬 流氷物語号 已开季（通常 1 月下旬开）可替代自驾 / 串联 知床斜里。
+        网走 → 知床斜里 列车 ~1 小时；JR 北海道官网确认 2027 年开季日期。

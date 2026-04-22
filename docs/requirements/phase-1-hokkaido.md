@@ -1,14 +1,16 @@
 # Phase 1 — Hokkaido
 
-> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. Phase 1 was restructured on 2026-04-20 when Karuizawa was parked and removed, then updated 2026-04-22 (fifth pass) to move weight into the Sapporo front leg.
+> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. Phase 1 was restructured 2026-04-20 when Karuizawa was parked, expanded 2026-04-22 (fifth pass) to weight the Sapporo front, then simplified 2026-04-22 (sixth pass) — Sapporo return leg dropped, its 2 nights redistributed to Abashiri (+1) and Toya (+1).
 
-**Phase shape (2026-04-22 fifth-pass restructure, clockwise self-drive loop + Sapporo return leg):**
+**Phase shape (2026-04-22 sixth-pass, clockwise self-drive loop, single Sapporo stay):**
 
-**Day-1 (2026-12-26) Haneda → Tokyo Station → Tōhoku/Hokkaido Shinkansen → 新函館北斗 → JR 函館ライナー → Hakodate (2) → Sapporo (7 front, NYE + NYD, car pickup at end) → drive NW to Wakkanai (2) → Cape Sōya → drive E along Okhotsk coast to Abashiri (2) → drive W via Biei (day-stop only, no overnight) → Otaru (3) → drop car in Sapporo → train to 洞爺 → Windsor Toya (2) → JR 特急 北斗 → Sapporo return (2, catches 年末年始 closures) → JR 特急 北斗 + 北海道新幹線 to Tokyo.**
+**Day-1 (2026-12-26) Haneda → Tokyo Station → Tōhoku/Hokkaido Shinkansen → 新函館北斗 → JR 函館ライナー → Hakodate (2) → JR 特急 北斗 → Sapporo (7 · NYE + NYD · rental pickup on arrival day-3) → drive NW to Wakkanai (2) → Cape Sōya → drive E along Okhotsk coast to Abashiri (3, incl. 知床 Utoro day) → drive W via Biei (day-stop only, no overnight) → Otaru (3) → drive to Sapporo car-return + JR 特急 北斗 → 洞爺 → Windsor Toya (3) → JR 特急 北斗 洞爺 → 新函館北斗 + 北海道新幹線 → Tokyo.**
 
-**Final night allocation: Hakodate 2 · Sapporo 7 front · Wakkanai 2 · Abashiri 2 · Biei 0 (drive-through) · Otaru 3 · Toya 2 · Sapporo 2 return = 20 Hokkaido nights.**
+**Final night allocation: Hakodate 2 · Sapporo 7 · Wakkanai 2 · Abashiri 3 · Biei 0 (drive-through) · Otaru 3 · Toya 3 = 20 Hokkaido nights.**
 
-> 🔄 **2026-04-22 fifth-pass rationale:** user consolidated more time into the Sapporo front block (NYE + NYD + the surrounding 年末年始 window) by (a) reducing Hakodate from 3 → 2 nights, (b) removing the Biei overnight (Biei becomes a daytime stop on the Abashiri → Otaru drive), (c) moving 1 night from Sapporo return → Sapporo front, and (d) pulling the start date 1 day earlier (2026-12-26) which added another night absorbed by Sapporo front. Net: Sapporo front 3 → 7 nights (+4); Hakodate 3 → 2 (-1); Biei 1 → 0 (-1); Sapporo return 3 → 2 (-1); start +1. Phase 1 total +1 (19 → 20).
+> 🔄 **2026-04-22 sixth-pass rationale (user, 2026-04-22):** the 2-night Sapporo return leg was dropped — its purpose (catching 年末年始 closures like ROYCE' Town, 頭大仏, 大倉山, 白い恋人 illumination) is now absorbed into the Sapporo front week (7 nights has enough slack to fit those on post-NYD days like 1/2 Sat, 1/3 Sun). Freed 2 nights: **Abashiri +1** (day-14 = dedicated 知床 Utoro day — オシンコシンの滝 / 天に続く道 / 流冰物語号 if operating; also Okhotsk weather buffer) and **Toya +1** (more Windsor spa + lake + 登別 time; no rushed Silo/Usu/Noboribetsu in 2 nights). Day-21 transit simplifies to **direct Toya → Tokyo** via 特急 北斗 southbound (洞爺 → 新函館北斗, ~2 hr) + 新幹線 (新函館北斗 → 東京, ~4 hr). Net Hokkaido 20 (unchanged); single Sapporo stay.
+
+> 🚗 **Rental-car window (2026-04-22 sixth-pass):** pickup **day-3 afternoon** (2026-12-28) at a Sapporo-city branch after 特急 北斗 arrival from Hakodate. Dropoff **day-18 morning** (2027-01-12) at the same Sapporo branch, before boarding 特急 北斗 to 洞爺. Rental duration ~16 days. During the Sapporo week (day-3 → day-9), the car stays parked unless used for a local day-trip (ROYCE' Town, 頭大佛, 大倉山 — all drivable). The drive loop itself begins day-10 morning.
 
 ## Day-1 arrival — Haneda → Hakodate (new 2026-04-20)
 
@@ -24,10 +26,10 @@
 
 Key differences vs. the old anti-clockwise plan:
 
-- **Sapporo is now at the START of the drive loop**, not the end. Car pickup happens after a 2-night city stay — this gives the Sapporo must-visits at least one full day (the non-pickup day), but most of Sapporo's heavy activity list (Shiroi Koibito, Hokudai, 二条市場, 頭大仏, 大倉山, Kani Honke, NANDA, Moiwa, ROYCE' Town) originally spread across 3 back-end nights must now compress or move.
-- **Windsor Toya is near the END of Phase 2**, accessed car-free via the hotel shuttle from JR 洞爺駅 (same ~40-min free shuttle, reservation-required; schedule unchanged). From Toya, onward is JR 特急 北斗 back to **Sapporo for the return leg (3 nights)** — Toya is not the final leg anymore.
+- **Sapporo is the single stay and START of the drive loop** (7 nights, no return leg after sixth-pass). **Rental pickup on day-3 arrival afternoon**; drive loop begins day-10 (after NYE + NYD week).
+- **Windsor Toya is the FINAL Hokkaido stay** (3 nights). From Toya, day-21 transits **direct to Tokyo**: 特急 北斗 洞爺 → 新函館北斗 (~2 hr) + 新幹線 (~4 hr). No return through Sapporo.
 - **Biei only once** in the loop (between Abashiri and Otaru), skipping the old Sapporo → Biei → Abashiri direction.
-- **Hotel Neuschloss Otaru is dropped** from the proposed plan (Otaru = 2 nights, not 2 + 1). Re-add if the user wants to restore the coastal-castle night.
+- **Hotel Neuschloss Otaru** kept as a 1-night split inside the 4-night Otaru stay (sixth-pass adds a 4th Otaru night for 余市 Nikka / Shakotan / weather buffer).
 - **Drive legs (winter estimates):**
   - Sapporo → Wakkanai: ~330 km / **5–6 hr winter** via Dōō Expressway + Route 5 / 231. Longest single leg of the trip; consider splitting with an intermediate overnight (Rumoi / Mashike / Asahikawa) — this is also one way to close the 2-night gap.
   - Wakkanai → Cape Sōya → Abashiri: ~380–400 km including the Cape detour / ~**6–7 hr winter** on Route 238 along the Okhotsk coast (this is the "ocean on the driver's side" leg — the whole point of the clockwise flip). Long + scenic; start early.
@@ -52,33 +54,33 @@ Phase 2 is a **winter self-drive leg** from Sapporo onward, so snow-driving prep
   - **Mt. Hakodate Observatory (函館山展望台)** — [Google Maps](https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7). The iconic "million-dollar" night panorama over Hakodate's hourglass isthmus.
     - ⚠️ **Winter access = ropeway only.** The 登山自動車道 (summit road) is closed to cars/buses/taxis in winter; only the 函館山ロープウェイ (125-person gondola, ~3 min from 山麓駅) operates. Our trip window is entirely inside the winter-ropeway season. Plan for **heavy cold-weather kit** — the summit is exposed and Dec/Jan nights are brutal.
 
-## Lake Toya — Windsor Hotel base (2 nights)
+## Lake Toya — Windsor Hotel base (3 nights, FINAL Hokkaido stay)
 
-> 📍 **Position (2026-04-20 third pass):** in the clockwise restructure this stay moves from **early Phase 2** (right after Hakodate) to **after the Otaru drive loop + car drop in Sapporo**. Rationale: Windsor and the Toya area are most expensive during 元旦 (the first few days of January); shifting ~10 days later should cut rates materially. After Toya we return to Sapporo for the 3-night return leg before the final Shinkansen to Tokyo.
+> 📍 **Position (2026-04-22 sixth-pass):** Toya is the **last Hokkaido stay** — 3 nights, no return to Sapporo after. Day-21 transits direct Toya → Tokyo via 特急 北斗 南下 to 新函館北斗 + 新幹線. Bumped from 2 → 3 nights so the Silo / Usu / Noboribetsu / Windsor-spa program doesn't cram into a single full day.
 
-- **Stay:** **The Windsor Hotel TOYA, Vignette Collection (ザ・ウィンザーホテル洞爺)** — [Google Maps](https://maps.app.goo.gl/xoQjgjuWjxHSuTPB6) · [Booking.com](https://www.booking.com/hotel/jp/the-windsor-toya-resort-spa.html) · address 〒049-5722 北海道虻田郡洞爺湖町清水336 · photos `public/photos/windsor-hotel-toya/1,2,3,5,6,7.jpg` (from official site, pulled 2026-04-20). **2 nights**, must book **2 rooms**.
+- **Stay:** **The Windsor Hotel TOYA, Vignette Collection (ザ・ウィンザーホテル洞爺)** — [Google Maps](https://maps.app.goo.gl/xoQjgjuWjxHSuTPB6) · [Booking.com](https://www.booking.com/hotel/jp/the-windsor-toya-resort-spa.html) · address 〒049-5722 北海道虻田郡洞爺湖町清水336 · photos `public/photos/windsor-hotel-toya/1,2,3,5,6,7.jpg` (from official site, pulled 2026-04-20). **3 nights**, must book **2 rooms**.
   - **Hotel shuttle from JR 洞爺駅 (Toya Station):** hotel runs a **free shuttle, advance reservation required by 18:00 the day before**. Current published departures from JR Toya Station: **11:00 / 13:00 / 14:20 / 16:55 / 19:00** (~40-min ride). Coordinate our arriving train to hit one of these slots; taxi only if we miss them. Verify schedule with the hotel at booking — times drift seasonally.
-  - **Arrival:** from Sapporo Station on JR 特急 北斗 → 洞爺駅 (~2 hr), then shuttle. Book shuttle the day before from the Otaru hotel.
-  - **Departure (third-pass plan):** JR 特急 北斗 洞爺駅 → **Sapporo** (~2 hr) for the return leg. Not direct to Tokyo anymore — the Sapporo return leg absorbs the Shinkansen transit on a separate day.
+  - **Arrival (day-18):** after Otaru → Sapporo car return, board JR 特急 北斗 札幌駅 → 洞爺駅 (~2 hr), then shuttle. Book shuttle from Otaru hotel the previous evening.
+  - **Departure (day-21 sixth-pass plan):** JR 特急 北斗 洞爺駅 → 新函館北斗 (~2 hr, southbound) + 北海道新幹線 はやぶさ 新函館北斗 → 東京 (~4 hr). **Direct — no Sapporo loop-back.** Total ~6 hr in motion + transfer. Reserve 特大荷物 seats on both the 北斗 and はやぶさ segments.
 - **During-stay visits (all rim-of-Lake-Toya / Usu volcano viewpoints, reachable by hotel shuttle or taxi; may need a rental or a hotel-arranged car since we don't pick up our own rental until Sapporo):**
   - **Silo Observation Deck (サイロ展望台)** — [Google Maps](https://maps.app.goo.gl/vbz1fb4sMXW5NMvJ8). Free entry, **winter hours 8:30–17:00 (Nov–Apr)**. In Jan–Mar a courtyard "snow play area" (スノーモービル / スノーラフティング) runs — extra winter activity option.
   - **Usuzan Ropeway summit lookouts (有珠山ロープウェイ・洞爺湖展望台 + 火口原展望台)** — [Google Maps](https://maps.app.goo.gl/XEf1pdWgJFufiVg66) — base station: 〒052-0102 北海道有珠郡壮瞥町字昭和新山184-5. **Winter hours 9:00–16:00** (seasonal). Two lookouts are reachable from the summit station: 洞爺湖展望台 right beside the station, and 火口原展望台 a ~7-min walk further. ⚠️ The 外輪山遊歩道 (outer-rim trail) and the longer walk to **銀沼大火口 / 外輪山展望台 is closed Nov–Apr** — that extended walk is **not** available on our trip.
   - **Noboribetsu Jigokudani (登別地獄谷)** — [Google Maps](https://maps.app.goo.gl/FbdgvTbkqZjrhgtx7). Volcanic "hell valley" with active sulfur vents + onsen town. **Time-permitting**, ~40–50 min drive east of Lake Toya.
 
-## Sapporo pickup (3 nights, START of Phase 2 drive loop) — NEW 2026-04-20, A+B gap-close
+## Sapporo (7 nights, single stay — day-3 → day-9; rental pickup on day-3 arrival)
 
-> 📍 **New role:** Sapporo is now the **entry point** for the Hokkaido self-drive leg — not the exit. **3 nights** here (Hakodate → JR 特急 北斗 → Sapporo Station) before picking up the rental car and driving NW to Wakkanai.
+> 📍 **Role (2026-04-22 sixth-pass):** the only Sapporo stay in the trip. 7 nights covers NYE + NYD + 3 post-NYD days (1/2 Sat, 1/3 Sun). **Rental pickup moved to day-3 afternoon** on arrival from Hakodate (was day-10 morning pre-sixth-pass). Car stays parked in central Sapporo during the city week except for optional day-trips (ROYCE' Town / 頭大佛 / 大倉山 — all drivable); drive loop itself begins day-10.
 
-- **Transport in:** JR 特急 北斗 Hakodate → 札幌駅 (~3 hr 30 min). Book reserved seats with luggage space.
-- **Stay:** central Sapporo (Sapporo Station / Odori / Susukino corridor), **3 nights**, 2 rooms.
-- **Stay candidates** (shortlisted 2026-04-21, not booked; 4 guests, 2 gents + 2 ladies ⇒ **2 rooms for hotels / 2 BR for Airbnbs**). Priced window: 2026-12-30 → 2027-01-02 (3 nights, covers NYE). Prices TBD — year-end demand peak. ✅ **Chosen 2026-04-21: option 3 (Airbnb HomeOfLove 3BR2BA)**; options 1, 2, 4 kept here for record but reduced to link-only on the website.
+- **Transport in (day-3):** JR 特急 北斗 Hakodate → 札幌駅 (~3 hr 30 min). Book reserved seats with luggage space.
+- **Stay:** central Sapporo (Sapporo Station / Odori / Susukino corridor), **7 nights**, 2 rooms.
+- **Stay candidates** (shortlisted 2026-04-21, not booked; 4 guests, 2 gents + 2 ladies ⇒ **2 rooms for hotels / 2 BR for Airbnbs**). Priced window: 2026-12-28 → 2027-01-04 (**7 nights**, covers NYE + NYD). Prices TBD — year-end demand peak. ✅ **Chosen 2026-04-21: option 3 (Airbnb HomeOfLove 3BR2BA)**; options 1, 2, 4 kept here for record but reduced to link-only on the website.
   1. ~~**Hotel — SAPPORO STREAM HOTEL (札幌ストリームホテル)**~~ (ruled out 2026-04-21) — [Google Maps](https://maps.app.goo.gl/F8u8jswHd4wE4FY68) · [Booking.com](https://www.booking.com/hotel/jp/sapporo-stream-zha-huang-shi.html) · [official site (Tokyu Hotels)](https://www.tokyuhotels.co.jp/en/sapporostream/index.html) · 〒064-0804 北海道札幌市中央区南4条西4丁目1番地1. Lifestyle hotel occupying the upper floors of **COCONO SUSUKINO** (opened Jan 2024), **directly connected to 地下鉄すすきの駅** on the Namboku line (~4 min from 札幌駅). Central Susukino position for 狸小路 / ススキノ food + NANDA, one-stop hop to Odori / Sapporo Station. Photos `public/photos/hotel-sapporo-stream-sapporo/01-12.jpg` (from official site, pulled 2026-04-21).
   2. ~~**Hotel — Vessel Hotel Campana Susukino (ベッセルホテルカンパーナすすきの)**~~ (ruled out 2026-04-21) — [Google Maps](https://maps.app.goo.gl/r5wvMvwB4XrDriTc6) · [Booking.com](https://www.booking.com/hotel/jp/vessel-hotel-campana-susukino.html) · [official site](https://www.vessel-hotel.jp/campana/susukino/) · 〒064-0805 北海道札幌市中央区南5条西6-16-1. ~4 min walk from 地下鉄すすきの駅. Has 大浴場 + sauna + 囲炉裏 lounge + free breakfast — value-oriented chain play. Photos `public/photos/hotel-vessel-campana-susukino-sapporo/01-12.jpg` (from official site, pulled 2026-04-21).
   3. ✅ **Airbnb — Sapporo Central｜HomeOfLove｜Private 3BR2BA** — chosen 2026-04-21 — [Airbnb listing 1430197854674829516](https://www.airbnb.com.au/rooms/1430197854674829516?check_in=2026-12-30&check_out=2027-01-02&adults=4). 6 guests · 3 BR · 6 beds · 2 baths · **4.91 ★ / 22 reviews · Guest Favourite**. Sapporo Central area (no finer neighborhood label in listing). 3 BR / 2 BA comfortably separates gents + ladies. Photos `public/photos/airbnb-sapporo-central-3br/01-12.jpg` (from listing, pulled 2026-04-21).
   4. ~~**Airbnb — Sapporo Central｜HomeOfHope｜Private 3BR2BA**~~ (ruled out 2026-04-21) — [Airbnb listing 1437968277032342538](https://www.airbnb.com.au/rooms/1437968277032342538). 6 guests · 3 BR · 6 beds · 2.5 baths · **4.69 ★**. Chuo-ku (中島公園 / 中島 area) — 7-min walk to 中島公園駅 (Namboku line), 3 stops from すすきの / 狸小路. Photos `public/photos/airbnb-sapporo-homeofhope/01-12.jpg` (from listing, pulled 2026-04-21).
-  - **Verify before booking:** 2 rooms (hotels) or 2 BR + 2 BA (Airbnbs) available on the NYE window, winter rate, NYE supplement, breakfast hours over 年末年始 (many hotels skip NYD breakfast), whether to reuse for the Sapporo return leg or pick a different area for scenery contrast.
-- **Car pickup:** book a Sapporo-city rental branch (Sapporo Station / Susukino). Pickup on the morning of night-3 → day 4 of the leg, so the long Wakkanai drive leaves with full daylight.
-- **Activity fit:** 3 nights = 2 full sightseeing days + pickup morning. The Sapporo must-visit list below fits cleanly at this allocation — no forced drop. ROYCE' Town (rail day out) and 頭大仏 (real travel time) are both doable without compression.
+  - **Verify before booking:** 2 rooms (hotels) or 2 BR + 2 BA (Airbnbs) available on the 7-night NYE+NYD window, winter rate, NYE supplement, breakfast hours over 年末年始 (many hotels skip NYD breakfast), **parking for the rental car from day-3 → day-10** (now relevant — car sits on-site for the Sapporo week).
+- **Car pickup (day-3 afternoon, 2026-12-28):** book a Sapporo-city rental branch (Sapporo Station / Susukino) with on-site or nearby overnight parking for the full 7-night stay. Pickup immediately after JR 特急 北斗 arrival. **Drive loop departs day-10 morning**; car stays parked during the NYE+NYD week except for optional day-trips.
+- **Activity fit:** 7 nights = 5 full sightseeing days + day-3 arrival afternoon + day-10 loop-departure morning. The full must-visit list fits without compression; the blank slots (day-04, day-05, day-08, day-09) absorb ROYCE' Town, 頭大仏, 大倉山, 白い恋人 illumination now that the Sapporo return leg is gone. Prefer post-NYD dates (1/2 Sat, 1/3 Sun) for year-end-closure items.
 
 ### NYE (Dec 31) + 元旦 (Jan 1) activities in front-Sapporo — user list (2026-04-20)
 
@@ -116,10 +118,15 @@ User-requested NYE/元旦 program to slot into the 3-night front-Sapporo window:
 - **Drive:** Cape Sōya → Abashiri via Route 238 is **~320 km / ~5–6 hr winter** along the Sea of Okhotsk coast (Hamatonbetsu → Monbetsu → Saroma → Abashiri). Together with the Cape Sōya detour this is effectively a full driving day — leave Wakkanai at dawn, budget arrivals at Abashiri after dark.
 - **Winter caveat:** coastal Route 238 is prone to closures during blizzards / high winds. Check the Hokkaido Development Bureau road-info page morning-of; have a fallback of re-routing inland via Route 40 + 39 through Asahikawa if the coast shuts (adds ~1 hr and removes the ocean view — i.e. negates the whole point of the clockwise flip).
 
-## Abashiri (2 nights)
+## Abashiri (3 nights — sixth-pass)
 
-- **Stay:** **Abashiri (網走)** city — [Google Maps](https://maps.app.goo.gl/T6FTh8gxwZdsac4D8). 2 nights, 2 rooms.
-- **Stay candidates** (shortlisted 2026-04-21, not booked; priced window 2027-01-04 → 2027-01-06). ✅ **Chosen 2026-04-21: option 1 (Dormy Inn Abashiri)**; option 2 kept here for record but reduced to link-only on the website.
+- **Stay:** **Abashiri (網走)** city — [Google Maps](https://maps.app.goo.gl/T6FTh8gxwZdsac4D8). **3 nights**, 2 rooms.
+- **Day allocation (3 nights — sixth-pass adds a 3rd Abashiri night for 知床 Utoro day + weather buffer):**
+  - **Day-12 (2027-01-06 Wed, long drive):** Wakkanai → Cape Sōya → Abashiri via Route 238 Okhotsk coast. Arrive after dark.
+  - **Day-13 (2027-01-07 Thu, Abashiri activities):** 流冰館 / 天都山, 能取岬, ビューポイントパーキング流氷街道・鱒浦, 網走監獄.
+  - **Day-14 (2027-01-08 Fri, NEW — 知床 Utoro day / weather buffer):** drive ~1 hr east to **オシンコシンの滝** (partially frozen in deep winter) + **天に続く道** (⚠️ start-of-road deck closed in winter; shoot from roadside) + **流冰物語号** (JR 網走↔知床斜里, mid-Jan start — verify 2027 season). **Doubles as buffer if day-12/13 Okhotsk coast weather costs us a day.**
+  - **Day-15 (2027-01-09 Sat, drive W to Otaru):** Abashiri → Biei (day-stop, trees + Blue Pond light-up) → Otaru. Check out Abashiri.
+- **Stay candidates** (shortlisted 2026-04-21, not booked; priced window 2027-01-06 → 2027-01-09, **3 nights**). ✅ **Chosen 2026-04-21: option 1 (Dormy Inn Abashiri)**; option 2 kept here for record but reduced to link-only on the website.
   1. ✅ **Hotel — Dormy Inn Abashiri / 天然温泉 天都の湯 ドーミーイン網走 (多美迎 網走)** — chosen 2026-04-21 — [Google Maps](https://maps.app.goo.gl/8EurHT6d436biw8L7) · [Booking.com](https://www.booking.com/hotel/jp/dormy-inn-abashiri.html) · [official site](https://dormy-hotels.com/dormyinn/hotels/abashiri/) · 〒093-0012 北海道網走市南二条西3丁目1番地の1 (~10 min walk from 網走駅). Has 天然温泉 天都の湯 大浴場 + signature 夜鳴きそば midnight noodle service + 海鮮丼 breakfast. Photos `public/photos/hotel-dormy-inn-abashiri/01-12.jpg` (from official site, pulled 2026-04-21).
   2. ~~**Hotel — Toyoko Inn Hokkaido Okhotsk Abashiri Ekimae (東横INN 網走駅前)**~~ (ruled out 2026-04-21) — [Google Maps](https://maps.app.goo.gl/Lk88Eqy43S242vJV6) · [Booking.com](https://www.booking.com/hotel/jp/toyoko-inn-hokkaido-okhotsk-abashiri-ekimae.html) · [official site](https://www.toyoko-inn.com/search/detail/00003) · 〒093-0046 北海道網走市新町1-3-3. Right in front of 網走駅 — value-oriented chain with free light breakfast. Photos `public/photos/hotel-toyoko-inn-abashiri-ekimae-abashiri/01-12.jpg` (from official site + Tripadvisor, pulled 2026-04-21).
   - **Verify before booking:** 2 rooms on target dates, twin layout, winter rate, parking (we have the rental car by now).
@@ -155,18 +162,17 @@ _Biei place details (unchanged — trees + Blue Pond)_
   - **Special extended hours** (Dec 31 → Jan 3, light-up until 02:00) **does NOT apply in the new plan** — we're past Jan 3 by the time we reach Biei in the clockwise route. Standard 21:00 close applies.
   - **→ Recommended plan:** arrive ~1 hr before sunset, photograph the daylight pond briefly, then stay through light-up start so we see both states in one visit. Budget ~45–60 min at the pond. Bring a tripod if any of us wants to shoot — night exposure is long.
 
-## Biei → Otaru (3 nights) — A+B gap-close
+## Biei → Otaru (3 nights)
 
-- **Drive:** Biei → Otaru is **~200 km / ~3–4 hr** in winter via Asahikawa → Dōō Expressway. Lunch stop around Asahikawa is natural.
-- **Stay (primary):** central Otaru, **2 nights**. ✅ **Chosen 2026-04-21: Airbnb — entire building, 6 guests / 3 BR / 2 BA** — [Airbnb listing 1308367449883578040](https://www.airbnb.com.au/rooms/1308367449883578040?check_in=2027-01-08&check_out=2027-01-10&adults=4). Guest favourite, 2-car parking, suitable for long-term stays. Photos `public/photos/airbnb-otaru-primary/01-12.jpg` (from listing, pulled 2026-04-21). ⚠️ URL's check-in/out dates (01-08 → 01-10) differ from existing plan dates (01-07 → 01-09) — flag for user: either shift the primary 2-night slot back by 1 day (would overlap with current Neuschloss 01-09 night), or correct the URL dates. Current YAML uses the URL dates verbatim.
+- **Drive (day-15):** Abashiri → Biei (day-stop) → Otaru. Biei → Otaru is **~200 km / ~3–4 hr** in winter via Asahikawa → Dōō Expressway. Lunch stop around Asahikawa is natural.
+- **Stay:** central Otaru **2 nights** + Neuschloss (祝津) **1 night** = 3 nights total. ✅ **Chosen 2026-04-21: Airbnb — entire building, 6 guests / 3 BR / 2 BA** — [Airbnb listing 1308367449883578040](https://www.airbnb.com.au/rooms/1308367449883578040). Guest favourite, 2-car parking, suitable for long-term stays. Photos `public/photos/airbnb-otaru-primary/01-12.jpg` (from listing, pulled 2026-04-21). **Dates (sixth-pass):** 2027-01-09 → 2027-01-11 central Otaru (2 nights), 2027-01-11 → 2027-01-12 Neuschloss (1 night on the 祝津 coastal / drone day).
   - **Alternative Airbnb (link-only):** [listing 42695671](https://www.airbnb.com.au/rooms/42695671?check_in=2027-01-09&check_out=2027-01-11&adults=4) — "Panoramic View of Otaru Bay from Every Room".
 - **Stay (split, 1 night):** **Hotel Neuschloss Otaru (ホテルノイシュロス小樽)** — [Google Maps](https://maps.app.goo.gl/EVydysyveUp9Q3DHA) · [Booking.com](https://www.booking.com/hotel/jp/hotel-neuschloss.html) — 〒047-0047 北海道小樽市祝津3丁目282 · photos `public/photos/hotel-neuschloss-otaru/01-07.jpg` (from official site, pulled 2026-04-20). **1 night, pairs with the drone day / 祝津 coastal day** (adjacent to Otaru Aquarium). All-ocean-view castle-style resort inside the Niseko-Shakotan-Otaru Kaigan Quasi-National Park. Every room has a private open-air bath (源泉掛け流し). Western-style doubles (2 guests) and Japanese-Western quad rooms (4 guests) both exist. Check-in 15:00, check-out 11:00. Creative French dinner. TEL 0134-22-9111. ⚠️ **Gated on price** — check 2 rooms × 1 night vs. central Otaru room rate for the same date; if unexpectedly expensive, fall back to 3 nights central Otaru.
-- **Day allocation (3 nights, 2 full days + 1 half):**
-  - **Night 1 (central Otaru, arrival):** check-in late afternoon after Biei drive; evening **天狗山 night view** (after sunset) + **Otaru Canal** gas-lamp walk. Dinner in Sakaimachi.
-  - **Day 2 (central Otaru):** **Uomasa lunch** (pick a non-Sunday, arrive 20–30 min pre-opening) + **Otaru Music Box Museum** + Sakaimachi shopping + glass/LeTAO. Evening either canal retry or early rest.
-  - **Day 3 (Rusutsu two-route loop):** full-day 7–9 hr drive, 中山峠 outbound / Niseko-coast return (or flipped). Overnight central Otaru.
-  - **Day 4 (drone day + 祝津):** morning flight window at 朝里 (Sky Loop, Asari Dam), afternoon **Otaru Aquarium** + check-in Hotel Neuschloss; sunset shoot from the Shukutsu coast + Neuschloss dinner + private open-air bath.
-  - **Morning of day 5:** check out Neuschloss → drive to Sapporo, drop car, board 特急 北斗 to 洞爺. (Weather blowout contingency: if drone day is un-flyable, ground-only filming + Nikka Whisky Yoichi as Plan B.)
+- **Day allocation (3 nights):**
+  - **Day-15 (2027-01-09 Sat, arrival central Otaru):** Abashiri → Biei → Otaru, check-in late afternoon; evening **天狗山 night view** (after sunset) + **Otaru Canal** gas-lamp walk. **Uomasa** fits here (Sat — Uomasa open) if arrival is timed early enough; otherwise push to dinner.
+  - **Day-16 (2027-01-10 Sun, Rusutsu two-route loop):** full-day 7–9 hr drive, 中山峠 outbound / Niseko-coast return (or flipped). Overnight central Otaru. ⚠️ Uomasa closed Sun.
+  - **Day-17 (2027-01-11 Mon, drone day + 祝津 + Neuschloss):** morning flight window at 朝里 (Sky Loop, Asari Dam), afternoon **Otaru Aquarium** + check-in Hotel Neuschloss; sunset shoot from the Shukutsu coast + Neuschloss dinner + private open-air bath.
+  - **Day-18 (2027-01-12 Tue, morning check-out Neuschloss):** drive Otaru → Sapporo car-return branch (~40 km / 45 min) + 特急 北斗 札幌 → 洞爺 + Windsor shuttle. Transit day to Toya.
 - **Must-visit (from user):**
   - **Mt. Tengu Ropeway / 小樽天狗山ロープウェイ base station** — [Google Maps](https://maps.app.goo.gl/jEUzKT7ByXnta1xF9). 532 m summit, ~4-min ride. **Winter ropeway season: 2026-11-29 → 2027-03-31 (equivalent dates), daily 09:00–20:00** (last up 19:48, last down 20:00). Round-trip ¥1,800 adult. **One of Hokkaido's "Three Great Night Views"** (with 函館山 Phase 2 and 藻岩山 Sapporo — we'll hit 2 of the 3). Summit has a "heart object" photo spot. Go **after sunset** for the night-view payoff.
   - **Otaru Aquarium / おたる水族館** — [Google Maps](https://maps.app.goo.gl/UNnUot3kmno1LSoQ7). On the Shukutsu coast, co-located with Hotel Neuschloss. Winter program includes sea lion / penguin shows; well-regarded family attraction. Verify winter hours at time of booking — some outdoor exhibits may run reduced schedules.
@@ -197,31 +203,23 @@ _Biei place details (unchanged — trees + Blue Pond)_
   - **Shakotan Peninsula / 神威岬 (Cape Kamui)** — Shakotan blue coast. ⚠️ Cape Kamui's 遊歩道 is **closed in winter** due to snow; only the base area / 積丹岬 area is accessible. Coastal drive still rewarding on clear days.
   - **Daytime Tengu Ski** — optional for anyone who skis; we're "explicitly not skiing" per Phase 1 note, but Tengu has a beginner area if interest shifts.
 
-## Otaru → Sapporo car drop + onward to Toya (end of drive loop)
+## Otaru → Sapporo car drop + onward to Toya (day-18)
 
-> 📍 **No back-end Sapporo stay in the clockwise plan.** The rental car is dropped at a Sapporo-city branch on the morning of the Otaru → Toya transit day; we then take JR 特急 北斗 to 洞爺駅 and the Windsor shuttle to the hotel (see **Lake Toya — Windsor Hotel base** section above for end-of-Phase-2 detail).
+> 📍 **No Sapporo overnight in the sixth-pass plan.** The rental car is dropped at a Sapporo-city branch on the morning of the Otaru → Toya transit day (day-18); we then take JR 特急 北斗 to 洞爺駅 and the Windsor shuttle to the hotel (see **Lake Toya — Windsor Hotel base** section above).
 
 - **Drive:** Otaru → Sapporo is short, **~40 km / 45 min** on 札樽自動車道. Morning drop-off gives us daylight for the Toya transit (Sapporo → 洞爺駅 ~2 hr by 特急 北斗; catch one of the Windsor shuttle slots, e.g. 13:00 / 14:20 / 16:55 — the 19:00 slot is a safety net).
-- **Car return branch:** Sapporo-city (Sapporo Station / Susukino) is the natural drop-off; confirm branch + hours when booking the Sapporo-pickup rental. New Chitose Airport is the wrong direction for the Toya leg — avoid.
-- **Luggage:** same 4-traveler + winter kit haul. Book reserved 特大荷物 seats on the 北斗 (and pre-book Windsor shuttle the evening before).
+- **Car return branch:** Sapporo-city (Sapporo Station / Susukino) — **same branch as the day-3 pickup** for a clean round-trip. New Chitose Airport is the wrong direction for the Toya leg — avoid.
+- **Luggage:** same 4-traveler + winter kit haul. Book reserved 特大荷物 seats on the 北斗 (and pre-book Windsor shuttle the evening before from the Neuschloss / Otaru side).
 
-## Sapporo activity inventory (3 front-end nights + car-drop morning ~10 days later)
+## Sapporo activity inventory (7-night front leg — single stay)
 
-> 📍 **Allocation (2026-04-20, A+B gap-close):** Sapporo = **3 front-end nights** (2 full sightseeing days + pickup morning of day 4) + the Otaru → Sapporo car-drop morning later in Phase 2 (no overnight). The full must-visit list below fits at this allocation — no forced drop.
-- **Transit to Tokyo (third-pass plan — departs from Sapporo return leg, NOT Toya):** Sapporo → 新函館北斗 on JR 特急 北斗 (~3.5 hr) → 東京 on 北海道新幹線 はやぶさ (~4 hr). Total ~7.5 – 8 hr in motion + transfer buffer. See **Sapporo return** section below.
+> 📍 **Allocation (sixth-pass):** Sapporo = **7 nights single stay** (day-3 arrival afternoon → day-10 departure morning) + the Otaru → Sapporo car-drop morning on day-18 (transit only, no stay). The full must-visit list fits comfortably. Year-end-closure items (ROYCE' Town, 頭大仏, 大倉山, 白い恋人 illumination revisit) — previously deferred to the Sapporo return leg — now need to slot into post-NYD days (day-08 = 1/2 Sat, day-09 = 1/3 Sun) of the front leg.
+- **Transit to Tokyo (sixth-pass):** direct from Toya (day-21), not from Sapporo. See **Lake Toya — Windsor Hotel base** section.
 
-## Sapporo return (3 nights, end of Hokkaido) — NEW 2026-04-20 third pass
+## Sapporo must-visit list (fits into the 7-night front leg)
 
-> 📍 **Role:** 3 nights back in Sapporo after Toya. Serves three functions: **(1)** catches 年末年始 closures (ROYCE' Town, 頭大佛, 大倉山, 白い恋人 illumination) that likely miss in the Dec 31 / Jan 1 front-Sapporo window when many attractions shut down; **(2)** splits the old Toya → Tokyo 7-hr single-shot transit into two shorter legs (Toya → Sapporo by 北斗, then a full Shinkansen day later); **(3)** keeps 新千歳 fly-out option open as a bad-weather backup.
+> 📍 **Sixth-pass:** this list previously split between the Sapporo front 3-night + return 3-night. Now it all fits in a single 7-night front leg. **Year-end-closure items** (ROYCE' Town, 頭大仏, 大倉山, Kani Honke, NANDA, 白い恋人 illumination) should land on **day-08 (1/2 Sat)** or **day-09 (1/3 Sun)** — most closures have lifted by 1/2.
 
-- **Transport in:** JR 特急 北斗 洞爺駅 → 札幌駅 (~2 hr). Book reserved seats with luggage space.
-- **Stay:** central Sapporo, **3 nights, 2 rooms**. ✅ **Chosen 2026-04-21: THE GATE HOTEL 札幌 by HULIC (ザ・ゲートホテル札幌 by HULIC)** — [Google Maps](https://maps.app.goo.gl/3f492XGijpdi8ynJA) · [official site](https://www.gate-hotel.jp/sapporo/) · [Booking.com](https://www.booking.com/hotel/jp/the-gate-zha-huang-by-hulic.html) · 〒060-0003 北海道札幌市中央区北三条西3-1-44 · TEL 011-206-4588. HULIC-owned lifestyle hotel; central北三条通 gaslight-brick area, walkable to JR 札幌駅 (~11 min) and 大通. Photos `public/photos/hotel-gate-sapporo/01-04.jpg` (from official site, pulled 2026-04-21; only 4 hero images available — site doesn't publish a gallery page). Different area from front-leg HomeOfLove Airbnb (which was 3BR Airbnb, central/Susukino) — gives scenery contrast for return leg.
-- **Activity fit — three full days (day-19 arrival afternoon, days-18 / 19 full, day-21 departure morning):**
-  - **Day 17 (arrival afternoon):** 特急 北斗 ~14:00 arrival; light evening — 狸小路 / 薄野 food, or hotel rest after Windsor.
-  - **Day 18 (full):** catch the NYD-closed must-visits — **ROYCE' Town (Jan 2 window closed in front leg; now 1/13 Wed is fully operational)**, 頭大佛 (winter 10:00–15:00), 大倉山 sunset.
-  - **Day 19 (full):** buffer / second-pass day — e.g. 小樽 day trip via JR (if user missed central Otaru during the drive leg), or 旭山動物園 (Asahikawa, Japan's best zoo, winter penguin walks), or 白い恋人 illumination revisit if the front-leg Dec 30 timing was rushed.
-  - **Day 20 (departure):** catch an early 特急 北斗 + 新幹線 to Tokyo (~7.5 – 8 hr total).
-- **Weather-backup flight option:** 新千歳 → 羽田 (~1.5 hr flight) via 快速エアポート from 札幌駅 (~35 min). If Shinkansen is cancelled by snow/wind on day-21, pivot to airport.
 - **Must-visit (from user):**
   - **Shiroi Koibito Park (白い恋人パーク)** — [Google Maps](https://maps.app.goo.gl/b1ApSWrbx2XNN8M96). Ishiya's chocolate-factory theme park in 宮の沢 (west Sapporo). Park hours **10:00–18:00**; paid-area last entry 16:30. **Winter illumination "Blooming Snow Fantasy" runs 2026-11-15 → 2027-03-31 (equivalent), 16:00–19:00 nightly, free viewing.** Nearest subway: 東西線 宮の沢駅 (7-min walk). Plan a late-afternoon visit so daytime factory + evening illumination stack in one trip.
   - **Hokkaido University / 北海道大学 (札幌キャンパス)** — [Google Maps](https://maps.app.goo.gl/Zm63kDKX2KVeC9Ez6). Famous open campus, walkable from JR 札幌駅 北口. **Winter highlights:** the Poplar Avenue (ポプラ並木) and main road snow-covered, Clark bust, Furukawa Memorial Hall. The Ginkgo Avenue (イチョウ並木) is bare in winter — that's a fall attraction, not ours. Free entry; self-guided walk.

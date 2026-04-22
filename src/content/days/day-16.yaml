@@ -1,19 +1,23 @@
-# Day 16 — 2027-01-10 — 朝里航拍 + 祝津 · Neuschloss 夜
+# Day 16 — 2027-01-10 — Rusutsu 双线环游
 day:
   id: day-16
   date: "2027-01-10"
   city: hokkaido
-  title_zh: 第 16 天 · 朝里 航拍 + 祝津 · Neuschloss 夜
+  title_zh: 第 16 天 · Rusutsu 双线环游（中山峠 + ニセコ）
   intro_zh: >-
-    ★ 上午 / 中午 朝里 航拍 + 自拍摄影（主目标 朝里スカイループ；备选 朝里ダム / 朝里川温泉）。
-    下午到 祝津 小樽水族館。当晚入住 Hotel Neuschloss 小樽（祝津海岸、全海景、私人露天风吕、法式晚餐）。
-    ⚠️ 无人机规定详见 place notes（DID、高速上空禁飞、国定公园等）；≥ 10 工作日前提交 DIPS 2.0 申请。
-    天气不好改纯地面自拍 / 余市 Nikka 威士忌 工厂 备案。
+    ★ 开车去 Rusutsu 留寿都，去程和回程走不同路看不同雪景。
+    去 中山峠（R230，羊蹄山 + あげいも）→ Rusutsu 中午午餐 / 雪上活动 → 回 ニセコ + R5 余市沿海 → 小樽。
+    ~7 – 9 小时循环；根据天气 / 光线可反向（ニセコ 去，中山峠 回程日落）。
+    ⚠️ 2027-01-10 是周日 —— 鱼真 休，午餐在 Rusutsu 度假村基地解决。
   activities:
-    - id: day-16-asari-drone
+    - id: day-16-nakayama-toge
       start: "09:30"
-      place: { ref: asari-otaru }
-      notes_zh: 整个行程唯一的航拍窗口 —— 没有天气备用日。天气不行就只拍地面。
-    - id: day-16-otaru-aquarium
-      place: { ref: otaru-aquarium }
-      notes_zh: 祝津海岸，紧邻 Neuschloss；冬季程序含海狮 / 企鹅秀。入住 Hotel Neuschloss 的详情见 hokkaido-otaru-neuschloss booking。
+      place: { ref: nakayama-toge }
+      notes_zh: Rusutsu 循环去程必停点；羊蹄山 + 名产「あげいも」。
+    - id: day-16-rusutsu
+      start: "11:00"
+      place: { ref: rusutsu-resort }
+      notes_zh: 度假村基地午餐 + 雪上活动 + 散步。~15:00 出发走 ニセコ 回程。
+    - id: day-16-return-to-otaru
+      place: { ref: otaru-canal }
+      notes_zh: 回小樽 ~17:30 – 18:00；若有余力再刷一遍运河夜景。

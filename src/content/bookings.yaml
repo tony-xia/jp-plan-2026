@@ -117,11 +117,13 @@ bookings:
 
   - id: hokkaido-sapporo-rental-car
     kind: other
-    title_zh: "租车（札幌市内取车 day-10 → 札幌市内还车 day-17，顺时针自驾环线）"
-    start: "2027-01-04"
-    end: "2027-01-11"
+    title_zh: "租车（札幌市内取车 day-3 → 札幌市内还车 day-18，顺时针自驾环线 + 札幌 7 晚停车）"
+    start: "2026-12-28"
+    end: "2027-01-12"
     details_zh: >-
-      Day-07 早上（2027-01-04 周六）在札幌 7 晚结束后取车；day-17 祝津→札幌市区还车后乘 北斗 去洞爺。
+      ★ 2026-04-22 第六版：取车提前到 day-3 抵札幌当天下午（北斗 到站后立即取车）；
+      day-18 早上从小樽 Neuschloss 退房 → 开到札幌市区租车行还车 → 乘 北斗 去洞爺。
+      Day-3 至 day-10 早上车停札幌酒店 / 租车行夜泊位（预订时确认含 7 晚停车）。
       必备：四驱 SUV + 冬季雪胎 + 雪链；≥ 2 排座 + 大行李箱容量。
       最硬单日：day-12 稚内→宗谷岬→网走（~380 – 400 km, 冬季 6 – 7 小时）。
 
@@ -149,9 +151,9 @@ bookings:
 
   - id: hokkaido-abashiri-hotel-dormy-inn
     kind: hotel
-    title_zh: "住宿：網走 多美迎（天然温泉 天都の湯 ドーミーイン網走，2 晚，2 间房）"
+    title_zh: "住宿：網走 多美迎（天然温泉 天都の湯 ドーミーイン網走，3 晚，2 间房）"
     start: "2027-01-06"
-    end: "2027-01-08"
+    end: "2027-01-09"
     address:
       full:
         zh: 北海道網走市南二条西 3-1-1
@@ -179,7 +181,7 @@ bookings:
     kind: hotel
     title_zh: "备选酒店：網走 東横INN 駅前店"
     start: "2027-01-06"
-    end: "2027-01-08"
+    end: "2027-01-09"
     bookingUrl: https://www.booking.com/hotel/jp/toyoko-inn-hokkaido-okhotsk-abashiri-ekimae.html
 
   - id: hokkaido-otaru-hotel-primary
@@ -204,20 +206,21 @@ bookings:
     details_zh: >-
       Listing 1308367449883578040 — "Entire building for rent / Up to 6 people / Parking for 2 cars"。
       6 人 · 3BR · 6 床 · 2 浴 · Guest favourite。自带 2 车位停车。
-      运河 / 小樽駅 一带。Day-12（中心入住 + Uomasa + 天狗夜景）+ day-15（Rusutsu 循环）。
+      运河 / 小樽駅 一带。2 晚：day-15（01-09 Sat 中心入住 + Uomasa + 天狗夜景）+ day-16（01-10 Sun Rusutsu 循环）。
+      Day-17 换到 Neuschloss（祝津海岸 + 航拍日）。
 
   - id: hokkaido-otaru-airbnb-alt
     kind: hotel
     title_zh: "备选 Airbnb：小樽湾全景整栋（Panoramic View of Otaru Bay）"
-    start: "2027-01-10"
-    end: "2027-01-12"
-    airbnbUrl: https://www.airbnb.com.au/rooms/42695671?check_in=2027-01-10&check_out=2027-01-12&adults=4
+    start: "2027-01-09"
+    end: "2027-01-11"
+    airbnbUrl: https://www.airbnb.com.au/rooms/42695671?check_in=2027-01-09&check_out=2027-01-11&adults=4
 
   - id: hokkaido-otaru-neuschloss
     kind: hotel
     title_zh: "住宿：Hotel Neuschloss 小樽（1 晚，2 间房；价格合适则订）"
-    start: "2027-01-10"
-    end: "2027-01-11"
+    start: "2027-01-11"
+    end: "2027-01-12"
     address:
       full:
         zh: 北海道小樽市祝津 3-282
@@ -233,24 +236,25 @@ bookings:
       - /photos/hotel-neuschloss-otaru/06.jpg
       - /photos/hotel-neuschloss-otaru/07.jpg
     details_zh: >-
-      Day-14 航拍日晚上入住、day-17 早上早餐后退房，再顺路参观 小樽水族館（祝津紧邻酒店）。
+      Day-17（01-11 Mon）航拍日晚上入住 → day-18 早上早餐后退房 → 开到札幌市区还车。
+      祝津紧邻酒店，入住前可搭配 小樽水族館。
       如果价格不合适（单晚超预算）则改住市区酒店 1 晚。
 
   - id: hokkaido-windsor-shuttle-in
     kind: other
-    title_zh: "洞爺 Windsor 酒店 免费接驳巴士：JR 洞爺駅 → 酒店（day-17）"
+    title_zh: "洞爺 Windsor 酒店 免费接驳巴士：JR 洞爺駅 → 酒店（day-18）"
     from: { zh: JR 洞爺駅, en: JR Toya Station, ja: JR 洞爺駅 }
     to: { zh: Windsor 酒店 洞爺, en: Windsor Hotel Toya, ja: ウィンザーホテル洞爺 }
-    start: "2027-01-11"
+    start: "2027-01-12"
     details_zh: >-
-      免费接驳，需 ≥ 前一日 18:00 电话预约。
+      免费接驳，需 ≥ 前一日 18:00 电话预约（day-17 晚从 Neuschloss / 小樽 侧先订）。
       当前班次（出发时间待再次确认）：11:00 / 13:00 / 14:20 / 16:55 / 19:00，单程约 40 分钟。
 
   - id: hokkaido-windsor-hotel
     kind: hotel
-    title_zh: "住宿：The Windsor Hotel TOYA（2 晚，2 间房）"
-    start: "2027-01-11"
-    end: "2027-01-13"
+    title_zh: "住宿：The Windsor Hotel TOYA（3 晚，2 间房）"
+    start: "2027-01-12"
+    end: "2027-01-15"
     address:
       full:
         zh: 北海道虻田郡洞爷湖町清水 336
@@ -265,51 +269,21 @@ bookings:
       - /photos/windsor-hotel-toya/6.jpg
       - /photos/windsor-hotel-toya/7.jpg
     details_zh: >-
-      日期 day-17 – day-18（Windsor 2 晚）。4 人 2 间房（2 绅士 + 2 女士不合住）。
-      2026-04-20 Booking.com 查询：旧 NYE 窗口 2027-01-01 → 01-03 全部房型 "Not available"；
-      新窗口 2027-01-11 → 01-12（2 晚）应可用，需 Booking 或官网重新询价。最便宜方案可能 Premium Queen Sea Side room-only。
+      日期 day-18 – day-20（Windsor 3 晚）。4 人 2 间房（2 绅士 + 2 女士不合住）。
+      2026-04-22 第六版：Toya 由 2 → 3 晚，吸收原 Sapporo 返程去的时间余量。
+      新窗口 2027-01-12 → 01-15（3 晚），需 Booking 或官网重新询价。最便宜方案可能 Premium Queen Sea Side room-only。
 
-  - id: hokkaido-toya-to-sapporo-transit
+  - id: hokkaido-toya-to-tokyo-transit
     kind: shinkansen
-    title_zh: "特急北斗：洞爺 → 札幌（day-19 返程）"
+    title_zh: "Toya → Tokyo：JR 特急 北斗 + 北海道新干线（day-21，~6 – 6.5 小时）"
     from: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
-    to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
-    start: "2027-01-13"
-    details_zh: >-
-      Windsor 早班车到 洞爺駅 → 特急 北斗 → 札幌駅（~2 小时）。
-      预约大行李指定席；午后抵达札幌，开始 Sapporo 返程 2 晚。
-
-  - id: hokkaido-sapporo-hotel-return
-    kind: hotel
-    title_zh: "住宿：THE GATE HOTEL 札幌 by HULIC（返程 2 晚，2 间房）"
-    start: "2027-01-13"
-    end: "2027-01-15"
-    address:
-      full:
-        zh: 北海道札幌市中央区北三条西 3-1-44
-        ja: 〒060-0003 北海道札幌市中央区北三条西3-1-44
-    googleMapsUrl: https://maps.app.goo.gl/3f492XGijpdi8ynJA
-    bookingUrl: https://www.booking.com/hotel/jp/the-gate-zha-huang-by-hulic.html
-    photos:
-      - /photos/hotel-gate-sapporo/01.jpg
-      - /photos/hotel-gate-sapporo/02.jpg
-      - /photos/hotel-gate-sapporo/03.jpg
-      - /photos/hotel-gate-sapporo/04.jpg
-    details_zh: >-
-      ザ・ゲートホテル札幌 by HULIC（HULIC 旗下生活型酒店，近 JR 札幌駅 / 大通 / 北三条通 铺石区）。
-      TEL 011-206-4588。Day-17 → day-21 出发，3 晚。
-      主要任务：补齐年末年始期间关门的景点（ROYCE' Town、頭大佛、大倉山、白い恋人 亮灯重游 等）。
-
-  - id: hokkaido-sapporo-to-tokyo-transit
-    kind: shinkansen
-    title_zh: "Sapporo → Tokyo：JR 特急 北斗 + 北海道新干线（day-21，~7.5 – 8 小时）"
-    from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
     to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
     start: "2027-01-15"
     details_zh: >-
-      札幌 → 新函馆北斗（特急 北斗，~3.5 小时）+ 新函馆北斗 → 东京（北海道新干线「はやぶさ」，~4 小时）。
-      ⚠️ 本日几乎整天在路上；Tokyo 有效天数只剩 Sat + Sun 2 天。
-      ⚠️ 坏天气备选：新千歳 → 羽田 空航（快速エアポート 札幌 → 新千歳 ~35 min + 1.5 小时飞行）。
+      ★ 2026-04-22 第六版：Toya → Tokyo 直达，不绕回札幌。
+      ① 特急 北斗 洞爺 → 新函馆北斗（南下，~2 小时）；② 北海道新干线 はやぶさ 新函馆北斗 → 东京（~4 小时）。
+      两段均预约大行李指定席。Windsor 早班车到 洞爺駅。
+      ⚠️ 坏天气备选：特急 北斗 → 札幌 → 新千歳 → 羽田 飞行（~1.5 小时）。
 
   - id: tokyo-hotel
     kind: hotel

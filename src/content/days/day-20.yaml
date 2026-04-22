@@ -1,36 +1,24 @@
-# Day 20 — 2027-01-14 — Sapporo 返程（ROYCE' + 頭大佛 + 大倉山）
+# Day 20 — 2027-01-14 — 洞爷湖放松日（Windsor SPA + 湖周补遗）
 day:
   id: day-20
   date: "2027-01-14"
   city: hokkaido
-  title_zh: 第 20 天 · Sapporo 返程（ROYCE' + 頭大佛 + 大倉山）
+  title_zh: 第 20 天 · 洞爷湖放松日（Windsor 夜 3 · 最后一晚）
   intro_zh: >-
-    ★ 返程重点日 —— 年末年始期间关门的景点 1/13（周三）基本全部恢复正常营业。
-    上午 JR 学园都市线 去 ロイズタウン駅 做 ROYCE' 可可与巧克力小镇 体验（★ 官网 e-tix 必预约）；
-    中午回城吃午饭，下午 頭大佛（真駒内滝野霊園）→ 黄昏 大倉山 跳台展望台看日落。
-    ⚠️ 头大佛冬季拜观 10:00 – 15:00（较夏季缩短），务必 15:00 前入场。
-    ⚠️ 大倉山 11/1 – 4/28 营业 9:00 – 17:00。
+    ★ 2026-04-22 第六版新增的 Toya 第 3 晚 —— 放松 / 补遗。
+    上午 Windsor SPA + 温泉 + 湖景早午餐；如 day-19 有内容没跑完（Silo / 有珠山 / 登别）今天补；
+    湖周小众点（壮瞥 昭和新山、洞爺湖汽船、花火补场）按天气 / 心情挑。
+    今天也是天气缓冲：day-21 Toya → Tokyo 直达需要良好的铁路 + 新干线衔接，
+    若暴雪 / 列车停运，今日可启动新千歳 → 羽田 飞行备案的订票流程。
   activities:
-    - id: day-20-royce-town
-      start: "10:00"
-      place: { ref: royce-cacao-chocolate-town }
+    - id: day-20-windsor-spa
+      place: { ref: windsor-hotel-toya }
+      notes_zh: Windsor 馆内 SPA / 温泉 / 湖景餐厅 / 艺术画廊 —— 慢慢享受一上午。
+    - id: day-20-silo-revisit
+      place: { ref: toyako-silo-observation-deck }
       notes_zh: >-
-        ★ 必提前在 royce.com/town e-tix 预约。10:00 – 17:00，最后入场 15:00。
-        札幌駅 → ロイズタウン駅（JR 学园都市线）约 30 分钟 + 免费接驳 7 分钟。
-        现场建议 ~2 小时（体验 + 商店）。
-    - id: day-20-lunch
-      place: { ref: sapporo-station }
-      notes_zh: 回札幌駅 或大通附近吃午餐；二条市場（如前段未去）也可补刀。
-    - id: day-20-hill-of-the-buddha
-      start: "13:30"
-      place: { ref: hill-of-the-buddha }
+        若 day-19 日程被天气 / 时间打断，今天补 Silo 冬季场地（スノーモービル / スノーラフティング 等冬季活动 1 – 3 月运营）。
+    - id: day-20-noboribetsu-revisit
+      place: { ref: noboribetsu-jigokudani }
       notes_zh: >-
-        冬季 10:00 – 15:00，务必 15:00 前入场。水庭冬季排空无反射，景色变成佛首 + 白雪。
-        札幌駅自驾 ~40 分，或 地下鉄真駒内駅 + 中央バス 真 108（~20 分 / ¥500）。
-    - id: day-20-okurayama
-      start: "16:00"
-      place: { ref: okurayama-observatory }
-      notes_zh: >-
-        1972 冬奥跳台场地；双人吊椅上展望台看日落（1 月日落约 16:30）。
-        冬季 9:00 – 17:00，缆椅往返成人 ¥1,000。免费停车 113 位。
-        从 头大佛开车 ~30 – 40 分钟。
+        若 day-19 未排上 登别地狱谷 + 温泉街，今天可单日往返（酒店打车 / 租车排 ~40 – 50 分钟）。

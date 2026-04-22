@@ -1,15 +1,15 @@
 # Japan trip itinerary — 2026-12-26 to 2027-01-19 (25 days, 24 nights).
-# Two phases (2026-04-22 fifth-pass: start date pulled 1 day earlier; Hakodate -1; Biei overnight dropped;
-#   Sapporo front +2 user + 1 from return + 1 start-shift = front 7; Sapporo return -1 = return 2):
-#   Phase 1 (days 01-20, 20 nights) = Hokkaido clockwise loop + Sapporo return:
+# Two phases (2026-04-22 sixth-pass: Sapporo return leg dropped; Abashiri +1, Toya +1;
+#   rental pickup moved to day-3 arrival in Sapporo):
+#   Phase 1 (days 01-20, 20 nights) = Hokkaido clockwise loop, single Sapporo stay:
 #                                     Hakodate 2 (day-01 arrival via Haneda + 東北・北海道新幹線)
-#                                     → Sapporo 7 front (Dec 28 – Jan 3; NYE + NYD; car pickup day-10)
+#                                     → Sapporo 7 (Dec 28 – Jan 4; NYE + NYD; rental pickup on arrival day-3)
 #                                     → Wakkanai 2 (Surfeel; long drive from Sapporo + 宗谷岬 buffer day)
-#                                     → Cape Sōya → Abashiri 2 (Okhotsk coast drive)
-#                                     → Biei (day-stop only, no overnight) → Otaru 3
-#                                     → Sapporo car drop → Windsor Toya 2
-#                                     → Sapporo return 2 (end of Hokkaido; catches 年末年始 closures like ROYCE'/頭大佛)
-#   Phase 2 (days 21-25, 4 nights)  = Tokyo (day-21 = Sapporo → Tokyo transit via 北斗 + 新幹線; day-24 = slack day)
+#                                     → Cape Sōya → Abashiri 3 (Okhotsk coast drive + day-14 知床 Utoro day)
+#                                     → Biei (day-stop only, no overnight) → Otaru 3 (central 2 + Neuschloss 1)
+#                                     → day-18 morning Sapporo car return → 北斗 → Windsor Toya 3
+#   Phase 2 (days 21-25, 4 nights)  = Tokyo (day-21 = Toya → Tokyo direct via 北斗 洞爺 → 新函館北斗 + 新幹線;
+#                                            day-24 = slack day)
 # Full requirements source: docs/requirements.md
 # Validated against src/lib/schema.ts at build time.
 
@@ -68,9 +68,9 @@ stays:
       - hokkaido-hakodate-airbnb-primary
       - hokkaido-hakodate-airbnb-alt
 
-  - id: stay-sapporo-front
+  - id: stay-sapporo
     city: { zh: 札幌, en: Sapporo, ja: 札幌 }
-    note_zh: 前段(跨年)
+    note_zh: 跨年 + 元旦
     segmentId: hokkaido
     dayIds: [day-03, day-04, day-05, day-06, day-07, day-08, day-09]
     lodgingBookingIds:
@@ -89,7 +89,7 @@ stays:
   - id: stay-abashiri
     city: { zh: 網走, en: Abashiri, ja: 網走 }
     segmentId: hokkaido
-    dayIds: [day-12, day-13]
+    dayIds: [day-12, day-13, day-14]
     lodgingBookingIds:
       - hokkaido-abashiri-hotel-dormy-inn
       - hokkaido-abashiri-hotel-toyoko-inn-ekimae
@@ -97,7 +97,7 @@ stays:
   - id: stay-otaru
     city: { zh: 小樽, en: Otaru, ja: 小樽 }
     segmentId: hokkaido
-    dayIds: [day-14, day-15, day-16]
+    dayIds: [day-15, day-16, day-17]
     lodgingBookingIds:
       - hokkaido-otaru-hotel-primary
       - hokkaido-otaru-airbnb-alt
@@ -107,17 +107,9 @@ stays:
     city: { zh: 洞爺, en: Tōya, ja: 洞爺 }
     note_zh: Windsor
     segmentId: hokkaido
-    dayIds: [day-17, day-18]
+    dayIds: [day-18, day-19, day-20]
     lodgingBookingIds:
       - hokkaido-windsor-hotel
-
-  - id: stay-sapporo-return
-    city: { zh: 札幌, en: Sapporo, ja: 札幌 }
-    note_zh: 返程
-    segmentId: hokkaido
-    dayIds: [day-19, day-20]
-    lodgingBookingIds:
-      - hokkaido-sapporo-hotel-return
 
   - id: stay-tokyo
     city: { zh: 东京, en: Tokyo, ja: 東京 }

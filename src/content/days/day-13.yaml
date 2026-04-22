@@ -1,12 +1,13 @@
-# Day 13 — 2027-01-07 — 网走全天（流冰館 + 能取岬 + 知床方向）
+# Day 13 — 2027-01-07 — 网走市内 + 鄂霍次克沿岸（第 1 日）
 day:
   id: day-13
   date: "2027-01-07"
   city: hokkaido
-  title_zh: 第 13 天 · 网走 + 知床方向全天
+  title_zh: 第 13 天 · 网走 · 流冰館 + 能取岬 + 鱒浦（Abashiri 第 2 晚）
   intro_zh: >-
-    网走全天。上午 オホーツク流氷館（-15℃ 室内真冰 · 我们窗口海面流冰未到的替代）+ 天都山展望台；
-    下午跑 能取岬 → 天に続く道（斜里町，冬季先看路况再开）→ オシンコシン滝 → 鱒浦 ビューポイント 回程。
+    网走第一个完整日。上午 オホーツク流氷館（-15℃ 室内真冰 · 流冰未到窗口的替代体验）+ 天都山展望台；
+    下午 能取岬 + ビューポイントパーキング流氷街道・鱒浦；行有余力加 博物館網走監獄。
+    知床 Utoro 方向留到 day-14 专门开出去。
   activities:
     - id: day-13-ryuhyo-museum
       place: { ref: okhotsk-ryuhyo-museum }
@@ -14,18 +15,6 @@ day:
     - id: day-13-cape-notoro
       place: { ref: cape-notoro }
       notes_zh: 冬日鄂霍次克海岸 + 灯塔；天气好时非常出片。距网走市中心 ~20 分钟。
-    - id: day-13-road-to-heaven
-      place: { ref: road-to-heaven-shari }
-      notes_zh: >-
-        冬季注意事项：起点观景台冬季关闭；道路只有 2 月才保证除雪。当日实地观察再决定是否驾入。
-    - id: day-13-oshinkoshin
-      place: { ref: oshinkoshin-falls }
-      notes_zh: 部分结冰的大瀑布，回程顺路。
     - id: day-13-masuura
       place: { ref: masuura-viewpoint-parking }
-      notes_zh: 回网走前最后一个观景停车带。
-    - id: day-13-ryuhyo-monogatari-train
-      place: { ref: ryuhyo-monogatari-train }
-      notes_zh: >-
-        可选：如 2027 年 1 月上旬 流氷物語号 已开季（通常 1 月下旬），可替代 / 串联 知床斜里 方向的自驾。
-        网走 → 知床斜里 自驾 ~50 分钟 / 列车 ~1 小时。预订前到 JR 北海道官网确认开季日期。
+      notes_zh: 海岸观景停车带；能取岬回城路上顺带停一下。

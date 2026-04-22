@@ -1,18 +1,28 @@
-# Day 03 — 2026-12-28 — 函馆 → 札幌（北斗 · 白い恋人 · 蟹本家）
+# Day 03 — 2026-12-28 — 函馆 → 札幌（北斗 · 取车 · 白い恋人 · 蟹本家）
 day:
   id: day-03
   date: "2026-12-28"
   city: hokkaido
-  title_zh: 第 3 天 · 函馆 → 札幌（札幌夜 1）
+  title_zh: 第 3 天 · 函馆 → 札幌（取车 · 札幌夜 1）
   intro_zh: >-
-    上午 JR 特急 北斗 函馆 → 札幌（~3 小时 30 分）。下午抵札幌入住市中心酒店。
+    上午 JR 特急 北斗 函馆 → 札幌（~3 小时 30 分）。中午抵札幌，
+    ★ 2026-04-22 第六版：**下车后直接到 札幌市内租车行取车**（站前 / 薄野；四驱 SUV + 冬季雪胎 + 雪链）。
+    取车后把车停酒店 / 附近付费车场，继续今日行程。
     傍晚黄金时段去 白色恋人公园 看工厂 + Blooming Snow Fantasy 亮灯（16:00 – 19:00，免费）；
-    晚餐 蟹本家 札幌站本店。今晚是札幌 4 晚中的第 1 晚（车还没取；后面 3 天包含跨年夜 + 元旦 + 1/2）。
+    晚餐 蟹本家 札幌站本店。今晚是札幌 7 晚中的第 1 晚（跨年 + 元旦 + 1/2 + 1/3 都在 Sapporo）。
   activities:
     - id: day-03-hakodate-to-sapporo
       start: "09:00"
       place: { ref: sapporo-station }
       notes_zh: JR 特急 北斗 函馆 → 札幌 ~3 小时 30 分。预留大行李指定席。
+    - id: day-03-rental-pickup
+      start: "13:00"
+      place: { ref: sapporo-station }
+      notes_zh: >-
+        ★ 抵札幌后立即取车。预订单：hokkaido-sapporo-rental-car（day-3 → day-18）。
+        车型：四驱 SUV + 冬季雪胎 + 雪链；≥ 2 排座 + 大行李箱容量。
+        取车检查：胎况 / 雨刮 / 冷启动 / ETC 卡 / 紧急联络方式 / 保险。
+        取车后车停酒店 / 附近付费车场；Sapporo 前段日常出行仍以地铁 / 出租为主，必要时才开车。
     - id: day-03-shiroi-koibito
       start: "15:30"
       place: { ref: shiroi-koibito-park }
@@ -25,7 +35,7 @@ day:
       place: { ref: kani-honke-sapporo }
       notes_zh: >-
         4 人提前 2 – 3 周预订。
-        ⚠️ 年末年始部分日期可能停业或预订紧张（12/31 / 1/1 高风险）；今晚在 12/30 比较保险。
+        ⚠️ 年末年始部分日期可能停业或预订紧张（12/31 / 1/1 高风险）；今晚 12/28 比较保险。
   bookings:
     - id: day-03-hokuto-hakodate-sapporo
       kind: other
