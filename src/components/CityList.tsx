@@ -1,7 +1,8 @@
-import Link from "next/link";
-import type { Trip, Day, Stay, Booking } from "@/lib/schema";
+import type { Trip, Day, Stay, Booking, Activity } from "@/lib/schema";
 import { resolvePlace } from "@/lib/schema";
 import { BookingItem } from "./BookingItem";
+import { ActivityItem } from "./ActivityItem";
+import { t } from "@/lib/strings";
 
 function mdShort(dateIso: string): string {
   const [, m, d] = dateIso.split("-");
@@ -77,7 +78,6 @@ export function CityList({ trip }: { trip: Trip }) {
                   trip={trip}
                   dayById={dayById}
                   bookingById={bookingById}
-                  segmentId={segment.id}
                   nights={nightsFor(stay)}
                   stayBookings={bookingsByStay.get(stay.id) ?? []}
                 />
@@ -98,7 +98,6 @@ function StayCard({
   trip,
   dayById,
   bookingById,
-  segmentId,
   nights,
   stayBookings,
 }: {
@@ -106,7 +105,6 @@ function StayCard({
   trip: Trip;
   dayById: Map<string, Day>;
   bookingById: Map<string, Booking>;
-  segmentId: string;
   nights: number;
   stayBookings: Booking[];
 }) {
@@ -186,35 +184,121 @@ function StayCard({
             </h3>
             <span className="annot annot-ja">日程 · {days.length} 天</span>
             <ul className="mt-2">
-              {days.map((d) => {
-                const preview = d.activities
-                  .slice(0, 3)
-                  .map((a) => resolvePlace(a.place, trip).name.zh)
-                  .join(" · ");
-                return (
-                  <li key={d.id} className="rule">
-                    <Link
-                      href={`/${segmentId}/${d.id}`}
-                      className="block py-3 -mx-2 px-2 rounded-sm hover:bg-white/60 transition-colors"
-                    >
-                      <div className="flex items-baseline gap-3">
-                        <span className="font-mono text-xs text-muted tabular-nums w-16 shrink-0">
-                          {mdShort(d.date)}
-                        </span>
-                        <span className="font-serif-jp text-base font-semibold truncate">
-                          {d.title_zh}
-                        </span>
-                      </div>
-                      {preview && (
-                        <p className="mt-1 ml-[4.75rem] text-sm text-muted truncate">
-                          {preview}
-                        </p>
-                      )}
-                    </Link>
-                  </li>
-                );
-              })}
+              {days.map((d) => (
+                <li key={d.id} className="rule">
+                  <DayCard day={d} trip={trip} />
+                </li>
+              ))}
             </ul>
+          </div>
+        )}
+      </div>
+    </details>
+  );
+}
+
+function DayCard({ day, trip }: { day: Day; trip: Trip }) {
+  const mustDo: Activity[] = [];
+  const niceToDo: Activity[] = [];
+  day.activities.forEach((a) => {
+    if (a.priority === "nice") niceToDo.push(a);
+    else mustDo.push(a);
+  });
+
+  const preview = day.activities
+    .slice(0, 3)
+    .map((a) => resolvePlace(a.place, trip).name.zh)
+    .join(" · ");
+
+  return (
+    <details className="group/day [&_summary::-webkit-details-marker]:hidden">
+      <summary className="cursor-pointer list-none py-3 -mx-2 px-2 rounded-sm hover:bg-white/60 transition-colors">
+        <div className="flex items-baseline gap-3">
+          <span
+            className="font-serif-jp text-muted text-sm transition-transform group-open/day:rotate-90 inline-block w-3 shrink-0"
+            aria-hidden
+          >
+            ›
+          </span>
+          <span className="font-mono text-xs text-muted tabular-nums w-14 shrink-0">
+            {mdShort(day.date)}
+          </span>
+          <span className="font-serif-jp text-base font-semibold truncate">
+            {day.title_zh}
+          </span>
+        </div>
+        {preview && (
+          <p className="mt-1 ml-[4.75rem] text-sm text-muted truncate">
+            {preview}
+          </p>
+        )}
+      </summary>
+
+      <div className="mt-2 ml-[1.25rem] pl-6 border-l border-hairline space-y-8 pb-4">
+        {day.intro_zh && (
+          <p className="text-sm text-muted leading-relaxed max-w-prose">
+            {day.intro_zh}
+          </p>
+        )}
+
+        {mustDo.length > 0 && (
+          <div>
+            <div className="flex items-baseline gap-2 mb-1">
+              <h4 className="text-xs uppercase tracking-[0.3em] text-accent font-medium">
+                {t.mustDo}
+              </h4>
+              <span className="annot">必須 · Must-do</span>
+            </div>
+            <div>
+              {mustDo.map((a, i) => (
+                <ActivityItem
+                  key={a.id}
+                  activity={a}
+                  nextActivity={mustDo[i + 1]}
+                  day={day}
+                  trip={trip}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {niceToDo.length > 0 && (
+          <div>
+            <div className="flex items-baseline gap-2 mb-1">
+              <h4 className="text-xs uppercase tracking-[0.3em] text-muted font-medium">
+                {t.niceToDo}
+              </h4>
+              <span className="annot">オプション · Nice-to-do</span>
+            </div>
+            <div>
+              {niceToDo.map((a, i) => (
+                <ActivityItem
+                  key={a.id}
+                  activity={a}
+                  nextActivity={niceToDo[i + 1]}
+                  day={day}
+                  trip={trip}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {day.activities.length === 0 && (
+          <p className="text-sm text-muted">（活动待补）</p>
+        )}
+
+        {day.bookings && day.bookings.length > 0 && (
+          <div>
+            <h4 className="text-xs uppercase tracking-[0.3em] text-muted mb-2">
+              {t.bookings}
+            </h4>
+            <div>
+              {day.bookings.map((b) => (
+                <BookingItem key={b.id} booking={b} />
+              ))}
+            </div>
           </div>
         )}
       </div>

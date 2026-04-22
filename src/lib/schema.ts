@@ -40,12 +40,16 @@ export type Place = z.infer<typeof Place>;
 export const PlaceRef = z.object({ ref: z.string().min(1) });
 export type PlaceRef = z.infer<typeof PlaceRef>;
 
+export const ActivityPriority = z.enum(["must", "nice"]);
+export type ActivityPriority = z.infer<typeof ActivityPriority>;
+
 export const Activity = z.object({
   id: z.string().min(1),
   start: z.string().optional(),
   end: z.string().optional(),
   place: z.union([Place, PlaceRef]),
   notes_zh: z.string().optional(),
+  priority: ActivityPriority.default("must"),
 });
 export type Activity = z.infer<typeof Activity>;
 

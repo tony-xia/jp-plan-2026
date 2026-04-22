@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import yaml from "js-yaml";
-import { Trip, type Day, type CitySegment, type TravelTime, type Booking } from "./schema";
+import { Trip, type Day, type TravelTime, type Booking } from "./schema";
 import { loadTravelTimes } from "./travel-times";
 
 let cached: Trip | null = null;
@@ -113,19 +113,3 @@ export function findCoveringBooking(
   );
 }
 
-export function getSegment(segmentId: string): CitySegment | undefined {
-  return getTrip().segments.find((s) => s.id === segmentId);
-}
-
-export function getDay(dayId: string): Day | undefined {
-  return getTrip().days.find((d) => d.id === dayId);
-}
-
-export function getDaysForSegment(segmentId: string): Day[] {
-  const segment = getSegment(segmentId);
-  if (!segment) return [];
-  const byId = new Map(getTrip().days.map((d) => [d.id, d]));
-  return segment.days
-    .map((id) => byId.get(id))
-    .filter((d): d is Day => d !== undefined);
-}
