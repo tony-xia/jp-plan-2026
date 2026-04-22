@@ -18,7 +18,6 @@ export function ActivityItem({
   trip: Trip;
 }) {
   const place = resolvePlace(activity.place, trip);
-  const timeLabel = [activity.start, activity.end].filter(Boolean).join(" – ");
   const nextPlace = nextActivity ? resolvePlace(nextActivity.place, trip) : null;
   const coveredBy =
     nextPlace && nextPlace.id !== place.id
@@ -32,10 +31,7 @@ export function ActivityItem({
   return (
     <div className="grid grid-cols-[5rem_1fr] gap-6 py-6 rule">
       <div className="pt-1">
-        <div className="font-mono text-sm text-muted tracking-wider">
-          {timeLabel || "—"}
-        </div>
-        <div className="mt-1 annot">{t.placeKind[place.kind]}</div>
+        <div className="annot">{t.placeKind[place.kind]}</div>
       </div>
       <div>
         <div className="flex items-baseline gap-3">

@@ -198,14 +198,17 @@ function StayCard({
 }
 
 function DayCard({ day, trip }: { day: Day; trip: Trip }) {
+  const visibleActivities = day.activities.filter(
+    (a) => resolvePlace(a.place, trip).kind !== "station",
+  );
   const mustDo: Activity[] = [];
   const niceToDo: Activity[] = [];
-  day.activities.forEach((a) => {
+  visibleActivities.forEach((a) => {
     if (a.priority === "nice") niceToDo.push(a);
     else mustDo.push(a);
   });
 
-  const preview = day.activities
+  const preview = visibleActivities
     .slice(0, 3)
     .map((a) => resolvePlace(a.place, trip).name.zh)
     .join(" · ");
