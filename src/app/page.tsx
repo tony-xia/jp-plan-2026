@@ -1,13 +1,23 @@
 import { getTrip } from "@/lib/content";
 import { CityList } from "@/components/CityList";
-import { Banner } from "@/components/Banner";
+import { BannerCarousel } from "@/components/BannerCarousel";
+
+const HOME_BANNERS = [
+  "/banners/home/home-1.jpg",
+  "/banners/home/home-2.jpg",
+  "/banners/home/home-3.jpg",
+  "/banners/home/home-4.jpg",
+  "/banners/home/home-5.jpg",
+  "/banners/home/home-6.jpg",
+  "/banners/home/home-7.jpg",
+];
 
 export default function Home() {
   const trip = getTrip();
 
   return (
     <div className="min-h-full bg-background">
-      <Banner src="/banners/tokyo.jpg" alt="" priority />
+      <BannerCarousel srcs={HOME_BANNERS} alt="" />
       <div className="mx-auto max-w-3xl px-6 pt-6 pb-14">
         <header className="mt-10 mb-16">
           <div className="annot uppercase tracking-[0.3em] text-xs">
