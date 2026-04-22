@@ -11,7 +11,6 @@ day:
     天气不好改纯地面自拍 / 余市 Nikka 威士忌 工厂 备案。明早（day-18）退房 → 札幌还车 → 洞爺。
   activities:
     - id: day-17-asari-drone
-      start: "09:30"
       place: { ref: asari-otaru }
       notes_zh: 整个行程唯一的航拍窗口 —— 没有天气备用日。天气不行就只拍地面。
     - id: day-17-otaru-aquarium

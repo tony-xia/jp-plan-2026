@@ -8,15 +8,4 @@ day:
     抵达后第一个完整日，先缓冲：早上函馆朝市海鲜丼，午后元町坂 + 八幡坂 + 赤レンガ倉庫
     （金森 Bay Hakodate 商圈）。视天气加湯の川温泉 泡汤或市电沿线随便逛。
     今晚保留市区简餐，留着精力等明晚的 函馆山 夜景。
-  activities:
-    - id: day-02-hakodate-asaichi
-      start: "08:30"
-      place: { ref: hakodate-station }
-      notes_zh: >-
-        函馆朝市紧邻 JR 函馆駅，步行 1 分钟。海鲜丼（勝手丼 / うに丼）是招牌；一般 6:00 – 14:00 营业。
-        早来避开人流，冬季要趁热吃。
-    - id: day-02-motomachi
-      place: { ref: hakodate-station }
-      notes_zh: >-
-        下午沿市电 到 十字街 / 末広町，步行上 元町坂 + 八幡坂 + 函馆正教会 + 旧函馆区公会堂。
-        冬季有雪景，坡陡慢走；日落前下到 赤レンガ倉庫（金森 Bay Hakodate）逛商店、吃晚饭。
+  activities: []

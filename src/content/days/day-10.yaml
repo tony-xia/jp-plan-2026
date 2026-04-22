@@ -11,12 +11,6 @@ day:
     中午在 岩見沢 / 旭川 吃午饭；傍晚抵达 Surfeel 入住。
     今晚稚内 2 晚的第 1 晚（+1 晚作为天气缓冲）。体力允许再加 ノシャップ岬 日本海夕阳，否则休整为明天的 宗谷岬 做准备。
   activities:
-    - id: day-10-sapporo-depart
-      start: "08:30"
-      place: { ref: sapporo-station }
-      notes_zh: >-
-        从停车场取回车，准备出发前最后一次检查：
-        胎况 / 雨刮 / 雪链 / 燃油 / ETC 卡 / 紧急联络方式。
     - id: day-10-drive-to-wakkanai
       place: { ref: surfeel-hotel-wakkanai }
       notes_zh: >-

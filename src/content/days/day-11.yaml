@@ -11,7 +11,6 @@ day:
     ⚠️ 稚内冬季白化天气常见；如早上宗谷岬风暴 / 视野差 → 下午再试；依然不行就全天泡温泉 / 水族馆 / 酒店休整。
   activities:
     - id: day-11-cape-soya
-      start: "08:30"
       place: { ref: cape-soya }
       notes_zh: >-
         日本最北端纪念碑。稚内市中心 → 宗谷岬 ~30 km / 40 分钟；R238 全年通车。

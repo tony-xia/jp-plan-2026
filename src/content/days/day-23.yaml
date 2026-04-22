@@ -10,11 +10,9 @@ day:
     ⚠️ 如 day-22 未完成 Mitaka Subaru，今早可优先补，但 Oedo + 剪发 仍是主线 —— Mitaka 开门 10:00。
   activities:
     - id: day-23-oedo-antique
-      start: "09:30"
       place: { ref: oedo-antique-market }
       notes_zh: >-
         户外市集；雨雪天可能取消，前一天查官网 antique-market.jp。预算 09:30 – 13:30。
     - id: day-23-haircut
-      start: "14:30"
       place: { ref: star-tokyo-k-two-shibuya }
       notes_zh: 周日 10:00 – 19:00 营业；提前 ≥ 2 周预约。

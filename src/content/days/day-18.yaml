@@ -9,14 +9,7 @@ day:
     （~40 km / 45 分钟）。步行 / 出租到 札幌駅，乘 JR 特急 北斗 → 洞爺駅（~2 小时），
     配合 Windsor 免费接驳巴士发车时间（建议 13:00 / 14:20 / 16:55 其一）。
     ★ 前一天（day-17）18:00 前从 Neuschloss 那边电话预约接驳。
-  activities:
-    - id: day-18-drive-to-sapporo-dropoff
-      start: "10:00"
-      place: { ref: sapporo-station }
-      notes_zh: 祝津 → 札幌市区租车行还车；步行到札幌駅上车。
-    - id: day-18-toya-station
-      place: { ref: toya-station }
-      notes_zh: JR 洞爺駅 下车，候 Windsor 接驳巴士（约 40 分钟车程到酒店）。
+  activities: []
   bookings:
     - id: day-18-hokuto-sapporo-toya
       kind: other

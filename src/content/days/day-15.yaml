@@ -30,7 +30,6 @@ day:
       place: { ref: otaru-music-box-museum }
       notes_zh: 堺町本通り尽头；顺带逛 LeTAO / 玻璃店。
     - id: day-15-tengu-night
-      start: "19:00"
       place: { ref: otaru-tengu-ropeway }
       notes_zh: >-
         北海道三大夜景之一。日落后上山。冬季营业 09:00 – 20:00，末班上行 19:48。

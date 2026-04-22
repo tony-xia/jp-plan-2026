@@ -42,6 +42,10 @@ Confirmed packing list (user, 2026-04-20):
 - Total checked/carry-on baggage weight with 4 travelers + camera kit — affects rental car trunk space on the Hokkaido drive loop.
 - 元旦 shop closures may mean forgotten cables/adapters can't be bought in Hokkaido Jan 1–3.
 
+## Resolved — data conventions
+
+- **2026-04-23 — Drop times from activities; drop station/airport stops from the daily activity list** (user). Rationale: the per-day website view is a loose place list, not a minute-by-minute schedule; transit hubs clutter it and the arrival/departure times belong on the bookings (flight / Shinkansen / 特急), not on activities. Applied to both renderer and source YAML: `Activity.start`/`Activity.end` removed from `src/content/days/*.yaml`, and station/airport-ref activities deleted from day files (the `Place` entries in `places/00-transit.yaml` stay, still referenced from `Booking.from`/`to` and `coveredLegs`).
+
 ## Carried-over questions
 
 *(Phase-1 Karuizawa questions were parked with the phase itself on 2026-04-20 and have since been removed from the repo.)*

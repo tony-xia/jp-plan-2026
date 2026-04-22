@@ -12,7 +12,6 @@ day:
     ⚠️ 大晦日很多餐厅提早打烊或停业，预订前务必逐家确认营业时间。
   activities:
     - id: day-06-nijo-market
-      start: "08:30"
       place: { ref: nijo-market-sapporo }
       notes_zh: >-
         市场一般到中午前；早餐海鲜丼。
@@ -22,7 +21,6 @@ day:
       notes_zh: >-
         白日散步大通公園 + 札幌电视塔（展望台可登）。大晦日 / 元旦附近可能有跨年倒计时活动 —— 出行前查 sapporo-tv-tower.co.jp 公告。
     - id: day-06-moiwa
-      start: "15:30"
       place: { ref: mt-moiwa-ropeway }
       notes_zh: >-
         北海道三大夜景之一（我们 3 座已集齐：函馆山 day-02、藻岩山 today、天狗山 day-15 小樽）。
@@ -30,21 +28,18 @@ day:
         ⚠️ 年末年始（12/31 – 1/1）营业时间可能临时变动，出行前确认；
         大晦日日落约 16:10 —— 日落前 40 – 60 分钟上山，接连看日落 + 蓝调 + 全黑 3 段。
     - id: day-06-nye-dinner
-      start: "19:30"
       place: { ref: seafood-buffet-nanda }
       notes_zh: >-
         薄野跨年晚餐首选。⚠️ 必提前 2 – 3 周预约；确认大晦日是否营业。
         如 NANDA 大晦日停业，备选 A：薄野拉面街找一家正在营业的札幌味噌拉面暖身（跨年夜比海鲜店更容易开门）；
         备选 B：日本大晦日传统吃 年越しそば（跨年荞麦面），薄野附近 蕎麦屋 多有营业。
     - id: day-06-white-illumination
-      start: "21:30"
       place: { ref: sapporo-white-illumination }
       notes_zh: >-
         晚餐后走 駅前通会場 / 南一条通会場 灯节（跨年夜仍亮灯），一路朝大通公園倒数会场走。
         ⚠️ 大通公園 1 – 5 丁目会場 一般 12/25 前后已结束 —— 跨年夜主要看街道会场。
         顺路可扫一眼 大通 2 丁目 慕尼黑圣诞市场位置（几乎肯定已闭市，见 munich-christmas-market-sapporo 说明）。
     - id: day-06-countdown
-      start: "23:30"
       place: { ref: odori-park-tv-tower }
       notes_zh: >-
         大通公園 + 札幌电视塔 跨年倒数。电视塔通常有跨年特别延长营业（登塔倒数）—— 若走这套需提前官网购票。

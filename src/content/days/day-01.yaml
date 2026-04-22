@@ -9,24 +9,4 @@ day:
     新函館北斗 → JR 函館ライナー → 函馆駅。全程 ~6 – 7 小时 + 换乘缓冲，门到门约 8 小时。
     不安排观光，傍晚 / 入夜抵达函馆办理入住；就近简单晚餐，早点休息，后面几天精力更好。
     ⚠️ 4 人 + 冬装 + 大件行李：務必预约 はやぶさ「特大荷物スペースつき座席」（大件行李指定席）—— 元旦前后热门，早订。
-  activities:
-    - id: day-01-haneda-arrival
-      start: "10:00"
-      place: { ref: haneda-airport }
-      notes_zh: >-
-        4 人抵达后会合、取行李；换乘口优先走东京单轨去东京站，或京急 → JR 山手线亦可。
-        行李集中处理，避免每个人单独拖行；去站台前留 60 – 90 分钟机动时间。
-    - id: day-01-tokyo-transfer
-      place: { ref: tokyo-station }
-      notes_zh: >-
-        东京站站内换乘 東北・北海道新幹線「はやぶさ」前往 新函館北斗。
-        提前订好大行李指定席；站内步行到北海道新干线站台 ~10 – 15 分钟，留 30 分钟缓冲为妥。
-    - id: day-01-shin-hakodate-hokuto
-      place: { ref: shin-hakodate-hokuto-station }
-      notes_zh: >-
-        东京 → 新函館北斗 新干线单程约 4 小时。抵达后下新干线，站内换 JR 函館ライナー，约 15 – 20 分钟到 函馆駅。
-    - id: day-01-hakodate-arrival
-      place: { ref: hakodate-station }
-      notes_zh: >-
-        抵达函馆（预计傍晚 / 入夜），办理酒店入住。
-        今晚就近简餐 —— 朝市周边或元町下到底的排挡皆可；不要勉强跑 函馆山 夜景（留到 day-02 精力好时）。
+  activities: []

@@ -11,11 +11,9 @@ day:
     ⚠️ 2027-01-10 是周日 —— 鱼真 休，午餐在 Rusutsu 度假村基地解决。
   activities:
     - id: day-16-nakayama-toge
-      start: "09:30"
       place: { ref: nakayama-toge }
       notes_zh: Rusutsu 循环去程必停点；羊蹄山 + 名产「あげいも」。
     - id: day-16-rusutsu
-      start: "11:00"
       place: { ref: rusutsu-resort }
       notes_zh: 度假村基地午餐 + 雪上活动 + 散步。~15:00 出发走 ニセコ 回程。
     - id: day-16-return-to-otaru
