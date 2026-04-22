@@ -6,4 +6,17 @@ day:
   title_zh: 第 4 天 · 札幌（前段空白日 · 待补）
   intro_zh: >-
     Sapporo 前段新增空白日，活动待补。
-  activities: []
+  activities:
+    - id: day-04-hill-of-buddha
+      place: { ref: hill-of-the-buddha }
+      notes_zh: >-
+        ★ 2026-04-22 第六版：Sapporo 返程被取消，年末闭日风险清单压到前段空白日。
+        冬季 11 – 3 月 10:00 – 15:00（比夏季短）；水庭 11/4 – 4 月底抽干 —— 看的是雪中薰衣草小山。
+        自驾约 40 分（车已 day-03 取，3,300 位免费停车场）；或中央バス 真 108 真駒内駅 → 霊園前 ~20 分 ¥500。现场 60 – 90 分钟。
+    - id: day-04-okurayama
+      place: { ref: okurayama-observatory }
+      notes_zh: >-
+        ★ 与 頭大佛 拼在同日午后（需求 explicit 建议「can pair into a single afternoon」）。
+        1972 冬奥跳台场；冬季 11/1 – 4/28 营业 9:00 – 17:00，观景缆车来回 ¥1,000（儿童 ¥500），113 位免费停车场。
+        地铁 東西線 円山公園駅 → 中央バス「くらまる号」→ 大倉山ジャンプ競技場。
+        提前把闭日风险高的两处在 12/29 搞定，留出元旦 + 1/2 – 1/3 的弹性。

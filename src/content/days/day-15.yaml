@@ -18,6 +18,15 @@ day:
     - id: day-15-seven-stars-tree
       place: { ref: biei-seven-stars-tree }
       notes_zh: 有停车场，比 クリスマスツリー 好停。
+    - id: day-15-blue-pond
+      place: { ref: shirogane-blue-pond }
+      notes_zh: >-
+        ★ 需求 committed：美瑛「trees + Blue Pond light-up」。
+        冬季亮灯 2026-10-24 → 2027-04-22，日落到 21:00；1 月日落 ~16:15，亮灯 ~17:00 起，10 分钟图案循环。
+        冬季水面雪覆 —— 不是夏季的艳蓝池，而是雪 + 蓝光 + 树影。建议到达前 1 小时看白昼 + 留到亮灯启动，现场 45 – 60 分钟。
+        ⚠️ 与 天狗山 夜景 时间对撞：亮灯看完 ~17:30 出发 → 小樽 20:30 – 21:00（天狗山末班 19:48 已过）。
+        取舍：① 只看日间青池跳过亮灯，赶 天狗山；② 看亮灯，天狗山 挪到 day-16 回小樽 ~19:00 后补。
+        走 ② 小樽三晚整体更舒；走 ① 可保「大晚上赶到小樽」的原计划。出发前按天气 + 到美瑛时刻决定。
     - id: day-15-drive-to-otaru
       place: { ref: otaru-canal }
       notes_zh: 美瑛 → 小樽 旭川 → 道央道 → 札樽道；冬季估 3 – 4 小时。

@@ -6,4 +6,13 @@ day:
   title_zh: 第 8 天 · 札幌（前段空白日 · 待补）
   intro_zh: >-
     Sapporo 前段新增空白日，活动待补。
-  activities: []
+  activities:
+    - id: day-08-royce-town
+      place: { ref: royce-cacao-chocolate-town }
+      notes_zh: >-
+        ★ 2026-04-22 第六版 explicit 建议：「ROYCE' Town 1/2 is a Sat — a natural fit」。
+        元旦停业，1/2 起恢复（出行前官网再核）；营业 10:00 – 17:00，最后入园 15:00。
+        门票 ¥1,200（高中以上）/ ¥500（4 岁 – 中学）/ 3 岁以下免费。
+        ⚠️ 必须提前官网 e-tix 预约，不预约当日谢绝入园。
+        JR 学園都市線 札幌駅 → ロイズタウン駅（~30 分）+ 免费接驳步行 7 分 —— 专线列车体验本身是亮点之一。
+        现场 ~2 – 3 小时（工厂参观 + 巧克力工作坊 + 商店）；傍晚回札幌晚餐 / 散步。
