@@ -5,10 +5,10 @@ bookings:
   - id: trip-international-flights
     kind: flight
     title_zh: "国际航班：出发地 ⇄ 东京羽田（待预订）"
-    start: "2026-12-27"
+    start: "2026-12-26"
     end: "2027-01-19"
     details_zh: >-
-      四人同行，确认所有人 2026-12-27 早上抵达羽田；2027-01-19 从羽田（或成田）返程（trip 延长 1 天）。
+      四人同行，确认所有人 2026-12-26 早上抵达羽田；2027-01-19 从羽田（或成田）返程（trip 延长 2 天）。
       ★ 2026-04-20 改：Day-1 抵达羽田后直接换新干线前往函馆，当天不留宿东京。
       具体航班号待最终预订后填入。
 
@@ -17,7 +17,7 @@ bookings:
     title_zh: "新干线：羽田 → 东京 → 新函馆北斗 → 函馆（day 01，3 段 ~6 – 7 小时）"
     from: { zh: 东京羽田机场, en: Haneda Airport, ja: 東京国際空港（羽田） }
     to: { zh: 函馆站, en: Hakodate Station, ja: 函館駅 }
-    start: "2026-12-27"
+    start: "2026-12-26"
     coveredLegs:
       - { from: haneda-airport, to: tokyo-station }
       - { from: tokyo-station, to: shin-hakodate-hokuto-station }
@@ -31,9 +31,9 @@ bookings:
 
   - id: hokkaido-hakodate-hotel-tokyu-stay
     kind: hotel
-    title_zh: "住宿：東急ステイ函館朝市 灯の湯（3 晚，2 间房）"
-    start: "2026-12-27"
-    end: "2026-12-30"
+    title_zh: "住宿：東急ステイ函館朝市 灯の湯（2 晚，2 间房）"
+    start: "2026-12-26"
+    end: "2026-12-28"
     googleMapsUrl: https://maps.app.goo.gl/NB15MnFHp38YbuYz8
     bookingUrl: https://www.booking.com/hotel/jp/tokyu-stay-hakodate-asaichi-akarinoyu.html
     photos:
@@ -54,28 +54,28 @@ bookings:
       3 星酒店 · 4.4 ★ / 1,277 条评价；馆内有「灯の湯」温泉大浴场。
       位置极佳：紧邻 函館朝市、步行可达 JR 函館駅 和 金森赤レンガ倉庫。
       4 人需 2 间房（2 绅士 + 2 女士不合住）。
-      查询日期：2026-12-27 → 2026-12-30（3 晚，4 人），价格待询。
+      查询日期：2026-12-26 → 2026-12-28（2 晚，4 人），价格待询。
 
   - id: hokkaido-hakodate-airbnb-primary
     kind: hotel
     title_zh: "备选 Airbnb：函馆元町 HIST Terrace I"
-    start: "2026-12-27"
-    end: "2026-12-30"
+    start: "2026-12-26"
+    end: "2026-12-28"
     airbnbUrl: https://www.airbnb.com.au/rooms/1461937569120840875
 
   - id: hokkaido-hakodate-airbnb-alt
     kind: hotel
     title_zh: "备选 Airbnb：函馆湾 Japandi 整栋"
-    start: "2026-12-27"
-    end: "2026-12-30"
+    start: "2026-12-26"
+    end: "2026-12-28"
     airbnbUrl: https://www.airbnb.com.au/rooms/896063721679005442
 
   - id: hokkaido-sapporo-front-airbnb-homeoflove
     kind: hotel
-    title_zh: "住宿：札幌市中心 HomeOfLove 3BR2BA（前段 3 晚跨年，4 人）"
-    start: "2026-12-30"
-    end: "2027-01-02"
-    airbnbUrl: https://www.airbnb.com.au/rooms/1430197854674829516?check_in=2026-12-30&check_out=2027-01-02&adults=4
+    title_zh: "住宿：札幌市中心 HomeOfLove 3BR2BA（前段 7 晚跨年，4 人）"
+    start: "2026-12-28"
+    end: "2027-01-04"
+    airbnbUrl: https://www.airbnb.com.au/rooms/1430197854674829516?check_in=2026-12-28&check_out=2027-01-04&adults=4
     photos:
       - /photos/airbnb-sapporo-central-3br/01.jpg
       - /photos/airbnb-sapporo-central-3br/02.jpg
@@ -97,39 +97,39 @@ bookings:
   - id: hokkaido-sapporo-front-hotel-stream
     kind: hotel
     title_zh: "备选酒店：SAPPORO STREAM HOTEL 札幌 Stream"
-    start: "2026-12-30"
-    end: "2027-01-02"
+    start: "2026-12-28"
+    end: "2027-01-04"
     bookingUrl: https://www.booking.com/hotel/jp/sapporo-stream-zha-huang-shi.html
 
   - id: hokkaido-sapporo-front-hotel-vessel-campana
     kind: hotel
     title_zh: "备选酒店：Vessel Hotel Campana 薄野"
-    start: "2026-12-30"
-    end: "2027-01-02"
+    start: "2026-12-28"
+    end: "2027-01-04"
     bookingUrl: https://www.booking.com/hotel/jp/vessel-hotel-campana-susukino.html
 
   - id: hokkaido-sapporo-front-airbnb-homeofhope
     kind: hotel
     title_zh: "备选 Airbnb：札幌中岛 HomeOfHope 3BR2.5BA"
-    start: "2026-12-30"
-    end: "2027-01-02"
+    start: "2026-12-28"
+    end: "2027-01-04"
     airbnbUrl: https://www.airbnb.com.au/rooms/1437968277032342538
 
   - id: hokkaido-sapporo-rental-car
     kind: other
-    title_zh: "租车（札幌市内取车 day-07 → 札幌市内还车 day-15，顺时针自驾环线）"
-    start: "2027-01-02"
-    end: "2027-01-10"
+    title_zh: "租车（札幌市内取车 day-10 → 札幌市内还车 day-17，顺时针自驾环线）"
+    start: "2027-01-04"
+    end: "2027-01-11"
     details_zh: >-
-      Day-07 早上（2027-01-02 周六）在札幌 3 晚结束后取车；day-15 祝津→札幌市区还车后乘 北斗 去洞爺。
+      Day-07 早上（2027-01-04 周六）在札幌 7 晚结束后取车；day-17 祝津→札幌市区还车后乘 北斗 去洞爺。
       必备：四驱 SUV + 冬季雪胎 + 雪链；≥ 2 排座 + 大行李箱容量。
-      最硬单日：day-09 稚内→宗谷岬→网走（~380 – 400 km, 冬季 6 – 7 小时）。
+      最硬单日：day-12 稚内→宗谷岬→网走（~380 – 400 km, 冬季 6 – 7 小时）。
 
   - id: hokkaido-wakkanai-hotel
     kind: hotel
     title_zh: "住宿：Surfeel Hotel 稚内（2 晚，2 间房）"
-    start: "2027-01-02"
-    end: "2027-01-04"
+    start: "2027-01-04"
+    end: "2027-01-06"
     address:
       full:
         zh: 北海道稚内市开运 1-2-2
@@ -144,14 +144,14 @@ bookings:
       - /photos/surfeel-hotel-wakkanai/05.jpg
       - /photos/surfeel-hotel-wakkanai/06.jpg
     details_zh: >-
-      2 晚（day-07 抵达，day-08 宗谷岬 + 天气缓冲，day-09 早上开车去网走）。
+      2 晚（day-10 抵达，day-11 宗谷岬 + 天气缓冲，day-12 早上开车去网走）。
       从札幌到这里是顺时针自驾环线第 1 天（~330 km / 冬季 5 – 6 小时）。
 
   - id: hokkaido-abashiri-hotel-dormy-inn
     kind: hotel
     title_zh: "住宿：網走 多美迎（天然温泉 天都の湯 ドーミーイン網走，2 晚，2 间房）"
-    start: "2027-01-04"
-    end: "2027-01-06"
+    start: "2027-01-06"
+    end: "2027-01-08"
     address:
       full:
         zh: 北海道網走市南二条西 3-1-1
@@ -173,46 +173,21 @@ bookings:
       - /photos/hotel-dormy-inn-abashiri/12.jpg
     details_zh: >-
       距 網走駅 ~10 分钟步行。館内有 天然温泉 天都の湯 大浴場 + ドーミーイン 标志性夜鳴きそば（夜宵拉面）
-      + 海鮮丼 早餐。Day-09 – day-10（稚内→宗谷岬→网走 长途日 + 网走 + 知床 全天）。
+      + 海鮮丼 早餐。Day-09 – day-13（稚内→宗谷岬→网走 长途日 + 网走 + 知床 全天）。
 
   - id: hokkaido-abashiri-hotel-toyoko-inn-ekimae
     kind: hotel
     title_zh: "备选酒店：網走 東横INN 駅前店"
-    start: "2027-01-04"
-    end: "2027-01-06"
-    bookingUrl: https://www.booking.com/hotel/jp/toyoko-inn-hokkaido-okhotsk-abashiri-ekimae.html
-
-  - id: hokkaido-biei-hotel
-    kind: hotel
-    title_zh: "住宿：Grandeur Biei 整栋 Airbnb（1 晚，4 人）"
     start: "2027-01-06"
-    end: "2027-01-07"
-    airbnbUrl: https://www.airbnb.com.au/rooms/1656920797367370172?check_in=2027-01-06&check_out=2027-01-07&adults=4
-    photos:
-      - /photos/airbnb-biei-grandeur/01.jpg
-      - /photos/airbnb-biei-grandeur/02.jpg
-      - /photos/airbnb-biei-grandeur/03.jpg
-      - /photos/airbnb-biei-grandeur/04.jpg
-      - /photos/airbnb-biei-grandeur/05.jpg
-      - /photos/airbnb-biei-grandeur/06.jpg
-      - /photos/airbnb-biei-grandeur/07.jpg
-      - /photos/airbnb-biei-grandeur/08.jpg
-      - /photos/airbnb-biei-grandeur/09.jpg
-      - /photos/airbnb-biei-grandeur/10.jpg
-      - /photos/airbnb-biei-grandeur/11.jpg
-      - /photos/airbnb-biei-grandeur/12.jpg
-    details_zh: >-
-      Listing 1656920797367370172 — "Grandeur Biei | 1st Building for rent"。
-      10 人 · 4BR · 10 床 · 2 浴；新房源，暂无评价。
-      位于美瑛，近 青い池 / 旭川 / 富良野。整栋出租 — 4 卧室可分开睡。
-      Day-11 夜晚；藍い池 夜灯场后回住处。
+    end: "2027-01-08"
+    bookingUrl: https://www.booking.com/hotel/jp/toyoko-inn-hokkaido-okhotsk-abashiri-ekimae.html
 
   - id: hokkaido-otaru-hotel-primary
     kind: hotel
     title_zh: "住宿：小樽整栋 Airbnb 主基地（2 晚，4 人）"
-    start: "2027-01-08"
-    end: "2027-01-10"
-    airbnbUrl: https://www.airbnb.com.au/rooms/1308367449883578040?check_in=2027-01-08&check_out=2027-01-10&adults=4
+    start: "2027-01-09"
+    end: "2027-01-11"
+    airbnbUrl: https://www.airbnb.com.au/rooms/1308367449883578040?check_in=2027-01-09&check_out=2027-01-11&adults=4
     photos:
       - /photos/airbnb-otaru-primary/01.jpg
       - /photos/airbnb-otaru-primary/02.jpg
@@ -229,20 +204,20 @@ bookings:
     details_zh: >-
       Listing 1308367449883578040 — "Entire building for rent / Up to 6 people / Parking for 2 cars"。
       6 人 · 3BR · 6 床 · 2 浴 · Guest favourite。自带 2 车位停车。
-      运河 / 小樽駅 一带。Day-12（中心入住 + Uomasa + 天狗夜景）+ day-13（Rusutsu 循环）。
+      运河 / 小樽駅 一带。Day-12（中心入住 + Uomasa + 天狗夜景）+ day-15（Rusutsu 循环）。
 
   - id: hokkaido-otaru-airbnb-alt
     kind: hotel
     title_zh: "备选 Airbnb：小樽湾全景整栋（Panoramic View of Otaru Bay）"
-    start: "2027-01-09"
-    end: "2027-01-11"
-    airbnbUrl: https://www.airbnb.com.au/rooms/42695671?check_in=2027-01-09&check_out=2027-01-11&adults=4
+    start: "2027-01-10"
+    end: "2027-01-12"
+    airbnbUrl: https://www.airbnb.com.au/rooms/42695671?check_in=2027-01-10&check_out=2027-01-12&adults=4
 
   - id: hokkaido-otaru-neuschloss
     kind: hotel
     title_zh: "住宿：Hotel Neuschloss 小樽（1 晚，2 间房；价格合适则订）"
-    start: "2027-01-09"
-    end: "2027-01-10"
+    start: "2027-01-10"
+    end: "2027-01-11"
     address:
       full:
         zh: 北海道小樽市祝津 3-282
@@ -258,15 +233,15 @@ bookings:
       - /photos/hotel-neuschloss-otaru/06.jpg
       - /photos/hotel-neuschloss-otaru/07.jpg
     details_zh: >-
-      Day-14 航拍日晚上入住、day-15 早上早餐后退房，再顺路参观 小樽水族館（祝津紧邻酒店）。
+      Day-14 航拍日晚上入住、day-17 早上早餐后退房，再顺路参观 小樽水族館（祝津紧邻酒店）。
       如果价格不合适（单晚超预算）则改住市区酒店 1 晚。
 
   - id: hokkaido-windsor-shuttle-in
     kind: other
-    title_zh: "洞爺 Windsor 酒店 免费接驳巴士：JR 洞爺駅 → 酒店（day-15）"
+    title_zh: "洞爺 Windsor 酒店 免费接驳巴士：JR 洞爺駅 → 酒店（day-17）"
     from: { zh: JR 洞爺駅, en: JR Toya Station, ja: JR 洞爺駅 }
     to: { zh: Windsor 酒店 洞爺, en: Windsor Hotel Toya, ja: ウィンザーホテル洞爺 }
-    start: "2027-01-10"
+    start: "2027-01-11"
     details_zh: >-
       免费接驳，需 ≥ 前一日 18:00 电话预约。
       当前班次（出发时间待再次确认）：11:00 / 13:00 / 14:20 / 16:55 / 19:00，单程约 40 分钟。
@@ -274,8 +249,8 @@ bookings:
   - id: hokkaido-windsor-hotel
     kind: hotel
     title_zh: "住宿：The Windsor Hotel TOYA（2 晚，2 间房）"
-    start: "2027-01-10"
-    end: "2027-01-12"
+    start: "2027-01-11"
+    end: "2027-01-13"
     address:
       full:
         zh: 北海道虻田郡洞爷湖町清水 336
@@ -290,24 +265,24 @@ bookings:
       - /photos/windsor-hotel-toya/6.jpg
       - /photos/windsor-hotel-toya/7.jpg
     details_zh: >-
-      日期 day-15 – day-16（Windsor 2 晚）。4 人 2 间房（2 绅士 + 2 女士不合住）。
+      日期 day-17 – day-18（Windsor 2 晚）。4 人 2 间房（2 绅士 + 2 女士不合住）。
       2026-04-20 Booking.com 查询：旧 NYE 窗口 2027-01-01 → 01-03 全部房型 "Not available"；
-      新窗口 2027-01-10 → 01-12（2 晚）应可用，需 Booking 或官网重新询价。最便宜方案可能 Premium Queen Sea Side room-only。
+      新窗口 2027-01-11 → 01-12（2 晚）应可用，需 Booking 或官网重新询价。最便宜方案可能 Premium Queen Sea Side room-only。
 
   - id: hokkaido-toya-to-sapporo-transit
     kind: shinkansen
-    title_zh: "特急北斗：洞爺 → 札幌（day-17 返程）"
+    title_zh: "特急北斗：洞爺 → 札幌（day-19 返程）"
     from: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
     to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
-    start: "2027-01-12"
+    start: "2027-01-13"
     details_zh: >-
       Windsor 早班车到 洞爺駅 → 特急 北斗 → 札幌駅（~2 小时）。
-      预约大行李指定席；午后抵达札幌，开始 Sapporo 返程 3 晚。
+      预约大行李指定席；午后抵达札幌，开始 Sapporo 返程 2 晚。
 
   - id: hokkaido-sapporo-hotel-return
     kind: hotel
-    title_zh: "住宿：THE GATE HOTEL 札幌 by HULIC（返程 3 晚，2 间房）"
-    start: "2027-01-12"
+    title_zh: "住宿：THE GATE HOTEL 札幌 by HULIC（返程 2 晚，2 间房）"
+    start: "2027-01-13"
     end: "2027-01-15"
     address:
       full:
@@ -322,12 +297,12 @@ bookings:
       - /photos/hotel-gate-sapporo/04.jpg
     details_zh: >-
       ザ・ゲートホテル札幌 by HULIC（HULIC 旗下生活型酒店，近 JR 札幌駅 / 大通 / 北三条通 铺石区）。
-      TEL 011-206-4588。Day-17 → day-20 出发，3 晚。
+      TEL 011-206-4588。Day-17 → day-21 出发，3 晚。
       主要任务：补齐年末年始期间关门的景点（ROYCE' Town、頭大佛、大倉山、白い恋人 亮灯重游 等）。
 
   - id: hokkaido-sapporo-to-tokyo-transit
     kind: shinkansen
-    title_zh: "Sapporo → Tokyo：JR 特急 北斗 + 北海道新干线（day-20，~7.5 – 8 小时）"
+    title_zh: "Sapporo → Tokyo：JR 特急 北斗 + 北海道新干线（day-21，~7.5 – 8 小时）"
     from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
     to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
     start: "2027-01-15"
@@ -359,7 +334,7 @@ bookings:
       Listing 1489650534115740682 — "Asakusa/SkyTree Area, 4BR Chic House Near Station"。
       10 人 · 4BR · 9 床 · 5 浴 · 墨田区 · Guest favourite（23 条评价）。
       位于浅草 / 晴空塔一带 — 与原先「涩谷/原宿/表参道」定位不同，离剪发 / massage / Gonpachi 更远，
-      但整栋 4 卧可完全分房。⚠️ 待核对：与 day-21 Gonpachi (西麻布)、day-22 K-two (涩谷) 通勤时间。
+      但整栋 4 卧可完全分房。⚠️ 待核对：与 day-22 Gonpachi (西麻布)、day-23 K-two (涩谷) 通勤时间。
 
   - id: tokyo-k-two-haircut
     kind: other
@@ -372,7 +347,7 @@ bookings:
     googleMapsUrl: https://maps.app.goo.gl/LoKkhxgsmHddXDhm9
     details_zh: >-
       预约时要指明需英语/中文对应 stylist。
-      安排：day-22（周日）骨董市上午 → 下午剪发。
+      安排：day-23（周日）骨董市上午 → 下午剪发。
 
   - id: tokyo-mominotakumi-massage
     kind: other

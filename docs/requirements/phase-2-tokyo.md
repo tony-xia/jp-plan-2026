@@ -2,26 +2,26 @@
 
 > Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. Phase 2 was extended by 1 day in the 2026-04-20 fourth-pass restructure (Tokyo 3 → 4 nights, Monday slack added after the Sat/Sun heavy block).
 
-Phase base: **Shibuya** area (shopping + in-line with salon / massage / Gonpachi walkable). Trip wraps **2027-01-19**. **4 nights locked** (2027-01-15 → 2027-01-19) — arrival day-20 (2027-01-15 Fri) is fully consumed by the Sapporo → Tokyo transit; Sat + Sun are the heavy activity days; **Mon day-23 is now a slack / spillover day** before the Tue day-24 departure.
+Phase base: **Shibuya** area (shopping + in-line with salon / massage / Gonpachi walkable). Trip wraps **2027-01-19**. **4 nights locked** (2027-01-15 → 2027-01-19) — arrival day-21 (2027-01-15 Fri) is fully consumed by the Sapporo → Tokyo transit; Sat + Sun are the heavy activity days; **Mon day-24 is now a slack / spillover day** before the Tue day-25 departure.
 
 ## Day-level Tokyo allocation (2026-04-20 fourth-pass — unbundled)
 
 | Day | Date | Weekday | Plan |
 |---|---|---|---|
 | 20 | 2027-01-15 | Fri | Sapporo→Tokyo transit (~7.5 – 8 hr on 特急 北斗 + 北海道新幹線), arrive Shibuya evening. Light Shibuya dinner; book massage for Sat evening. |
-| 21 | 2027-01-16 | Sat | **Car-enthusiast day** (bundled): Subaru Star Square Ebisu (walkable from Shibuya) + Tokyo Subaru Mitaka (Sat open; closed Tue/Wed) + A PIT Autobacs Shinonome (≥2 hr) + **Gonpachi Sat dinner**. Mominotakumi massage late evening. ⚠️ If Sat runs out of daylight, drop Mitaka and move it to day-23 Mon (Mon also open). |
+| 21 | 2027-01-16 | Sat | **Car-enthusiast day** (bundled): Subaru Star Square Ebisu (walkable from Shibuya) + Tokyo Subaru Mitaka (Sat open; closed Tue/Wed) + A PIT Autobacs Shinonome (≥2 hr) + **Gonpachi Sat dinner**. Mominotakumi massage late evening. ⚠️ If Sat runs out of daylight, drop Mitaka and move it to day-24 Mon (Mon also open). |
 | 22 | 2027-01-17 | Sun | **Oedo Antique Market** (3rd Sun, 09:00 – 16:00 at 東京国際フォーラム) + **K-two haircut** afternoon. |
-| 23 | 2027-01-18 | Mon | **Slack / spillover day.** Uses: ① Mitaka Subaru if day-21 skipped it (Mon open 10:00–18:00); ② Nezu Museum (ancient East Asian art — pairs with Oedo interest); ③ Shibuya / Harajuku / Omotesando shopping; ④ Meiji Shrine; ⑤ chill. |
+| 23 | 2027-01-18 | Mon | **Slack / spillover day.** Uses: ① Mitaka Subaru if day-22 skipped it (Mon open 10:00–18:00); ② Nezu Museum (ancient East Asian art — pairs with Oedo interest); ③ Shibuya / Harajuku / Omotesando shopping; ④ Meiji Shrine; ⑤ chill. |
 | 24 | 2027-01-19 | Tue | Departure. Haneda ~40 min from Shibuya. |
 
 ## Car-enthusiast requirement (2026-04-20)
 
-- **User is a car enthusiast — Autobacs + Subaru are must-visits in Tokyo.** With the fourth-pass +1 night (3 full days Sat/Sun/Mon), Sat day-21 stays as the primary car day but Mitaka has a safety net on Mon day-23 if Sat is too heavy.
-- **Distribution (2026-04-20 fourth-pass):** day-21 Sat default = Subaru Star Square Ebisu + Tokyo Subaru Mitaka + A PIT Autobacs Shinonome + Gonpachi Sat dinner. Sunday day-22 = Oedo 骨董市 + haircut. Monday day-23 = Mitaka spillover if needed + Nezu + shopping. ⚠️ Mitaka Mon open 10:00 – 18:00 (closed Tue/Wed only) — Mon is a safe alt.
+- **User is a car enthusiast — Autobacs + Subaru are must-visits in Tokyo.** With the fourth-pass +1 night (3 full days Sat/Sun/Mon), Sat day-22 stays as the primary car day but Mitaka has a safety net on Mon day-24 if Sat is too heavy.
+- **Distribution (2026-04-20 fourth-pass):** day-22 Sat default = Subaru Star Square Ebisu + Tokyo Subaru Mitaka + A PIT Autobacs Shinonome + Gonpachi Sat dinner. Sunday day-23 = Oedo 骨董市 + haircut. Monday day-24 = Mitaka spillover if needed + Nezu + shopping. ⚠️ Mitaka Mon open 10:00 – 18:00 (closed Tue/Wed only) — Mon is a safe alt.
 - **Venues:**
-  - **Subaru Star Square (スバルスタースクエア)** — Subaru's flagship brand showroom in **Ebisu, Tokyo** (恵比寿). Walkable / one-stop train from Shibuya base — fits day-20 easily alongside existing Shibuya plans.
-  - **Tokyo SUBARU Mitaka (東京スバル 三鷹店)** — already captured above as a committed must-visit; kept and scheduled on day-20 (Fri, Mitaka is closed Tue/Wed so Fri works).
-  - **A PIT AUTOBACS SHINONOME (A PIT オートバックス 東雲)** — already captured above; ≥2 hours on-site, moved from day-22 to day-21.
+  - **Subaru Star Square (スバルスタースクエア)** — Subaru's flagship brand showroom in **Ebisu, Tokyo** (恵比寿). Walkable / one-stop train from Shibuya base — fits day-21 easily alongside existing Shibuya plans.
+  - **Tokyo SUBARU Mitaka (東京スバル 三鷹店)** — already captured above as a committed must-visit; kept and scheduled on day-21 (Fri, Mitaka is closed Tue/Wed so Fri works).
+  - **A PIT AUTOBACS SHINONOME (A PIT オートバックス 東雲)** — already captured above; ≥2 hours on-site, moved from day-23 to day-22.
 
 ## Must-visit (committed)
 
@@ -45,7 +45,7 @@ Phase base: **Shibuya** area (shopping + in-line with salon / massage / Gonpachi
 - **Airbnb — Asakusa / SkyTree Area, 4BR Chic House Near Station** — [Airbnb listing 1489650534115740682](https://www.airbnb.com.au/rooms/1489650534115740682?check_in=2027-01-15&check_out=2027-01-19&adults=4). 10 guests · 4 BR · 9 beds · 5 baths · Sumida-ku · Guest favourite (23 reviews). Photos `public/photos/airbnb-tokyo-asakusa/01-12.jpg` (from listing, pulled 2026-04-21). ⚠️ **Location trade-off:** this is in **墨田区 (Asakusa / Skytree)**, NOT the user-preferred Shibuya base. Commute implications to verify before committing:
   - Shibuya (massage, K-two haircut): ~30–40 min via Ginza Line / Hanzomon Line.
   - Nishi-Azabu (Gonpachi): ~40 min via Hibiya + Oedo lines.
-  - Tokyo International Forum (Oedo Antique Market day-22): ~15 min via Ginza Line — actually easier from Asakusa than from Shibuya.
+  - Tokyo International Forum (Oedo Antique Market day-23): ~15 min via Ginza Line — actually easier from Asakusa than from Shibuya.
   - Autobacs Shinonome: ~25–30 min (closer than from Shibuya).
   - Subaru Mitaka: ~55–60 min (farther than from Shibuya).
   - Trade-off summary: loses Shibuya walkability but gains Asakusa-side culture access + entire 4BR house for 4 guests.

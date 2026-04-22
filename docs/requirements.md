@@ -14,18 +14,20 @@ This list is the source of truth for trip-planning decisions. The itinerary in [
 ## Trip basics
 
 - **Travelers:** Tony, AZhu, Crystal, Du
-- **Dates:** 2026-12-27 → 2027-01-19 (24 days, 23 nights) *(2026-04-20 fourth-pass: trip extended by 1 day to give Tokyo a slack Monday)*
+- **Dates:** 2026-12-26 → 2027-01-19 (25 days, 24 nights) *(2026-04-22 fifth-pass: start pulled 1 day earlier; Hakodate -1; Biei overnight dropped; Sapporo front +4; Sapporo return -1)*
 - **Two phases (2026-04-20 restructure):** Phase 1 = **Hokkaido** (Day-1 lands at Haneda and heads straight to Hakodate by Shinkansen); Phase 2 = **Tokyo**. Karuizawa is **parked** — user decision 2026-04-20 to simplify to two phases and redirect those 3 nights into Hokkaido.
 
 ## Confirmed night allocation
 
-### Current plan (2026-04-20 fourth-pass — trip extended to 2027-01-19; Tokyo +1) — ✅ sums to 23
+### Current plan (2026-04-22 fifth-pass — Sapporo front expanded, Hakodate & Biei & return trimmed) — ✅ sums to 24
 
 | Phase | Nights | Breakdown |
 |---|---|---|
-| Phase 1 (Hokkaido) | **19** | Hakodate 3 · **Sapporo 3 (front, includes NYE + NYD)** · Wakkanai 2 · Abashiri 2 · Biei 1 · Otaru 3 · Windsor Toya 2 · **Sapporo 3 (return, end of Hokkaido)** |
-| Phase 2 (Tokyo) | **4** | 2027-01-15 → 2027-01-19 (fourth-pass: +1 Monday slack day after the Sat/Sun heavy block) |
-| **Total** | **23** | |
+| Phase 1 (Hokkaido) | **20** | Hakodate 2 · **Sapporo 7 (front, includes NYE + NYD)** · Wakkanai 2 · Abashiri 2 · Biei 0 (day-stop only) · Otaru 3 · Windsor Toya 2 · **Sapporo 2 (return, end of Hokkaido)** |
+| Phase 2 (Tokyo) | **4** | 2027-01-15 → 2027-01-19 |
+| **Total** | **24** | |
+
+> 🔄 **2026-04-22 fifth-pass changes:** (1) start date pulled 1 day earlier to 2026-12-26 (adds 1 night at the front of the trip); (2) Hakodate reduced from 3 → 2 nights; (3) Biei overnight dropped — Biei becomes a daytime drive-through stop on the Abashiri → Otaru leg only (trees + Blue Pond light-up must fit into that drive-day); (4) Sapporo front grows from 3 → 7 nights (+2 user-requested, +1 moved from Sapporo return, +1 absorbed from the start-date shift); (5) Sapporo return trims from 3 → 2 nights (1 moved to front). Net Hokkaido +1 (was 19 → 20); Tokyo unchanged at 4.
 
 > ✅ **Extra-nights distribution locked (user, 2026-04-20 second pass):** Sapporo +1 (front, for NYE + NYD spread), Wakkanai +1 (weather buffer), Toya +1 initially. Then a third-pass restructure the same day: Sapporo -1 and Toya -1 and Tokyo -1, with **3 new nights added back as a Sapporo return leg AFTER Toya**. Final allocation per table above. Rationale for the return leg: (a) catches 年末年始 closures (ROYCE' Town, 頭大佛, 大倉山, 白い恋人 illumination) that likely miss out in the Dec 31 / Jan 1 front-Sapporo window when many attractions are closed; (b) converts the Toya → Tokyo transit day into two legs (Toya → Sapporo via 特急 北斗, then Sapporo → Tokyo later) so we don't burn a full travel day in one shot; (c) gives flight-out flexibility via 新千歳 as backup if weather closes the Shinkansen.
 

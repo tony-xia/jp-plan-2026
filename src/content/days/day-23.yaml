@@ -1,31 +1,20 @@
-# Day 23 — 2027-01-18 — 东京机动日（Monday slack）
+# Day 23 — 2027-01-17 — 大江户骨董市 + 剪发
 day:
   id: day-23
-  date: "2027-01-18"
+  date: "2027-01-17"
   city: tokyo
-  title_zh: 第 23 天 · 东京机动日（车迷补遗 / 购物 / 美术馆）
+  title_zh: 第 23 天 · 大江户骨董市（周日）+ 剪发
   intro_zh: >-
-    ★ 2026-04-20 第四版新增：trip 延长 1 天 → Tokyo 多出一个周一。
-    用途按 day-21 车迷 bundled 日的完成度决定：
-    ①如 Mitaka Subaru 没跑完 → 今天上午补（周一开门 10:00 – 18:00，周二 / 周三才休）；
-    ②如 A PIT Autobacs 未尽兴 → 再跑 1 – 2 小时；
-    ③闲置时间 → 根津美术館（古代东亚艺术 · 用户「骨董市 + 古美」兴趣共鸣）+ 表参道 / Harajuku / Omotesando 购物；
-    ④体力透支 → 明治神宮（涩谷 1 站）+ 涩谷 Scramble Square 屋顶 + 湯屋 泡汤；
-    ⑤购物族 → SCRAMBLE SQUARE 瞭望 + 表参道 + 銀座 扫货。
-    晚餐按当天行动定，明早（day-24）羽田 / 成田返程。
+    2027-01-17 是第 3 周日 —— ★ 大江户骨董市 在东京国际论坛户外广场 09:00 – 16:00 开市，
+    约 250 家古董商。下午回涩谷剪发。
+    ⚠️ 如 day-22 未完成 Mitaka Subaru，今早可优先补，但 Oedo + 剪发 仍是主线 —— Mitaka 开门 10:00。
   activities:
-    - id: day-23-subaru-mitaka-optional
-      start: "10:00"
-      place: { ref: tokyo-subaru-mitaka }
+    - id: day-23-oedo-antique
+      start: "09:30"
+      place: { ref: oedo-antique-market }
       notes_zh: >-
-        如 day-21 Sat 没跑完，周一开门（10:00 – 18:00）去补。涩谷 → 三鷹 JR 山手 + 中央线 ~30 分 + 步行 / 打车 15 分。
-        隔壁 G-PARK 三鷹 中古车店顺逛。如 day-21 已完成则跳过。
-    - id: day-23-nezu-museum
-      start: "14:00"
-      place: { ref: nezu-museum }
-      notes_zh: >-
-        表参道的东亚古美术馆，与用户「大江戸骨董市 + 古美」兴趣延续。建议 90 – 120 分钟。
-        距涩谷 1 – 2 站（地下铁 千代田线 或 JR 山手 + 副都心线）。
-    - id: day-23-omotesando-shopping
-      place: { ref: shibuya-scramble }
-      notes_zh: 根津 ~15 分钟步行到表参道；晚饭前扫货 SCRAMBLE SQUARE / 宮下パーク / 明治通 一带。
+        户外市集；雨雪天可能取消，前一天查官网 antique-market.jp。预算 09:30 – 13:30。
+    - id: day-23-haircut
+      start: "14:30"
+      place: { ref: star-tokyo-k-two-shibuya }
+      notes_zh: 周日 10:00 – 19:00 营业；提前 ≥ 2 周预约。

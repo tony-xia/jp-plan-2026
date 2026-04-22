@@ -1,22 +1,31 @@
-# Day 13 — 2027-01-08 — Rusutsu 双线环游
+# Day 13 — 2027-01-07 — 网走全天（流冰館 + 能取岬 + 知床方向）
 day:
   id: day-13
-  date: "2027-01-08"
+  date: "2027-01-07"
   city: hokkaido
-  title_zh: 第 13 天 · Rusutsu 双线环游（中山峠 + ニセコ）
+  title_zh: 第 13 天 · 网走 + 知床方向全天
   intro_zh: >-
-    ★ 开车去 Rusutsu 留寿都，去程和回程走不同路看不同雪景。
-    去 中山峠（R230，羊蹄山 + あげいも）→ Rusutsu 中午午餐 / 雪上活动 → 回 ニセコ + R5 余市沿海 → 小樽。
-    ~7 – 9 小时循环；根据天气 / 光线可反向（ニセコ 去，中山峠 回程日落）。
+    网走全天。上午 オホーツク流氷館（-15℃ 室内真冰 · 我们窗口海面流冰未到的替代）+ 天都山展望台；
+    下午跑 能取岬 → 天に続く道（斜里町，冬季先看路况再开）→ オシンコシン滝 → 鱒浦 ビューポイント 回程。
   activities:
-    - id: day-13-nakayama-toge
-      start: "09:30"
-      place: { ref: nakayama-toge }
-      notes_zh: Rusutsu 循环去程必停点；羊蹄山 + 名产「あげいも」。
-    - id: day-13-rusutsu
-      start: "11:00"
-      place: { ref: rusutsu-resort }
-      notes_zh: 度假村基地午餐 + 雪上活动 + 散步。~15:00 出发走 ニセコ 回程。
-    - id: day-13-return-to-otaru
-      place: { ref: otaru-canal }
-      notes_zh: 回小樽 ~17:30 – 18:00；若有余力再刷一遍运河夜景。
+    - id: day-13-ryuhyo-museum
+      place: { ref: okhotsk-ryuhyo-museum }
+      notes_zh: 流冰未到时这里是真冰替代体验的首选。同址还有 天都山展望台 360° 全景。
+    - id: day-13-cape-notoro
+      place: { ref: cape-notoro }
+      notes_zh: 冬日鄂霍次克海岸 + 灯塔；天气好时非常出片。距网走市中心 ~20 分钟。
+    - id: day-13-road-to-heaven
+      place: { ref: road-to-heaven-shari }
+      notes_zh: >-
+        冬季注意事项：起点观景台冬季关闭；道路只有 2 月才保证除雪。当日实地观察再决定是否驾入。
+    - id: day-13-oshinkoshin
+      place: { ref: oshinkoshin-falls }
+      notes_zh: 部分结冰的大瀑布，回程顺路。
+    - id: day-13-masuura
+      place: { ref: masuura-viewpoint-parking }
+      notes_zh: 回网走前最后一个观景停车带。
+    - id: day-13-ryuhyo-monogatari-train
+      place: { ref: ryuhyo-monogatari-train }
+      notes_zh: >-
+        可选：如 2027 年 1 月上旬 流氷物語号 已开季（通常 1 月下旬），可替代 / 串联 知床斜里 方向的自驾。
+        网走 → 知床斜里 自驾 ~50 分钟 / 列车 ~1 小时。预订前到 JR 北海道官网确认开季日期。

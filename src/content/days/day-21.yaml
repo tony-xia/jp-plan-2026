@@ -1,39 +1,32 @@
-# Day 21 — 2027-01-16 — 东京车迷 bundled 日（Subaru + Autobacs + Gonpachi）
+# Day 21 — 2027-01-15 — 札幌 → 东京（转移日）
 day:
   id: day-21
-  date: "2027-01-16"
+  date: "2027-01-15"
   city: tokyo
-  title_zh: 第 21 天 · 车迷 bundled 日（Subaru 旗舰 + Mitaka + A PIT 东雲 + Gonpachi 晚餐）
+  title_zh: 第 21 天 · 札幌 → 东京（转移日）
   intro_zh: >-
-    ★ 2026-04-20 第三版：Tokyo 只有 2 全天，车迷任务全部压到周六一天。
-    ~09:30 惠比寿 Subaru Star Square（walkable from 涩谷，60 – 90 分钟）→
-    中午 三鷹 Tokyo SUBARU Mitaka（周六开门 10:00 – 18:00；闭馆日只周二 / 周三 —— 打车 ~30 – 40 分钟，或 JR 山手 + 中央线）→
-    下午 A PIT 东雲 Autobacs（用户要求 ≥ 2 小时）→ 晚上 Gonpachi 西麻布 晚餐。
-    もみの匠 按摩 可再往后挪到 22:00 后 late 场。
-    ⚠️ 非常紧凑 —— 如 Mitaka 当天时间不够，优先保留 Star Square + Autobacs；Mitaka 可 Sun 早上再补。
+    ★ 2026-04-20 第三版：Tokyo 压缩到 3 晚 —— 本日几乎整天在路上。
+    ~08:00 从酒店出发 → 札幌駅 乘 JR 特急 北斗 → 新函馆北斗（~3.5 小时）→ 北海道新干线 はやぶさ → 东京（~4 小时）。
+    合计 ~7.5 – 8 小时 + 换乘；下午 / 晚 抵达东京涩谷基地。
+    ⚠️ 暴雪天气时可转飞 新千歳 → 羽田（快速エアポート 札幌 → 新千歳 ~35 分钟 + 1.5 小时飞行）。
+    今晚就近涩谷随便吃；明早开始车迷密集日。
   activities:
-    - id: day-21-subaru-star-square
-      start: "09:30"
-      place: { ref: subaru-star-square-ebisu }
-      notes_zh: 品牌旗舰展厅，非经销店；涩谷 → 惠比寿 1 站（JR 山手 ~3 分）。预估 60 – 90 分钟。
-    - id: day-21-subaru-mitaka
-      start: "12:00"
-      place: { ref: tokyo-subaru-mitaka }
-      notes_zh: >-
-        周六 10:00 – 18:00 开门。惠比寿 → 三鷹 打车 30 – 40 分；
-        逛展厅 + 隔壁 G-PARK 中古车 ~90 分钟。
-    - id: day-21-autobacs
-      start: "15:00"
-      place: { ref: a-pit-autobacs-shinonome }
-      notes_zh: >-
-        ★ 用户要求至少 2 小时。9:00 – 22:00 营业；三鷹 → 東雲 自驾 / 打车 ~40 – 60 分（或 地铁 ~60 分）。
-        挑高中庭星巴克 + 汽车杂志 TSUTAYA 可当晚饭前过渡。
-    - id: day-21-gonpachi
-      start: "19:30"
-      place: { ref: gonpachi-nishiazabu }
-      notes_zh: Kill Bill 原型居酒屋。提前 1 – 2 周预订 4 人 2 小时席。
-    - id: day-21-massage
-      start: "22:15"
-      place: { ref: mominotakumi-shibuya }
-      notes_zh: >-
-        60 分钟全身 ¥3,980。营业 11:00 – 23:00（末次 22:00）；晚餐后 walk-in or 线上预约 late 场。
+    - id: day-21-sapporo-depart
+      start: "08:00"
+      place: { ref: sapporo-station }
+      notes_zh: 札幌駅 上 特急 北斗；带大行李必须预约 特大荷物指定席。
+    - id: day-21-tokyo-arrive
+      place: { ref: shibuya-scramble }
+      notes_zh: 抵达东京 → JR 山手线 或 东京メトロ 到涩谷入住。晚上近处自由晚餐。
+  bookings:
+    - id: day-21-sapporo-tokyo-rail
+      kind: shinkansen
+      title_zh: "特急北斗 + 北海道新干线：札幌 → 新函馆北斗 → 东京"
+      start: "2027-01-15"
+      from: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+      to: { zh: 东京站, en: Tokyo Station, ja: 東京駅 }
+      coveredLegs:
+        - { from: sapporo-station, to: shibuya-scramble }
+      details_zh: >-
+        ① 特急 北斗 札幌 → 新函館北斗 ~3.5 小时；② 北海道新干线 はやぶさ 新函館北斗 → 东京 ~4 小时。
+        预约大行李指定席（はやぶさ 必须）。坏天气备选：新千歳 → 羽田 飞行。

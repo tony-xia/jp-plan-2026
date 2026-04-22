@@ -1,12 +1,14 @@
 # Phase 1 — Hokkaido
 
-> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. Phase 1 was restructured on 2026-04-20 when Karuizawa was parked and removed.
+> Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index, trip basics, and night allocation. Phase 1 was restructured on 2026-04-20 when Karuizawa was parked and removed, then updated 2026-04-22 (fifth pass) to move weight into the Sapporo front leg.
 
-**Phase shape (2026-04-20 third-pass restructure, clockwise self-drive loop + Sapporo return leg):**
+**Phase shape (2026-04-22 fifth-pass restructure, clockwise self-drive loop + Sapporo return leg):**
 
-**Day-1 Haneda → Tokyo Station → Tōhoku/Hokkaido Shinkansen → 新函館北斗 → JR 函館ライナー → Hakodate (3) → Sapporo (3 front, NYE + NYD, car pickup at end) → drive NW to Wakkanai (2) → Cape Sōya → drive E along Okhotsk coast to Abashiri (2) → drive W to Biei (1) → drive SW to Otaru (3) → drop car in Sapporo → train to 洞爺 → Windsor Toya (2) → JR 特急 北斗 → Sapporo return (3, catches 年末年始 closures) → JR 特急 北斗 + 北海道新幹線 to Tokyo.**
+**Day-1 (2026-12-26) Haneda → Tokyo Station → Tōhoku/Hokkaido Shinkansen → 新函館北斗 → JR 函館ライナー → Hakodate (2) → Sapporo (7 front, NYE + NYD, car pickup at end) → drive NW to Wakkanai (2) → Cape Sōya → drive E along Okhotsk coast to Abashiri (2) → drive W via Biei (day-stop only, no overnight) → Otaru (3) → drop car in Sapporo → train to 洞爺 → Windsor Toya (2) → JR 特急 北斗 → Sapporo return (2, catches 年末年始 closures) → JR 特急 北斗 + 北海道新幹線 to Tokyo.**
 
-**Final night allocation: Hakodate 3 · Sapporo 3 front · Wakkanai 2 · Abashiri 2 · Biei 1 · Otaru 3 · Toya 2 · Sapporo 3 return = 19 Hokkaido nights.**
+**Final night allocation: Hakodate 2 · Sapporo 7 front · Wakkanai 2 · Abashiri 2 · Biei 0 (drive-through) · Otaru 3 · Toya 2 · Sapporo 2 return = 20 Hokkaido nights.**
+
+> 🔄 **2026-04-22 fifth-pass rationale:** user consolidated more time into the Sapporo front block (NYE + NYD + the surrounding 年末年始 window) by (a) reducing Hakodate from 3 → 2 nights, (b) removing the Biei overnight (Biei becomes a daytime stop on the Abashiri → Otaru drive), (c) moving 1 night from Sapporo return → Sapporo front, and (d) pulling the start date 1 day earlier (2026-12-26) which added another night absorbed by Sapporo front. Net: Sapporo front 3 → 7 nights (+4); Hakodate 3 → 2 (-1); Biei 1 → 0 (-1); Sapporo return 3 → 2 (-1); start +1. Phase 1 total +1 (19 → 20).
 
 ## Day-1 arrival — Haneda → Hakodate (new 2026-04-20)
 
@@ -37,7 +39,7 @@ Phase 2 is a **winter self-drive leg** from Sapporo onward, so snow-driving prep
 
 ## Hakodate (nights TBD — see 3-extra-nights open question)
 
-- **Arrival into Hakodate:** Day-1 (2026-12-27) evening via Haneda → Tokyo Station → Tōhoku/Hokkaido Shinkansen → 新函館北斗 → JR 函館ライナー → 函館駅. See Day-1 arrival section above. (Previously this was a day-04 arrival from Karuizawa; after the 2026-04-20 restructure it is a day-01 arrival direct from Haneda.)
+- **Arrival into Hakodate:** Day-1 (2026-12-27) evening via Haneda → Tokyo Station → Tōhoku/Hokkaido Shinkansen → 新函館北斗 → JR 函館ライナー → 函館駅. See Day-1 arrival section above. (Previously this was a day-03 arrival from Karuizawa; after the 2026-04-20 restructure it is a day-01 arrival direct from Haneda.)
 - **Nights in Hakodate (open):** the previous clockwise plan had Hakodate = 2 nights. With 3 extra Hokkaido nights now in hand, a natural +1 here gives a **jetlag-absorber night** (Day-1 = travel exhaustion; Day-2 = gentle first real day; Day-3 = NYE; Day-4 = New Year; Day-5 = train to Sapporo). See [`open-questions.md`](open-questions.md) for distribution options.
 - **Dates (if Hakodate = 3 nights, default):** check-in Dec 27 evening, nights of Dec 27 / 28 / 29, check-out Dec 30 morning on JR 特急 北斗 to Sapporo. NYE (Dec 31) would then fall in Sapporo on this interpretation — ⚠️ rethink whether NYE should still be a Hakodate night (move to Dec 28-31 Hakodate check-in Dec 28?) or stays in Sapporo; flag for user. **Previous plan's assumption that NYE = Hakodate night is no longer automatic** once the arrival date shifts to Dec 27.
 - **Stay candidates** (shortlisted 2026-04-20, not booked; 4 guests, 2 gents + 2 ladies ⇒ **2 rooms / 2 bedrooms minimum**). Airbnb candidates were previously priced for 2026-12-30 → 2027-01-01 (2 nights) — **dates need re-pricing** for the new Dec-27 arrival once night-count is fixed. ✅ **Chosen 2026-04-21: option 3 (TOKYU STAY 函館朝市 灯の湯)**; options 1 and 2 kept here for record but removed from the website.
@@ -89,7 +91,7 @@ User-requested NYE/元旦 program to slot into the 3-night front-Sapporo window:
 
 - **元旦 (Jan 1) morning — Hatsuhinode (初日の出 / first sunrise) + Hatsumode (初詣 / first shrine visit):**
   - **Hatsuhinode:** target **JR Tower T38 (JRタワー展望室 タワー・スリーエイト)** on top of JR 札幌駅 — on 元旦 the deck opens extra early (~6:00) for Hatsuhinode viewers. Sapporo sunrise ~7:00. Fallback: Mt. Moiwa (藻岩山) if booked a dedicated 初日の出 ropeway run (they sometimes sell this as a paid package) or if weather favors the summit.
-  - **Hatsumode:** **Hokkaido Jingu (北海道神宮)** in 円山公園 — the central Sapporo shrine for 三が日 (first-3-days) initial worship. Peak crowds 10:00–14:00; arrive early (pre-9:00) to thin the queue. Already in plan as day-06 morning; next iteration should use 北海道神宮 as its own Place (currently the day-06 activity borrows hokkaido-university as a placeholder — promote to proper place entry).
+  - **Hatsumode:** **Hokkaido Jingu (北海道神宮)** in 円山公園 — the central Sapporo shrine for 三が日 (first-3-days) initial worship. Peak crowds 10:00–14:00; arrive early (pre-9:00) to thin the queue. Already in plan as day-07 morning; next iteration should use 北海道神宮 as its own Place (currently the day-07 activity borrows hokkaido-university as a placeholder — promote to proper place entry).
 
 ## Sapporo → Wakkanai drive (day 1 of loop)
 
@@ -214,12 +216,12 @@ _Biei place details (unchanged — trees + Blue Pond)_
 
 - **Transport in:** JR 特急 北斗 洞爺駅 → 札幌駅 (~2 hr). Book reserved seats with luggage space.
 - **Stay:** central Sapporo, **3 nights, 2 rooms**. ✅ **Chosen 2026-04-21: THE GATE HOTEL 札幌 by HULIC (ザ・ゲートホテル札幌 by HULIC)** — [Google Maps](https://maps.app.goo.gl/3f492XGijpdi8ynJA) · [official site](https://www.gate-hotel.jp/sapporo/) · [Booking.com](https://www.booking.com/hotel/jp/the-gate-zha-huang-by-hulic.html) · 〒060-0003 北海道札幌市中央区北三条西3-1-44 · TEL 011-206-4588. HULIC-owned lifestyle hotel; central北三条通 gaslight-brick area, walkable to JR 札幌駅 (~11 min) and 大通. Photos `public/photos/hotel-gate-sapporo/01-04.jpg` (from official site, pulled 2026-04-21; only 4 hero images available — site doesn't publish a gallery page). Different area from front-leg HomeOfLove Airbnb (which was 3BR Airbnb, central/Susukino) — gives scenery contrast for return leg.
-- **Activity fit — three full days (day-17 arrival afternoon, days-18 / 19 full, day-20 departure morning):**
+- **Activity fit — three full days (day-19 arrival afternoon, days-18 / 19 full, day-21 departure morning):**
   - **Day 17 (arrival afternoon):** 特急 北斗 ~14:00 arrival; light evening — 狸小路 / 薄野 food, or hotel rest after Windsor.
   - **Day 18 (full):** catch the NYD-closed must-visits — **ROYCE' Town (Jan 2 window closed in front leg; now 1/13 Wed is fully operational)**, 頭大佛 (winter 10:00–15:00), 大倉山 sunset.
   - **Day 19 (full):** buffer / second-pass day — e.g. 小樽 day trip via JR (if user missed central Otaru during the drive leg), or 旭山動物園 (Asahikawa, Japan's best zoo, winter penguin walks), or 白い恋人 illumination revisit if the front-leg Dec 30 timing was rushed.
   - **Day 20 (departure):** catch an early 特急 北斗 + 新幹線 to Tokyo (~7.5 – 8 hr total).
-- **Weather-backup flight option:** 新千歳 → 羽田 (~1.5 hr flight) via 快速エアポート from 札幌駅 (~35 min). If Shinkansen is cancelled by snow/wind on day-20, pivot to airport.
+- **Weather-backup flight option:** 新千歳 → 羽田 (~1.5 hr flight) via 快速エアポート from 札幌駅 (~35 min). If Shinkansen is cancelled by snow/wind on day-21, pivot to airport.
 - **Must-visit (from user):**
   - **Shiroi Koibito Park (白い恋人パーク)** — [Google Maps](https://maps.app.goo.gl/b1ApSWrbx2XNN8M96). Ishiya's chocolate-factory theme park in 宮の沢 (west Sapporo). Park hours **10:00–18:00**; paid-area last entry 16:30. **Winter illumination "Blooming Snow Fantasy" runs 2026-11-15 → 2027-03-31 (equivalent), 16:00–19:00 nightly, free viewing.** Nearest subway: 東西線 宮の沢駅 (7-min walk). Plan a late-afternoon visit so daytime factory + evening illumination stack in one trip.
   - **Hokkaido University / 北海道大学 (札幌キャンパス)** — [Google Maps](https://maps.app.goo.gl/Zm63kDKX2KVeC9Ez6). Famous open campus, walkable from JR 札幌駅 北口. **Winter highlights:** the Poplar Avenue (ポプラ並木) and main road snow-covered, Clark bust, Furukawa Memorial Hall. The Ginkgo Avenue (イチョウ並木) is bare in winter — that's a fall attraction, not ours. Free entry; self-guided walk.

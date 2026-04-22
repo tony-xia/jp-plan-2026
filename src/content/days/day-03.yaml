@@ -1,23 +1,36 @@
-# Day 03 — 2026-12-29 — 函馆山夜景
+# Day 03 — 2026-12-28 — 函馆 → 札幌（北斗 · 白い恋人 · 蟹本家）
 day:
   id: day-03
-  date: "2026-12-29"
+  date: "2026-12-28"
   city: hokkaido
-  title_zh: 第 3 天 · 函馆自由日 + 函馆山夜景
+  title_zh: 第 3 天 · 函馆 → 札幌（札幌夜 1）
   intro_zh: >-
-    白日自由：可去 五稜郭 公园 + 五稜郭塔、湯の川温泉、立待岬 / 函館公園，或继续补 元町 深度。
-    核心活动在黄昏：日落前上 函馆山 看日落接百万夜景（冬季只能缆车）。明早乘 北斗 去札幌。
+    上午 JR 特急 北斗 函馆 → 札幌（~3 小时 30 分）。下午抵札幌入住市中心酒店。
+    傍晚黄金时段去 白色恋人公园 看工厂 + Blooming Snow Fantasy 亮灯（16:00 – 19:00，免费）；
+    晚餐 蟹本家 札幌站本店。今晚是札幌 4 晚中的第 1 晚（车还没取；后面 3 天包含跨年夜 + 元旦 + 1/2）。
   activities:
-    - id: day-03-free-morning
-      place: { ref: hakodate-station }
+    - id: day-03-hakodate-to-sapporo
+      start: "09:00"
+      place: { ref: sapporo-station }
+      notes_zh: JR 特急 北斗 函馆 → 札幌 ~3 小时 30 分。预留大行李指定席。
+    - id: day-03-shiroi-koibito
+      start: "15:30"
+      place: { ref: shiroi-koibito-park }
       notes_zh: >-
-        自由安排：推荐 五稜郭 公园 + 塔（函馆駅 市电 ~15 分 + 步行），或 湯の川温泉 泡汤。
-        午餐可以塩ラーメン（函馆是盐味拉面发源）或回 金森 附近。
-    - id: day-03-mt-hakodate
-      start: "16:30"
-      place: { ref: mt-hakodate-observatory }
+        工厂 10:00 – 18:00，付费区最后入园 16:30。
+        亮灯「Blooming Snow Fantasy」16:00 – 19:00（观赏免费）；看完日落直接出来吃晚饭。
+        ⚠️ 2026-12-28（周三）在年末营业日，应正常开门，但 12/31 – 1/3 营业时间可能变动；出发前官网再核一次。
+    - id: day-03-kani-honke
+      start: "19:00"
+      place: { ref: kani-honke-sapporo }
       notes_zh: >-
-        ⚠️ 冬季禁止汽车 / 巴士 / 出租上山，只能缆车。12 月底日落约 16:20；
-        提前到山麓站排缆车（高峰期缆车 + 观景台都排队）。
-        保暖必备：厚外套、围巾、手套、帽子、暖宝宝 —— 山顶风大温度比市区再低 5 – 8℃。
-        ★ 日落 + 蓝调时刻 + 全黑夜景 3 段一气看完最值得；预计 17:00 上山，18:30 – 19:00 下山吃晚饭。
+        4 人提前 2 – 3 周预订。
+        ⚠️ 年末年始部分日期可能停业或预订紧张（12/31 / 1/1 高风险）；今晚在 12/30 比较保险。
+  bookings:
+    - id: day-03-hokuto-hakodate-sapporo
+      kind: other
+      title_zh: "JR 特急 北斗：函馆 → 札幌"
+      start: "2026-12-28"
+      from: { zh: 函馆站, en: Hakodate Station, ja: 函館駅 }
+      to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+      details_zh: ~3 小时 30 分。4 人 + 冬装行李 → 预约特大荷物指定席。

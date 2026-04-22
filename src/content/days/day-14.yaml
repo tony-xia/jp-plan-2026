@@ -1,19 +1,36 @@
-# Day 14 — 2027-01-09 — 朝里航拍 + 祝津 · Neuschloss 夜
+# Day 14 — 2027-01-08 — 美瑛丘陵 → 小樽（鱼真 · 运河 · 天狗山夜）
 day:
   id: day-14
-  date: "2027-01-09"
+  date: "2027-01-08"
   city: hokkaido
-  title_zh: 第 14 天 · 朝里 航拍 + 祝津 · Neuschloss 夜
+  title_zh: 第 14 天 · 美瑛丘陵 → 小樽（鱼真午餐 · 运河 · 天狗山夜）
   intro_zh: >-
-    ★ 上午 / 中午 朝里 航拍 + 自拍摄影（主目标 朝里スカイループ；备选 朝里ダム / 朝里川温泉）。
-    下午到 祝津 小樽水族館。当晚入住 Hotel Neuschloss 小樽（祝津海岸、全海景、私人露天风吕、法式晚餐）。
-    ⚠️ 无人机规定详见 place notes（DID、高速上空禁飞、国定公园等）；≥ 10 工作日前提交 DIPS 2.0 申请。
-    天气不好改纯地面自拍 / 余市 Nikka 威士忌 工厂 备案。
+    ★ 小樽 3 晚的第 1 晚（中心街）。上午美瑛丘陵两棵树（クリスマスツリー + セブンスター）；
+    然后开到小樽（~200 km / 冬季 3 – 4 小时 · 旭川 → 道央道）。
+    ⚠️ 2027-01-08 是周四 —— 鱼真 开门（周日休），不接受预订；开门前 20 – 30 分钟排队。
+    赶得上就午餐鱼真，赶不上改小樽市区其它寿司。下午 运河 + 音乐盒堂 + 堺町通り；日落后 天狗山 夜景。
   activities:
-    - id: day-14-asari-drone
-      start: "09:30"
-      place: { ref: asari-otaru }
-      notes_zh: 整个行程唯一的航拍窗口 —— 没有天气备用日。天气不行就只拍地面。
-    - id: day-14-otaru-aquarium
-      place: { ref: otaru-aquarium }
-      notes_zh: 祝津海岸，紧邻 Neuschloss；冬季程序含海狮 / 企鹅秀。入住 Hotel Neuschloss 的详情见 hokkaido-otaru-neuschloss booking。
+    - id: day-14-christmas-tree
+      start: "08:00"
+      place: { ref: biei-christmas-tree }
+      notes_zh: ⚠️ 无停车场 + 私人农地，路边取景即走，绝不踏入田地。
+    - id: day-14-seven-stars-tree
+      place: { ref: biei-seven-stars-tree }
+      notes_zh: 有停车场，比 クリスマスツリー 好停。
+    - id: day-14-drive-to-otaru
+      place: { ref: otaru-canal }
+      notes_zh: 美瑛 → 小樽 旭川 → 道央道 → 札樽道；冬季估 3 – 4 小时。
+    - id: day-14-uomasa
+      start: "13:30"
+      place: { ref: uomasa-otaru }
+      notes_zh: >-
+        不接受预订，周日休；2027-01-08 周四开门。到达时间不稳定 —— 13:00 前到小樽就午餐鱼真，
+        否则直接放弃改晚饭 / 运河边店。
+    - id: day-14-music-box
+      place: { ref: otaru-music-box-museum }
+      notes_zh: 堺町本通り尽头；顺带逛 LeTAO / 玻璃店。
+    - id: day-14-tengu-night
+      start: "17:00"
+      place: { ref: otaru-tengu-ropeway }
+      notes_zh: >-
+        北海道三大夜景之一。日落后上山。冬季营业 09:00 – 20:00，末班上行 19:48。

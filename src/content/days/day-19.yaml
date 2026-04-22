@@ -1,26 +1,27 @@
-# Day 19 — 2027-01-14 — Sapporo 返程机动日（白い恋人 亮灯重游 / 补遗）
+# Day 19 — 2027-01-13 — 洞爷 → 札幌（返程第 1 晚）
 day:
   id: day-19
-  date: "2027-01-14"
+  date: "2027-01-13"
   city: hokkaido
-  title_zh: 第 19 天 · Sapporo 返程机动日（Hokkaido 最后一夜）
+  title_zh: 第 19 天 · 洞爷 → 札幌（Sapporo 返程 3 晚的第 1 晚）
   intro_zh: >-
-    Sapporo 返程第 3 晚 —— Hokkaido 的最后一夜。机动补遗日，按前段 NYE / NYD 漏掉的内容与当日天气动态决定。
-    候选：①白い恋人 亮灯重游（前段 12/30 到得匆忙可再去；或夜景更稳定）；② 二条市場 早饭（如前段未去）；
-    ③ 藻岩山 再访（前段天气不好可换日）；④ 札幌近郊小樽 JR 1 日游（已住过小樽 3 晚，可跳）；
-    ⑤ 旭山動物園（旭川，往返 JR ライラック ~3 小时，需早出 —— 重兴趣者才值得）。
-    晚上打包行李，明早（day-20）早起乘 特急 北斗 + 新幹線 去东京。
+    ★ 2026-04-20 第三版新增：Windsor 退房 → 酒店班车到 洞爺駅 → JR 特急 北斗 → 札幌駅（~2 小时），
+    开始 Sapporo 返程 3 晚。下午抵札幌入住市中心酒店。
+    返程的核心任务：补齐年末年始期间关门的景点（ROYCE' Town、頭大佛、大倉山、白い恋人 亮灯重游 等）。
+    今晚轻量 —— 狸小路 / 薄野 食街随便吃；明天起密集活动。
   activities:
-    - id: day-19-free-morning
+    - id: day-19-depart-toya
+      start: "09:00"
+      place: { ref: toya-station }
+      notes_zh: Windsor 早班车到 洞爺駅；前一晚需预约。
+    - id: day-19-sapporo-arrive
       place: { ref: sapporo-station }
-      notes_zh: >-
-        按天气与前段漏掉的内容挑 —— 前段 NYE 二条市場关门就今早补；或去 中央卸売市場 海鲜丼。
-    - id: day-19-shiroi-koibito-revisit
-      start: "15:30"
-      place: { ref: shiroi-koibito-park }
-      notes_zh: >-
-        如前段 12/30 亮灯匆忙，今日再访。亮灯「Blooming Snow Fantasy」16:00 – 19:00，观赏免费。
-        也可改为 札幌市時計台 / 大通 TV 塔白天登顶 等短行程。
-    - id: day-19-packing
-      place: { ref: sapporo-station }
-      notes_zh: 晚上早回酒店打包行李；明早（day-20）~07:30 – 08:00 出发去札幌駅。
+      notes_zh: 特急 北斗 ~2 小时到札幌；下午入住 Sapporo 返程酒店。晚上市内自由活动。
+  bookings:
+    - id: day-19-hokuto-toya-sapporo
+      kind: other
+      title_zh: "JR 特急 北斗：洞爺 → 札幌"
+      start: "2027-01-13"
+      from: { zh: 洞爺站, en: Toya Station, ja: 洞爺駅 }
+      to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
+      details_zh: ~2 小时。4 人 + 行李 → 预约特大荷物指定席。
