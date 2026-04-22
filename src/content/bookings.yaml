@@ -29,91 +29,65 @@ bookings:
       ★ 务必同时预约 ②「はやぶさ」特大荷物スペースつき座席（大行李指定席）—— 2020 年起强制，
       元旦前后几乎必售罄，需尽早。航班时间确定后一次预订三段。
 
-  - id: hokkaido-hakodate-hotel-tokyu-stay
+  - id: hokkaido-hakodate-airbnb-22116280
     kind: hotel
-    title_zh: "住宿：東急ステイ函館朝市 灯の湯（2 晚，2 间房）"
+    title_zh: "住宿：SMALL TOWN HOTEL 函馆整栋 4LDK（Airbnb 22116280，2 晚，4 人）"
     start: "2026-12-26"
     end: "2026-12-28"
-    googleMapsUrl: https://maps.app.goo.gl/NB15MnFHp38YbuYz8
-    bookingUrl: https://www.booking.com/hotel/jp/tokyu-stay-hakodate-asaichi-akarinoyu.html
+    airbnbUrl: https://www.airbnb.com.au/rooms/22116280?check_in=2026-12-26&check_out=2026-12-28&adults=4
     photos:
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/01.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/02.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/03.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/04.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/05.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/06.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/07.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/08.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/09.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/10.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/11.jpg
-      - /photos/hotel-tokyu-stay-hakodate-asaichi/12.jpg
+      - /photos/airbnb-hakodate-22116280/01.jpg
+      - /photos/airbnb-hakodate-22116280/02.jpg
+      - /photos/airbnb-hakodate-22116280/03.jpg
+      - /photos/airbnb-hakodate-22116280/04.jpg
+      - /photos/airbnb-hakodate-22116280/05.jpg
+      - /photos/airbnb-hakodate-22116280/06.jpg
+      - /photos/airbnb-hakodate-22116280/07.jpg
+      - /photos/airbnb-hakodate-22116280/08.jpg
+      - /photos/airbnb-hakodate-22116280/09.jpg
+      - /photos/airbnb-hakodate-22116280/10.jpg
+      - /photos/airbnb-hakodate-22116280/11.jpg
+      - /photos/airbnb-hakodate-22116280/12.jpg
     details_zh: >-
-      TOKYU STAY Hakodate-Asaichi Akari no Yu（東急ステイ函館朝市 灯の湯）。
-      3 星酒店 · 4.4 ★ / 1,277 条评价；馆内有「灯の湯」温泉大浴场。
-      位置极佳：紧邻 函館朝市、步行可达 JR 函館駅 和 金森赤レンガ倉庫。
-      4 人需 2 间房（2 绅士 + 2 女士不合住）。
-      查询日期：2026-12-26 → 2026-12-28（2 晚，4 人），价格待询。
+      「SMALL TOWN HOTEL Hakodate」Building 1 — 整栋出租 4LDK，全屋冷暖空调。
+      10 人 · 4 BR · 4 床 · 2 浴；4.92 ★ / 155 条评价。
+      距函馆市電「十字街駅」步行约 6 分钟（可通达金森倉庫 / 元町 / 朝市 / 函馆山缆车），
+      自带免费停车（本段无需用到）。
+      2026-04-22 用户指定，替换原 TOKYU STAY 酒店选择。
 
-  - id: hokkaido-hakodate-airbnb-primary
+  - id: hokkaido-sapporo-premier-tsubaki
     kind: hotel
-    title_zh: "备选 Airbnb：函馆元町 HIST Terrace I"
-    start: "2026-12-26"
-    end: "2026-12-28"
-    airbnbUrl: https://www.airbnb.com.au/rooms/1461937569120840875
-
-  - id: hokkaido-hakodate-airbnb-alt
-    kind: hotel
-    title_zh: "备选 Airbnb：函馆湾 Japandi 整栋"
-    start: "2026-12-26"
-    end: "2026-12-28"
-    airbnbUrl: https://www.airbnb.com.au/rooms/896063721679005442
-
-  - id: hokkaido-sapporo-front-airbnb-homeoflove
-    kind: hotel
-    title_zh: "住宿：札幌市中心 HomeOfLove 3BR2BA（前段 7 晚跨年，4 人）"
+    title_zh: "住宿：Premier Hotel -Tsubaki- 札幌（原 Renaissance Sapporo，7 晚，2 间房）"
     start: "2026-12-28"
     end: "2027-01-04"
-    airbnbUrl: https://www.airbnb.com.au/rooms/1430197854674829516?check_in=2026-12-28&check_out=2027-01-04&adults=4
+    address:
+      full:
+        zh: 北海道札幌市豊平区豊平 4 条 1-1-1
+        ja: 〒062-0904 北海道札幌市豊平区豊平4条1丁目1-1
+    bookingUrl: https://www.booking.com/hotel/jp/renaissance-sapporo.html?checkin=2026-12-28&checkout=2027-01-04&group_adults=4&no_rooms=2&group_children=0
     photos:
-      - /photos/airbnb-sapporo-central-3br/01.jpg
-      - /photos/airbnb-sapporo-central-3br/02.jpg
-      - /photos/airbnb-sapporo-central-3br/03.jpg
-      - /photos/airbnb-sapporo-central-3br/04.jpg
-      - /photos/airbnb-sapporo-central-3br/05.jpg
-      - /photos/airbnb-sapporo-central-3br/06.jpg
-      - /photos/airbnb-sapporo-central-3br/07.jpg
-      - /photos/airbnb-sapporo-central-3br/08.jpg
-      - /photos/airbnb-sapporo-central-3br/09.jpg
-      - /photos/airbnb-sapporo-central-3br/10.jpg
-      - /photos/airbnb-sapporo-central-3br/11.jpg
-      - /photos/airbnb-sapporo-central-3br/12.jpg
+      - /photos/hotel-renaissance-sapporo/01.jpg
+      - /photos/hotel-renaissance-sapporo/02.jpg
+      - /photos/hotel-renaissance-sapporo/03.jpg
+      - /photos/hotel-renaissance-sapporo/04.jpg
+      - /photos/hotel-renaissance-sapporo/05.jpg
+      - /photos/hotel-renaissance-sapporo/06.jpg
+      - /photos/hotel-renaissance-sapporo/07.jpg
+      - /photos/hotel-renaissance-sapporo/08.jpg
+      - /photos/hotel-renaissance-sapporo/09.jpg
+      - /photos/hotel-renaissance-sapporo/10.jpg
+      - /photos/hotel-renaissance-sapporo/11.jpg
+      - /photos/hotel-renaissance-sapporo/12.jpg
     details_zh: >-
-      Listing 1430197854674829516 — "Sapporo Central｜HomeOfLove｜Private 3BR2BA｜Sleeps 6"。
-      6 人 · 3BR · 6 床 · 2 浴；4.91 ★ / 22 条评价 · Guest Favourite。
-      3BR / 2BA 可让 2 绅士 + 2 女士各自独立睡房。
-
-  - id: hokkaido-sapporo-front-hotel-stream
-    kind: hotel
-    title_zh: "备选酒店：SAPPORO STREAM HOTEL 札幌 Stream"
-    start: "2026-12-28"
-    end: "2027-01-04"
-    bookingUrl: https://www.booking.com/hotel/jp/sapporo-stream-zha-huang-shi.html
-
-  - id: hokkaido-sapporo-front-hotel-vessel-campana
-    kind: hotel
-    title_zh: "备选酒店：Vessel Hotel Campana 薄野"
-    start: "2026-12-28"
-    end: "2027-01-04"
-    bookingUrl: https://www.booking.com/hotel/jp/vessel-hotel-campana-susukino.html
-
-  - id: hokkaido-sapporo-front-airbnb-homeofhope
-    kind: hotel
-    title_zh: "备选 Airbnb：札幌中岛 HomeOfHope 3BR2.5BA"
-    start: "2026-12-28"
-    end: "2027-01-04"
-    airbnbUrl: https://www.airbnb.com.au/rooms/1437968277032342538
+      原 Renaissance Sapporo Hotel（Marriott 旗下）现已改旗为 Premier Hotel -Tsubaki- Sapporo。
+      Booking 评分 8.8（早餐 9.5）。入住 15:00 / 退房 11:00。
+      位于 豊平川 东岸，地铁 東西線「菊水駅」步行约 9 分钟 → 两站至 大通駅 / 薄野一带。
+      离 札幌駅 / 大通 / 薄野 核心圈 约 1 km，严格讲并不在用户原定的
+      「Station / Odori / Susukino 走廊」内，但地铁通勤方便；订房前再确认一次位置是否能接受。
+      馆内 5 家餐饮 + 美发厅 + 自行车租赁；机场直达巴士停靠。
+      4 人需 2 间房；用户提供的 Booking 链接原本按 2 成人 / 1 间房 询价，已改为 4 人 / 2 间房。
+      停车 day-3 → day-10（自驾环线取车后车停此处 7 晚）需在订房时确认可用并询价。
+      2026-04-22 用户指定替换原 HomeOfLove Airbnb 选择。
 
   - id: hokkaido-sapporo-rental-car
     kind: other
