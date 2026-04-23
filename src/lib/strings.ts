@@ -27,4 +27,13 @@ export const t = {
     shinkansen: "新干线",
     other: "其他",
   },
+  countdown: {
+    label: "距离出发",
+    days: "天",
+    hours: "时",
+    minutes: "分",
+    seconds: "秒",
+    inProgress: "旅途中",
+    ended: "旅程已结束",
+  },
 } as const;

@@ -1,6 +1,7 @@
 import { getTrip } from "@/lib/content";
 import { CityList } from "@/components/CityList";
 import { BannerCarousel } from "@/components/BannerCarousel";
+import { Countdown } from "@/components/Countdown";
 
 const HOME_BANNERS = [
   "/banners/home/home-1.jpg",
@@ -31,6 +32,7 @@ export default function Home() {
               {trip.startDate} — {trip.endDate}
             </span>
           </div>
+          <Countdown startDate={trip.startDate} endDate={trip.endDate} />
         </header>
 
         <CityList trip={trip} />
