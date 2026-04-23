@@ -2,50 +2,40 @@
 
 > Part of the trip-requirements split. See [`../requirements.md`](../requirements.md) for the index. Phase-specific open questions stay with their phase file.
 
-## 🆕 Where do the 3 extra Hokkaido nights go? (2026-04-20 restructure)
+## 🆕 Day-1 Shinkansen booking mechanics
 
-With Karuizawa parked, 3 nights move from Phase-1 into Hokkaido. Previous clockwise allocation was Hakodate 2 · Sapporo 3 · Wakkanai 1 · Abashiri 2 · Biei 1 · Otaru 3 · Toya 2 = 14. New total = **17-18** depending on which baseline (requirements table said 14; YAML had 15 via an earlier +1 to Hakodate). Candidates for the +3, ranked by the existing rationale in [`phase-1-hokkaido.md`](phase-1-hokkaido.md):
+- **Flight arrival time must be locked first.** The Tōhoku/Hokkaido Shinkansen 特大荷物 seats need to pair with the landing-plus-buffer window. Target: land by ~10:00 Haneda, board Shinkansen by ~12:30 Tokyo Station, arrive 函館駅 ~18:00–19:00.
+- **Book all three legs together** (Haneda → Tokyo, Shinkansen, 函館ライナー) once flights are chosen — JR East / JR Hokkaido joint reservation.
+- **Oversize-bag seats on はやぶさ are the pinch point** — NYE-adjacent dates book out early.
 
-1. **Hakodate +1 (→ 3 nights).** Absorbs Day-1 jetlag after ~6 hr Haneda → Hakodate Shinkansen haul. Gives a gentle Day-2 before NYE hits. Also decouples NYE from the arrival day — NYE can now fall cleanly in Hakodate (Dec 31) rather than having the arrival-and-NYE squeeze.
-2. **Wakkanai +1 (→ 2 nights).** Weather buffer — Wakkanai has one of Japan's worst winter flight/whiteout-cancellation rates; Cape Sōya morning may blow out. Also lets the Sapporo → Wakkanai 5–6 hr winter drive arrive with daylight to spare.
-3. **Abashiri +1 (→ 3 nights).** Adds a proper Shiretoko (Utoro) day — Road to Heaven, Oshinkoshin Falls, Okhotsk Ryūhyō Museum. Current 2-night plan compresses these.
-4. **Rumoi / Mashike mid-drive overnight (→ 1 extra night on the NW leg).** Splits the Sapporo → Wakkanai 330 km / 5–6 hr winter drive into 2 × ~3 hr legs with a west-coast sunset. Alternative to Wakkanai +1 for the same weather-buffer / drive-length problem.
-5. **Biei +1 (→ 2 nights).** Lower priority — Biei's highlights (Blue Pond + trees) comfortably fit in 1 night. +1 only if drone work or Furano side-trip gets added.
-6. **Toya +1 (→ 3 nights).** Low priority — 2 nights already covers the Windsor stay, ropeway, Silo deck. Extra night mostly sits indoors at the resort.
-7. **Sapporo +1 (→ 4 nights).** Low priority — 3 already fits the must-visit list without compression per the 2026-04-20 A+B gap-close analysis.
-
-**Default recommendation** (pending user pick): **Hakodate +1 + Wakkanai +1 + Abashiri +1** (each solves a distinct pain point). Alternative: **Hakodate +1 + Rumoi +1 + Abashiri +1** if the user prefers a mid-drive split over a Wakkanai weather-buffer.
-
-**Next action:** user picks a distribution, then I update `trip.yaml`, `bookings.yaml`, and the `src/content/days/*.yaml` files in one pass.
-
-## 🆕 Day-1 Shinkansen booking (2026-04-20)
-
-- **Flight arrival time must be locked first** — the Tōhoku/Hokkaido Shinkansen 特大荷物 seats need to pair with the landing-plus-buffer window. Rough target: land by ~10:00 Haneda, board Shinkansen by ~12:30 Tokyo Station, arrive 函館駅 ~18:00–19:00.
-- **Book all three legs (Haneda→Tokyo, Shinkansen, 函館ライナー) together** once flights are chosen. JR East / JR Hokkaido joint reservation.
-- **Oversize-bag seats on はやぶさ are the pinch point** — New-Year-adjacent dates book out.
-
-## 🆕 Gear & electronics (2026-04-20)
+## 🆕 Gear & electronics (packing list)
 
 Confirmed packing list (user, 2026-04-20):
 
-- **1–2 drones** — DJI-class. ⚠️ JP drone law: no-fly over populated/DID zones, airports, national parks without permit; sub-100g drones exempt from most rules. Flag activity-by-activity when we plan (Biei, Cape Sōya, Shiretoko candidates).
+- **1–2 drones** — DJI-class. ⚠️ JP drone law: no-fly over populated/DID zones, airports, national parks without permit; sub-100 g drones exempt from most rules. Flag activity-by-activity when we plan (Biei trees, Cape Sōya, Shiretoko, Asari Sky Loop — see phase-1 doc for the Asari DIPS 2.0 stack).
 - **Insta360 Action6 + mount equipment** — chest/helmet/handlebar action mounts.
 - **360° camera + mount equipment** — brand TBD; invisible-stick / car-roof / bike-helmet mounts.
-- **Tripod** — likely travel tripod; check carry-on liquids+length limits (CA / JL both allow up to ~60 cm folded in cabin typically).
-- **Mirrorless camera** — **TBD**: bringing or not. Decide before final pack.
-- **1× MacBook** — for offload + editing on the road.
+- **Tripod** — travel tripod; check carry-on length/liquid limits (CA/JL allow up to ~60 cm folded in cabin typically).
+- **Mirrorless camera** — **TBD**, bringing or not. Decide before final pack.
+- **1 × MacBook** — offload + editing on the road.
 - **Powerbanks** — ⚠️ airline Wh limits (ANA/JAL: ≤100 Wh freely; 100–160 Wh max 2 with approval; >160 Wh forbidden). Tag each bank with Wh before departure.
-- **Power adapters** — Japan = Type A (two flat pins), 100 V / 50–60 Hz. MacBook USB-C handles it; confirm chargers for drones/cameras are 100 V compatible.
+- **Power adapters** — Japan = Type A (two flat pins), 100 V / 50–60 Hz. MacBook USB-C handles it; confirm drone/camera chargers are 100 V compatible.
 
 **Implications to track:**
-- Drone no-fly zones vs. planned shooting days (Biei, Shiretoko, Cape Sōya, Kurofu — though Kurofu is parked with Karuizawa).
-- Total checked/carry-on baggage weight with 4 travelers + camera kit — affects rental car trunk space on the Hokkaido drive loop.
-- 元旦 shop closures may mean forgotten cables/adapters can't be bought in Hokkaido Jan 1–3.
+- Drone no-fly zones vs. planned shooting days (Biei, Cape Sōya, Shiretoko, Asari Sky Loop).
+- Total checked + carry-on weight for 4 travelers + camera kit affects rental-car trunk space on the drive loop.
+- 元旦 shop closures (Jan 1–3) — forgotten cables/adapters can't be restocked in Hokkaido during this window.
 
-## Resolved — data conventions
+## Resolved
 
-- **2026-04-23 — Drop times from activities; drop station/airport stops from the daily activity list** (user). Rationale: the per-day website view is a loose place list, not a minute-by-minute schedule; transit hubs clutter it and the arrival/departure times belong on the bookings (flight / Shinkansen / 特急), not on activities. Applied to both renderer and source YAML: `Activity.start`/`Activity.end` removed from `src/content/days/*.yaml`, and station/airport-ref activities deleted from day files (the `Place` entries in `places/00-transit.yaml` stay, still referenced from `Booking.from`/`to` and `coveredLegs`).
+### 2026-04-22 — Night allocation locked (was: "where do the 3 extra Hokkaido nights go?")
 
-## Carried-over questions
+Final locked allocation: Hakodate 2 · Sapporo 7 · Wakkanai 2 · Abashiri 3 · Biei 0 (day-stop) · Otaru 3 · Toya 3 = 20 Hokkaido + Tokyo 4 = 24 nights. See [`../requirements.md`](../requirements.md) for the stay-by-stay table and [`phase-1-hokkaido.md`](phase-1-hokkaido.md) for the per-place activity grouping. The sixth-pass rationale (Sapporo return leg dropped; +1 Abashiri for 知床 Utoro day, +1 Toya for Windsor + Silo/Usu/Noboribetsu room) is captured in the requirements.md decision log.
 
-*(Phase-1 Karuizawa questions were parked with the phase itself on 2026-04-20 and have since been removed from the repo.)*
+### 2026-04-23 — Data conventions: drop times + transit hubs from activities
+
+User: the per-day view is a loose place list, not a minute-by-minute schedule; transit hubs clutter it and the arrival/departure times belong on the bookings (flight / Shinkansen / 特急), not on activities. Applied: `Activity.start`/`Activity.end` removed from `src/content/days/*.yaml`; station/airport-ref activities deleted from day files. The `Place` entries in `places/00-transit.yaml` stay, still referenced from `Booking.from` / `to` / `coveredLegs`.
+
+## Carried-over / parked
+
+- Phase-1 Karuizawa questions were parked with the phase itself on 2026-04-20 and have since been removed from the repo.
