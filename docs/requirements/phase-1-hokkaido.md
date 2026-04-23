@@ -217,7 +217,7 @@ Transit day — no overnight in Sapporo in this plan.
 
 ## Toya — 3 nights (day-18 Tue 2027-01-12 → day-21 Fri 2027-01-15, final Hokkaido stay)
 
-**Lodging:** **The Windsor Hotel TOYA, Vignette Collection (ザ・ウィンザーホテル洞爺)** — [Maps](https://maps.app.goo.gl/xoQjgjuWjxHSuTPB6) · [Booking.com](https://www.booking.com/hotel/jp/the-windsor-toya-resort-spa.html) · 〒049-5722 虻田郡洞爺湖町清水336. 2 rooms × 3 nights. Photos `public/photos/windsor-hotel-toya/1,2,3,5,6,7.jpg`. **Booking.com window 2027-01-10 → 01-12 (closest reference) shows 2 rooms × 2 nights at AUD 1,347 (2 × Premium Queen Sea Side, room-only; breakfast +AUD 43 each).** Our actual dates 2027-01-12 → 01-15 re-quote before locking; direct booking (Vignette / Hotel Story) is confirm-step.
+**Lodging:** ✅ **BOOKED (2026-04-24)** — **The Windsor Hotel TOYA, Vignette Collection (ザ・ウィンザーホテル洞爺)** — [Maps](https://maps.app.goo.gl/xoQjgjuWjxHSuTPB6) · [Booking.com](https://www.booking.com/hotel/jp/the-windsor-toya-resort-spa.html) · 〒049-5722 虻田郡洞爺湖町清水336. 2 rooms × 3 nights. Photos `public/photos/windsor-hotel-toya/1,2,3,5,6,7.jpg`. ⚠️ Hokkaido accommodation tax paid at check-in (see Hakodate section for tiers). ⚠️ Free **shuttle from JR 洞爺駅** still needs reservation by **18:00 day-17** (from Neuschloss side) — separate booking, not included in the room reservation.
 
 ### day-18 Tue — arrival
 Shuttle + check-in + dinner + spa.

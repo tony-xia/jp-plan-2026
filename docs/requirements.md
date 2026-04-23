@@ -27,7 +27,7 @@ This file is the source of truth for trip-planning decisions. The itinerary in [
 | Abashiri | **3** | 2027-01-06 → 2027-01-09 | day-12, day-13, day-14 | ✅ **BOOKED** — Dormy Inn Abashiri (天然温泉 天都の湯) |
 | Biei | 0 | day-stop 2027-01-09 | (day-15) | — (drive-through en route to Otaru) |
 | Otaru | **3** | 2027-01-09 → 2027-01-12 | day-15, day-16, day-17 | Airbnb — entire building (listing 1308367449883578040) × 2 nights + Hotel Neuschloss 小樽 × 1 night |
-| Toya | **3** | 2027-01-12 → 2027-01-15 | day-18, day-19, day-20 | The Windsor Hotel TOYA, Vignette Collection |
+| Toya | **3** | 2027-01-12 → 2027-01-15 | day-18, day-19, day-20 | ✅ **BOOKED** — The Windsor Hotel TOYA, Vignette Collection |
 | Tokyo | **4** | 2027-01-15 → 2027-01-19 | day-21 → day-24 | (candidate) Airbnb — Asakusa/SkyTree 4BR (listing 1489650534115740682) |
 | **Total** | **24** | | day-01 → day-25 | |
 
@@ -42,6 +42,7 @@ This file is the source of truth for trip-planning decisions. The itinerary in [
 
 - **2026-04-20** — Karuizawa parked; Phase 1 restructured to clockwise loop; Day-1 arrives Hakodate via Haneda + Shinkansen; Windsor Toya moved to end of Hokkaido.
 - **2026-04-21** — Hotel shortlists built; provisional picks.
+- **2026-04-24** — **The Windsor Hotel TOYA BOOKED** (2027-01-12 → 2027-01-15, 2 rooms × 3 nights, Vignette Collection). Hokkaido accommodation tax applies. Shutdown-side follow-ups still live: Windsor free-shuttle reservation from JR 洞爺駅 by 18:00 day-17 (from Neuschloss side), Booking-vs-direct rate check for actual 01-12 → 01-15 window.
 - **2026-04-23** — **Premier Hotel -Tsubaki- Sapporo BOOKED** (2026-12-28 → 2027-01-04, 2 rooms × 7 nights, NYE + NYD). Hokkaido accommodation tax applies.
 - **2026-04-23** — **Dormy Inn Abashiri BOOKED** (2027-01-06 → 2027-01-09, 2 rooms × 3 nights). Hokkaido accommodation tax applies.
 - **2026-04-23** — **Surfeel Hotel Wakkanai BOOKED** (2027-01-04 → 2027-01-06, 2 rooms × 2 nights). Hokkaido accommodation tax applies — pay on arrival.

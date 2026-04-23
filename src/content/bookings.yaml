@@ -190,6 +190,7 @@ bookings:
   - id: hokkaido-windsor-hotel
     kind: hotel
     title_zh: "住宿：The Windsor Hotel TOYA（3 晚，2 间房）"
+    booked: true
     start: "2027-01-12"
     end: "2027-01-15"
     address:
