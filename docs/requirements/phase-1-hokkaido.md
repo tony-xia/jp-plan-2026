@@ -22,19 +22,24 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 
 **Lodging:** **Airbnb — "SMALL TOWN HOTEL Hakodate" Bldg 1 (4LDK, entire house)** — [listing 22116280](https://www.airbnb.com.au/rooms/22116280?check_in=2026-12-26&check_out=2026-12-28). 10-guest cap · 4 BR · 4 beds · 2 baths · 4.92 ★ / 155 reviews. ~6-min walk to 函館市電 十字街駅 (streetcar to 金森倉庫 · 朝市 · 函館山ロープウェイ 山麓駅). Full A/C, free parking (unused — no car in Hakodate). Photos `public/photos/airbnb-hakodate-22116280/01-12.jpg`.
 
-**Day-1 arrival (long travel day, no sightseeing):**
-- Haneda morning → Tokyo Station (~30–40 min, Monorail or Keikyū → JR Yamanote) → 東北・北海道新幹線 はやぶさ → 新函館北斗 (~4 hr) → JR 函館ライナー → 函館駅 (~15–20 min). Door-to-door ~6–7 hr in motion + ~1 hr transfer buffer. Evening check-in; hotel-area dinner only.
+**Day-1 arrival + Mt. Hakodate primary attempt:**
+- Haneda morning → Tokyo Station (~30–40 min, Monorail or Keikyū → JR Yamanote) → 東北・北海道新幹線 はやぶさ → 新函館北斗 (~4 hr) → JR 函館ライナー → 函館駅 (~15–20 min). Door-to-door ~6–7 hr in motion + ~1 hr transfer buffer. Target arrival Hakodate ~14:00–15:00.
+- **If arrival timing + weather permit → 函館山展望台 TONIGHT (primary).** Dec sunset ~16:05; be on the ropeway ~15:20–15:30 for sunset + blue + full-dark. Bags dropped at Airbnb first if schedule allows, else go direct from 函館駅 (6-min walk to streetcar → 十字街 → ropeway 山麓駅). Late dinner after descent.
+- **If day-1 missed (late arrival / blizzard / ropeway halt) → fall back to day-02 evening.** Rule: give 函館山 two shots, one weather buffer.
 - ⚠️ **Reserve 特大荷物スペースつき座席** on はやぶさ at booking time — mandatory for oversize bags, books out for NYE window.
 - ⚠️ **Book all three legs together** once flights are locked; see [`open-questions.md`](open-questions.md#day-1-shinkansen-booking-mechanics).
 
 **Places visited (committed must-visit):**
 
-- **Mt. Hakodate Observatory (函館山展望台)** · day-02 evening · [Google Maps](https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7). Iconic "million-dollar" night panorama, one of Hokkaido's Three Great Night Views. ⚠️ **Winter = ropeway only** (登山自動車道 closed to cars/buses/taxis in winter); 函館山ロープウェイ 125-seat gondola, ~3 min. Go ~30–45 min before sunset (Jan ~16:20) for sunset + blue-hour + full-dark. Plan heavy cold-weather kit — summit is exposed.
+- **Mt. Hakodate Observatory (函館山展望台)** · **day-01 evening primary, day-02 evening backup** · [Google Maps](https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7). Iconic "million-dollar" night panorama, one of Hokkaido's Three Great Night Views. ⚠️ **Winter = ropeway only** (登山自動車道 closed to cars/buses/taxis in winter); 函館山ロープウェイ 125-seat gondola, ~3 min. Go ~30–45 min before sunset (Jan ~16:20, Dec ~16:05) for sunset + blue-hour + full-dark. Plan heavy cold-weather kit — summit is exposed. **Day-02 backup triggers only if day-01 was missed** (so as not to burn the day-02 evening otherwise).
 
-**Day-02 also covers (in the intro, no formal activity entry):**
-- **函館朝市** seafood breakfast.
-- **元町坂 / 八幡坂 / 金森赤レンガ倉庫** afternoon walk.
+**Day-02 daytime — seafood, city walk, daytime observation (formal activities):**
+- **函館朝市** — seafood-don breakfast, 函館駅 west-side.
+- **八幡坂 + 元町 slope walk** — iconic harbor-view slope, Orthodox / Catholic churches nearby.
+- **金森赤レンガ倉庫 (Bay Hakodate)** — brick-warehouse shopping / lunch.
+- **五稜郭タワー** — 107 m observation over the star-shaped fort; winter snow makes the pentagon shape dramatic from above. Primary daytime observation; pairs with 五稜郭公園 walk.
 - 湯の川温泉 optional weather-dependent.
+- **函館山展望台 backup** — only if day-01 was missed.
 
 **Transit out (day-03 morning):** JR 特急 北斗 函館 → 札幌 (~3 hr 30 min). Reserve 特大荷物 seats.
 
