@@ -32,12 +32,15 @@ export default function Home() {
               {trip.startDate} — {trip.endDate}
             </span>
           </div>
-          <Countdown startDate={trip.startDate} endDate={trip.endDate} />
         </header>
 
         <CityList trip={trip} />
 
-        <footer className="mt-24 pt-8 rule text-xs text-muted text-center">
+        <div className="mt-24 pt-8 rule flex justify-center">
+          <Countdown startDate={trip.startDate} endDate={trip.endDate} />
+        </div>
+
+        <footer className="mt-16 pt-8 rule text-xs text-muted text-center">
           <span className="vertical-ja inline-block mr-2" aria-hidden>
             旅
           </span>
