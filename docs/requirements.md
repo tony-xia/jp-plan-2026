@@ -22,7 +22,7 @@ This file is the source of truth for trip-planning decisions. The itinerary in [
 | City | Nights | Dates (check-in → check-out) | Day IDs | Lodging |
 |---|---|---|---|---|
 | Hakodate | **2** | 2026-12-26 → 2026-12-28 | day-01, day-02 | ✅ **BOOKED** — Airbnb SMALL TOWN HOTEL Hakodate Bldg 1 (listing 22116280) |
-| Sapporo | **7** | 2026-12-28 → 2027-01-04 · NYE + NYD | day-03 → day-09 | Premier Hotel -Tsubaki- Sapporo (ex-Renaissance, Marriott) |
+| Sapporo | **7** | 2026-12-28 → 2027-01-04 · NYE + NYD | day-03 → day-09 | ✅ **BOOKED** — Premier Hotel -Tsubaki- Sapporo (ex-Renaissance, Marriott) |
 | Wakkanai | **2** | 2027-01-04 → 2027-01-06 | day-10, day-11 | ✅ **BOOKED** — Surfeel Hotel Wakkanai |
 | Abashiri | **3** | 2027-01-06 → 2027-01-09 | day-12, day-13, day-14 | ✅ **BOOKED** — Dormy Inn Abashiri (天然温泉 天都の湯) |
 | Biei | 0 | day-stop 2027-01-09 | (day-15) | — (drive-through en route to Otaru) |
@@ -42,6 +42,7 @@ This file is the source of truth for trip-planning decisions. The itinerary in [
 
 - **2026-04-20** — Karuizawa parked; Phase 1 restructured to clockwise loop; Day-1 arrives Hakodate via Haneda + Shinkansen; Windsor Toya moved to end of Hokkaido.
 - **2026-04-21** — Hotel shortlists built; provisional picks.
+- **2026-04-23** — **Premier Hotel -Tsubaki- Sapporo BOOKED** (2026-12-28 → 2027-01-04, 2 rooms × 7 nights, NYE + NYD). Hokkaido accommodation tax applies.
 - **2026-04-23** — **Dormy Inn Abashiri BOOKED** (2027-01-06 → 2027-01-09, 2 rooms × 3 nights). Hokkaido accommodation tax applies.
 - **2026-04-23** — **Surfeel Hotel Wakkanai BOOKED** (2027-01-04 → 2027-01-06, 2 rooms × 2 nights). Hokkaido accommodation tax applies — pay on arrival.
 - **2026-04-23** — **Hakodate Airbnb 22116280 BOOKED** (2026-12-26 → 2026-12-28, entire 4LDK, 4 guests). ⚠️ **Hokkaido accommodation tax** effective 2026-04-01: per-person-per-night, paid at check-in, not included in prepaid fare. Tiers (per person per night): < ¥6,000 exempt; ¥6,000–¥19,999 → ¥100; ¥20,000–¥49,999 → ¥200; ≥ ¥50,000 → ¥500. Applies to every Hokkaido stay — budget line-item across Hakodate / Sapporo / Wakkanai / Abashiri / Otaru / Toya (8 + 28 + 8 + 12 + 12 + 12 = 80 person-nights in Hokkaido).

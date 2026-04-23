@@ -57,6 +57,7 @@ bookings:
   - id: hokkaido-sapporo-premier-tsubaki
     kind: hotel
     title_zh: "住宿：Premier Hotel -Tsubaki- 札幌（原 Renaissance Sapporo，7 晚，2 间房）"
+    booked: true
     start: "2026-12-28"
     end: "2027-01-04"
     address:

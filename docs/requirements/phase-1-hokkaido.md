@@ -49,9 +49,9 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 
 ## Sapporo — 7 nights (day-03 Mon 2026-12-28 → day-10 Mon 2027-01-04, single stay)
 
-**Lodging:** **Premier Hotel -Tsubaki- Sapporo (旧 Renaissance Sapporo, Marriott rebrand)** — [Booking.com](https://www.booking.com/hotel/jp/renaissance-sapporo.html?checkin=2026-12-28&checkout=2027-01-04&group_adults=4&no_rooms=2&group_children=0). 〒062-0904 北海道札幌市豊平区豊平4条1-1-1. Review **8.8** (breakfast 9.5). Check-in 15:00 / out 11:00. 5 dining options, airport limousine-bus stop, bike rental.
+**Lodging:** ✅ **BOOKED (2026-04-23)** — **Premier Hotel -Tsubaki- Sapporo (旧 Renaissance Sapporo, Marriott rebrand)** — [Booking.com](https://www.booking.com/hotel/jp/renaissance-sapporo.html?checkin=2026-12-28&checkout=2027-01-04&group_adults=4&no_rooms=2&group_children=0). 〒062-0904 北海道札幌市豊平区豊平4条1-1-1. Review **8.8** (breakfast 9.5). Check-in 15:00 / out 11:00. 5 dining options, airport limousine-bus stop, bike rental. 2 rooms × 7 nights (NYE + NYD). ⚠️ Hokkaido accommodation tax paid at check-in (see Hakodate section for tiers).
 - ⚠️ **Location note:** east bank of the Toyohira River in 豊平区, ~1 km from 大通/薄野, ~9-min walk to 地下鉄 東西線 菊水駅 (2 stops east of 大通駅). **Not the Station/Odori/Susukino core** — user has accepted the trade-off.
-- **Before booking:** confirm 2 rooms on the 7-night NYE+NYD window, breakfast hours over 年末年始, **parking for the rental car day-3 → day-10** (the car sits here the full week).
+- ⚠️ **Open post-booking:** confirm breakfast hours over 年末年始 and **parking for the rental car day-3 → day-10** (the car sits here the full week) directly with the hotel.
 
 **Rental-car pickup:** day-03 afternoon (2026-12-28) at a Sapporo-city branch (Station / Susukino) immediately after 特急 北斗 arrival. Park at hotel or nearby. 4WD SUV + winter tires + snow chains. Drive loop departs day-10 morning — until then the car stays parked except for the ROYCE' / 頭大佛 / 大倉山 day-trips.
 
