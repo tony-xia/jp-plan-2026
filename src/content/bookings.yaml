@@ -48,12 +48,6 @@ bookings:
       - /photos/airbnb-hakodate-22116280/10.jpg
       - /photos/airbnb-hakodate-22116280/11.jpg
       - /photos/airbnb-hakodate-22116280/12.jpg
-    details_zh: >-
-      「SMALL TOWN HOTEL Hakodate」Building 1 — 整栋出租 4LDK，全屋冷暖空调。
-      10 人 · 4 BR · 4 床 · 2 浴；4.92 ★ / 155 条评价。
-      距函馆市電「十字街駅」步行约 6 分钟（可通达金森倉庫 / 元町 / 朝市 / 函馆山缆车），
-      自带免费停车（本段无需用到）。
-      2026-04-22 用户指定，替换原 TOKYU STAY 酒店选择。
 
   - id: hokkaido-sapporo-premier-tsubaki
     kind: hotel
@@ -78,16 +72,6 @@ bookings:
       - /photos/hotel-renaissance-sapporo/10.jpg
       - /photos/hotel-renaissance-sapporo/11.jpg
       - /photos/hotel-renaissance-sapporo/12.jpg
-    details_zh: >-
-      原 Renaissance Sapporo Hotel（Marriott 旗下）现已改旗为 Premier Hotel -Tsubaki- Sapporo。
-      Booking 评分 8.8（早餐 9.5）。入住 15:00 / 退房 11:00。
-      位于 豊平川 东岸，地铁 東西線「菊水駅」步行约 9 分钟 → 两站至 大通駅 / 薄野一带。
-      离 札幌駅 / 大通 / 薄野 核心圈 约 1 km，严格讲并不在用户原定的
-      「Station / Odori / Susukino 走廊」内，但地铁通勤方便；订房前再确认一次位置是否能接受。
-      馆内 5 家餐饮 + 美发厅 + 自行车租赁；机场直达巴士停靠。
-      4 人需 2 间房；用户提供的 Booking 链接原本按 2 成人 / 1 间房 询价，已改为 4 人 / 2 间房。
-      停车 day-3 → day-10（自驾环线取车后车停此处 7 晚）需在订房时确认可用并询价。
-      2026-04-22 用户指定替换原 HomeOfLove Airbnb 选择。
 
   - id: hokkaido-sapporo-rental-car
     kind: other
@@ -119,9 +103,6 @@ bookings:
       - /photos/surfeel-hotel-wakkanai/04.jpg
       - /photos/surfeel-hotel-wakkanai/05.jpg
       - /photos/surfeel-hotel-wakkanai/06.jpg
-    details_zh: >-
-      2 晚（day-10 抵达，day-11 宗谷岬 + 天气缓冲，day-12 早上开车去网走）。
-      从札幌到这里是顺时针自驾环线第 1 天（~330 km / 冬季 5 – 6 小时）。
 
   - id: hokkaido-abashiri-hotel-dormy-inn
     kind: hotel
@@ -147,9 +128,6 @@ bookings:
       - /photos/hotel-dormy-inn-abashiri/10.jpg
       - /photos/hotel-dormy-inn-abashiri/11.jpg
       - /photos/hotel-dormy-inn-abashiri/12.jpg
-    details_zh: >-
-      距 網走駅 ~10 分钟步行。館内有 天然温泉 天都の湯 大浴場 + ドーミーイン 标志性夜鳴きそば（夜宵拉面）
-      + 海鮮丼 早餐。Day-09 – day-13（稚内→宗谷岬→网走 长途日 + 网走 + 知床 全天）。
 
   - id: hokkaido-otaru-hotel-primary
     kind: hotel
@@ -170,11 +148,6 @@ bookings:
       - /photos/airbnb-otaru-primary/10.jpg
       - /photos/airbnb-otaru-primary/11.jpg
       - /photos/airbnb-otaru-primary/12.jpg
-    details_zh: >-
-      Listing 1308367449883578040 — "Entire building for rent / Up to 6 people / Parking for 2 cars"。
-      6 人 · 3BR · 6 床 · 2 浴 · Guest favourite。自带 2 车位停车。
-      运河 / 小樽駅 一带。2 晚：day-15（01-09 Sat 中心入住 + Uomasa + 天狗夜景）+ day-16（01-10 Sun Rusutsu 循环）。
-      Day-17 换到 Neuschloss（祝津海岸 + 航拍日）。
 
   - id: hokkaido-otaru-neuschloss
     kind: hotel
@@ -195,10 +168,6 @@ bookings:
       - /photos/hotel-neuschloss-otaru/05.jpg
       - /photos/hotel-neuschloss-otaru/06.jpg
       - /photos/hotel-neuschloss-otaru/07.jpg
-    details_zh: >-
-      Day-17（01-11 Mon）航拍日晚上入住 → day-18 早上早餐后退房 → 开到札幌市区还车。
-      祝津紧邻酒店，入住前可搭配 小樽水族館。
-      如果价格不合适（单晚超预算）则改住市区酒店 1 晚。
 
   - id: hokkaido-windsor-shuttle-in
     kind: other
@@ -228,10 +197,6 @@ bookings:
       - /photos/windsor-hotel-toya/5.jpg
       - /photos/windsor-hotel-toya/6.jpg
       - /photos/windsor-hotel-toya/7.jpg
-    details_zh: >-
-      日期 day-18 – day-20（Windsor 3 晚）。4 人 2 间房（2 绅士 + 2 女士不合住）。
-      2026-04-22 第六版：Toya 由 2 → 3 晚，吸收原 Sapporo 返程去的时间余量。
-      新窗口 2027-01-12 → 01-15（3 晚），需 Booking 或官网重新询价。最便宜方案可能 Premium Queen Sea Side room-only。
 
   - id: hokkaido-toya-to-tokyo-transit
     kind: shinkansen
@@ -264,11 +229,6 @@ bookings:
       - /photos/airbnb-tokyo-asakusa/10.jpg
       - /photos/airbnb-tokyo-asakusa/11.jpg
       - /photos/airbnb-tokyo-asakusa/12.jpg
-    details_zh: >-
-      Listing 1489650534115740682 — "Asakusa/SkyTree Area, 4BR Chic House Near Station"。
-      10 人 · 4BR · 9 床 · 5 浴 · 墨田区 · Guest favourite（23 条评价）。
-      位于浅草 / 晴空塔一带 — 与原先「涩谷/原宿/表参道」定位不同，离剪发 / massage / Gonpachi 更远，
-      但整栋 4 卧可完全分房。⚠️ 待核对：与 day-22 Gonpachi (西麻布)、day-23 K-two (涩谷) 通勤时间。
 
   - id: tokyo-k-two-haircut
     kind: other
