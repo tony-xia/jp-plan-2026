@@ -32,9 +32,14 @@ bookings:
   - id: hokkaido-hakodate-airbnb-22116280
     kind: hotel
     title_zh: "住宿：SMALL TOWN HOTEL 函馆整栋 4LDK（Airbnb 22116280，2 晚，4 人）"
+    booked: true
     start: "2026-12-26"
     end: "2026-12-28"
     airbnbUrl: https://www.airbnb.com.au/rooms/22116280?check_in=2026-12-26&check_out=2026-12-28&adults=4
+    details_zh: >-
+      ⚠️ 北海道住宿税 2026-04-01 起征，按「每人每晚」现场另收（房费不含）：
+      ＜¥6,000/人·晚 免征；¥6,000–¥19,999 → ¥100；¥20,000–¥49,999 → ¥200；≥ ¥50,000 → ¥500。
+      4 人 × 2 晚 = 8 人·晚；按本房单价分摊到人头后查档位 × 8。
     photos:
       - /photos/airbnb-hakodate-22116280/01.jpg
       - /photos/airbnb-hakodate-22116280/02.jpg
@@ -88,6 +93,7 @@ bookings:
   - id: hokkaido-wakkanai-hotel
     kind: hotel
     title_zh: "住宿：Surfeel Hotel 稚内（2 晚，2 间房）"
+    booked: true
     start: "2027-01-04"
     end: "2027-01-06"
     address:
@@ -107,6 +113,7 @@ bookings:
   - id: hokkaido-abashiri-hotel-dormy-inn
     kind: hotel
     title_zh: "住宿：網走 多美迎（天然温泉 天都の湯 ドーミーイン網走，3 晚，2 间房）"
+    booked: true
     start: "2027-01-06"
     end: "2027-01-09"
     address:

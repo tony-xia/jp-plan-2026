@@ -8,6 +8,7 @@ export const t = {
   mustDo: "必去",
   niceToDo: "可选",
   bookings: "预订",
+  booked: "已预订",
   openInAppleMaps: "Apple 地图",
   openInGoogleMaps: "Google 地图",
   openInAmap: "高德地图",

@@ -20,7 +20,9 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 
 ## Hakodate — 2 nights (day-01 Sat 2026-12-26 → day-03 Mon 2026-12-28)
 
-**Lodging:** **Airbnb — "SMALL TOWN HOTEL Hakodate" Bldg 1 (4LDK, entire house)** — [listing 22116280](https://www.airbnb.com.au/rooms/22116280?check_in=2026-12-26&check_out=2026-12-28). 10-guest cap · 4 BR · 4 beds · 2 baths · 4.92 ★ / 155 reviews. ~6-min walk to 函館市電 十字街駅 (streetcar to 金森倉庫 · 朝市 · 函館山ロープウェイ 山麓駅). Full A/C, free parking (unused — no car in Hakodate). Photos `public/photos/airbnb-hakodate-22116280/01-12.jpg`.
+**Lodging:** ✅ **BOOKED (2026-04-23)** — **Airbnb "SMALL TOWN HOTEL Hakodate" Bldg 1 (4LDK, entire house)** — [listing 22116280](https://www.airbnb.com.au/rooms/22116280?check_in=2026-12-26&check_out=2026-12-28). 10-guest cap · 4 BR · 4 beds · 2 baths · 4.92 ★ / 155 reviews. ~6-min walk to 函館市電 十字街駅 (streetcar to 金森倉庫 · 朝市 · 函館山ロープウェイ 山麓駅). Full A/C, free parking (unused — no car in Hakodate). Photos `public/photos/airbnb-hakodate-22116280/01-12.jpg`.
+
+⚠️ **Hokkaido accommodation tax (effective 2026-04-01)** — listing confirmation states tax is charged separately at the hotel, per person per night, not included in the prepaid Airbnb fare. Pay on arrival. Tiers (per person per night): < ¥6,000 exempt; ¥6,000–¥19,999 → ¥100; ¥20,000–¥49,999 → ¥200; ≥ ¥50,000 → ¥500. For 4 guests × 2 nights = **8 person-nights** — compute per-person nightly rate = (total fare ÷ 4 ÷ 2) and look up the tier. Same rule applies to every other Hokkaido lodging below.
 
 **Day-1 arrival + Mt. Hakodate primary attempt:**
 - Haneda morning → Tokyo Station (~30–40 min, Monorail or Keikyū → JR Yamanote) → 東北・北海道新幹線 はやぶさ → 新函館北斗 (~4 hr) → JR 函館ライナー → 函館駅 (~15–20 min). Door-to-door ~6–7 hr in motion + ~1 hr transfer buffer. Target arrival Hakodate ~14:00–15:00.
@@ -105,7 +107,7 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 
 ## Wakkanai — 2 nights (day-10 Mon 2027-01-04 → day-12 Wed 2027-01-06)
 
-**Lodging:** **Surfeel Hotel Wakkanai (サフィールホテル稚内)** — [Maps](https://maps.app.goo.gl/zGtEvTEBRbSQzsES6) · [Booking.com](https://www.booking.com/hotel/jp/ana-crowne-plaza-wakkanai.html) · 〒097-0023 北海道稚内市開運1-2-2. Central Wakkanai (near 稚内駅 / port). Photos `public/photos/surfeel-hotel-wakkanai/01-06.jpg`.
+**Lodging:** ✅ **BOOKED (2026-04-23)** — **Surfeel Hotel Wakkanai (サフィールホテル稚内)** — [Maps](https://maps.app.goo.gl/zGtEvTEBRbSQzsES6) · [Booking.com](https://www.booking.com/hotel/jp/ana-crowne-plaza-wakkanai.html) · 〒097-0023 北海道稚内市開運1-2-2. Central Wakkanai (near 稚内駅 / port). 2 rooms × 2 nights. Photos `public/photos/surfeel-hotel-wakkanai/01-06.jpg`. ⚠️ Hokkaido accommodation tax paid at check-in (see Hakodate section for tiers).
 
 **Why 2 nights** — weather buffer. Wakkanai has one of Japan's worst winter flight-cancellation / whiteout rates; Cape Sōya often blows out. A second night lets us retry the morning after.
 
@@ -130,7 +132,7 @@ R238 along the Sea of Okhotsk, Hamatonbetsu → Monbetsu → Saroma → Abashiri
 
 ## Abashiri — 3 nights (day-12 Wed 2027-01-06 → day-15 Sat 2027-01-09)
 
-**Lodging:** **Dormy Inn Abashiri / 天然温泉 天都の湯 ドーミーイン網走** — [Maps](https://maps.app.goo.gl/8EurHT6d436biw8L7) · [Booking.com](https://www.booking.com/hotel/jp/dormy-inn-abashiri.html) · 〒093-0012 網走市南二条西3-1-1. ~10 min walk from 網走駅. 天然温泉 大浴場 + signature 夜鳴きそば + 海鮮丼 breakfast. Photos `public/photos/hotel-dormy-inn-abashiri/01-12.jpg`.
+**Lodging:** ✅ **BOOKED (2026-04-23)** — **Dormy Inn Abashiri / 天然温泉 天都の湯 ドーミーイン網走** — [Maps](https://maps.app.goo.gl/8EurHT6d436biw8L7) · [Booking.com](https://www.booking.com/hotel/jp/dormy-inn-abashiri.html) · 〒093-0012 網走市南二条西3-1-1. ~10 min walk from 網走駅. 天然温泉 大浴場 + signature 夜鳴きそば + 海鮮丼 breakfast. 2 rooms × 3 nights. Photos `public/photos/hotel-dormy-inn-abashiri/01-12.jpg`. ⚠️ Hokkaido accommodation tax paid at check-in (see Hakodate section for tiers).
 
 **🚨 Drift-ice timing:** pack-ice peak is **Feb → early March**; our window is early-mid January, so **real drift ice likely has not arrived**. **「おーろら」icebreaker does not operate yet.** We rely on indoor/simulated drift-ice content (see Okhotsk Ryūhyō Museum below) and dramatic winter coastline instead.
 

@@ -19,10 +19,16 @@ function fmt(dt: string): string {
 export function BookingItem({ booking }: { booking: Booking }) {
   return (
     <div className="py-5 rule">
-      <div className="flex items-baseline gap-3">
+      <div className="flex items-baseline gap-3 flex-wrap">
         <span className="inline-block text-xs uppercase tracking-widest text-accent font-medium">
           {t.bookingKind[booking.kind]}
         </span>
+        {booking.booked && (
+          <span className="inline-flex items-center gap-1 rounded-sm border border-emerald-300 bg-emerald-50 px-1.5 py-0.5 text-[11px] font-medium text-emerald-800 leading-none">
+            <span aria-hidden>✓</span>
+            {t.booked}
+          </span>
+        )}
         <h3 className="text-base font-serif-jp font-semibold">
           {booking.title_zh}
         </h3>

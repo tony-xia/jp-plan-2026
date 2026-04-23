@@ -66,6 +66,7 @@ export const Booking = z.object({
   id: z.string().min(1),
   kind: BookingKind,
   title_zh: z.string().min(1),
+  booked: z.boolean().optional(),
   confirmation: z.string().optional(),
   from: TriName.optional(),
   to: TriName.optional(),
