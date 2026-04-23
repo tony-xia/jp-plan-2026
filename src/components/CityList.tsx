@@ -147,6 +147,22 @@ function StayCard({
       </summary>
 
       <div className="mt-4 pl-7 space-y-8">
+        {days.length > 0 && (
+          <div>
+            <h3 className="text-sm font-serif-jp font-semibold text-muted mb-1">
+              每日行程
+            </h3>
+            <span className="annot annot-ja">日程 · {days.length} 天</span>
+            <ul className="mt-2">
+              {days.map((d) => (
+                <li key={d.id} className="rule">
+                  <DayCard day={d} trip={trip} />
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         {lodgings.length > 0 && (
           <div>
             <h3 className="text-sm font-serif-jp font-semibold text-muted mb-1">
@@ -174,22 +190,6 @@ function StayCard({
                 <BookingItem key={b.id} booking={b} />
               ))}
             </div>
-          </div>
-        )}
-
-        {days.length > 0 && (
-          <div>
-            <h3 className="text-sm font-serif-jp font-semibold text-muted mb-1">
-              每日行程
-            </h3>
-            <span className="annot annot-ja">日程 · {days.length} 天</span>
-            <ul className="mt-2">
-              {days.map((d) => (
-                <li key={d.id} className="rule">
-                  <DayCard day={d} trip={trip} />
-                </li>
-              ))}
-            </ul>
           </div>
         )}
       </div>
