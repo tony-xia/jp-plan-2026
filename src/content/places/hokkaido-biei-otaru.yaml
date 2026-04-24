@@ -1,4 +1,4 @@
-# Hokkaido · Biei + Otaru + Rusutsu — Blue Pond, Biei trees, Otaru canal/aquarium/天狗山, Neuschloss.
+# Hokkaido · Biei + Otaru + Rusutsu — Blue Pond, Biei trees, Otaru canal/aquarium/天狗山.
 places:
   - id: biei-christmas-tree
     name:
@@ -74,7 +74,7 @@ places:
       full:
         zh: 北海道小樽市祝津 3-303
         ja: 〒047-0047 北海道小樽市祝津3-303
-    notes_zh: 祝津海岸，与 Hotel Neuschloss 几乎同位置，一天里可合并。冬季海狮、企鹅表演有特色。
+    notes_zh: 祝津海岸，距小樽中心街 ~20 分钟车程。冬季海狮、企鹅表演有特色；晴天可接祝津海岸夕景。
 
   - id: otaru-music-box-museum
     name:
@@ -169,32 +169,6 @@ places:
       国道 230 号横跨的经典 Hokkaido 山口，海拔 ~835 m，可远望 羊蹄山（Mt Yōtei）。
       展望所有名产「中山峠 あげいも」（炸薯球，3 粒 ¥400 左右）全年营业。冬季暴雪时注意路况、
       可能有雪链要求。Rusutsu 往返的首选外道。
-
-  - id: hotel-neuschloss-otaru
-    name:
-      zh: 酒店 Neuschloss 小樽
-      en: Hotel Neuschloss Otaru
-      ja: ホテルノイシュロス小樽
-    kind: hotel
-    googleMapsUrl: https://maps.app.goo.gl/EVydysyveUp9Q3DHA
-    bookingUrl: https://www.booking.com/hotel/jp/hotel-neuschloss.html
-    address:
-      full:
-        zh: 北海道小樽市祝津 3-282
-        ja: 〒047-0047 北海道小樽市祝津3丁目282
-    photos:
-      - /photos/hotel-neuschloss-otaru/01.jpg
-      - /photos/hotel-neuschloss-otaru/02.jpg
-      - /photos/hotel-neuschloss-otaru/03.jpg
-      - /photos/hotel-neuschloss-otaru/04.jpg
-      - /photos/hotel-neuschloss-otaru/05.jpg
-      - /photos/hotel-neuschloss-otaru/06.jpg
-      - /photos/hotel-neuschloss-otaru/07.jpg
-    notes_zh: >-
-      位于 祝津海岸（近 小樽水族館）的「维也纳城堡」造型度假酒店。全房海景，
-      每间房私人露天温泉（源泉掛け流し）。58 间房，有双人西洋房 + 四人和洋房。
-      Check-in 15:00 / out 11:00；晚餐创意法餐；TEL 0134-22-9111。
-      价格 OK 的话，抽 1 – 2 晚在这里；价格不行就留在市区酒店。
 
   - id: otaru-canal
     name:

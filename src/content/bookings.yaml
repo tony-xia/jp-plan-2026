@@ -137,45 +137,31 @@ bookings:
       - /photos/hotel-dormy-inn-abashiri/11.jpg
       - /photos/hotel-dormy-inn-abashiri/12.jpg
 
-  - id: hokkaido-otaru-hotel-primary
+  - id: hokkaido-otaru-grids-premium
     kind: hotel
-    title_zh: "住宿：小樽整栋 Airbnb 主基地（2 晚，4 人）"
+    title_zh: "住宿：Grids Premium Hotel 小樽（3 晚，2 间房）"
+    booked: true
     start: "2027-01-09"
-    end: "2027-01-11"
-    airbnbUrl: https://www.airbnb.com.au/rooms/1308367449883578040?check_in=2027-01-09&check_out=2027-01-11&adults=4
-    photos:
-      - /photos/airbnb-otaru-primary/01.jpg
-      - /photos/airbnb-otaru-primary/02.jpg
-      - /photos/airbnb-otaru-primary/03.jpg
-      - /photos/airbnb-otaru-primary/04.jpg
-      - /photos/airbnb-otaru-primary/05.jpg
-      - /photos/airbnb-otaru-primary/06.jpg
-      - /photos/airbnb-otaru-primary/07.jpg
-      - /photos/airbnb-otaru-primary/08.jpg
-      - /photos/airbnb-otaru-primary/09.jpg
-      - /photos/airbnb-otaru-primary/10.jpg
-      - /photos/airbnb-otaru-primary/11.jpg
-      - /photos/airbnb-otaru-primary/12.jpg
-
-  - id: hokkaido-otaru-neuschloss
-    kind: hotel
-    title_zh: "住宿：Hotel Neuschloss 小樽（1 晚，2 间房；价格合适则订）"
-    start: "2027-01-11"
     end: "2027-01-12"
     address:
       full:
-        zh: 北海道小樽市祝津 3-282
-        ja: 〒047-0047 北海道小樽市祝津3丁目282
-    googleMapsUrl: https://maps.app.goo.gl/EVydysyveUp9Q3DHA
-    bookingUrl: https://www.booking.com/hotel/jp/hotel-neuschloss.html
+        zh: 北海道小樽市稻穗 1-3-13
+        ja: 〒047-0032 北海道小樽市稲穂1-3-13
+    bookingUrl: https://www.booking.com/hotel/jp/grids-premium-otaru.en-gb.html?checkin=2027-01-09&checkout=2027-01-12&group_adults=4&no_rooms=2&group_children=0
+    details_zh: >-
+      ⚠️ 北海道住宿税现场按「每人每晚」另收（房费不含），4 人 × 3 晚 = 12 人·晚。
+      中心街位置，距 JR 小樽駅 步行约 9 分钟 —— 紧邻 运河 / 堺町通り / 音乐盒堂 / 魚真。
+      停车：需与酒店确认租车 day-15 下午入库 → day-18 早上出库的车位。
+      ★ 2026-04-24 替换了原「小樽 Airbnb 整栋 × 2 晚 + Neuschloss × 1 晚」的分段方案 ——
+      中心街单一基地、行程内无搬家、接驳巴士预约从小樽市区侧统一打。
     photos:
-      - /photos/hotel-neuschloss-otaru/01.jpg
-      - /photos/hotel-neuschloss-otaru/02.jpg
-      - /photos/hotel-neuschloss-otaru/03.jpg
-      - /photos/hotel-neuschloss-otaru/04.jpg
-      - /photos/hotel-neuschloss-otaru/05.jpg
-      - /photos/hotel-neuschloss-otaru/06.jpg
-      - /photos/hotel-neuschloss-otaru/07.jpg
+      - /photos/grids-premium-hotel-otaru/02.jpg
+      - /photos/grids-premium-hotel-otaru/03.jpg
+      - /photos/grids-premium-hotel-otaru/04.jpg
+      - /photos/grids-premium-hotel-otaru/05.jpg
+      - /photos/grids-premium-hotel-otaru/06.jpg
+      - /photos/grids-premium-hotel-otaru/07.jpg
+      - /photos/grids-premium-hotel-otaru/08.jpg
 
   - id: hokkaido-windsor-shuttle-in
     kind: other

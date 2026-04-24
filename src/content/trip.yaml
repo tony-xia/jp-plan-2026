@@ -93,8 +93,7 @@ stays:
     segmentId: hokkaido
     dayIds: [day-15, day-16, day-17]
     lodgingBookingIds:
-      - hokkaido-otaru-hotel-primary
-      - hokkaido-otaru-neuschloss
+      - hokkaido-otaru-grids-premium
 
   - id: stay-toya
     city: { zh: 洞爺, en: Tōya, ja: 洞爺 }

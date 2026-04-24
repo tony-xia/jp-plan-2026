@@ -2,7 +2,7 @@
 
 > See [`../requirements.md`](../requirements.md) for the index, trip basics, and locked night allocation.
 
-**Shape:** Haneda → Tōhoku/Hokkaido Shinkansen → **Hakodate (2)** → JR 特急 北斗 → **Sapporo (7, NYE + NYD, rental pickup day-3 afternoon)** → drive NW → **Wakkanai (2)** → Cape Sōya → Okhotsk coast E → **Abashiri (3, incl. 知床 Utoro day)** → drive W via **Biei (day-stop only)** → **Otaru (3 — 2 central + 1 祝津 Neuschloss)** → Sapporo car-return → 特急 北斗 → **Windsor Toya (3)** → direct 特急 北斗 + 新幹線 → Tokyo.
+**Shape:** Haneda → Tōhoku/Hokkaido Shinkansen → **Hakodate (2)** → JR 特急 北斗 → **Sapporo (7, NYE + NYD, rental pickup day-3 afternoon)** → drive NW → **Wakkanai (2)** → Cape Sōya → Okhotsk coast E → **Abashiri (3, incl. 知床 Utoro day)** → drive W via **Biei (day-stop only)** → **Otaru (3, Grids Premium central)** → Sapporo car-return → 特急 北斗 → **Windsor Toya (3)** → direct 特急 北斗 + 新幹線 → Tokyo.
 
 **Drive legs (winter estimates):**
 
@@ -33,15 +33,15 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 
 **Places visited (committed must-visit):**
 
-- **Mt. Hakodate Observatory (函館山展望台)** · **day-01 evening primary, day-02 evening backup** · [Google Maps](https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7). Iconic "million-dollar" night panorama, one of Hokkaido's Three Great Night Views. ⚠️ **Winter = ropeway only** (登山自動車道 closed to cars/buses/taxis in winter); 函館山ロープウェイ 125-seat gondola, ~3 min. Go ~30–45 min before sunset (Jan ~16:20, Dec ~16:05) for sunset + blue-hour + full-dark. Plan heavy cold-weather kit — summit is exposed. **Day-02 backup triggers only if day-01 was missed** (so as not to burn the day-02 evening otherwise).
+- **Mt. Hakodate Observatory (函館山展望台)** · day-01 evening primary, day-02 evening backup · [Maps](https://maps.app.goo.gl/J8tzCmFUpPLwpddQ7)
 
-**Day-02 daytime — seafood, city walk, daytime observation (formal activities):**
-- **函館朝市** — seafood-don breakfast, 函館駅 west-side.
-- **八幡坂 + 元町 slope walk** — iconic harbor-view slope, Orthodox / Catholic churches nearby.
-- **金森赤レンガ倉庫 (Bay Hakodate)** — brick-warehouse shopping / lunch.
-- **五稜郭タワー** — 107 m observation over the star-shaped fort; winter snow makes the pentagon shape dramatic from above. Primary daytime observation; pairs with 五稜郭公園 walk.
-- 湯の川温泉 optional weather-dependent.
-- **函館山展望台 backup** — only if day-01 was missed.
+**Day-02 daytime:**
+- **函館朝市**
+- **八幡坂 + 元町 slope walk**
+- **金森赤レンガ倉庫 (Bay Hakodate)**
+- **五稜郭タワー**
+- 湯の川温泉 (optional, weather-dependent)
+- **函館山展望台 backup** — only if day-01 was missed
 
 **Transit out (day-03 morning):** JR 特急 北斗 函館 → 札幌 (~3 hr 30 min). Reserve 特大荷物 seats.
 
@@ -61,41 +61,40 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 **Activities grouped by day (7 nights absorbs the full must-visit list — year-end-closure items landing on day-08 Sat 1/2 and day-09 Sun 1/3 since the Sapporo return leg was dropped):**
 
 ### day-03 Mon 2026-12-28 — arrival afternoon
-- **Shiroi Koibito Park (白い恋人パーク)** — [Maps](https://maps.app.goo.gl/b1ApSWrbx2XNN8M96). Ishiya chocolate factory, 宮の沢 (地下鉄 東西線 宮の沢駅, 7-min walk). Factory **10:00–18:00** (last paid entry 16:30). Winter illumination "Blooming Snow Fantasy" **2026-11-15 → 2027-03-31, 16:00–19:00 free**. Arrive late afternoon to stack factory + illumination.
-- **Kani Honke Sapporo Station Main Branch (かに本家 札幌駅前本店)** — [Maps](https://maps.app.goo.gl/AjyvERYf8gcbVFik6). Crab specialty, reservations strongly recommended; NYE / NYD high-risk closure — Dec 28 is safer.
+- **Shiroi Koibito Park (白い恋人パーク)** · [Maps](https://maps.app.goo.gl/b1ApSWrbx2XNN8M96)
+- **Kani Honke Sapporo Station Main Branch (かに本家 札幌駅前本店)** · [Maps](https://maps.app.goo.gl/AjyvERYf8gcbVFik6)
 
 ### day-04 Tue 2026-12-29 — year-end-closure-risk items (pre-NYE)
-- **Hill of the Buddha / 頭大佛殿 (真駒内滝野霊園)** — [Maps](https://maps.app.goo.gl/FaoXKA6y4uEwWEU8A). Ando Tadao's lavender-hill Buddha. **Winter hours (Nov–Mar) 10:00–15:00.** ⚠️ 水庭 drained 11/4 → late April — see snow-white lavender field instead. 3,300-space free parking, 40-min drive from central Sapporo. Allow 60–90 min.
-- **Mt. Okura Ski Jump Stadium (大倉山ジャンプ競技場 展望台)** — [Maps](https://maps.app.goo.gl/bgX3JkzsXUjqXAzS9). 1972 Olympics venue. Winter hours **Nov 1 – Apr 28, 9:00–17:00**, lift ¥1,000 RT, 113-space free parking. Pairs with 頭大佛 in one afternoon (explicit in requirements).
+- **Hill of the Buddha / 頭大佛殿 (真駒内滝野霊園)** · [Maps](https://maps.app.goo.gl/FaoXKA6y4uEwWEU8A)
+- **Mt. Okura Ski Jump Stadium (大倉山ジャンプ競技場 展望台)** · [Maps](https://maps.app.goo.gl/bgX3JkzsXUjqXAzS9)
 
 ### day-05 Wed 2026-12-30 — light day before 大晦日
-- **Asahiyama Memorial Park (旭山記念公園)** — [Maps](https://maps.app.goo.gl/oCMB4WRPtNXdXhUa6). Free hillside park, daytime Sapporo panorama; accessible from 円山公園. Less touristy than Moiwa.
-- Afternoon: 狸小路 / 薄野 walk + warm-up / shopping to conserve energy for NYE.
+- **Asahiyama Memorial Park (旭山記念公園)** · [Maps](https://maps.app.goo.gl/oCMB4WRPtNXdXhUa6)
+- Afternoon: 狸小路 / 薄野 walk
 
 ### day-06 Thu 2026-12-31 — NYE
-- **二条市場 (Nijo Market)** — [Maps](https://maps.app.goo.gl/mh3XyFZpWTyg1W9z5). Seafood-don breakfast 8:00–10:00 (⚠️ 大晦日 stalls close early).
-- **大通公園 + 札幌電視塔 (Odori Park + TV Tower)** — [Maps](https://maps.app.goo.gl/pBAcvmhnakXA1Nkv7) *(place to add)*. Daytime stroll + TV Tower observation deck.
-- **Mt. Moiwa Ropeway (藻岩山ロープウェイ)** — [Maps](https://maps.app.goo.gl/Gtsbqa2DhGt3RzNF6). 531 m summit — **third** of Hokkaido's Three Great Night Views (we hit all three: 函館山 day-02, 天狗山 day-15, Moiwa today). Winter (Dec–Mar) **11:00–22:00**, last up 21:30. Go 40–60 min before sunset (~16:10) for sunset + blue + night. ⚠️ Verify 年末年始 hours.
-- **NYE dinner:** **Seafood Buffet NANDA (海鮮ビュッフェ NANDA)** near 薄野 — [Maps](https://maps.app.goo.gl/mh3XyFZpWTyg1W9z5). ⚠️ Book 2–3 weeks ahead; confirm 大晦日 operation. Fallbacks: 薄野 miso-ramen shop (most stay open on NYE); 年越しそば at a 蕎麦屋.
-- **Sapporo White Illumination (さっぽろホワイトイルミネーション)** — [Maps](https://maps.app.goo.gl/...) *(place already in YAML)*. ⚠️ 大通 1–5 丁目 main block **ends around Dec 24–25**; only **駅前通会場 + 南一条通会場** (Dec → Feb) are still lit on NYE.
-- **Countdown at 大通公園 + TV Tower.** Outdoor countdown free; TV Tower may sell paid late-night deck access with countdown — verify sapporo-tv-tower.co.jp.
-- (Munich Christmas Market — usually closed by Dec 24–25, note on the walk-through only.)
+- **二条市場 (Nijo Market)** · [Maps](https://maps.app.goo.gl/mh3XyFZpWTyg1W9z5)
+- **大通公園 + 札幌電視塔 (Odori Park + TV Tower)** · [Maps](https://maps.app.goo.gl/pBAcvmhnakXA1Nkv7)
+- **Mt. Moiwa Ropeway (藻岩山ロープウェイ)** · [Maps](https://maps.app.goo.gl/Gtsbqa2DhGt3RzNF6)
+- **NYE dinner:** Seafood Buffet NANDA (海鮮ビュッフェ NANDA)
+- **Sapporo White Illumination (さっぽろホワイトイルミネーション)**
+- **Countdown at 大通公園 + TV Tower**
 
 ### day-07 Fri 2027-01-01 — 元旦 traditions
-- **JR Tower T38 (JRタワー展望室 タワー・スリーエイト)** — [Maps](https://maps.app.goo.gl/...) *(place to add — currently placeholder)*. **Hatsuhinode** — opens extra early (~6:00) on 1/1. Sapporo sunrise ~7:00; arrive 6:30 to secure SE window. Fallback: Moiwa 初日の出 special run (if offered as paid package).
-- **Hokkaido Jingu (北海道神宮)** — [Maps](https://maps.app.goo.gl/...) *(place to add — currently using hokkaido-university as placeholder, promote to own place)*. **Hatsumode** — 円山公園 shrine, 地下鉄 東西線 円山公園駅 + 15-min walk. Peak 10:00–14:00; arrive pre-9:00.
-- **Hokkaido University / 北海道大学 (札幌キャンパス)** — [Maps](https://maps.app.goo.gl/Zm63kDKX2KVeC9Ez6). Free open campus, walkable from 札幌駅 北口. Winter highlights: ポプラ並木 + 主路 snow + Clark bust + Furukawa Memorial Hall. 45–60 min walk.
-- Evening: 薄野 ramen or izakaya (more open 元旦 than major sights).
+- **JR Tower T38 (JRタワー展望室)** — 初日の出
+- **Hokkaido Jingu (北海道神宮)** — 初詣
+- **Hokkaido University / 北海道大学** · [Maps](https://maps.app.goo.gl/Zm63kDKX2KVeC9Ez6)
+- Evening: 薄野 ramen or izakaya
 
 ### day-08 Sat 2027-01-02 — post-NYD re-openings
-- **ROYCE' Cacao & Chocolate Town (ロイズカカオ＆チョコレートタウン)** — [Maps](https://maps.app.goo.gl/7rrKgTdQvdv2sNUdA). 〒061-3775 石狩郡当別町. **10:00–17:00, last entry 15:00.** Admission ¥1,200 (HS+), ¥500 (4–MS), free ≤3. ⚠️ **Reservation REQUIRED via official e-tix.** Access: JR 学園都市線 札幌 → ロイズタウン駅 (~30 min, the rail ride itself is part of the experience) + 7-min free shuttle walk. 2–3 hr on-site. Natural Sat fit per requirements.
+- **ROYCE' Cacao & Chocolate Town (ロイズカカオ＆チョコレートタウン)** · [Maps](https://maps.app.goo.gl/7rrKgTdQvdv2sNUdA)
 
 ### day-09 Sun 2027-01-03 — unscheduled flex day
-- Reserved for any unfinished items, weather recovery, or chill day before day-10 drive start. Options: Nijo Market revisit, 狸小路 shopping, 札幌市時計台, Asahiyama Park in clear weather.
+- Reserved for unfinished items, weather recovery, or chill day before day-10 drive start.
 
 ### Nice-to-have Sapporo (if slots open)
-- **札幌市時計台** — 5-min compact historic landmark.
-- **さっぽろ雪まつり** — early February, **out of window**; pre-festival sculpture prep may be visible late in stay.
+- **札幌市時計台**
+- **さっぽろ雪まつり** (out of window; pre-festival prep may be visible)
 
 ---
 
@@ -112,13 +111,13 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 **Why 2 nights** — weather buffer. Wakkanai has one of Japan's worst winter flight-cancellation / whiteout rates; Cape Sōya often blows out. A second night lets us retry the morning after.
 
 ### day-10 Mon arrival evening
-- **ノシャップ岬 (Noshappu Cape)** — [Maps](https://maps.app.goo.gl/...) *(place in YAML)*. Sunset over Sea of Japan + Rishiri-Fuji silhouette on clear days. Do only if arrival leaves daylight — else hotel + early dinner and push to day-11.
+- **ノシャップ岬 (Noshappu Cape)** — if arrival leaves daylight; else push to day-11
 
 ### day-11 Tue — Cape Sōya day + weather buffer
-- **Cape Sōya / 宗谷岬 (Sōya-misaki)** — [Maps](https://maps.app.goo.gl/JrgXYnrJ37Jim4146). **The northernmost point of mainland Japan.** ~30 km / 40 min N of Wakkanai on R238 (maintained year-round). 最北端の地 monument + 宗谷岬之歌 stone. Sakhalin visible ~43 km across on clear days. ⚠️ Gale-force winds + whiteouts frequent; check 北海道開発局 道路情報.
-- **Backup / afternoon:** if day-10 already covered ノシャップ岬, swap to **稚内公園 / 氷雪の門** or **寒流水族館** (indoor). Full whiteout day → 寒流水族館 + 温泉 + hotel rest.
+- **Cape Sōya / 宗谷岬 (Sōya-misaki)** · [Maps](https://maps.app.goo.gl/JrgXYnrJ37Jim4146)
+- **Backup / afternoon:** 稚内公園 / 氷雪の門, or 寒流水族館 (indoor, whiteout fallback)
 
-**Dropped in winter:** 白い道 (Soya Hills) — disappears under snow.
+**Dropped in winter:** 白い道 (Soya Hills)
 
 ---
 
@@ -140,17 +139,17 @@ R238 along the Sea of Okhotsk, Hamatonbetsu → Monbetsu → Saroma → Abashiri
 Arrival only. Hotel check-in + early dinner.
 
 ### day-13 Thu — Abashiri city + coast
-- **オホーツク流氷館 (Okhotsk Ryūhyō Museum)** + **天都山展望台** — [Maps](https://maps.app.goo.gl/...) *(place in YAML)*. Co-located on Mt Tentō. **Indoor −15 °C chamber with real preserved drift ice** — the key drift-ice substitute for our window. 360° observatory over Abashiri's five lakes + Okhotsk + Shiretoko + Akan. **High priority.**
-- **能取岬 (Cape Notoro)** — [Maps](https://maps.app.goo.gl/...) *(place in YAML)*. Classic Okhotsk-coast lighthouse, ~20 min from city. One of the best drift-ice lookouts — dramatic winter coast even without ice.
-- **ビューポイントパーキング流氷街道・鱒浦** — [Maps](https://maps.app.goo.gl/vo1ReQWx2c8NjGNF7) · 〒099-3119 網走市鱒浦. Roadside viewpoint on the "感動の径"; Shiretoko mountains visible on clear days.
-- **博物館 網走監獄 (Abashiri Prison Museum)** — time-permitting; solid snowy-day indoor option.
+- **オホーツク流氷館 (Okhotsk Ryūhyō Museum) + 天都山展望台** — high priority (drift-ice substitute)
+- **能取岬 (Cape Notoro)**
+- **ビューポイントパーキング流氷街道・鱒浦** · [Maps](https://maps.app.goo.gl/vo1ReQWx2c8NjGNF7)
+- **博物館 網走監獄 (Abashiri Prison Museum)** — time-permitting
 
 ### day-14 Fri — 知床 Utoro day + weather buffer
 ~1 hr drive E to 斜里. This day also absorbs any weather setback from day-12 / 13.
-- **オシンコシンの滝 (Oshinkoshin Falls)** — [Maps](https://maps.app.goo.gl/...). Visible year-round; partially frozen in deep winter.
-- **天に続く道 (Road to Heaven)** — [Maps](https://maps.app.goo.gl/pBAcvmhnakXA1Nkv7) · 斜里郡斜里町峰浜. ~28 km straight road apparently ascending into the sky. ⚠️ **Winter caveats:** starting-point parking + viewing deck **CLOSED**; snow plowing only guaranteed in February — Jan mornings may be impassable. Shoot from roadside; check conditions day-of.
-- **流冰物語号 (Ryuhyo Monogatari Train) — OPTIONAL** — [JR Hokkaido info](https://www.jrhokkaido.co.jp/global/english/travel/tour-train/tour-train02.html). JR sightseeing train 網走 ↔ 知床斜里, Jan–Feb season. ⚠️ **Season typically starts mid-to-late January** — our early-January dates likely before operation. **Confirm 2027 start date on JR Hokkaido site**; if running, pairs with Utoro day.
-- **Shiretoko National Park winter closures:** 知床峠 closed Nov–late April; 知床五湖 winter access requires registered guide. Plan coast + Utoro side only.
+- **オシンコシンの滝 (Oshinkoshin Falls)**
+- **天に続く道 (Road to Heaven)** · [Maps](https://maps.app.goo.gl/pBAcvmhnakXA1Nkv7)
+- **流冰物語号 (Ryuhyo Monogatari Train)** — OPTIONAL; confirm 2027 start date
+- **Shiretoko National Park winter closures:** 知床峠 closed Nov–late April; 知床五湖 needs registered guide. Plan coast + Utoro side only.
 
 ---
 
@@ -160,47 +159,46 @@ Full 7–9 hr driving day. Abashiri → Biei ~220 km / 3–4 hr winter; Biei day
 
 ### Biei day-stop (no overnight)
 
-- **Christmas Tree (クリスマスツリーの木)** — [Maps](https://maps.app.goo.gl/v37b29Xiu6mHhsXE8) · 上川郡美瑛町. Lone spruce. ⚠️ **No parking on site; all surrounding land is private farmland.** Shoot from roadside only; **never step onto snow fields.**
-- **Seven Stars Tree (セブンスターの木)** — [Maps](https://maps.app.goo.gl/3riQPkZq4ZmvXZEY8) · 上川郡美瑛町北瑛. Has a parking lot (incl. bus). Easier stop.
-- **Shirogane Blue Pond (白金青い池)** — [Maps](https://maps.app.goo.gl/xM18uZ819nFR4Kz77). In winter the pond is frozen/snow-covered — not the summer blue. **Winter light-up 2026-10-24 → 2027-04-22, sunset → 21:00** (Jan ~17:00 start, ~10-min pattern loops). **Recommended plan:** arrive ~1 hr before sunset, shoot daylight briefly, stay through light-up start — ~45–60 min on-site. ⚠️ The Dec 31 → Jan 3 extended 02:00 hours **do not apply** (we're past Jan 3). ⚠️ **Conflict with Tengu night:** Blue Pond light-up start ~17:00, Tengu last-up 19:48 — they don't both fit day-15. Options: ① skip light-up, shoot Blue Pond in daylight, keep Tengu tonight; ② take the light-up, push Tengu to day-16 return. Decide on the day by weather + timing.
+- **Christmas Tree (クリスマスツリーの木)** · [Maps](https://maps.app.goo.gl/v37b29Xiu6mHhsXE8)
+- **Seven Stars Tree (セブンスターの木)** · [Maps](https://maps.app.goo.gl/3riQPkZq4ZmvXZEY8)
+- **Shirogane Blue Pond (白金青い池)** · [Maps](https://maps.app.goo.gl/xM18uZ819nFR4Kz77) — ⚠️ light-up vs Tengu night conflict; decide day-of
 
 ---
 
 ## Otaru — 3 nights (day-15 Sat 2027-01-09 → day-18 Tue 2027-01-12)
 
-**Lodging (split):**
-- **Nights 1–2 (day-15, day-16):** **Airbnb — entire building** — [listing 1308367449883578040](https://www.airbnb.com.au/rooms/1308367449883578040). 6 guests · 3 BR · 6 beds · 2 baths · Guest Favourite. 2-car parking. Near 運河 / 小樽駅. Photos `public/photos/airbnb-otaru-primary/01-12.jpg`.
-- **Night 3 (day-17):** **Hotel Neuschloss Otaru (ホテルノイシュロス小樽)** — [Maps](https://maps.app.goo.gl/EVydysyveUp9Q3DHA) · [Booking.com](https://www.booking.com/hotel/jp/hotel-neuschloss.html) · 〒047-0047 小樽市祝津3-282. All-ocean-view castle-style resort inside the Niseko-Shakotan-Otaru Kaigan Quasi-National Park. Every room has a private open-air bath (源泉掛け流し). Creative French dinner. 2 rooms × 1 night; pairs with the drone day + 祝津 coastal day + co-located Otaru Aquarium. Photos `public/photos/hotel-neuschloss-otaru/01-07.jpg`. ⚠️ **Gated on price** — if single-night × 2 rooms exceeds budget, fall back to a 3rd central-Otaru night.
+**Lodging:** ✅ **BOOKED (2026-04-24)** — **Grids Premium Hotel Otaru (グリッズプレミアムホテル小樽)** — [Booking.com](https://www.booking.com/hotel/jp/grids-premium-otaru.en-gb.html?checkin=2027-01-09&checkout=2027-01-12&group_adults=4&no_rooms=2&group_children=0) · 〒047-0032 北海道小樽市稲穂1-3-13. Central Otaru, ~9-min walk from JR 小樽駅 · close to 運河 / 堺町通り / Music Box Museum / 魚真. 2 rooms × 3 nights. ⚠️ Hokkaido accommodation tax paid at check-in (see Hakodate section for tiers). Parking: confirm on-site lot for the rental car day-15 afternoon arrival → day-18 morning departure.
+
+**Decision note:** replaces the prior split plan (Airbnb 1308367449883578040 × 2 nights + Hotel Neuschloss 祝津 × 1 night). Trade-off: lose the oceanside 祝津 night + private open-air bath + French dinner at Neuschloss; gain a single consistent central base next to all three days' activities and simpler logistics (no move mid-stay, no hand-off of Windsor shuttle reservation from 祝津).
 
 ### day-15 Sat — arrival evening + canal + Tengu
-- **Otaru Canal (小樽運河)** — [Maps](https://maps.app.goo.gl/...) *(place in YAML)*. Gas-lamp dusk walk — iconic postcard scene.
-- **Otaru Music Box Museum / 小樽オルゴール堂 (Main Hall)** — [Maps](https://maps.app.goo.gl/3kq8Va1PePPcY8a89) · 〒047-0027 小樽市住吉町4-1. Steam clock out front. End of 堺町本通り — pair with LeTAO, glass shops.
-- **Uomasa / 魚真 (sushi)** — [Maps](https://maps.app.goo.gl/CPaQc68SWsABcke29) · 〒047-0032 小樽市稲穂2-5-11. Lunch **12:00–14:00**, dinner **16:00–21:30**, **closed Sundays** — day-15 Sat works. ⚠️ **No reservations**; queue forms pre-opening. Arrival timing uncertain (long-drive day) — likely dinner slot.
-- **Mt. Tengu Ropeway / 小樽天狗山ロープウェイ** — [Maps](https://maps.app.goo.gl/jEUzKT7ByXnta1xF9). 532 m, ~4 min ride. **Winter 2026-11-29 → 2027-03-31, daily 09:00–20:00, last up 19:48.** ¥1,800 RT. **Second** of the Three Great Night Views (after 函館山). Go after sunset.
+- **Otaru Canal (小樽運河)**
+- **Otaru Music Box Museum / 小樽オルゴール堂 (Main Hall)** · [Maps](https://maps.app.goo.gl/3kq8Va1PePPcY8a89)
+- **Uomasa / 魚真 (sushi)** · [Maps](https://maps.app.goo.gl/CPaQc68SWsABcke29) — closed Sun; no reservations
+- **Mt. Tengu Ropeway / 小樽天狗山ロープウェイ** · [Maps](https://maps.app.goo.gl/jEUzKT7ByXnta1xF9)
 
 ### day-16 Sun — Rusutsu two-route loop
 Full 7–9 hr drive. **Explicit user requirement: outbound + return on different routes for different winter scenery.**
-- **Outbound — mountain-pass route:** Otaru → 札樽道 → 道央道 → 喜茂別 IC → R230 S over **中山峠 (Nakayama-tōge)** → Rusutsu. ~100 km / 1.75–2.25 hr winter. 羊蹄山 views; 峠の茶屋 あげいも famous roadside stop.
-- **Rusutsu village / Rusutsu Resort (ルスツリゾート)** — [Maps](https://maps.app.goo.gl/...) · 〒048-1711 虻田郡留寿都村泉川13. Snow tubing / snow rafting / snowmobile for non-skiers; 羊蹄山 panorama from resort base. Lunch on-site.
-- **Return — Niseko-coastal route:** Rusutsu → R276 W → Niseko → Kutchan → R5 N along Yoichi coast → Otaru. ~95–105 km / 2–2.5 hr winter. Niseko ski-resort corridor + R5 coast.
-- **Flip direction** (Niseko out, 中山峠 back) for sunset on the mountain pass if weather favors it.
-- ⚠️ **Winter pass closures / chain restrictions** during blizzards — check 北海道開発局 morning-of.
-- ⚠️ Uomasa **closed Sun** — lunch at Rusutsu base.
+- **Outbound — mountain-pass route:** Otaru → 札樽道 → 道央道 → 喜茂別 IC → R230 S over 中山峠 → Rusutsu.
+- **Rusutsu village / Rusutsu Resort (ルスツリゾート)** — lunch on-site
+- **Return — Niseko-coastal route:** Rusutsu → R276 W → Niseko → Kutchan → R5 N along Yoichi coast → Otaru.
+- Flip direction if weather favors sunset on the mountain pass.
 
-### day-17 Mon — drone day + 祝津 + Neuschloss
-- **朝里 (Asari) area** — [Maps](https://maps.app.goo.gl/uq4xJXgwdisyyzFa9). **Prime drone subject:** **朝里スカイループ (Asari Sky Loop)** — the spiral/double-loop viaduct on 札樽道 Asari IC. **Supporting:** 朝里ダム winter, 朝里川温泉 warm-up.
-  - ⚠️ **Drone regulatory stack:** (1) **DID zones** — central Otaru falls inside DID; Asari area is largely outside but confirm on 地理院地図 DID layer. DID flights need MLIT/JCAB permission via **DIPS 2.0, ≥10 business days prior.** (2) **No direct overflight of 札樽自動車道** — shoot from offset angle, not vertically above roadway. (3) **Quasi-national-park layer** — Niseko-Shakotan-Otaru Kaigan Kokutei-kōen; check 自然保護官事務所 + local signage (seabird / cliff restrictions). (4) Wind — consumer drones marginal above ~10 m/s; have a ground-only fallback. (5) Cold batteries lose 30–40 % at −10 °C; pre-warm in inside pockets. **Single weather window — no dedicated drone fallback day.** If weather fails, pivot to Nikka Yoichi / 余市 / 積丹海岸 ground filming.
-- **Otaru Aquarium / おたる水族館** — [Maps](https://maps.app.goo.gl/UNnUot3kmno1LSoQ7). Shukutsu coast, co-located with Neuschloss. Winter program: sea lion / penguin shows. Verify winter hours at booking — outdoor exhibits may reduce schedule.
-- Check-in Hotel Neuschloss → sunset shoot from Shukutsu coast → French dinner + private open-air bath.
+### day-17 Mon — drone day + 祝津 day-trip
+- **朝里 (Asari) area** · [Maps](https://maps.app.goo.gl/uq4xJXgwdisyyzFa9) — prime drone subject (朝里スカイループ). See drone regulatory stack note below.
+- **Otaru Aquarium / おたる水族館** · [Maps](https://maps.app.goo.gl/UNnUot3kmno1LSoQ7) — 祝津 day-trip; pair with coast sunset on clear day
+- Evening: return to Grids Premium; dinner in central Otaru.
 - **Book Windsor shuttle by 18:00 Mon evening** for day-18 transit.
+
+⚠️ **Drone regulatory stack (day-17):** (1) DID zones — central Otaru inside DID; Asari likely outside, confirm on 地理院地図. DID flights need MLIT/JCAB via DIPS 2.0, ≥10 business days prior. (2) No direct overflight of 札樽自動車道. (3) Quasi-national-park layer — check 自然保護官事務所. (4) Wind limit ~10 m/s; cold batteries lose 30–40 % at −10 °C. (5) Single weather window — ground fallback = Nikka Yoichi / 余市 / 積丹海岸.
 
 ### day-18 Tue — checkout + transit to Toya
 Covered in the **Otaru → Sapporo car-drop → Toya** section below.
 
 ### Nice-to-have Otaru (for slots that open up)
-- **堺町通り (Sakaimachi-dōri)** — main shopping / snack / glassware street; includes Music Box Museum.
-- **Nikka Whisky Yoichi distillery** — ~30 km / 40 min W; free tours (production tours need far-advance reservations).
-- **Shakotan / 神威岬** — ⚠️ 遊歩道 **closed in winter**; only base / 積丹岬 accessible.
+- **堺町通り (Sakaimachi-dōri)**
+- **Nikka Whisky Yoichi distillery**
+- **Shakotan / 神威岬** — 遊歩道 closed in winter
 
 ---
 
@@ -208,29 +206,29 @@ Covered in the **Otaru → Sapporo car-drop → Toya** section below.
 
 Transit day — no overnight in Sapporo in this plan.
 
-- **08:00–10:00:** Neuschloss breakfast + check-out.
-- **Drive Otaru → Sapporo city rental branch** (~40 km / 45 min on 札樽道). **Same branch as day-3 pickup.** Avoid New Chitose Airport drop — wrong direction for Toya.
+- **08:00–10:00:** Grids Premium breakfast + check-out.
+- **Drive central Otaru → Sapporo city rental branch** (~40 km / 45 min on 札樽道). **Same branch as day-3 pickup.** Avoid New Chitose Airport drop — wrong direction for Toya.
 - **特急 北斗 札幌 → 洞爺** (~2 hr). Book reserved 特大荷物 seats.
-- **Windsor shuttle from JR 洞爺駅** (free, **reservation by 18:00 day prior** — made day-17 evening from Neuschloss side). Published departures from 洞爺駅: **11:00 / 13:00 / 14:20 / 16:55 / 19:00** (~40 min ride). Aim for 13:00 / 14:20 / 16:55 based on train arrival; 19:00 is safety net.
+- **Windsor shuttle from JR 洞爺駅** (free, **reservation by 18:00 day prior** — made day-17 evening from Otaru). Published departures from 洞爺駅: **11:00 / 13:00 / 14:20 / 16:55 / 19:00** (~40 min ride). Aim for 13:00 / 14:20 / 16:55 based on train arrival; 19:00 is safety net.
 
 ---
 
 ## Toya — 3 nights (day-18 Tue 2027-01-12 → day-21 Fri 2027-01-15, final Hokkaido stay)
 
-**Lodging:** ✅ **BOOKED (2026-04-24)** — **The Windsor Hotel TOYA, Vignette Collection (ザ・ウィンザーホテル洞爺)** — [Maps](https://maps.app.goo.gl/xoQjgjuWjxHSuTPB6) · [Booking.com](https://www.booking.com/hotel/jp/the-windsor-toya-resort-spa.html) · 〒049-5722 虻田郡洞爺湖町清水336. 2 rooms × 3 nights. Photos `public/photos/windsor-hotel-toya/1,2,3,5,6,7.jpg`. ⚠️ Hokkaido accommodation tax paid at check-in (see Hakodate section for tiers). ⚠️ Free **shuttle from JR 洞爺駅** still needs reservation by **18:00 day-17** (from Neuschloss side) — separate booking, not included in the room reservation.
+**Lodging:** ✅ **BOOKED (2026-04-24)** — **The Windsor Hotel TOYA, Vignette Collection (ザ・ウィンザーホテル洞爺)** — [Maps](https://maps.app.goo.gl/xoQjgjuWjxHSuTPB6) · [Booking.com](https://www.booking.com/hotel/jp/the-windsor-toya-resort-spa.html) · 〒049-5722 虻田郡洞爺湖町清水336. 2 rooms × 3 nights. Photos `public/photos/windsor-hotel-toya/1,2,3,5,6,7.jpg`. ⚠️ Hokkaido accommodation tax paid at check-in (see Hakodate section for tiers). ⚠️ Free **shuttle from JR 洞爺駅** still needs reservation by **18:00 day-17** (from Otaru side) — separate booking, not included in the room reservation.
 
 ### day-18 Tue — arrival
 Shuttle + check-in + dinner + spa.
 
 ### day-19 Wed — Lake Toya full day
-- **Silo Observation Deck (サイロ展望台)** — [Maps](https://maps.app.goo.gl/vbz1fb4sMXW5NMvJ8). Free, **winter hours 8:30–17:00 (Nov–Apr).** Jan–Mar courtyard snow-play (スノーモービル / スノーラフティング) runs.
-- **Usuzan Ropeway (有珠山ロープウェイ)** — [Maps](https://maps.app.goo.gl/XEf1pdWgJFufiVg66) · 〒052-0102 有珠郡壮瞥町字昭和新山184-5. **Winter 9:00–16:00.** Two lookouts from summit: 洞爺湖展望台 (at station) + 火口原展望台 (~7 min walk). ⚠️ **外輪山遊歩道 + 銀沼大火口 / 外輪山展望台 CLOSED Nov–Apr.**
-- **Noboribetsu Jigokudani (登別地獄谷)** — [Maps](https://maps.app.goo.gl/FbdgvTbkqZjrhgtx7). ~40–50 min drive E. Volcanic "hell valley" + onsen town. Time-permitting; else push to day-20.
+- **Silo Observation Deck (サイロ展望台)** · [Maps](https://maps.app.goo.gl/vbz1fb4sMXW5NMvJ8)
+- **Usuzan Ropeway (有珠山ロープウェイ)** · [Maps](https://maps.app.goo.gl/XEf1pdWgJFufiVg66)
+- **Noboribetsu Jigokudani (登別地獄谷)** · [Maps](https://maps.app.goo.gl/FbdgvTbkqZjrhgtx7) — time-permitting; else push to day-20
 
 ### day-20 Thu — slack / spillover + Windsor enjoyment
-- **Windsor spa / onsen / gallery / lake-view dining** — a proper spa morning.
-- Any day-19 leftover: Silo revisit (winter activities), Usuzan if missed, Noboribetsu 登別温泉街 if pushed.
-- **Weather buffer for day-21 transit** — if 暴雪 / train cancellations threaten the 特急 北斗 + 新幹線 direct route, start the **新千歳 → 羽田 flight backup** booking flow today.
+- **Windsor spa / onsen / gallery / lake-view dining**
+- Any day-19 leftover.
+- **Weather buffer for day-21 transit** — if threatened, start 新千歳 → 羽田 flight backup booking today.
 
 ### day-21 Fri — transit to Tokyo
 Covered in the **Toya → Tokyo direct** booking (Phase 2 intro).
