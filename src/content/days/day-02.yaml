@@ -14,35 +14,12 @@ day:
   activities:
     - id: day-02-morning-market
       place: { ref: hakodate-morning-market }
-      notes_zh: >-
-        紧邻 函馆駅 西口。海鲜丼早餐（海胆 / 鲑鱼籽 / 帆立 / 蟹），人气店 7 – 9 点去避开观光客。
-        冬季 ~6:00 – 14:00 营业；年末年始部分店铺休业，行前确认。
-
     - id: day-02-hachimanzaka
       place: { ref: hachimanzaka }
-      notes_zh: >-
-        函馆元町最经典的坡道机位 —— 镜头顺坡而下对着港口 + 摩周丸纪念舰。
-        从市电 「末広町」站步行 2 – 3 分钟。顺势走 旧函館區公會堂 + Russian Orthodox / Catholic /
-        Episcopal 三座百年教堂一圈。冬季石板路积雪路灯氛围感拉满。
-
     - id: day-02-kanemori
       place: { ref: kanemori-red-brick-warehouses }
-      notes_zh: >-
-        明治赤砖仓库改造的 Bay Hakodate 商业区，紧挨 市电「十字街」站。
-        午饭 + 伴手礼 + 玻璃工艺 + 咖啡 一站搞定。1 月上旬前 夜间点灯 + 圣诞装饰 还在。
-
     - id: day-02-goryokaku-tower
       place: { ref: goryokaku-tower }
-      notes_zh: >-
-        ★ 白天展望主场 —— 107 米塔俯瞰雪中的五角星要塞公园，冬季轮廓最震撼。
-        塔内一层有 土方岁三 + 箱馆戦争 历史展示。冬季 9:00 – 18:00，成人 ~¥1,000。
-        从市电「五稜郭公園前」步行 15 分钟，或 函館駅 坐函馆バス ~20 分钟。
-        预留 60 – 90 分钟，顺便塔下 五稜郭公園 雪中漫步。
-
     - id: day-02-mt-hakodate-backup
       place: { ref: mt-hakodate-observatory }
       priority: nice
-      notes_zh: >-
-        🛡️ 函馆山「备选攻」—— 仅当 Day 1 晚上没上成（天气 / 缆车停运 / 到得太晚）才启动。
-        Day 1 已拿下的话，今晚跳过，把体力留给接下来的札幌长行程。
-        冬季登山道封山，缆车唯一，日落 ~16:05，15:20 – 15:30 上山。山顶 −10 °C 级严寒 + 大风。

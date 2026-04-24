@@ -13,12 +13,7 @@ day:
   activities:
     - id: day-20-windsor-spa
       place: { ref: windsor-hotel-toya }
-      notes_zh: Windsor 馆内 SPA / 温泉 / 湖景餐厅 / 艺术画廊 —— 慢慢享受一上午。
     - id: day-20-silo-revisit
       place: { ref: toyako-silo-observation-deck }
-      notes_zh: >-
-        若 day-19 日程被天气 / 时间打断，今天补 Silo 冬季场地（スノーモービル / スノーラフティング 等冬季活动 1 – 3 月运营）。
     - id: day-20-noboribetsu-revisit
       place: { ref: noboribetsu-jigokudani }
-      notes_zh: >-
-        若 day-19 未排上 登别地狱谷 + 温泉街，今天可单日往返（酒店打车 / 租车排 ~40 – 50 分钟）。

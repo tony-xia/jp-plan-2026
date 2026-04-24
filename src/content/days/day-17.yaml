@@ -15,7 +15,5 @@ day:
   activities:
     - id: day-17-asari-drone
       place: { ref: asari-otaru }
-      notes_zh: 整个行程唯一的航拍窗口 —— 没有天气备用日。天气不行就只拍地面。
     - id: day-17-otaru-aquarium
       place: { ref: otaru-aquarium }
-      notes_zh: 祝津海岸 day-trip，距 Grids Premium ~20 分钟车程。冬季程序含海狮 / 企鹅秀；天气好可接祝津海岸夕景。

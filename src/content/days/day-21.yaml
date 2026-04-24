@@ -13,7 +13,6 @@ day:
   activities:
     - id: day-21-tokyo-arrive
       place: { ref: shibuya-scramble }
-      notes_zh: 抵达东京 → JR 山手线 或 东京メトロ 到涩谷 / 浅草一带入住。晚上近处自由晚餐。
   bookings:
     - id: day-21-toya-tokyo-rail
       kind: shinkansen

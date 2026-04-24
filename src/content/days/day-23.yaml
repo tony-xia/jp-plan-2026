@@ -11,8 +11,5 @@ day:
   activities:
     - id: day-23-oedo-antique
       place: { ref: oedo-antique-market }
-      notes_zh: >-
-        户外市集；雨雪天可能取消，前一天查官网 antique-market.jp。预算 09:30 – 13:30。
     - id: day-23-haircut
       place: { ref: star-tokyo-k-two-shibuya }
-      notes_zh: 周日 10:00 – 19:00 营业；提前 ≥ 2 周预约。

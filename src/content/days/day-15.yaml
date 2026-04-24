@@ -14,31 +14,15 @@ day:
   activities:
     - id: day-15-christmas-tree
       place: { ref: biei-christmas-tree }
-      notes_zh: ⚠️ 无停车场 + 私人农地，路边取景即走，绝不踏入田地。
     - id: day-15-seven-stars-tree
       place: { ref: biei-seven-stars-tree }
-      notes_zh: 有停车场，比 クリスマスツリー 好停。
     - id: day-15-blue-pond
       place: { ref: shirogane-blue-pond }
-      notes_zh: >-
-        ★ 需求 committed：美瑛「trees + Blue Pond light-up」。
-        冬季亮灯 2026-10-24 → 2027-04-22，日落到 21:00；1 月日落 ~16:15，亮灯 ~17:00 起，10 分钟图案循环。
-        冬季水面雪覆 —— 不是夏季的艳蓝池，而是雪 + 蓝光 + 树影。建议到达前 1 小时看白昼 + 留到亮灯启动，现场 45 – 60 分钟。
-        ⚠️ 与 天狗山 夜景 时间对撞：亮灯看完 ~17:30 出发 → 小樽 20:30 – 21:00（天狗山末班 19:48 已过）。
-        取舍：① 只看日间青池跳过亮灯，赶 天狗山；② 看亮灯，天狗山 挪到 day-16 回小樽 ~19:00 后补。
-        走 ② 小樽三晚整体更舒；走 ① 可保「大晚上赶到小樽」的原计划。出发前按天气 + 到美瑛时刻决定。
     - id: day-15-drive-to-otaru
       place: { ref: otaru-canal }
-      notes_zh: 美瑛 → 小樽 旭川 → 道央道 → 札樽道；冬季估 3 – 4 小时。
     - id: day-15-uomasa
       place: { ref: uomasa-otaru }
-      notes_zh: >-
-        不接受预订，周日休；2027-01-09 周六营业。到达时间不稳定 —— 按长途驾驶计算多半赶晚饭。
-        午间 12:00 – 14:00 或晚间 16:00 – 21:30 之一。
     - id: day-15-music-box
       place: { ref: otaru-music-box-museum }
-      notes_zh: 堺町本通り尽头；顺带逛 LeTAO / 玻璃店。
     - id: day-15-tengu-night
       place: { ref: otaru-tengu-ropeway }
-      notes_zh: >-
-        北海道三大夜景之一。日落后上山。冬季营业 09:00 – 20:00，末班上行 19:48。

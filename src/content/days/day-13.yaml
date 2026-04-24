@@ -11,10 +11,7 @@ day:
   activities:
     - id: day-13-ryuhyo-museum
       place: { ref: okhotsk-ryuhyo-museum }
-      notes_zh: 流冰未到时这里是真冰替代体验的首选。同址还有 天都山展望台 360° 全景。
     - id: day-13-cape-notoro
       place: { ref: cape-notoro }
-      notes_zh: 冬日鄂霍次克海岸 + 灯塔；天气好时非常出片。距网走市中心 ~20 分钟。
     - id: day-13-masuura
       place: { ref: masuura-viewpoint-parking }
-      notes_zh: 海岸观景停车带；能取岬回城路上顺带停一下。

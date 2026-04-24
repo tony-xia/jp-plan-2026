@@ -16,19 +16,9 @@ day:
   activities:
     - id: day-24-subaru-mitaka-optional
       place: { ref: tokyo-subaru-mitaka }
-      notes_zh: >-
-        如 day-22 Sat 没跑完，周一开门（10:00 – 18:00）去补。涩谷 → 三鷹 JR 山手 + 中央线 ~30 分 + 步行 / 打车 15 分。
-        隔壁 G-PARK 三鷹 中古车店顺逛。如 day-22 已完成则跳过。
     - id: day-24-nezu-museum
       place: { ref: nezu-museum }
-      notes_zh: >-
-        表参道的东亚古美术馆，与用户「大江戸骨董市 + 古美」兴趣延续。建议 90 – 120 分钟。
-        距涩谷 1 – 2 站（地下铁 千代田线 或 JR 山手 + 副都心线）。
     - id: day-24-meiji-shrine
       place: { ref: meiji-shrine }
-      notes_zh: >-
-        初詣 1/1 – 1/3 人流高峰已过，1/18 周一相对清静。涩谷 → 原宿 1 站 JR 山手，或 明治神宮前 千代田 / 副都心 线。
-        林荫大道 + 本殿参拜 ~45 – 60 分钟；顺路衔接 原宿 / 表参道 购物。体力透支时的「慢日方案」。
     - id: day-24-omotesando-shopping
       place: { ref: shibuya-scramble }
-      notes_zh: 根津 ~15 分钟步行到表参道；晚饭前扫货 SCRAMBLE SQUARE / 宮下パーク / 明治通 一带。

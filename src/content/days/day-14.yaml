@@ -12,14 +12,7 @@ day:
   activities:
     - id: day-14-oshinkoshin
       place: { ref: oshinkoshin-falls }
-      notes_zh: 部分结冰大瀑布；由网走开车 ~1 小时到斜里方向。
     - id: day-14-road-to-heaven
       place: { ref: road-to-heaven-shari }
-      notes_zh: >-
-        ⚠️ 冬季起点观景台关闭；道路只有 2 月才保证除雪。
-        当日先查 北海道開発局 道路情報，实地再决定是否驾入；否则路边远观。
     - id: day-14-ryuhyo-monogatari-train
       place: { ref: ryuhyo-monogatari-train }
-      notes_zh: >-
-        可选：如 2027 年 1 月上旬 流氷物語号 已开季（通常 1 月下旬开）可替代自驾 / 串联 知床斜里。
-        网走 → 知床斜里 列车 ~1 小时；JR 北海道官网确认 2027 年开季日期。

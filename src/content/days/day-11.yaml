@@ -12,12 +12,5 @@ day:
   activities:
     - id: day-11-cape-soya
       place: { ref: cape-soya }
-      notes_zh: >-
-        日本最北端纪念碑。稚内市中心 → 宗谷岬 ~30 km / 40 分钟；R238 全年通车。
-        ⚠️ 冬季风暴大 + 白化；出发前查 JARTIC / 北海道開発局 道路情報。
-        标志：「日本最北端之地」三角碑、「宗谷岬之歌」石碑；晴天可望 43 km 外的萨哈林岛。
     - id: day-11-noshappu-or-park
       place: { ref: noshappu-cape }
-      notes_zh: >-
-        如 day-10 已去过 ノシャップ岬，改去 稚内公園 + 氷雪の門（稚内山丘上的展望 + 战争记念）、
-        或寒流水族館（市内，室内备用）。冬季白化日 → 寒流水族館 + 温泉。

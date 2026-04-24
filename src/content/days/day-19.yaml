@@ -11,10 +11,7 @@ day:
   activities:
     - id: day-19-silo
       place: { ref: toyako-silo-observation-deck }
-      notes_zh: 洞爷湖全景免费展望台；冬季营业 8:30 – 17:00。
     - id: day-19-usuzan
       place: { ref: usuzan-ropeway }
-      notes_zh: 有珠山缆车上山顶；走到火口原展望台约 7 分钟。冬季外輪山遊歩道封闭。
     - id: day-19-noboribetsu
       place: { ref: noboribetsu-jigokudani }
-      notes_zh: 时间允许，下午加 登别地狱谷；傍晚回酒店享受 SPA + 晚餐。

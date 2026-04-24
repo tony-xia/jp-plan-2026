@@ -13,9 +13,5 @@ day:
   activities:
     - id: day-10-drive-to-wakkanai
       place: { ref: surfeel-hotel-wakkanai }
-      notes_zh: >-
-        札幌 → 稚内 道央道 + R40，冬季估 5 – 6 小时；午餐岩見沢 / 旭川；傍晚到酒店办理入住。
-        ⚠️ 暴雪 / 道路封闭前查「北海道開発局 道路情報」。
     - id: day-10-noshappu-cape
       place: { ref: noshappu-cape }
-      notes_zh: 如到得早有余力，黄昏跑一趟 ノシャップ岬 看日本海夕阳 + 利尻富士剪影。否则跳过留到明天。
