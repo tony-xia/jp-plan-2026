@@ -1,5 +1,15 @@
-import type { Activity, Day, Trip } from "@/lib/schema";
+import type { Activity, Day, PlaceKind, Trip } from "@/lib/schema";
 import { resolvePlace } from "@/lib/schema";
+
+const PLACE_KIND_ICON: Record<PlaceKind, string> = {
+  restaurant: "🍜",
+  sight: "🗾",
+  shrine: "⛩️",
+  shop: "🛍️",
+  hotel: "🏨",
+  station: "🚉",
+  other: "📍",
+};
 import { findTravelTime, findCoveringBooking } from "@/lib/content";
 import { TriName } from "./TriName";
 import { AddressLinks } from "./AddressLinks";
@@ -29,12 +39,16 @@ export function ActivityItem({
       : undefined;
 
   return (
-    <div className="grid grid-cols-[5rem_1fr] gap-6 py-6 rule">
-      <div className="pt-1">
-        <div className="annot">{t.placeKind[place.kind]}</div>
-      </div>
+    <div className="py-6 rule">
       <div>
         <div className="flex items-baseline gap-3">
+          <span
+            className="text-lg leading-none shrink-0"
+            aria-label={t.placeKind[place.kind]}
+            title={t.placeKind[place.kind]}
+          >
+            {PLACE_KIND_ICON[place.kind]}
+          </span>
           <TriName
             name={place.name}
             as="h3"

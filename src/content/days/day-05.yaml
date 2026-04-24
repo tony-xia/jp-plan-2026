@@ -1,11 +1,20 @@
-# Day 05 — 2026-12-30 — 札幌（前段待补）
+# Day 05 — 2026-12-30 — 札幌 ⇄ 美瑛 单日自驾
 day:
   id: day-05
   date: "2026-12-30"
   city: hokkaido
-  title_zh: 第 5 天 · 札幌（前段空白日 · 待补）
+  title_zh: 第 5 天 · 札幌 ⇄ 美瑛 单日自驾（圣诞树 · 七星 · 青池）
   intro_zh: >-
-    Sapporo 前段新增空白日，活动待补。
+    全天自驾 · 札幌 → 美瑛 来回 ~360 km / 冬季 7 – 9 小时（含停留）。
+    去程 道央道 札幌 → 旭川 ~180 km / ~3 小时冬季，再南下进 美瑛 丘陵。
+    冬季日短（日落 ~16:15），天亮即出发；午餐 美瑛 或 旭川。
+    景点：クリスマスツリーの木 → セブンスターの木 → 白金青い池。
+    青池冬季夜间 light-up，是否留到点灯再返札幌当日决定（会把返程拖到夜路）。
+    ⚠️ 冬季轮胎 + 雪链必备；出发前查 北海道開発局 道路情報。
   activities:
-    - id: day-05-asahiyama-park
-      place: { ref: asahiyama-memorial-park }
+    - id: day-05-christmas-tree
+      place: { ref: biei-christmas-tree }
+    - id: day-05-seven-stars-tree
+      place: { ref: biei-seven-stars-tree }
+    - id: day-05-blue-pond
+      place: { ref: shirogane-blue-pond }

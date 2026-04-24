@@ -47,6 +47,7 @@ places:
       en: Goryokaku Tower
       ja: 五稜郭タワー
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/GLoZggBbziPUCM7t7
     address:
       full:
         zh: 北海道函馆市五稜郭町 43-9

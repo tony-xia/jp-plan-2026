@@ -32,25 +32,20 @@ export function CityList({ trip }: { trip: Trip }) {
     return lastDate === trip.endDate ? days.length - 1 : days.length;
   };
 
-  const dateToStay = new Map<string, Stay>();
-  trip.stays.forEach((s) => {
-    s.dayIds.forEach((dayId) => {
-      const d = dayById.get(dayId);
-      if (d) dateToStay.set(d.date, s);
-    });
-  });
+  const dayIdByDate = new Map<string, string>();
+  trip.days.forEach((d) => dayIdByDate.set(d.date, d.id));
 
-  const bookingsByStay = new Map<string, Booking[]>();
+  const extraBookingsByDayId = new Map<string, Booking[]>();
   trip.bookings.forEach((b) => {
     if (b.kind === "hotel") return;
-    const stay = dateToStay.get(b.start);
-    if (!stay) return;
-    const list = bookingsByStay.get(stay.id) ?? [];
+    const dayId = dayIdByDate.get(b.start);
+    if (!dayId) return;
+    const list = extraBookingsByDayId.get(dayId) ?? [];
     list.push(b);
-    bookingsByStay.set(stay.id, list);
+    extraBookingsByDayId.set(dayId, list);
   });
-  bookingsByStay.forEach((list) =>
-    list.sort((a, b) => a.start.localeCompare(b.start)),
+  extraBookingsByDayId.forEach((list) =>
+    list.sort((a, b) => (a.start ?? "").localeCompare(b.start ?? "")),
   );
 
   return (
@@ -79,7 +74,7 @@ export function CityList({ trip }: { trip: Trip }) {
                   dayById={dayById}
                   bookingById={bookingById}
                   nights={nightsFor(stay)}
-                  stayBookings={bookingsByStay.get(stay.id) ?? []}
+                  extraBookingsByDayId={extraBookingsByDayId}
                 />
               ))}
             </div>
@@ -99,14 +94,14 @@ function StayCard({
   dayById,
   bookingById,
   nights,
-  stayBookings,
+  extraBookingsByDayId,
 }: {
   stay: Stay;
   trip: Trip;
   dayById: Map<string, Day>;
   bookingById: Map<string, Booking>;
   nights: number;
-  stayBookings: Booking[];
+  extraBookingsByDayId: Map<string, Booking[]>;
 }) {
   const days = stay.dayIds
     .map((id) => dayById.get(id))
@@ -156,7 +151,11 @@ function StayCard({
             <ul className="mt-2">
               {days.map((d) => (
                 <li key={d.id} className="rule">
-                  <DayCard day={d} trip={trip} />
+                  <DayCard
+                    day={d}
+                    trip={trip}
+                    extraBookings={extraBookingsByDayId.get(d.id) ?? []}
+                  />
                 </li>
               ))}
             </ul>
@@ -177,27 +176,24 @@ function StayCard({
           </div>
         )}
 
-        {stayBookings.length > 0 && (
-          <div>
-            <h3 className="text-sm font-serif-jp font-semibold text-muted mb-1">
-              交通 & 预约
-            </h3>
-            <span className="annot annot-ja">
-              フライト · 新幹線 · その他
-            </span>
-            <div className="mt-2">
-              {stayBookings.map((b) => (
-                <BookingItem key={b.id} booking={b} />
-              ))}
-            </div>
-          </div>
-        )}
       </div>
     </details>
   );
 }
 
-function DayCard({ day, trip }: { day: Day; trip: Trip }) {
+function DayCard({
+  day,
+  trip,
+  extraBookings = [],
+}: {
+  day: Day;
+  trip: Trip;
+  extraBookings?: Booking[];
+}) {
+  const mergedBookings: Booking[] = [
+    ...(day.bookings ?? []),
+    ...extraBookings,
+  ].sort((a, b) => (a.start ?? "").localeCompare(b.start ?? ""));
   const visibleActivities = day.activities.filter(
     (a) => resolvePlace(a.place, trip).kind !== "station",
   );
@@ -292,16 +288,11 @@ function DayCard({ day, trip }: { day: Day; trip: Trip }) {
           <p className="text-sm text-muted">（活动待补）</p>
         )}
 
-        {day.bookings && day.bookings.length > 0 && (
+        {mergedBookings.length > 0 && (
           <div>
-            <h4 className="text-xs uppercase tracking-[0.3em] text-muted mb-2">
-              {t.bookings}
-            </h4>
-            <div>
-              {day.bookings.map((b) => (
-                <BookingItem key={b.id} booking={b} />
-              ))}
-            </div>
+            {mergedBookings.map((b) => (
+              <BookingItem key={b.id} booking={b} />
+            ))}
           </div>
         )}
       </div>

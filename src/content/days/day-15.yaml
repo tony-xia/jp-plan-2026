@@ -1,23 +1,15 @@
-# Day 15 — 2027-01-09 — 网走 → 美瑛丘陵 → 小樽（鱼真 · 运河 · 天狗山夜）
+# Day 15 — 2027-01-09 — 网走 → 小樽（鱼真 · 运河 · 天狗山夜）
 day:
   id: day-15
   date: "2027-01-09"
   city: hokkaido
-  title_zh: 第 15 天 · 网走 → 美瑛丘陵 → 小樽（小樽夜 1）
+  title_zh: 第 15 天 · 网走 → 小樽（小樽夜 1）
   intro_zh: >-
-    ★ 小樽 3 晚的第 1 晚（中心街）。早离网走一路西行（网走 → 美瑛 ~4 – 5 小时冬季），
-    中途 美瑛 两棵树（クリスマスツリー + セブンスター）短停；
-    然后开去小樽（美瑛 → 小樽 ~3 – 4 小时 · 旭川 → 道央道）。全天自驾 ~7 – 9 小时。
+    ★ 小樽 3 晚的第 1 晚（中心街）。全天转场：网走 → 旭川 → 小樽 ~420 km / 冬季 6 – 7 小时
+    （道央道 · 午餐 旭川）。美瑛 景点已在 day-05 札幌 单日自驾完成，今日直抵小樽。
     ⚠️ 2027-01-09 是周六 —— 鱼真 开门（周日休），不接受预订；
-    如若当天赶得上就午餐鱼真（通常 12:00 – 14:00 或 16:00 后），否则晚饭或改小樽市区其它寿司。
-    下午 运河 + 音乐盒堂 + 堺町通り；日落后 天狗山 夜景。
+    下午到小樽后：运河 + 音乐盒堂 + 堺町通り；日落后 天狗山 夜景。
   activities:
-    - id: day-15-christmas-tree
-      place: { ref: biei-christmas-tree }
-    - id: day-15-seven-stars-tree
-      place: { ref: biei-seven-stars-tree }
-    - id: day-15-blue-pond
-      place: { ref: shirogane-blue-pond }
     - id: day-15-drive-to-otaru
       place: { ref: otaru-canal }
     - id: day-15-uomasa

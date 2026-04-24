@@ -2,15 +2,16 @@
 
 > See [`../requirements.md`](../requirements.md) for the index, trip basics, and locked night allocation.
 
-**Shape:** Haneda → Tōhoku/Hokkaido Shinkansen → **Hakodate (2)** → JR 特急 北斗 → **Sapporo (7, NYE + NYD, rental pickup day-3 afternoon)** → drive NW → **Wakkanai (2)** → Cape Sōya → Okhotsk coast E → **Abashiri (3, incl. 知床 Utoro day)** → drive W via **Biei (day-stop only)** → **Otaru (3, Grids Premium central)** → Sapporo car-return → 特急 北斗 → **Windsor Toya (3)** → direct 特急 北斗 + 新幹線 → Tokyo.
+**Shape:** Haneda → Tōhoku/Hokkaido Shinkansen → **Hakodate (2)** → JR 特急 北斗 → **Sapporo (7, NYE + NYD, rental pickup day-3 afternoon, day-5 Biei round-trip road trip)** → drive NW → **Wakkanai (2)** → Cape Sōya → Okhotsk coast E → **Abashiri (3, incl. 知床 Utoro day)** → drive W directly → **Otaru (3, Grids Premium central)** → Sapporo car-return → 特急 北斗 → **Windsor Toya (3)** → direct 特急 北斗 + 新幹線 → Tokyo.
 
 **Drive legs (winter estimates):**
 
 | Leg | Distance | Winter time |
 |---|---|---|
+| Sapporo → Biei round trip (day-05) | ~360 km round trip | 7–9 hr door-to-door (with stops) |
 | Sapporo → Wakkanai (day-10) | ~330 km | 5–6 hr |
 | Wakkanai → Cape Sōya → Abashiri (day-12, Route 238 Okhotsk coast) | ~380–400 km | 6–7 hr |
-| Abashiri → Biei → Otaru (day-15) | ~420 km total | 7–9 hr (with stops) |
+| Abashiri → Otaru (day-15, via Asahikawa + 道央道) | ~420 km | 6–7 hr |
 | Rusutsu two-route loop from Otaru (day-16) | ~200 km | 7–9 hr door-to-door |
 | Otaru → Sapporo car drop (day-18) | ~40 km | ~45 min |
 
@@ -39,7 +40,7 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 - **函館朝市**
 - **八幡坂 + 元町 slope walk**
 - **金森赤レンガ倉庫 (Bay Hakodate)**
-- **五稜郭タワー**
+- **五稜郭タワー** · [Maps](https://maps.app.goo.gl/GLoZggBbziPUCM7t7)
 - 湯の川温泉 (optional, weather-dependent)
 - **函館山展望台 backup** — only if day-01 was missed
 
@@ -68,9 +69,12 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 - **Hill of the Buddha / 頭大佛殿 (真駒内滝野霊園)** · [Maps](https://maps.app.goo.gl/FaoXKA6y4uEwWEU8A)
 - **Mt. Okura Ski Jump Stadium (大倉山ジャンプ競技場 展望台)** · [Maps](https://maps.app.goo.gl/bgX3JkzsXUjqXAzS9)
 
-### day-05 Wed 2026-12-30 — light day before 大晦日
-- **Asahiyama Memorial Park (旭山記念公園)** · [Maps](https://maps.app.goo.gl/oCMB4WRPtNXdXhUa6)
-- Afternoon: 狸小路 / 薄野 walk
+### day-05 Wed 2026-12-30 — Biei one-day road trip (Sapporo ⇄ Biei)
+Full-day self-drive round trip from Sapporo hotel. Sapporo → Biei ~180 km / ~3 hr winter via 道央道 (Sapporo → Asahikawa), then local roads S into 美瑛 hills. Round trip ~360 km / 7–9 hr with stops. Leave Sapporo at dawn — short winter daylight (sunset ~16:15). Lunch in Biei or Asahikawa. Back in Sapporo by dinner. Winter tires + chains mandatory; check 道路情報 morning-of.
+- **Christmas Tree (クリスマスツリーの木)** · [Maps](https://maps.app.goo.gl/v37b29Xiu6mHhsXE8)
+- **Seven Stars Tree (セブンスターの木)** · [Maps](https://maps.app.goo.gl/3riQPkZq4ZmvXZEY8)
+- **Shirogane Blue Pond (白金青い池)** · [Maps](https://maps.app.goo.gl/xM18uZ819nFR4Kz77) — winter light-up runs evenings; decide day-of whether to stay for it (pushes return-drive to night) or turn back earlier.
+- **Dropped from this day:** Asahiyama Memorial Park + 狸小路/薄野 walk → pushed to day-09 flex or nice-to-have.
 
 ### day-06 Thu 2026-12-31 — NYE
 - **二条市場 (Nijo Market)** · [Maps](https://maps.app.goo.gl/mh3XyFZpWTyg1W9z5)
@@ -91,6 +95,7 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 
 ### day-09 Sun 2027-01-03 — unscheduled flex day
 - Reserved for unfinished items, weather recovery, or chill day before day-10 drive start.
+- **Candidates pushed here from day-05:** Asahiyama Memorial Park (旭山記念公園) · 狸小路 / 薄野 walk
 
 ### Nice-to-have Sapporo (if slots open)
 - **札幌市時計台**
@@ -153,15 +158,9 @@ Arrival only. Hotel check-in + early dinner.
 
 ---
 
-## Abashiri → Biei (day-stop) → Otaru (day-15 Sat 2027-01-09)
+## Abashiri → Otaru (day-15 Sat 2027-01-09)
 
-Full 7–9 hr driving day. Abashiri → Biei ~220 km / 3–4 hr winter; Biei day-stop; Biei → Otaru ~200 km / 3–4 hr via Asahikawa + 道央道. Lunch at Asahikawa.
-
-### Biei day-stop (no overnight)
-
-- **Christmas Tree (クリスマスツリーの木)** · [Maps](https://maps.app.goo.gl/v37b29Xiu6mHhsXE8)
-- **Seven Stars Tree (セブンスターの木)** · [Maps](https://maps.app.goo.gl/3riQPkZq4ZmvXZEY8)
-- **Shirogane Blue Pond (白金青い池)** · [Maps](https://maps.app.goo.gl/xM18uZ819nFR4Kz77) — ⚠️ light-up vs Tengu night conflict; decide day-of
+~420 km / 6–7 hr winter via Asahikawa + 道央道. **Biei stops dropped from this day** — already covered on day-05 as a Sapporo round-trip road trip. Straight transfer day now: Abashiri morning departure → lunch Asahikawa → Otaru mid/late afternoon → canal + Music Box + Tengu night.
 
 ---
 

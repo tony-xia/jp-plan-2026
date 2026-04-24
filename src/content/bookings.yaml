@@ -2,16 +2,6 @@
 # Day-level bookings live inside the matching src/content/days/day-NN.yaml.
 
 bookings:
-  - id: trip-international-flights
-    kind: flight
-    title_zh: "国际航班：出发地 ⇄ 东京羽田（待预订）"
-    start: "2026-12-26"
-    end: "2027-01-19"
-    details_zh: >-
-      四人同行，确认所有人 2026-12-26 早上抵达羽田；2027-01-19 从羽田（或成田）返程（trip 延长 2 天）。
-      ★ 2026-04-20 改：Day-1 抵达羽田后直接换新干线前往函馆，当天不留宿东京。
-      具体航班号待最终预订后填入。
-
   - id: day-01-haneda-to-hakodate
     kind: shinkansen
     title_zh: "新干线：羽田 → 东京 → 新函馆北斗 → 函馆（day 01，3 段 ~6 – 7 小时）"
