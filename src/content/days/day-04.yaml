@@ -1,13 +1,14 @@
-# Day 04 — 2026-12-29 — 札幌（前段待补）
+# Day 04 — 2026-12-29 — 札幌（白い恋人 + ROYCE'）
 day:
   id: day-04
   date: "2026-12-29"
   city: hokkaido
-  title_zh: 第 4 天 · 札幌（前段空白日 · 待补）
+  title_zh: 第 4 天 · 札幌（白い恋人 + ROYCE'）
   intro_zh: >-
-    Sapporo 前段新增空白日，活动待补。
+    Sapporo 前段空白日 · 甜品主题双子日：白色恋人公园 看工厂 + Blooming Snow Fantasy 亮灯，
+    随后 ROYCE' 可可与巧克力小镇（地理上都在札幌西北 / 当別方向）。自驾，注意冬季路况。
   activities:
-    - id: day-04-hill-of-buddha
-      place: { ref: hill-of-the-buddha }
-    - id: day-04-okurayama
-      place: { ref: okurayama-observatory }
+    - id: day-04-shiroi-koibito
+      place: { ref: shiroi-koibito-park }
+    - id: day-04-royce-town
+      place: { ref: royce-cacao-chocolate-town }

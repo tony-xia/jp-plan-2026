@@ -1,11 +1,14 @@
-# Day 08 — 2027-01-02 — 札幌（前段待补）
+# Day 08 — 2027-01-02 — 札幌（头大佛 + 大倉山）
 day:
   id: day-08
   date: "2027-01-02"
   city: hokkaido
-  title_zh: 第 8 天 · 札幌（前段空白日 · 待补）
+  title_zh: 第 8 天 · 札幌（头大佛 + 大倉山展望台）
   intro_zh: >-
-    Sapporo 前段新增空白日，活动待补。
+    1/2（周六）元旦次日多数景点恢复营业。自驾：头大佛（真駒内滝野霊園）—— 安藤忠雄设计的薰衣草丘环抱头大佛雪景；
+    大倉山ジャンプ競技場 展望台 俯瞰札幌市区。
   activities:
-    - id: day-08-royce-town
-      place: { ref: royce-cacao-chocolate-town }
+    - id: day-08-hill-of-buddha
+      place: { ref: hill-of-the-buddha }
+    - id: day-08-okurayama
+      place: { ref: okurayama-observatory }

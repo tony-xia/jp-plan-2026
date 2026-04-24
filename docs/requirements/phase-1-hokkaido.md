@@ -62,12 +62,11 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 **Activities grouped by day (7 nights absorbs the full must-visit list — year-end-closure items landing on day-08 Sat 1/2 and day-09 Sun 1/3 since the Sapporo return leg was dropped):**
 
 ### day-03 Mon 2026-12-28 — arrival afternoon
-- **Shiroi Koibito Park (白い恋人パーク)** · [Maps](https://maps.app.goo.gl/b1ApSWrbx2XNN8M96)
 - **Kani Honke Sapporo Station Main Branch (かに本家 札幌駅前本店)** · [Maps](https://maps.app.goo.gl/AjyvERYf8gcbVFik6)
 
-### day-04 Tue 2026-12-29 — year-end-closure-risk items (pre-NYE)
-- **Hill of the Buddha / 頭大佛殿 (真駒内滝野霊園)** · [Maps](https://maps.app.goo.gl/FaoXKA6y4uEwWEU8A)
-- **Mt. Okura Ski Jump Stadium (大倉山ジャンプ競技場 展望台)** · [Maps](https://maps.app.goo.gl/bgX3JkzsXUjqXAzS9)
+### day-04 Tue 2026-12-29 — chocolate-themed pair
+- **Shiroi Koibito Park (白い恋人パーク)** · [Maps](https://maps.app.goo.gl/b1ApSWrbx2XNN8M96)
+- **ROYCE' Cacao & Chocolate Town (ロイズカカオ＆チョコレートタウン)** · [Maps](https://maps.app.goo.gl/7rrKgTdQvdv2sNUdA)
 
 ### day-05 Wed 2026-12-30 — Biei one-day road trip (Sapporo ⇄ Biei)
 Full-day self-drive round trip from Sapporo hotel. Sapporo → Biei ~180 km / ~3 hr winter via 道央道 (Sapporo → Asahikawa), then local roads S into 美瑛 hills. Round trip ~360 km / 7–9 hr with stops. Leave Sapporo at dawn — short winter daylight (sunset ~16:15). Lunch in Biei or Asahikawa. Back in Sapporo by dinner. Winter tires + chains mandatory; check 道路情報 morning-of.
@@ -91,7 +90,8 @@ Full-day self-drive round trip from Sapporo hotel. Sapporo → Biei ~180 km / ~3
 - Evening: 薄野 ramen or izakaya
 
 ### day-08 Sat 2027-01-02 — post-NYD re-openings
-- **ROYCE' Cacao & Chocolate Town (ロイズカカオ＆チョコレートタウン)** · [Maps](https://maps.app.goo.gl/7rrKgTdQvdv2sNUdA)
+- **Hill of the Buddha / 頭大佛殿 (真駒内滝野霊園)** · [Maps](https://maps.app.goo.gl/FaoXKA6y4uEwWEU8A)
+- **Mt. Okura Ski Jump Stadium (大倉山ジャンプ競技場 展望台)** · [Maps](https://maps.app.goo.gl/bgX3JkzsXUjqXAzS9)
 
 ### day-09 Sun 2027-01-03 — unscheduled flex day
 - Reserved for unfinished items, weather recovery, or chill day before day-10 drive start.

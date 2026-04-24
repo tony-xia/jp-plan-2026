@@ -141,7 +141,7 @@ function StayCard({
         </span>
       </summary>
 
-      <div className="mt-4 pl-7 space-y-8">
+      <div className="mt-4 mb-6 pl-7">
         {days.length > 0 && (
           <div>
             <h3 className="text-sm font-serif-jp font-semibold text-muted mb-1">
@@ -163,17 +163,27 @@ function StayCard({
         )}
 
         {lodgings.length > 0 && (
-          <div>
-            <h3 className="text-sm font-serif-jp font-semibold text-muted mb-1">
-              住宿候选
-            </h3>
-            <span className="annot annot-ja">宿泊候補 · {lodgings.length} 项</span>
-            <div className="mt-2">
+          <details className="group/lodging [&_summary::-webkit-details-marker]:hidden">
+            <summary className="cursor-pointer list-none py-3 -mx-2 px-2 rounded-sm hover:bg-white/60 transition-colors">
+              <div className="flex items-baseline gap-3">
+                <span
+                  className="font-serif-jp text-muted text-sm transition-transform group-open/lodging:rotate-90 inline-block w-3 shrink-0"
+                  aria-hidden
+                >
+                  ›
+                </span>
+                <span className="font-serif-jp text-base font-semibold truncate">
+                  {lodgings.map((b) => b.title_zh).join(" · ")}
+                </span>
+              </div>
+            </summary>
+
+            <div className="mt-2 ml-[1.25rem] pl-6 border-l border-hairline pb-2">
               {lodgings.map((b) => (
                 <BookingItem key={b.id} booking={b} />
               ))}
             </div>
-          </div>
+          </details>
         )}
 
       </div>
