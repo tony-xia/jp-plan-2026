@@ -11,6 +11,10 @@ places:
       full:
         zh: 北海道函馆市函馆山
         ja: 〒040-0000 北海道函館市函館山
+    photos:
+      - /photos/mt-hakodate-observatory/01.jpg
+      - /photos/mt-hakodate-observatory/02.jpg
+      - /photos/mt-hakodate-observatory/03.jpg
   - id: hakodate-morning-market
     name:
       zh: 函馆朝市
@@ -21,6 +25,10 @@ places:
       full:
         zh: 北海道函馆市若松町 9-19
         ja: 〒040-0063 北海道函館市若松町9-19
+    photos:
+      - /photos/hakodate-morning-market/01.jpg
+      - /photos/hakodate-morning-market/02.jpg
+      - /photos/hakodate-morning-market/03.jpg
   - id: hachimanzaka
     name:
       zh: 八幡坂
@@ -31,6 +39,9 @@ places:
       full:
         zh: 北海道函馆市元町
         ja: 〒040-0054 北海道函館市元町14
+    photos:
+      - /photos/hachimanzaka/01.jpg
+      - /photos/hachimanzaka/02.jpg
   - id: kanemori-red-brick-warehouses
     name:
       zh: 金森赤砖仓库
@@ -41,6 +52,9 @@ places:
       full:
         zh: 北海道函馆市末広町 14-12
         ja: 〒040-0065 北海道函館市末広町14-12
+    photos:
+      - /photos/kanemori-red-brick-warehouses/01.jpg
+      - /photos/kanemori-red-brick-warehouses/02.jpg
   - id: goryokaku-tower
     name:
       zh: 五稜郭塔
@@ -52,3 +66,6 @@ places:
       full:
         zh: 北海道函馆市五稜郭町 43-9
         ja: 〒040-0001 北海道函館市五稜郭町43-9
+    photos:
+      - /photos/goryokaku-tower/01.jpg
+      - /photos/goryokaku-tower/02.jpg

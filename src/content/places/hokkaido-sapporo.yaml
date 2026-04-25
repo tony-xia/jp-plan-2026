@@ -11,6 +11,10 @@ places:
       full:
         zh: 北海道札幌市西区宫之泽 2-2-11-36
         ja: 〒063-0052 北海道札幌市西区宮の沢2丁目2-11-36
+    photos:
+      - /photos/shiroi-koibito-park/01.jpg
+      - /photos/shiroi-koibito-park/02.jpg
+      - /photos/shiroi-koibito-park/03.jpg
   - id: hokkaido-university
     name:
       zh: 北海道大学 (札幌校区)
@@ -22,6 +26,10 @@ places:
       full:
         zh: 北海道札幌市北区北 8 条西 5 丁目
         ja: 〒060-0808 北海道札幌市北区北8条西5丁目
+    photos:
+      - /photos/hokkaido-university/01.jpg
+      - /photos/hokkaido-university/02.jpg
+      - /photos/hokkaido-university/03.jpg
   - id: kani-honke-sapporo
     name:
       zh: 蟹本家 札幌驿前本店
@@ -37,7 +45,10 @@ places:
       - { zh: 帝王蟹刺身, ja: タラバガニ刺身 }
       - { zh: 松叶蟹涮锅, ja: ズワイガニしゃぶ }
       - { zh: 毛蟹料理, ja: 毛ガニ料理 }
-
+    photos:
+      - /photos/kani-honke-sapporo/01.jpg
+      - /photos/kani-honke-sapporo/02.jpg
+      - /photos/kani-honke-sapporo/03.jpg
   - id: seafood-buffet-nanda
     name:
       zh: 海鲜自助 NANDA
@@ -49,7 +60,10 @@ places:
       full:
         zh: 北海道札幌市中央区南 4 条西 4-1 丁目
         ja: 〒064-0804 北海道札幌市中央区南4条西4丁目1
-
+    photos:
+      - /photos/seafood-buffet-nanda/01.jpg
+      - /photos/seafood-buffet-nanda/02.jpg
+      - /photos/seafood-buffet-nanda/03.webp
   - id: hill-of-the-buddha
     name:
       zh: 头大佛 (真驹内泷野灵园)
@@ -61,6 +75,9 @@ places:
       full:
         zh: 北海道札幌市南区真驹内泷野 2
         ja: 〒005-0862 北海道札幌市南区滝野2
+    photos:
+      - /photos/hill-of-the-buddha/01.jpg
+      - /photos/hill-of-the-buddha/02.jpg
   - id: mt-moiwa-ropeway
     name:
       zh: 藻岩山 缆车
@@ -72,6 +89,10 @@ places:
       full:
         zh: 北海道札幌市中央区伏见 5-3-7
         ja: 〒064-0942 北海道札幌市中央区伏見5-3-7
+    photos:
+      - /photos/mt-moiwa-ropeway/01.jpg
+      - /photos/mt-moiwa-ropeway/02.jpg
+      - /photos/mt-moiwa-ropeway/03.jpg
   - id: asahiyama-memorial-park
     name:
       zh: 旭山记念公园
@@ -83,7 +104,9 @@ places:
       full:
         zh: 北海道札幌市中央区界川 4 丁目
         ja: 〒064-0945 北海道札幌市中央区界川4丁目
-
+    photos:
+      - /photos/asahiyama-memorial-park/01.jpg
+      - /photos/asahiyama-memorial-park/02.jpg
   - id: okurayama-observatory
     name:
       zh: 大仓山展望台 (札幌冬奥跳台)
@@ -95,6 +118,10 @@ places:
       full:
         zh: 北海道札幌市中央区宫之森 1274
         ja: 〒064-0958 北海道札幌市中央区宮の森1274
+    photos:
+      - /photos/okurayama-observatory/01.jpg
+      - /photos/okurayama-observatory/02.jpg
+      - /photos/okurayama-observatory/03.jpg
   - id: royce-cacao-chocolate-town
     name:
       zh: ROYCE' 可可与巧克力小镇
@@ -106,6 +133,10 @@ places:
       full:
         zh: 北海道石狩郡当别町字太美町 record number 109
         ja: 〒061-3775 北海道石狩郡当別町
+    photos:
+      - /photos/royce-cacao-chocolate-town/01.jpg
+      - /photos/royce-cacao-chocolate-town/02.png
+      - /photos/royce-cacao-chocolate-town/03.jpg
   - id: odori-park-tv-tower
     name:
       zh: 大通公园 + 札幌电视塔
@@ -116,7 +147,10 @@ places:
       full:
         zh: 北海道札幌市中央区大通西 1
         ja: 〒060-0042 北海道札幌市中央区大通西1
-
+    photos:
+      - /photos/odori-park-tv-tower/01.jpg
+      - /photos/odori-park-tv-tower/02.jpg
+      - /photos/odori-park-tv-tower/03.jpg
   - id: hokkaido-jingu
     name:
       zh: 北海道神宫
@@ -127,6 +161,8 @@ places:
       full:
         zh: 北海道札幌市中央区宫之丘 474
         ja: 〒064-8505 北海道札幌市中央区宮ヶ丘474
+    photos:
+      - /photos/hokkaido-jingu/01.jpg
   - id: jr-tower-t38
     name:
       zh: JR Tower 展望室 T38
@@ -137,6 +173,10 @@ places:
       full:
         zh: 北海道札幌市中央区北 5 条西 2-5
         ja: 〒060-0005 北海道札幌市中央区北5条西2-5
+    photos:
+      - /photos/jr-tower-t38/01.jpg
+      - /photos/jr-tower-t38/02.jpg
+      - /photos/jr-tower-t38/03.jpg
   - id: sapporo-white-illumination
     name:
       zh: 札幌白色灯节
@@ -147,6 +187,10 @@ places:
       full:
         zh: 北海道札幌市中央区大通西（大通公园会场） / 駅前通 / 南一条通 等多处
         ja: 〒060-0042 北海道札幌市中央区大通西（大通公園会場）ほか駅前通会場・南一条通会場
+    photos:
+      - /photos/sapporo-white-illumination/01.jpg
+      - /photos/sapporo-white-illumination/02.jpg
+      - /photos/sapporo-white-illumination/03.jpg
   - id: munich-christmas-market-sapporo
     name:
       zh: 札幌慕尼黑圣诞市场
@@ -157,6 +201,9 @@ places:
       full:
         zh: 北海道札幌市中央区大通西 2 丁目（大通公园 2 丁目）
         ja: 〒060-0042 北海道札幌市中央区大通西2丁目（大通公園2丁目）
+    photos:
+      - /photos/munich-christmas-market-sapporo/01.jpg
+      - /photos/munich-christmas-market-sapporo/02.webp
   - id: nijo-market-sapporo
     name:
       zh: 二条市场
@@ -167,3 +214,7 @@ places:
       full:
         zh: 北海道札幌市中央区南 3 条东 1 丁目
         ja: 〒060-0053 北海道札幌市中央区南3条東1丁目
+    photos:
+      - /photos/nijo-market-sapporo/01.jpg
+      - /photos/nijo-market-sapporo/02.jpg
+      - /photos/nijo-market-sapporo/03.jpg

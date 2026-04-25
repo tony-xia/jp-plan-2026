@@ -10,6 +10,10 @@ places:
       full:
         zh: 东京都涩谷区惠比寿 1-20-8 惠比寿 Garden Place Tower B1F
         ja: 〒150-6090 東京都渋谷区恵比寿1-20-8 恵比寿ガーデンプレイスタワー B1F
+    photos:
+      - /photos/subaru-star-square-ebisu/01.jpg
+      - /photos/subaru-star-square-ebisu/02.jpg
+      - /photos/subaru-star-square-ebisu/03.jpg
   - id: tokyo-subaru-mitaka
     name:
       zh: 东京 SUBARU 三鹰店
@@ -21,6 +25,10 @@ places:
       full:
         zh: 东京都三鹰市大泽 3-9-6
         ja: 〒181-0015 東京都三鷹市大沢3-9-6
+    photos:
+      - /photos/tokyo-subaru-mitaka/01.jpg
+      - /photos/tokyo-subaru-mitaka/02.jpg
+      - /photos/tokyo-subaru-mitaka/03.jpg
   - id: a-pit-autobacs-shinonome
     name:
       zh: A PIT 东雲 超级汽配
@@ -32,6 +40,9 @@ places:
       full:
         zh: 东京都江东区东云 2-7-20
         ja: 〒135-0062 東京都江東区東雲2-7-20
+    photos:
+      - /photos/a-pit-autobacs-shinonome/01.jpg
+      - /photos/a-pit-autobacs-shinonome/02.jpg
   - id: mominotakumi-shibuya
     name:
       zh: もみの匠 涩谷店 (按摩)
@@ -43,6 +54,9 @@ places:
       full:
         zh: 东京都涩谷区神南 1-22-9 Thanks Building 9F
         ja: 〒150-0041 東京都渋谷区神南1-22-9 サンクスビル9F
+    photos:
+      - /photos/mominotakumi-shibuya/01.jpg
+      - /photos/mominotakumi-shibuya/02.jpg
   - id: star-tokyo-k-two-shibuya
     name:
       zh: STAR TOKYO 涩谷店 (K-two 美发沙龙)
@@ -54,6 +68,10 @@ places:
       full:
         zh: 东京都涩谷区松涛 1-29-1 涩谷 Crossroad 7F
         ja: 〒150-0046 東京都渋谷区松濤1-29-1 渋谷クロスロード7F
+    photos:
+      - /photos/star-tokyo-k-two-shibuya/01.png
+      - /photos/star-tokyo-k-two-shibuya/02.jpg
+      - /photos/star-tokyo-k-two-shibuya/03.jpg
   - id: gonpachi-nishiazabu
     name:
       zh: 权八 西麻布 (Kill Bill 原型居酒屋)
@@ -69,7 +87,9 @@ places:
       - { zh: 荞麦面, ja: 蕎麦 }
       - { zh: 烤物串烧, ja: 串焼き }
       - { zh: 天妇罗, ja: 天ぷら }
-
+    photos:
+      - /photos/gonpachi-nishiazabu/01.jpg
+      - /photos/gonpachi-nishiazabu/02.jpg
   - id: oedo-antique-market
     name:
       zh: 大江户骨董市
@@ -80,6 +100,10 @@ places:
       full:
         zh: 东京都千代田区丸之内 3-5-1 东京国际论坛 户外广场
         ja: 〒100-0005 東京都千代田区丸の内3-5-1 東京国際フォーラム地上広場
+    photos:
+      - /photos/oedo-antique-market/01.jpg
+      - /photos/oedo-antique-market/02.jpg
+      - /photos/oedo-antique-market/03.jpg
   - id: shibuya-scramble
     name:
       zh: 涩谷 Scramble 十字路口 (住宿区附近)
@@ -90,7 +114,9 @@ places:
       full:
         zh: 东京都涩谷区道玄坂 2-2-1 附近
         ja: 〒150-0043 東京都渋谷区道玄坂2-2-1 付近
-
+    photos:
+      - /photos/shibuya-scramble/01.jpg
+      - /photos/shibuya-scramble/02.jpg
   - id: meiji-shrine
     name:
       zh: 明治神宫
@@ -101,7 +127,9 @@ places:
       full:
         zh: 东京都涩谷区代代木神园町 1-1
         ja: 〒151-8557 東京都渋谷区代々木神園町1-1
-
+    photos:
+      - /photos/meiji-shrine/01.jpg
+      - /photos/meiji-shrine/02.jpg
   - id: nezu-museum
     name:
       zh: 根津美术馆
@@ -112,3 +140,7 @@ places:
       full:
         zh: 东京都港区南青山 6-5-1
         ja: 〒107-0062 東京都港区南青山6-5-1
+    photos:
+      - /photos/nezu-museum/01.jpg
+      - /photos/nezu-museum/02.jpg
+      - /photos/nezu-museum/03.jpg

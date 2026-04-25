@@ -11,6 +11,9 @@ places:
       full:
         zh: 北海道上川郡美瑛町(邮编 071-0471)
         ja: 〒071-0471 北海道上川郡美瑛町
+    photos:
+      - /photos/biei-christmas-tree/01.jpg
+      - /photos/biei-christmas-tree/02.jpg
   - id: biei-seven-stars-tree
     name:
       zh: 美瑛 七星之木
@@ -22,7 +25,10 @@ places:
       full:
         zh: 北海道上川郡美瑛町北瑛(邮编 071-0224)
         ja: 〒071-0224 北海道上川郡美瑛町北瑛
-
+    photos:
+      - /photos/biei-seven-stars-tree/01.jpg
+      - /photos/biei-seven-stars-tree/02.jpg
+      - /photos/biei-seven-stars-tree/03.jpg
   - id: shirogane-blue-pond
     name:
       zh: 白金青池
@@ -34,6 +40,10 @@ places:
       full:
         zh: 北海道上川郡美瑛町白金
         ja: 〒071-0235 北海道上川郡美瑛町白金
+    photos:
+      - /photos/shirogane-blue-pond/01.jpg
+      - /photos/shirogane-blue-pond/02.jpg
+      - /photos/shirogane-blue-pond/03.jpg
   - id: otaru-tengu-ropeway
     name:
       zh: 小樽 天狗山 缆车 (山麓站)
@@ -45,6 +55,10 @@ places:
       full:
         zh: 北海道小樽市最上 2-16-15
         ja: 〒047-0024 北海道小樽市最上2-16-15
+    photos:
+      - /photos/otaru-tengu-ropeway/01.jpg
+      - /photos/otaru-tengu-ropeway/02.jpg
+      - /photos/otaru-tengu-ropeway/03.jpg
   - id: otaru-aquarium
     name:
       zh: 小樽水族馆
@@ -56,7 +70,9 @@ places:
       full:
         zh: 北海道小樽市祝津 3-303
         ja: 〒047-0047 北海道小樽市祝津3-303
-
+    photos:
+      - /photos/otaru-aquarium/01.jpg
+      - /photos/otaru-aquarium/02.jpg
   - id: otaru-music-box-museum
     name:
       zh: 小樽 音乐盒堂 本馆
@@ -68,6 +84,10 @@ places:
       full:
         zh: 北海道小樽市住吉町 4-1
         ja: 〒047-0027 北海道小樽市住吉町4-1
+    photos:
+      - /photos/otaru-music-box-museum/01.jpg
+      - /photos/otaru-music-box-museum/02.jpg
+      - /photos/otaru-music-box-museum/03.jpg
   - id: uomasa-otaru
     name:
       zh: 鱼真 (小樽 寿司)
@@ -82,7 +102,10 @@ places:
     dishes:
       - { zh: 生鱼片拼盘, ja: 刺身盛り合わせ }
       - { zh: 厨师推荐握寿司, ja: おまかせ握り }
-
+    photos:
+      - /photos/uomasa-otaru/01.jpg
+      - /photos/uomasa-otaru/02.jpg
+      - /photos/uomasa-otaru/03.jpg
   - id: asari-otaru
     name:
       zh: 朝里 (小樽 航拍区)
@@ -94,6 +117,10 @@ places:
       full:
         zh: 北海道小樽市朝里(邮编 047-0151)
         ja: 〒047-0151 北海道小樽市朝里
+    photos:
+      - /photos/asari-otaru/01.jpg
+      - /photos/asari-otaru/02.jpg
+      - /photos/asari-otaru/03.jpg
   - id: rusutsu-resort
     name:
       zh: 留寿都 度假村
@@ -105,6 +132,10 @@ places:
       full:
         zh: 北海道虻田郡留寿都村泉川 13
         ja: 〒048-1711 北海道虻田郡留寿都村泉川13
+    photos:
+      - /photos/rusutsu-resort/01.webp
+      - /photos/rusutsu-resort/02.jpg
+      - /photos/rusutsu-resort/03.jpg
   - id: nakayama-toge
     name:
       zh: 中山峠 (岭)
@@ -116,6 +147,10 @@ places:
       full:
         zh: 北海道虻田郡喜茂別町川上 345
         ja: 〒044-0222 北海道虻田郡喜茂別町川上345
+    photos:
+      - /photos/nakayama-toge/01.jpg
+      - /photos/nakayama-toge/02.jpg
+      - /photos/nakayama-toge/03.jpg
   - id: otaru-canal
     name:
       zh: 小樽运河
@@ -126,7 +161,10 @@ places:
       full:
         zh: 北海道小樽市港町 5
         ja: 〒047-0007 北海道小樽市港町5
-
+    photos:
+      - /photos/otaru-canal/01.jpg
+      - /photos/otaru-canal/02.jpg
+      - /photos/otaru-canal/03.jpg
   - id: nikka-yoichi-distillery
     name:
       zh: Nikka 威士忌 余市蒸馏所
@@ -137,3 +175,7 @@ places:
       full:
         zh: 北海道余市郡余市町黑川町 7-6
         ja: 〒046-0003 北海道余市郡余市町黒川町7-6
+    photos:
+      - /photos/nikka-yoichi-distillery/01.jpg
+      - /photos/nikka-yoichi-distillery/02.jpg
+      - /photos/nikka-yoichi-distillery/03.jpg

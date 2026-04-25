@@ -30,6 +30,9 @@ places:
       full:
         zh: 北海道虻田郡洞爷湖町成香 3-5
         ja: 〒049-5722 北海道虻田郡洞爺湖町成香3-5
+    photos:
+      - /photos/toyako-silo-observation-deck/01.jpg
+      - /photos/toyako-silo-observation-deck/02.jpg
   - id: usuzan-ropeway
     name:
       zh: 有珠山缆车 · 洞爷湖展望台
@@ -41,6 +44,9 @@ places:
       full:
         zh: 北海道有珠郡壮瞥町字昭和新山 184-5
         ja: 〒052-0102 北海道有珠郡壮瞥町字昭和新山184-5
+    photos:
+      - /photos/usuzan-ropeway/01.jpg
+      - /photos/usuzan-ropeway/02.jpg
   - id: noboribetsu-jigokudani
     name:
       zh: 登别 地狱谷
@@ -52,3 +58,7 @@ places:
       full:
         zh: 北海道登别市登别温泉町无番地
         ja: 〒059-0551 北海道登別市登別温泉町無番地
+    photos:
+      - /photos/noboribetsu-jigokudani/01.jpg
+      - /photos/noboribetsu-jigokudani/02.jpg
+      - /photos/noboribetsu-jigokudani/03.jpg
