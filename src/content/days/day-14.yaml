@@ -6,13 +6,20 @@ day:
   title_zh: 第 14 天 · 自驾去知床 Utoro · 天に続く道 · オシンコシン滝（Abashiri 第 3 晚）
   intro_zh: >-
     ★ 2026-04-22 第六版新增第 3 网走晚 —— 专门留给 知床斜里 / Utoro 方向。
-    早上从网走自驾 ~1 小时到 斜里，串 天に続く道（冬季起点观景台关闭、除雪只保 2 月，看天和路况）
-    → オシンコシン滝（部分冻结）→ 回程前能赶上的话加一段 流冰物語号（若 2027 年 1 月上旬已开季）。
-    ★ 今天也充当弹性日：day-12 海岸长开或 day-13 网走市内被风雪打断，可以挪到今天再走一遍。
+    早上从网走自驾 ~1 小时到 斜里，串 天に続く道（昨天已经走过一次，今天换个时段再拍一遍）
+    → オシンコシン滝（部分冻结）→ 天气和飞行规定都允许的话，去 象の鼻展望 飞一会儿无人机
+    → 回程前能赶上的话加一段 流冰物語号（若 2027 年 1 月上旬已开季）。
+    ★ 今天也充当弹性日：day-12 海岸长开或 day-13 阿寒摩周 loop 被风雪打断，可以挪到今天再走一遍。
   activities:
     - id: day-14-oshinkoshin
       place: { ref: oshinkoshin-falls }
     - id: day-14-road-to-heaven
       place: { ref: road-to-heaven-shari }
+      priority: nice
+    - id: day-14-zo-no-hana-drone
+      place: { ref: zo-no-hana-shiretoko }
+      priority: nice
+      notes_zh: 天气 / 风速 / 飞行规定 都允许的话，在这里飞一会儿无人机；任何一项不放心就跳过。
     - id: day-14-ryuhyo-monogatari-train
       place: { ref: ryuhyo-monogatari-train }
+      priority: nice

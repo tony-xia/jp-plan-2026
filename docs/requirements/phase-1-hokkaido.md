@@ -145,18 +145,25 @@ R238 along the Sea of Okhotsk, Hamatonbetsu → Monbetsu → Saroma → Abashiri
 
 ### day-12 Wed — long-drive arrival
 Arrival only. Hotel check-in + early dinner.
+- **能取岬 / Cape Notoro Lighthouse** · [Maps](https://maps.app.goo.gl/QnpPQHUnk19uz7cV9) — 2026-04-25 user-pinned. **Only if we arrive Abashiri with daylight to spare** (~20 min NW of the city). Otherwise skip — we're arriving after a long Okhotsk-coast drive.
 
-### day-13 Thu — Abashiri city + coast
-- **オホーツク流氷館 (Okhotsk Ryūhyō Museum) + 天都山展望台** — high priority (drift-ice substitute)
-- **能取岬 (Cape Notoro)**
-- **ビューポイントパーキング流氷街道・鱒浦** · [Maps](https://maps.app.goo.gl/vo1ReQWx2c8NjGNF7)
-- **博物館 網走監獄 (Abashiri Prison Museum)** — time-permitting
+### day-13 Thu — 阿寒摩周 + 知床外缘 逆时针 loop（user-pinned 2026-04-25）
+顺序固定，逆时针绕一圈：网走出发 → 西南到 美幌峠 → 东到 摩周湖南北两侧 → 东北到 天に続く道 → 沿鄂霍次克海岸 R244 / R238 西回 → 鱒浦 → 网走。
+
+1. **美幌峠 (Bihoro Pass)** — [Maps](https://maps.app.goo.gl/teH67QivNN7KhuxF9) — R243 高点，屈斜路湖一览
+2. **摩周湖 第一展望台 (Lake Mashu Observatory No. 1)** — [Maps](https://maps.app.goo.gl/oCvxcZkskaRY21MYA)
+3. **摩周湖 第三展望台 (Lake Mashu Observatory No. 3)** — [Maps](https://maps.app.goo.gl/SmNhgsUhhedqci9s5) — 更高更开阔，冬季可能封路
+4. **天に続く道 展望台 (Road to the Sky observatory, 斜里町峰浜)** — [Maps](https://maps.app.goo.gl/r3C2FxVxaEjwjekk9)
+5. **ビューポイントパーキング流氷街道・鱒浦** — [Maps](https://maps.app.goo.gl/xSmDUeLt447aCJ9n8)
+
+旧候选（流氷館 / 能取岬 / 網走監獄）仍在 place 库，没排进今天，临时想去随时加。day-14 知床 Utoro 仍是主线。
 
 ### day-14 Fri — 知床 Utoro day + weather buffer
 ~1 hr drive E to 斜里. This day also absorbs any weather setback from day-12 / 13.
 - **オシンコシンの滝 (Oshinkoshin Falls)**
-- **天に続く道 (Road to Heaven)** · [Maps](https://maps.app.goo.gl/pBAcvmhnakXA1Nkv7)
+- **天に続く道 (Road to Heaven)** · [Maps](https://maps.app.goo.gl/r3C2FxVxaEjwjekk9) — also visited day-13; can re-shoot here in different light
 - **流冰物語号 (Ryuhyo Monogatari Train)** — OPTIONAL; confirm 2027 start date
+- **象の鼻展望 (Zō-no-hana Lookout, Shiretoko coast)** · [Maps](https://maps.app.goo.gl/3B4vxRxWLBgVCzSr6) — 2026-04-25 user-pinned drone spot. **Weather-dependent**: only fly if 风速 / 天气 OK and Shiretoko / 国立公園 飞行规定 confirmed clear that day.
 - **Shiretoko National Park winter closures:** 知床峠 closed Nov–late April; 知床五湖 needs registered guide. Plan coast + Utoro side only.
 
 ---

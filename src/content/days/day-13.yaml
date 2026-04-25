@@ -1,17 +1,22 @@
-# Day 13 — 2027-01-07 — 网走市内 + 鄂霍次克沿岸（第 1 日）
+# Day 13 — 2027-01-07 — 阿寒摩周 + 天に続く道 逆时针 loop
 day:
   id: day-13
   date: "2027-01-07"
   city: hokkaido
-  title_zh: 第 13 天 · 漫游网走（流冰館 · 能取岬 · 鱒浦）（Abashiri 第 2 晚）
+  title_zh: 第 13 天 · 漫游阿寒摩周 · 天に続く道（逆时针绕一圈）（Abashiri 第 2 晚）
   intro_zh: >-
-    网走第一个完整日，慢慢逛市内。上午 オホーツク流氷館（-15℃ 室内真冰 · 流冰未到窗口的替代体验）
-    + 天都山展望台；下午 能取岬 + ビューポイントパーキング流氷街道・鱒浦；时间还有空就再加 博物館網走監獄。
-    知床 Utoro 方向 day-14 专门开过去，今天不用赶过去。
+    一整天慢慢逆时针绕一圈：网走出发 → 西南上 美幌峠 俯瞰屈斜路湖 → 东到 摩周湖
+    第一 + 第三展望台 → 东北到 天に続く道 展望台 → 再沿鄂霍次克海岸西回 鱒浦 → 网走。
+    冬天的内陆湖区视野安静开阔，海岸线一段还能赶上夕阳。
+    ⚠️ 摩周第三展望台冬季部分日子封路，出发前看一下当天公告；其余几站都比较稳。
   activities:
-    - id: day-13-ryuhyo-museum
-      place: { ref: okhotsk-ryuhyo-museum }
-    - id: day-13-cape-notoro
-      place: { ref: cape-notoro }
+    - id: day-13-bihoro-pass
+      place: { ref: bihoro-pass }
+    - id: day-13-mashu-1
+      place: { ref: mashu-observatory-1 }
+    - id: day-13-mashu-3
+      place: { ref: mashu-observatory-3 }
+    - id: day-13-road-to-sky
+      place: { ref: road-to-heaven-shari }
     - id: day-13-masuura
       place: { ref: masuura-viewpoint-parking }

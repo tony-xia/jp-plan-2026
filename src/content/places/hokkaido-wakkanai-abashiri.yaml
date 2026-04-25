@@ -24,7 +24,7 @@ places:
       en: View Point Parking Ryūhyō-Kaidō Masuura
       ja: ビューポイントパーキング流氷街道・鱒浦
     kind: sight
-    googleMapsUrl: https://maps.app.goo.gl/vo1ReQWx2c8NjGNF7
+    googleMapsUrl: https://maps.app.goo.gl/xSmDUeLt447aCJ9n8
     address:
       full:
         zh: 北海道网走市鳟浦(邮编 099-3119)
@@ -35,11 +35,47 @@ places:
       en: Road to Heaven (Tenni Tsuzuku Michi)
       ja: 天に続く道
     kind: sight
-    googleMapsUrl: https://maps.app.goo.gl/pBAcvmhnakXA1Nkv7
+    googleMapsUrl: https://maps.app.goo.gl/r3C2FxVxaEjwjekk9
     address:
       full:
         zh: 北海道斜里郡斜里町峰浜（国道 334 号・244 号）
         ja: 北海道斜里郡斜里町峰浜（国道334号・244号）
+  - id: bihoro-pass
+    name:
+      zh: 美幌峠
+      en: Bihoro Pass
+      ja: 美幌峠
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/teH67QivNN7KhuxF9
+    address:
+      full:
+        zh: 北海道网走郡美幌町古梅（国道 243 号 美幌峠）
+        ja: 北海道網走郡美幌町古梅（国道243号 美幌峠）
+    notes_zh: 国道 243 号最高点，俯瞰屈斜路湖全景 —— 顺时针 / 逆时针 阿寒摩周路线最经典的视野。
+  - id: mashu-observatory-1
+    name:
+      zh: 摩周湖 第一展望台
+      en: Lake Mashu Observatory No. 1
+      ja: 摩周第一展望台
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/oCvxcZkskaRY21MYA
+    address:
+      full:
+        zh: 北海道川上郡弟子屈町弟子屈原野
+        ja: 北海道川上郡弟子屈町弟子屈原野
+    notes_zh: 摩周湖南侧主展望台，停车场 + 餐厅 + 礼品店都在这边；冬季视野最常见的"霧の摩周"也是从这边看。
+  - id: mashu-observatory-3
+    name:
+      zh: 摩周湖 第三展望台
+      en: Lake Mashu Observatory No. 3
+      ja: 摩周第三展望台
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/SmNhgsUhhedqci9s5
+    address:
+      full:
+        zh: 北海道川上郡弟子屈町札友内
+        ja: 北海道川上郡弟子屈町札友内
+    notes_zh: 摩周湖北侧高位展望台，能同时把摩周湖 + 屈斜路湖 + 硫黄山方向收进画面，比第一展望台更开阔。冬季部分日子封路，先看官方公告。
   - id: okhotsk-ryuhyo-museum
     name:
       zh: 鄂霍次克流冰馆 + 天都山展望台
@@ -56,6 +92,7 @@ places:
       en: Cape Notoro
       ja: 能取岬
     kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/QnpPQHUnk19uz7cV9
     address:
       full:
         zh: 北海道网走市美岬
@@ -70,6 +107,18 @@ places:
       full:
         zh: 北海道斜里郡斜里町ウトロ西
         ja: 〒099-4355 北海道斜里郡斜里町ウトロ西
+  - id: zo-no-hana-shiretoko
+    name:
+      zh: 象之鼻展望
+      en: Zō-no-hana Lookout (Shiretoko)
+      ja: 象の鼻展望
+    kind: sight
+    googleMapsUrl: https://maps.app.goo.gl/3B4vxRxWLBgVCzSr6
+    address:
+      full:
+        zh: 北海道斜里郡斜里町（知床半岛海岸 · Utoro 北侧）
+        ja: 北海道斜里郡斜里町（知床半島沿岸・ウトロ北方）
+    notes_zh: 知床海岸开阔展望点，天气好的时候是飞无人机的好地方。⚠️ 起飞前先确认当日天气 + 风速 + 知床国立公园 / 周边的飞行规定。
 
   - id: cape-soya
     name:
