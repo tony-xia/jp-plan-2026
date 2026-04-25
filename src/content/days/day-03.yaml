@@ -12,11 +12,3 @@ day:
   activities:
     - id: day-03-kani-honke
       place: { ref: kani-honke-sapporo }
-  bookings:
-    - id: day-03-hokuto-hakodate-sapporo
-      kind: other
-      title_zh: "JR 特急 北斗：函馆 → 札幌"
-      start: "2026-12-28"
-      from: { zh: 函馆站, en: Hakodate Station, ja: 函館駅 }
-      to: { zh: 札幌站, en: Sapporo Station, ja: 札幌駅 }
-      details_zh: ~3 小时 30 分。4 人 + 冬装行李 → 预约特大荷物指定席。

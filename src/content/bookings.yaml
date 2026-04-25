@@ -69,18 +69,6 @@ bookings:
       - /photos/hotel-renaissance-sapporo/11.jpg
       - /photos/hotel-renaissance-sapporo/12.jpg
 
-  - id: hokkaido-sapporo-rental-car
-    kind: other
-    title_zh: "租车（札幌市内取车 day-3 → 札幌市内还车 day-18，顺时针自驾环线 + 札幌 7 晚停车）"
-    start: "2026-12-28"
-    end: "2027-01-12"
-    details_zh: >-
-      ★ 2026-04-22 第六版：取车提前到 day-3 抵札幌当天下午（北斗 到站后立即取车）；
-      day-18 早上从小樽 Neuschloss 退房 → 开到札幌市区租车行还车 → 乘 北斗 去洞爺。
-      Day-3 至 day-10 早上车停札幌酒店 / 租车行夜泊位（预订时确认含 7 晚停车）。
-      必备：四驱 SUV + 冬季雪胎 + 雪链；≥ 2 排座 + 大行李箱容量。
-      最硬单日：day-12 稚内→宗谷岬→网走（~380 – 400 km, 冬季 6 – 7 小时）。
-
   - id: hokkaido-wakkanai-hotel
     kind: hotel
     title_zh: "住宿：Surfeel Hotel 稚内（2 晚，2 间房）"

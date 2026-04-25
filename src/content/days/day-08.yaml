@@ -1,13 +1,19 @@
-# Day 08 — 2027-01-02 — 札幌（头大佛）
+# Day 08 — 2027-01-02 — 札幌 → Rusutsu 双线环游 + 头大佛
 day:
   id: day-08
   date: "2027-01-02"
   city: hokkaido
-  title_zh: 第 8 天 · 札幌（头大佛）
+  title_zh: 第 8 天 · Rusutsu 双线环游（中山峠 + ニセコ）+ 头大佛
   intro_zh: >-
-    1/2（周六）元旦次日多数景点恢复营业。自驾去 头大佛（真駒内滝野霊園）——
-    安藤忠雄设计的薰衣草丘环抱头大佛雪景。
-    （大倉山 已移到 day-04；待补一项 —— Rusutsu 与 day-16 冲突，待用户裁决。）
+    ★ 2026-04-25：Rusutsu 从 day-16 移到今天（用户裁决）。
+    1/2（周六）元旦次日多数景点恢复营业。从札幌基地出发，去程 中山峠（R230，羊蹄山 + あげいも）→ Rusutsu 中午午餐 / 雪上活动 →
+    回程走 ニセコ + R5 余市沿海回札幌。~7 – 9 小时循环；根据天气 / 光线可反向。
+    若环线时间允许，回程接 头大佛（真駒内滝野霊園）—— 安藤忠雄设计的薰衣草丘环抱头大佛雪景；时间紧则降级或挪到 day-09。
+    （大倉山 已移到 day-04。）
   activities:
+    - id: day-08-nakayama-toge
+      place: { ref: nakayama-toge }
+    - id: day-08-rusutsu
+      place: { ref: rusutsu-resort }
     - id: day-08-hill-of-buddha
       place: { ref: hill-of-the-buddha }
