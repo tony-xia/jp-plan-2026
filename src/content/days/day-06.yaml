@@ -6,15 +6,13 @@ day:
   title_zh: 第 6 天 · 跨年夜 🎆
   intro_zh: >-
     ★ 跨年夜留在札幌。白天慢慢逛，晚上在市中心一起倒数迎接新年。
-    早上 二条市場 海鲜丼当早饭 → 白天 大通公園 + 札幌电视塔 + 狸小路 / 薄野一带随意散步；
+    早上 二条市場 海鲜丼当早饭 → 白天在 狸小路 / 薄野一带随意散步；
     黄昏 藻岩山 缆车看日落 + 蓝调夜景（北海道三大夜景之一）→ 薄野跨年晚餐（海鲜 / 蟹 or 札幌拉面）→
     札幌白色灯节（駅前通・南一条通会场亮灯）→ 大通公園 + 札幌电视塔 跨年倒数迎接元旦。
     ⚠️ 大晦日不少餐厅会提早打烊或停业，预订前记得逐家确认当天营业时间。
   activities:
     - id: day-06-nijo-market
       place: { ref: nijo-market-sapporo }
-    - id: day-06-odori
-      place: { ref: odori-park-tv-tower }
     - id: day-06-moiwa
       place: { ref: mt-moiwa-ropeway }
     - id: day-06-nye-dinner
