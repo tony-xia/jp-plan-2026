@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#FAF7F2"/>
+  <!-- kasagi: curved top beam with upturned ends -->
+  <path d="M 4 13 Q 32 5 60 13 L 60 21 Q 32 15 4 21 Z" fill="#C8362D"/>
+  <!-- shimaki: secondary beam under kasagi -->
+  <rect x="8" y="22" width="48" height="3" fill="#C8362D"/>
+  <!-- left pillar -->
+  <rect x="14" y="25" width="7" height="33" fill="#C8362D"/>
+  <!-- right pillar -->
+  <rect x="43" y="25" width="7" height="33" fill="#C8362D"/>
+  <!-- nuki: horizontal cross-beam -->
+  <rect x="10" y="33" width="44" height="5" fill="#C8362D"/>
+</svg>
