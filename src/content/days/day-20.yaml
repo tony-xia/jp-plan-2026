@@ -3,17 +3,13 @@ day:
   id: day-20
   date: "2027-01-14"
   city: hokkaido
-  title_zh: 第 20 天 · 享受 Windsor SPA · 洞爷湖慢游（Windsor 夜 3）
+  title_zh: 第 20 天 · 享受 Windsor SPA · 洞爷湖慢游
   intro_zh: >-
     ★ 2026-04-22 第六版新增的 Toya 第 3 晚 —— 放松 / 补遗的一天。
-    上午 Windsor SPA + 温泉 + 湖景早午餐；day-19 有什么没去到的（Silo / 有珠山 / 登别）今天慢慢补；
+    上午 Windsor SPA + 温泉 + 湖景早午餐；day-19 有什么没去到的（Silo / 有珠山）今天慢慢补；
     湖周的小众点 —— 壮瞥 昭和新山、洞爺湖汽船、花火补场 —— 看天气和心情挑。
     今天也是 day-21 转东京的天气弹性日：北斗 + 新干线衔接需要稳定的铁路状况，
     要是暴雪 / 列车停运，今天就改买 新千歳 → 羽田 的机票备案。
   activities:
-    - id: day-20-windsor-spa
-      place: { ref: windsor-hotel-toya }
     - id: day-20-silo-revisit
       place: { ref: toyako-silo-observation-deck }
-    - id: day-20-noboribetsu-revisit
-      place: { ref: noboribetsu-jigokudani }

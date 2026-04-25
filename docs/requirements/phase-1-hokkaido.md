@@ -230,11 +230,11 @@ Shuttle + check-in + dinner + spa.
 ### day-19 Wed — Lake Toya full day
 - **Silo Observation Deck (サイロ展望台)** · [Maps](https://maps.app.goo.gl/vbz1fb4sMXW5NMvJ8)
 - **Usuzan Ropeway (有珠山ロープウェイ)** · [Maps](https://maps.app.goo.gl/XEf1pdWgJFufiVg66)
-- **Noboribetsu Jigokudani (登別地獄谷)** · [Maps](https://maps.app.goo.gl/FbdgvTbkqZjrhgtx7) — time-permitting; else push to day-20
+- **Noboribetsu Jigokudani (登別地獄谷)** · [Maps](https://maps.app.goo.gl/FbdgvTbkqZjrhgtx7) — time-permitting today only (no longer carried over to day-20)
 
 ### day-20 Thu — slack / spillover + Windsor enjoyment
-- **Windsor spa / onsen / gallery / lake-view dining**
-- Any day-19 leftover.
+- **Windsor spa / onsen / gallery / lake-view dining** — covered by the Windsor lodging booking, not as a separate activity card
+- Day-19 湖周补遗 (Silo / 有珠山 / 壮瞥 etc.); **登別 dropped from this day per 2026-04-25**
 - **Weather buffer for day-21 transit** — if threatened, start 新千歳 → 羽田 flight backup booking today.
 
 ### day-21 Fri — transit to Tokyo

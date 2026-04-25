@@ -21,7 +21,7 @@ bookings:
 
   - id: hokkaido-hakodate-airbnb-22116280
     kind: hotel
-    title_zh: "住宿：SMALL TOWN HOTEL 函馆整栋 4LDK（Airbnb 22116280，2 晚，4 人）"
+    title_zh: "住宿：SMALL TOWN HOTEL 函馆整栋 4LDK"
     booked: true
     start: "2026-12-26"
     end: "2026-12-28"
