@@ -1,18 +1,22 @@
-# Day 16 — 2027-01-10 — Rusutsu 双线环游
+# Day 16 — 2027-01-10 — Rusutsu 双线环游 + 朝里 航拍
 day:
   id: day-16
   date: "2027-01-10"
   city: hokkaido
-  title_zh: 第 16 天 · Rusutsu 双线环游（中山峠 + ニセコ）
+  title_zh: 第 16 天 · Rusutsu 双线环游（中山峠 + ニセコ）+ 朝里 航拍
   intro_zh: >-
     ★ 开车去 Rusutsu 留寿都，去程和回程走不同路看不同雪景。
-    去 中山峠（R230，羊蹄山 + あげいも）→ Rusutsu 中午午餐 / 雪上活动 → 回 ニセコ + R5 余市沿海 → 小樽。
+    去 中山峠（R230，羊蹄山 + あげいも）→ Rusutsu 中午午餐 / 雪上活动 → 回 ニセコ + R5 余市沿海。
+    回程在抵达小樽中心前停 朝里（朝里スカイループ 航拍主目标，备选 朝里ダム / 朝里川温泉）。
     ~7 – 9 小时循环；根据天气 / 光线可反向（ニセコ 去，中山峠 回程日落）。
     ⚠️ 2027-01-10 是周日 —— 鱼真 休，午餐在 Rusutsu 度假村基地解决。
+    ⚠️ 无人机：DID / 高速上空禁飞 / 国定公园 等规则需 ≥ 10 工作日前 DIPS 2.0 申请；环线跑长则降级为地面摄影。
   activities:
     - id: day-16-nakayama-toge
       place: { ref: nakayama-toge }
     - id: day-16-rusutsu
       place: { ref: rusutsu-resort }
+    - id: day-16-asari-drone
+      place: { ref: asari-otaru }
     - id: day-16-return-to-otaru
       place: { ref: otaru-canal }

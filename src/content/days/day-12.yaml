@@ -9,8 +9,4 @@ day:
     ★ 左侧驾驶 + 向东行驶 = 海在驾驶员一侧，是顺时针路线的核心体验。
     中途 音威子府 / 枝幸 / 雄武 / 紋別 / サロマ湖 可以短停；遇暴风 / 白化走 R40 → 旭川 → R39 内陆备案（放弃海景）。
     傍晚抵达网走，市内入住。⚠️ 宗谷岬已在 day-11 完成，不再往返。
-  activities:
-    - id: day-12-depart-wakkanai
-      place: { ref: surfeel-hotel-wakkanai }
-    - id: day-12-drive-to-abashiri
-      place: { ref: abashiri-city }
+  activities: []

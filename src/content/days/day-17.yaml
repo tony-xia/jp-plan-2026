@@ -1,19 +1,16 @@
-# Day 17 — 2027-01-11 — 朝里航拍 + 祝津 day-trip
+# Day 17 — 2027-01-11 — 祝津 day-trip
 day:
   id: day-17
   date: "2027-01-11"
   city: hokkaido
-  title_zh: 第 17 天 · 朝里 航拍 + 祝津 海岸
+  title_zh: 第 17 天 · 祝津 海岸（Grids Premium 第 3 晚）
   intro_zh: >-
-    ★ 小樽 3 晚的最后一晚 —— 以 Grids Premium（中心街）为基地全天出门 day-trip。
-    上午 / 中午 朝里 航拍 + 自拍摄影（主目标 朝里スカイループ；备选 朝里ダム / 朝里川温泉）。
-    下午到 祝津 小樽水族館 + 祝津海岸 夕景；晚上回中心街 Grids Premium 晚餐。
-    ⚠️ 无人机规定详见 place notes（DID、高速上空禁飞、国定公园等）；≥ 10 工作日前提交 DIPS 2.0 申请。
-    天气不好改纯地面自拍 / 余市 Nikka 威士忌 工厂 备案。
+    ★ 小樽 3 晚的最后一晚 —— 以 Grids Premium（中心街）为基地。
+    去 祝津 小樽水族館 + 祝津海岸 夕景；晚上回中心街 Grids Premium 晚餐。
+    朝里 航拍 已挪至 day-16 回程顺路完成；本日变轻，可补 day-15 / day-16 没赶完的项目，
+    或纯粹休整为 day-18 自驾还车 + 特急北斗 + Windsor 接驳的多段转场蓄力。
     ★ 当晚 18:00 前电话预约明天（day-18）洞爷 Windsor 接驳巴士。
     明早（day-18）退房 → 札幌还车 → 洞爺。
   activities:
-    - id: day-17-asari-drone
-      place: { ref: asari-otaru }
     - id: day-17-otaru-aquarium
       place: { ref: otaru-aquarium }

@@ -64,9 +64,11 @@ Winter tires + snow chains mandatory; check 北海道開発局 道路情報 ever
 ### day-03 Mon 2026-12-28 — arrival afternoon
 - **Kani Honke Sapporo Station Main Branch (かに本家 札幌駅前本店)** · [Maps](https://maps.app.goo.gl/AjyvERYf8gcbVFik6)
 
-### day-04 Tue 2026-12-29 — chocolate-themed pair
+### day-04 Tue 2026-12-29 — Sapporo W/NW self-drive cluster
 - **Shiroi Koibito Park (白い恋人パーク)** · [Maps](https://maps.app.goo.gl/b1ApSWrbx2XNN8M96)
 - **ROYCE' Cacao & Chocolate Town (ロイズカカオ＆チョコレートタウン)** · [Maps](https://maps.app.goo.gl/7rrKgTdQvdv2sNUdA)
+- **Mt. Okura Ski Jump Stadium (大倉山ジャンプ競技場 展望台)** · [Maps](https://maps.app.goo.gl/bgX3JkzsXUjqXAzS9) — moved here 2026-04-25 (was day-08)
+- **Hokkaido University / 北海道大学 (札幌校区)** · [Maps](https://maps.app.goo.gl/Zm63kDKX2KVeC9Ez6) — moved here 2026-04-25 (was day-07)
 
 ### day-05 Wed 2026-12-30 — Biei one-day road trip (Sapporo ⇄ Biei)
 Full-day self-drive round trip from Sapporo hotel. Sapporo → Biei ~180 km / ~3 hr winter via 道央道 (Sapporo → Asahikawa), then local roads S into 美瑛 hills. Round trip ~360 km / 7–9 hr with stops. Leave Sapporo at dawn — short winter daylight (sunset ~16:15). Lunch in Biei or Asahikawa. Back in Sapporo by dinner. Winter tires + chains mandatory; check 道路情報 morning-of.
@@ -86,16 +88,16 @@ Full-day self-drive round trip from Sapporo hotel. Sapporo → Biei ~180 km / ~3
 ### day-07 Fri 2027-01-01 — 元旦 traditions
 - **JR Tower T38 (JRタワー展望室)** — 初日の出
 - **Hokkaido Jingu (北海道神宮)** — 初詣
-- **Hokkaido University / 北海道大学** · [Maps](https://maps.app.goo.gl/Zm63kDKX2KVeC9Ez6)
 - Evening: 薄野 ramen or izakaya
+- **Note 2026-04-25:** 北海道大学 moved to day-04 to free 元旦 afternoon (most things closed anyway).
 
 ### day-08 Sat 2027-01-02 — post-NYD re-openings
 - **Hill of the Buddha / 頭大佛殿 (真駒内滝野霊園)** · [Maps](https://maps.app.goo.gl/FaoXKA6y4uEwWEU8A)
-- **Mt. Okura Ski Jump Stadium (大倉山ジャンプ競技場 展望台)** · [Maps](https://maps.app.goo.gl/bgX3JkzsXUjqXAzS9)
+- **Note 2026-04-25:** 大倉山 moved to day-04. User proposed adding [Rusutsu pin](https://maps.app.goo.gl/zEtbXATTGfTUuxZF8) (resolves to 留寿都村 / ルスツリゾート region) — **CONFLICT FLAGGED, awaiting resolution**: Rusutsu is already day-16's Otaru-based two-route loop. Either drop day-16's Rusutsu, demote day-16 to a different itinerary, or skip day-8 Rusutsu. Not yet wired into YAML.
 
-### day-09 Sun 2027-01-03 — unscheduled flex day
-- Reserved for unfinished items, weather recovery, or chill day before day-10 drive start.
-- **Candidates pushed here from day-05:** Asahiyama Memorial Park (旭山記念公園) · 狸小路 / 薄野 walk
+### day-09 Sun 2027-01-03 — Sapporo city walk
+- 2026-04-25: user requested **Sapporo city walk** for this day (downtown 大通 / 狸小路 / 薄野 stroll, 札幌市時計台, 北海道庁旧本庁舎, 札幌駅 周辺). No driving — car stays parked. Final unstructured day before day-10 long drive.
+- **Candidates from day-05 spillover:** Asahiyama Memorial Park (旭山記念公園) — only if drive-friendly; otherwise pure city walk.
 
 ### Nice-to-have Sapporo (if slots open)
 - **札幌市時計台**
@@ -176,18 +178,19 @@ Arrival only. Hotel check-in + early dinner.
 - **Uomasa / 魚真 (sushi)** · [Maps](https://maps.app.goo.gl/CPaQc68SWsABcke29) — closed Sun; no reservations
 - **Mt. Tengu Ropeway / 小樽天狗山ロープウェイ** · [Maps](https://maps.app.goo.gl/jEUzKT7ByXnta1xF9)
 
-### day-16 Sun — Rusutsu two-route loop
+### day-16 Sun — Rusutsu two-route loop + 朝里 stop
 Full 7–9 hr drive. **Explicit user requirement: outbound + return on different routes for different winter scenery.**
 - **Outbound — mountain-pass route:** Otaru → 札樽道 → 道央道 → 喜茂別 IC → R230 S over 中山峠 → Rusutsu.
 - **Rusutsu village / Rusutsu Resort (ルスツリゾート)** — lunch on-site
 - **Return — Niseko-coastal route:** Rusutsu → R276 W → Niseko → Kutchan → R5 N along Yoichi coast → Otaru.
+- **朝里 (Asari) area** · [Maps](https://maps.app.goo.gl/uq4xJXgwdisyyzFa9) — moved here 2026-04-25 (was day-17). Stop on the return leg (R5 → 朝里 before reaching central Otaru). Drone window depends on remaining daylight + weather; if loop runs long, demote to ground-level photo stop only.
 - Flip direction if weather favors sunset on the mountain pass.
 
-### day-17 Mon — drone day + 祝津 day-trip
-- **朝里 (Asari) area** · [Maps](https://maps.app.goo.gl/uq4xJXgwdisyyzFa9) — prime drone subject (朝里スカイループ). See drone regulatory stack note below.
+### day-17 Mon — 祝津 day-trip
 - **Otaru Aquarium / おたる水族館** · [Maps](https://maps.app.goo.gl/UNnUot3kmno1LSoQ7) — 祝津 day-trip; pair with coast sunset on clear day
 - Evening: return to Grids Premium; dinner in central Otaru.
 - **Book Windsor shuttle by 18:00 Mon evening** for day-18 transit.
+- 2026-04-25: 朝里 moved to day-16. day-17 becomes lighter — room for any day-15/16 spillover or rest before transit.
 
 ⚠️ **Drone regulatory stack (day-17):** (1) DID zones — central Otaru inside DID; Asari likely outside, confirm on 地理院地図. DID flights need MLIT/JCAB via DIPS 2.0, ≥10 business days prior. (2) No direct overflight of 札樽自動車道. (3) Quasi-national-park layer — check 自然保護官事務所. (4) Wind limit ~10 m/s; cold batteries lose 30–40 % at −10 °C. (5) Single weather window — ground fallback = Nikka Yoichi / 余市 / 積丹海岸.
 
