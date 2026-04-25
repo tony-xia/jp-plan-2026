@@ -2,6 +2,7 @@ import { getTrip } from "@/lib/content";
 import { CityList } from "@/components/CityList";
 import { BannerCarousel } from "@/components/BannerCarousel";
 import { Countdown } from "@/components/Countdown";
+import { HashAutoOpen } from "@/components/HashAutoOpen";
 
 const HOME_BANNERS = [
   "/banners/home/home-1.jpg",
@@ -18,6 +19,7 @@ export default function Home() {
 
   return (
     <div className="min-h-full bg-background">
+      <HashAutoOpen />
       <BannerCarousel srcs={HOME_BANNERS} alt="" />
       <div className="mx-auto max-w-3xl px-6 pt-6 pb-14">
         <header className="mt-10 mb-16">

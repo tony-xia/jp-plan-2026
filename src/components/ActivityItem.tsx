@@ -14,6 +14,7 @@ import { findTravelTime, findCoveringBooking } from "@/lib/content";
 import { TriName } from "./TriName";
 import { AddressLinks } from "./AddressLinks";
 import { PhotoGallery } from "./PhotoGallery";
+import { CopyLinkButton } from "./CopyLinkButton";
 import { t } from "@/lib/strings";
 
 export function ActivityItem({
@@ -39,7 +40,7 @@ export function ActivityItem({
       : undefined;
 
   return (
-    <div className="py-6 rule">
+    <div id={activity.id} className="py-6 rule scroll-mt-4 target:bg-white/60 target:rounded-sm target:-mx-2 target:px-2">
       <div>
         <div className="flex items-baseline gap-3">
           <span
@@ -54,6 +55,7 @@ export function ActivityItem({
             as="h3"
             primaryClassName="text-xl font-serif-jp font-semibold leading-tight"
           />
+          <CopyLinkButton anchorId={activity.id} />
         </div>
         {activity.notes_zh && (
           <p className="mt-2 text-sm text-muted leading-relaxed">
