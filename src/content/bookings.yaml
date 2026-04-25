@@ -16,8 +16,8 @@ bookings:
       3 段行程：① 羽田 → 东京站（单轨 / 京急 + JR 山手，~30 – 40 分）；
       ② 东京站 → 新函館北斗（東北・北海道新幹線「はやぶさ」，~4 小时）；
       ③ 新函館北斗 → 函馆（JR 函館ライナー，~15 – 20 分）。
-      ★ 务必同时预约 ②「はやぶさ」特大荷物スペースつき座席（大行李指定席）—— 2020 年起强制，
-      元旦前后几乎必售罄，需尽早。航班时间确定后一次预订三段。
+      ⚠️ ②「はやぶさ」要同时预约 特大荷物スペースつき座席（大行李指定席，2020 年起强制）。
+      元旦前后比较热门，航班定下来后尽早一起把三段订掉就好。
 
   - id: hokkaido-hakodate-airbnb-22116280
     kind: hotel
@@ -148,7 +148,7 @@ bookings:
     to: { zh: Windsor 酒店 洞爺, en: Windsor Hotel Toya, ja: ウィンザーホテル洞爺 }
     start: "2027-01-12"
     details_zh: >-
-      免费接驳，需 ≥ 前一日 18:00 电话预约（day-17 晚从 Neuschloss / 小樽 侧先订）。
+      免费接驳，记得前一天 18:00 前 电话预约（day-17 晚上从小樽这边订就好）。
       当前班次（出发时间待再次确认）：11:00 / 13:00 / 14:20 / 16:55 / 19:00，单程约 40 分钟。
 
   - id: hokkaido-windsor-hotel
@@ -180,8 +180,8 @@ bookings:
     details_zh: >-
       ★ 2026-04-22 第六版：Toya → Tokyo 直达，不绕回札幌。
       ① 特急 北斗 洞爺 → 新函馆北斗（南下，~2 小时）；② 北海道新干线 はやぶさ 新函馆北斗 → 东京（~4 小时）。
-      两段均预约大行李指定席。Windsor 早班车到 洞爺駅。
-      ⚠️ 坏天气备选：特急 北斗 → 札幌 → 新千歳 → 羽田 飞行（~1.5 小时）。
+      两段都记得预约大行李指定席。Windsor 早班车直接送到 洞爺駅。
+      ⚠️ 坏天气可以改飞：特急 北斗 → 札幌 → 新千歳 → 羽田（~1.5 小时）。
 
   - id: tokyo-hotel
     kind: hotel
@@ -205,7 +205,7 @@ bookings:
 
   - id: tokyo-k-two-haircut
     kind: other
-    title_zh: "预约：STAR TOKYO 涩谷 by K-two 剪发（需提前 ≥ 2 周预约）"
+    title_zh: "预约：STAR TOKYO 涩谷 by K-two 剪发（提前 2 周左右订得到）"
     start: "2027-01-17"
     address:
       full:
@@ -213,22 +213,22 @@ bookings:
         ja: 〒150-0046 東京都渋谷区松濤1-29-1 渋谷クロスロード7F
     googleMapsUrl: https://maps.app.goo.gl/LoKkhxgsmHddXDhm9
     details_zh: >-
-      预约时要指明需英语/中文对应 stylist。
-      安排：day-23（周日）骨董市上午 → 下午剪发。
+      预约时记得指明要英语 / 中文对应 stylist。
+      安排：day-23（周日）骨董市上午 → 下午来剪发。
 
   - id: tokyo-mominotakumi-massage
     kind: other
     title_zh: "预约：もみの匠 涩谷 按摩（online 24/7 可预约）"
     start: "2027-01-16"
-    details_zh: 60 分钟全身 ¥3,980 起。Day-21 车迷 bundled 日晚上安排。
+    details_zh: 60 分钟全身 ¥3,980 起。day-22 车迷主题日晚上来一次正合适。
 
   - id: tokyo-gonpachi-dinner
     kind: other
-    title_zh: "预约：Gonpachi 西麻布 晚餐（4 人 2 小时席，提前 1 – 2 周预约）"
+    title_zh: "预约：Gonpachi 西麻布 晚餐（4 人 2 小时席，提前 1 – 2 周订得到）"
     start: "2027-01-16"
     address:
       full:
         zh: 东京都港区西麻布 1-13-11
         ja: 〒106-0031 東京都港区西麻布1-13-11
     googleMapsUrl: https://maps.app.goo.gl/v2BupfdH7LTYcA1r9
-    details_zh: Nice-to-have；Kill Bill 取景经典居酒屋。Day-21 周六车迷 bundled 日晚餐。
+    details_zh: Kill Bill 取景的经典居酒屋。day-22 周六车迷主题日晚餐。

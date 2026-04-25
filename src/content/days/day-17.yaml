@@ -3,14 +3,14 @@ day:
   id: day-17
   date: "2027-01-11"
   city: hokkaido
-  title_zh: 第 17 天 · 祝津 海岸（Grids Premium 第 3 晚）
+  title_zh: 第 17 天 · 漫游祝津海岸（Grids Premium 第 3 晚）
   intro_zh: >-
     ★ 小樽 3 晚的最后一晚 —— 以 Grids Premium（中心街）为基地。
-    去 祝津 小樽水族館 + 祝津海岸 夕景；晚上回中心街 Grids Premium 晚餐。
-    朝里 航拍 已挪至 day-16 回程顺路完成；本日变轻，可补 day-15 / day-16 没赶完的项目，
-    或纯粹休整为 day-18 自驾还车 + 特急北斗 + Windsor 接驳的多段转场蓄力。
-    ★ 当晚 18:00 前电话预约明天（day-18）洞爷 Windsor 接驳巴士。
-    明早（day-18）退房 → 札幌还车 → 洞爺。
+    白天去 祝津 看 小樽水族館 + 祝津海岸 夕景；晚上回中心街 Grids Premium 晚餐。
+    朝里 航拍 已经挪到 day-16；今天比较轻，可以补 day-15 / day-16 没逛到的项目，
+    或者就是好好歇一天 —— 明天还要还车 + 转 北斗 + Windsor 接驳，今晚舒服一点最划算。
+    ⚠️ 当晚 18:00 前 记得电话预约明天（day-18）洞爺 Windsor 接驳巴士。
+    明早 退房 → 札幌还车 → 洞爺。
   activities:
     - id: day-17-otaru-aquarium
       place: { ref: otaru-aquarium }

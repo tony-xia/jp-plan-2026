@@ -1,16 +1,16 @@
-# Day 22 — 2027-01-16 — 东京车迷 bundled 日（Subaru + Autobacs + Gonpachi）
+# Day 22 — 2027-01-16 — 东京车迷主题日（Subaru + Autobacs + Gonpachi）
 day:
   id: day-22
   date: "2027-01-16"
   city: tokyo
-  title_zh: 第 22 天 · 车迷 bundled 日（Subaru 旗舰 + Mitaka + A PIT 东雲 + Gonpachi 晚餐）
+  title_zh: 第 22 天 · 车迷主题日（Subaru 旗舰 · Mitaka · A PIT 东雲 · Gonpachi 晚餐）
   intro_zh: >-
-    ★ 2026-04-20 第三版：Tokyo 只有 2 全天，车迷任务全部压到周六一天。
-    ~09:30 惠比寿 Subaru Star Square（walkable from 涩谷，60 – 90 分钟）→
-    中午 三鷹 Tokyo SUBARU Mitaka（周六开门 10:00 – 18:00；闭馆日只周二 / 周三 —— 打车 ~30 – 40 分钟，或 JR 山手 + 中央线）→
-    下午 A PIT 东雲 Autobacs（用户要求 ≥ 2 小时）→ 晚上 Gonpachi 西麻布 晚餐。
-    もみの匠 按摩 可再往后挪到 22:00 后 late 场。
-    ⚠️ 非常紧凑 —— 如 Mitaka 当天时间不够，优先保留 Star Square + Autobacs；Mitaka 可 Sun 早上再补。
+    ★ 2026-04-20 第三版：Tokyo 整段 2 个完整日里，把车迷想去的地方集中到周六慢慢逛。
+    ~09:30 从涩谷走过去 惠比寿 Subaru Star Square（步行 60 – 90 分钟）→
+    中午到 三鷹 Tokyo SUBARU Mitaka（周六 10:00 – 18:00 开门，只周二 / 周三休 —— 打车 30 – 40 分钟，或 JR 山手 + 中央线）→
+    下午 A PIT 东雲 Autobacs 慢慢逛 ≥ 2 小时 → 晚上 Gonpachi 西麻布 晚餐。
+    もみの匠 按摩 可以晚一点订 22:00 后的 late 场。
+    Mitaka 当天来不及就先把 Star Square + Autobacs 跑了，Mitaka 留到 day-23 早上再去也行。
   activities:
     - id: day-22-subaru-star-square
       place: { ref: subaru-star-square-ebisu }

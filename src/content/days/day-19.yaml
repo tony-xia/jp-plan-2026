@@ -3,11 +3,11 @@ day:
   id: day-19
   date: "2027-01-13"
   city: hokkaido
-  title_zh: 第 19 天 · Lake Toya 全天（Windsor 夜 2）
+  title_zh: 第 19 天 · 享受洞爷湖（Silo · 有珠山 · 登别）（Windsor 夜 2）
   intro_zh: >-
-    Windsor 第一个完整日。上午 / 下午借酒店班车或打车跑 Silo 展望台 + 有珠山缆车；
-    时间 + 体力允许，下午加 登别地狱谷（开车 40 – 50 分钟）。
-    晚上享受 Windsor（SPA、晚餐、湖景）。
+    Windsor 第一个完整日。上午 / 下午借酒店班车或打车去 Silo 展望台 + 有珠山缆车；
+    心情和体力还行，下午再加个 登别地狱谷（开车 40 – 50 分钟）。
+    晚上回 Windsor 享受 SPA、晚餐、湖景。
   activities:
     - id: day-19-silo
       place: { ref: toyako-silo-observation-deck }

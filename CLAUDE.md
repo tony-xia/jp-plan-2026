@@ -44,16 +44,22 @@ Read-only Japan-trip itinerary site. UI in Chinese; proper nouns render tri-ling
 
 **Travel times**: delimited section in [`docs/requirements/travel-times.md`](docs/requirements/travel-times.md) (between `## Travel times (auto-generated — do not edit by hand)` and `<!-- /travel-times -->`). Claude populates via OSM (Nominatim + OSRM demo) — no keys, no build/runtime calls. Parsed by [`src/lib/travel-times.ts`](src/lib/travel-times.ts), merged in [`src/lib/content.ts`](src/lib/content.ts), rendered by `ActivityItem` as `→ 下一站 X min · Y km`. Ask Claude to refresh when the itinerary changes.
 
-## Tone & voice
+## Tone & voice — happy & relaxed
 
-All user-facing copy — `intro_zh`, `title_zh`, `details_zh`, booking notes, requirements docs — should read **relaxed and unhurried**, like a friend describing a comfortable trip, never a packed tour itinerary.
+All user-facing copy — `intro_zh`, `title_zh`, `details_zh`, booking notes, requirements docs — should read **happy, relaxed, unhurried**, like a friend telling you about a comfortable trip they're excited about. Never a packed tour itinerary, never a checklist of obligations. The reader should finish a paragraph feeling *eager and at ease*, not *briefed*.
 
-- **Avoid urgency / scarcity language**: 紧、赶、压缩、抓紧、必须 X 点前、塞、硬、最硬单日, "tight", "rush", "must-do by", "no buffer".
+- **Prefer verb-led, invitational titles** over noun-listed checklists. The reliable move: keep the place / scene noun, slot a quiet verb of enjoyment in front of it.
+  - "（函馆山夜景）" → "（享受函馆山夜景）" *(insert 享受 — keeps the scene, adds the invitation)*
+  - "（朝市 → 元町 → 金森 → 五稜郭塔）" → "（朝市 · 元町 · 金森 · 五稜郭塔）" with title verb "漫游函馆"
+  - Verb shortlist: **享受 / 漫游 / 漫步 / 漫逛 / 自驾去 / 北上 / 慢慢开**. 享受 is the default for scenery/experience nouns. Stack a leisurely modifier in front when it fits — **悠闲漫游**, **慢慢享受**, **轻松自驾** — doubling down reinforces the unhurried voice.
+  - Replace "+" between list items with " · " — "+" reads like an additive checklist; "·" reads like a tasting menu.
+- **Avoid urgency / scarcity language**: 紧、赶、压缩、抓紧、必须 X 点前、塞、硬、最硬单日、密集, "tight", "rush", "must-do by", "no buffer", "bundled 日".
 - **Avoid drill-sergeant timing precision** ("~7–9 hr door-to-door", "1h30 driving + 40 min lunch"): prefer soft framings — "一整天慢慢开"、"中午在 Rusutsu 吃饭休息"、"看天气 / 光线决定方向". Keep precise figures only where the user needs them for a real decision (transit reservations, opening hours, sunset windows).
-- **Frame options as flex, not constraints**: "时间紧则…" → "如果想多停就…"; "若 loop 跑长则降级" → "天气好就多拍几张".
+- **Frame options as flex, not constraints**: "时间紧则…" → "如果想多停就…"; "若 loop 跑长则降级" → "天气好就多拍几张"; "如未完成 X" → "X 没去到的话".
 - **Drives are part of the experience**, not a cost — describe scenery, not duration thresholds. Having a car = freedom to linger.
-- **⚠️ warnings**: keep for genuine logistics (closures, reservations, drone regs, tax). Don't ⚠️ a soft preference.
+- **⚠️ warnings**: keep only for genuine logistics (closures, reservations, drone regs, tax, weather-dependent transit). Don't ⚠️ a soft preference. Never use 🚨 — too alarmist for this trip's voice.
 - **Requirements docs (`docs/requirements/*.md`)** follow the same tone — they're read by the user, not just internal scaffolding.
+- **UI labels in `src/lib/strings.ts` and `src/components/`** are part of the voice too. "必去" → "想去", "Must-do" → "おすすめ · Recommended", "Nice-to-do" → "気まま · As you like".
 
 When the user pushes back on a "tight" / "hurried" framing, treat it as a tone correction across the project, not just that one line.
 

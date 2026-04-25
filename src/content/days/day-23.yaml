@@ -3,11 +3,11 @@ day:
   id: day-23
   date: "2027-01-17"
   city: tokyo
-  title_zh: 第 23 天 · 大江户骨董市（周日）+ 剪发
+  title_zh: 第 23 天 · 漫逛大江户骨董市（周日）· 剪发
   intro_zh: >-
     2027-01-17 是第 3 周日 —— ★ 大江户骨董市 在东京国际论坛户外广场 09:00 – 16:00 开市，
-    约 250 家古董商。下午回涩谷剪发。
-    ⚠️ 如 day-22 未完成 Mitaka Subaru，今早可优先补，但 Oedo + 剪发 仍是主线 —— Mitaka 开门 10:00。
+    约 250 家古董商，慢慢逛 1 – 2 小时刚好。下午回涩谷剪发。
+    day-22 没去到 Mitaka Subaru 的话，今天上午也能顺路 —— Mitaka 10:00 开门，但 Oedo + 剪发 仍是主线。
   activities:
     - id: day-23-oedo-antique
       place: { ref: oedo-antique-market }

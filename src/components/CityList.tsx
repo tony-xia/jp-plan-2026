@@ -256,7 +256,7 @@ function DayCard({
               <h4 className="text-xs uppercase tracking-[0.3em] text-accent font-medium">
                 {t.mustDo}
               </h4>
-              <span className="annot">必須 · Must-do</span>
+              <span className="annot">おすすめ · Recommended</span>
             </div>
             <div>
               {mustDo.map((a, i) => (
@@ -278,7 +278,7 @@ function DayCard({
               <h4 className="text-xs uppercase tracking-[0.3em] text-muted font-medium">
                 {t.niceToDo}
               </h4>
-              <span className="annot">オプション · Nice-to-do</span>
+              <span className="annot">気まま · As you like</span>
             </div>
             <div>
               {niceToDo.map((a, i) => (
