@@ -147,3 +147,18 @@ places:
       - /photos/nezu-museum/01.jpg
       - /photos/nezu-museum/02.jpg
       - /photos/nezu-museum/03.jpg
+  - id: kappabashi-dougu-street
+    name:
+      zh: 合羽桥道具街（厨道具一条街）
+      en: Kappabashi Dougu Street (Kitchenware Town)
+      ja: 合羽橋道具街
+    kind: shop
+    googleMapsUrl: https://maps.app.goo.gl/LQrkg9u63EvdMK5d7
+    address:
+      full:
+        zh: 东京都台东区松谷 3-18-2（合羽桥本通约 800 米）
+        ja: 〒110-0036 東京都台東区松が谷3-18-2（かっぱ橋道具街 約800m）
+    photos:
+      - /photos/kappabashi-dougu-street/01.jpg
+      - /photos/kappabashi-dougu-street/02.jpg
+      - /photos/kappabashi-dougu-street/03.jpg

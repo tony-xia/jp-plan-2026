@@ -14,7 +14,7 @@
 | 21 | 2027-01-15 | Fri | Toya → Tokyo transit (~6–6.5 hr); arrive Shibuya/Asakusa evening; light dinner. |
 | 22 | 2027-01-16 | Sat | **Car-enthusiast bundled day:** Subaru Star Square (Ebisu) + Tokyo Subaru Mitaka + A PIT Autobacs 東雲 + Gonpachi 西麻布 dinner. Massage late-evening. |
 | 23 | 2027-01-17 | Sun | **Oedo Antique Market** (3rd Sun, 09:00–16:00 at 東京国際フォーラム) + **K-two haircut** afternoon. |
-| 24 | 2027-01-18 | Mon | **Slack / spillover.** Mitaka Subaru if Sat skipped it; Nezu Museum; Meiji Shrine; Shibuya/Harajuku/Omotesando shopping. |
+| 24 | 2027-01-18 | Mon | **Slack / spillover.** Mitaka Subaru if Sat skipped it; Nezu Museum; Meiji Shrine; Shibuya/Harajuku/Omotesando shopping; **合羽橋道具街** (kitchenware street, walkable from Asakusa lodging). |
 | 25 | 2027-01-19 | Tue | Departure. Haneda. |
 
 ## Lodging
@@ -62,6 +62,7 @@ User interest: "public small auctions about old ancient legacies." Traditional d
 - **Nezu Museum (根津美術館)**
 - **Meiji Shrine (明治神宮)**
 - **Shibuya shopping** — SCRAMBLE SQUARE, 宮下パーク, 表参道ヒルズ, 原宿, 明治通り
+- **合羽橋道具街 (Kappabashi Dougu Street)** — kitchenware / chef-supply street between Ueno and Asakusa, ~15 min walk from the Asakusa lodging candidate. Most shops 平日 09:00–17:00, many closed Sundays — Monday is the right day. Famous for knives, ceramics, sample-food displays; ~170 shops along ~800 m.
 
 ### Rainy-day / nice-to-have museum fallbacks
 

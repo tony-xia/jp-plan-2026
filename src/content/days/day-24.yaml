@@ -11,11 +11,14 @@ day:
     ② A PIT Autobacs 想再泡 1 – 2 小时；
     ③ 慢一点 → 根津美术館（古代东亚艺术 · 跟「骨董市 + 古美」兴趣同源）+ 表参道 / Harajuku / Omotesando 散步购物；
     ④ 想休息 → 明治神宮（涩谷 1 站）+ 涩谷 Scramble Square 屋顶 + 湯屋 泡汤；
-    ⑤ 购物族 → SCRAMBLE SQUARE 瞭望 + 表参道 + 銀座 慢慢扫。
+    ⑤ 购物族 → SCRAMBLE SQUARE 瞭望 + 表参道 + 銀座 慢慢扫；
+    ⑥ 住宿就在浅草边上 → 散步去 合羽桥道具街 慢慢逛刀具 / 陶器 / 食品样品（约 800 米一条街，~170 家店，周一开门最齐 · 周日多关）。
     晚餐按当天行程顺手挑；明早（day-25）从 羽田 / 成田 返程。
   activities:
     - id: day-24-subaru-mitaka-optional
       place: { ref: tokyo-subaru-mitaka }
+    - id: day-24-kappabashi
+      place: { ref: kappabashi-dougu-street }
     - id: day-24-nezu-museum
       place: { ref: nezu-museum }
     - id: day-24-meiji-shrine
