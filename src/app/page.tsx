@@ -1,6 +1,7 @@
 import { getTrip } from "@/lib/content";
 import { CityList } from "@/components/CityList";
 import { AntiqueMarkets } from "@/components/AntiqueMarkets";
+import { DrivingGuide } from "@/components/DrivingGuide";
 import { BannerCarousel } from "@/components/BannerCarousel";
 import { Countdown } from "@/components/Countdown";
 import { HashAutoOpen } from "@/components/HashAutoOpen";
@@ -40,6 +41,8 @@ export default function Home() {
         <CityList trip={trip} />
 
         <AntiqueMarkets />
+
+        <DrivingGuide />
 
         <div className="mt-24 pt-8 rule flex justify-center">
           <Countdown startDate={trip.startDate} endDate={trip.endDate} />
