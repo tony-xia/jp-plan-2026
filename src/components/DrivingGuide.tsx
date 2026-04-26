@@ -6,6 +6,8 @@ type Tip = {
   title_ja?: string;
   warning?: boolean;
   body_zh: string;
+  imageUrl?: string;
+  imageAlt?: string;
 };
 
 type Resource = {
@@ -84,6 +86,16 @@ const GROUPS: Group[] = [
         label_zh: "香港运输署 · 海外驾照转 HK 驾照",
         url: "https://www.td.gov.hk/en/public_services/licences_and_permits/driving_licences/how_to_apply_for_a_driving_licence/driving_in_hong_kong_for_overseas_driving_licence_/index.html",
         desc_zh: "Direct Issue 名单与流程",
+      },
+      {
+        label_zh: "JAF · 中文版驾驶资讯 (PDF)",
+        url: "https://english.jaf.or.jp/-/media/1/2590/2708/3096/pdf_info_chinese_202204_ippan_001.pdf",
+        desc_zh: "中文 · JAF 官方制作的中文版驾驶概览",
+      },
+      {
+        label_zh: "香港运输署 · 海外驾照转 HK (简中)",
+        url: "https://www.td.gov.hk/sc/public_services/licences_and_permits/driving_licences/how_to_apply_for_a_driving_licence/driving_in_hong_kong_for_overseas_driving_licence_/index.html",
+        desc_zh: "简中 · 同上,简体中文版",
       },
     ],
   },
@@ -183,9 +195,14 @@ const GROUPS: Group[] = [
         desc_zh: "速查版规则总览,带图",
       },
       {
-        label_zh: "JNTO · 租车指南",
+        label_zh: "JNTO · 租车指南 (英文)",
         url: "https://www.japan.travel/en/plan/getting-around/cars/",
         desc_zh: "日本国家旅游局官方租车注意事项",
+      },
+      {
+        label_zh: "JNTO · 租车指南 (简中)",
+        url: "https://www.japan.travel/zh-cn/plan/getting-around/cars/",
+        desc_zh: "简中 · 上述页面的简体中文版",
       },
     ],
   },
@@ -220,6 +237,8 @@ const GROUPS: Group[] = [
         id: "yellow-arrows",
         title_zh: "黄色下箭头 = 车道边界",
         title_ja: "矢羽根",
+        imageUrl: "/photos/driving-guide/yajirushi-arrows.jpg",
+        imageAlt: "矢羽根 (yajirushi) — 雪国常见的车道边界标识种类",
         body_zh:
           "路面被雪盖住、白线看不见时,**头顶悬挂的黄色「↓」箭头杆就是车道分割线**。看不到地面就抬头看箭头,这是北海道独有的设计——内地司机第一次遇到会懵。看到双向多个箭头时,跟着自己车道那一列开就行。",
       },
@@ -227,6 +246,8 @@ const GROUPS: Group[] = [
         id: "red-poles",
         title_zh: "红色矮杆 = 路缘",
         title_ja: "視線誘導標",
+        imageUrl: "/photos/driving-guide/snow-poles-hokkaido.jpg",
+        imageAlt: "北海道乡间路 — 路两侧红白杆指示路缘位置",
         body_zh:
           "路两侧的红白细杆指示路缘位置 (积雪覆盖白线时辨认路边的唯一参照)。**开到红杆外侧 = 已经压到雪堆里了**——会陷,尤其窄路。",
       },
@@ -235,6 +256,8 @@ const GROUPS: Group[] = [
         title_zh: "地吹雪 (ground blizzard)",
         title_ja: "地吹雪 / じふぶき",
         warning: true,
+        imageUrl: "/photos/driving-guide/ground-blizzard.jpg",
+        imageAlt: "地吹雪 — 风把地面雪吹起,瞬间白茫茫,能见度 0",
         body_zh:
           "风把地面雪吹起来形成瞬间白茫茫,能见度 0。**Okhotsk 海岸 (浜頓別 → 網走) 和宗谷岬最危险**——风从西伯利亚直吹下来。一旦遇到,**立刻**:靠路边、停车、双闪、不要下车,等过去 (一般 5-15 分钟)。⚠️ 千万不要冒险继续开,后车追尾是最常见死法。",
       },
@@ -242,6 +265,8 @@ const GROUPS: Group[] = [
         id: "black-ice",
         title_zh: "黑冰 (アイスバーン)",
         title_ja: "アイスバーン",
+        imageUrl: "/photos/driving-guide/black-ice.jpg",
+        imageAlt: "黑冰 — 看起来湿润但其实是薄冰面,反光与湿路面难分辨",
         body_zh:
           "看起来湿润但其实是冰面。**桥面、隧道口、阴影处、清早 5-9 点最常见**。判断方法:前车飞溅的水花变少 + 轮胎噪音变小 = 已经在冰上。任何时候降速,温柔操作。",
       },
@@ -321,6 +346,16 @@ const GROUPS: Group[] = [
         label_zh: "国土交通省 · 道路情报提供系统",
         url: "https://www.road-info-prvs.mlit.go.jp/",
         desc_zh: "全日本封路 / 限制实时查询",
+      },
+      {
+        label_zh: "北海道开发局 · 冬天雪道驾驶心得 (PDF)",
+        url: "https://www.hkd.mlit.go.jp/ky/ki/keikaku/ud49g7000000ayuk-att/huyu_h.pdf",
+        desc_zh: "繁中 · 国交省北海道开发局官方繁体中文版,带图,推荐先看这本",
+      },
+      {
+        label_zh: "北海道庁 · 冬季雪上事故防止 (PDF)",
+        url: "https://www.pref.hokkaido.lg.jp/fs/9/6/6/0/7/8/1/_/%E4%B8%AD%E6%96%87.pdf",
+        desc_zh: "简中 · 北海道庁官方简体中文版冬季安全须知",
       },
     ],
   },
@@ -441,27 +476,55 @@ export function DrivingGuide() {
                 <ul>
                   {g.tips.map((tip) => (
                     <li key={tip.id} className="rule py-5">
-                      <div className="flex items-baseline gap-2 flex-wrap">
-                        {tip.warning && (
-                          <span
-                            className="text-accent text-sm shrink-0"
-                            aria-hidden
+                      <div
+                        className={
+                          tip.imageUrl
+                            ? "flex flex-col sm:flex-row gap-4"
+                            : ""
+                        }
+                      >
+                        {tip.imageUrl && (
+                          <a
+                            href={tip.imageUrl}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            className="shrink-0 sm:w-44 block aspect-[4/3] overflow-hidden rounded border border-hairline bg-surface hover:opacity-90 transition-opacity"
+                            aria-label={tip.imageAlt ?? tip.title_zh}
                           >
-                            ⚠️
-                          </span>
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src={tip.imageUrl}
+                              alt={tip.imageAlt ?? tip.title_zh}
+                              loading="lazy"
+                              decoding="async"
+                              className="h-full w-full object-cover"
+                            />
+                          </a>
                         )}
-                        <h4 className="text-base font-serif-jp font-semibold">
-                          {tip.title_zh}
-                        </h4>
-                        {tip.title_ja && tip.title_ja !== tip.title_zh && (
-                          <span className="annot annot-ja">
-                            {tip.title_ja}
-                          </span>
-                        )}
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-baseline gap-2 flex-wrap">
+                            {tip.warning && (
+                              <span
+                                className="text-accent text-sm shrink-0"
+                                aria-hidden
+                              >
+                                ⚠️
+                              </span>
+                            )}
+                            <h4 className="text-base font-serif-jp font-semibold">
+                              {tip.title_zh}
+                            </h4>
+                            {tip.title_ja && tip.title_ja !== tip.title_zh && (
+                              <span className="annot annot-ja">
+                                {tip.title_ja}
+                              </span>
+                            )}
+                          </div>
+                          <p className="mt-2 text-sm text-muted leading-relaxed max-w-prose">
+                            <FormattedText text={tip.body_zh} />
+                          </p>
+                        </div>
                       </div>
-                      <p className="mt-2 text-sm text-muted leading-relaxed max-w-prose">
-                        <FormattedText text={tip.body_zh} />
-                      </p>
                     </li>
                   ))}
                 </ul>
