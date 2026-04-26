@@ -46,9 +46,16 @@ const GROUPS: Group[] = [
       },
       {
         id: "hk-license-detail",
-        title_zh: "香港驾照路径 · 现办来得及吗?",
+        title_zh: "香港驾照路径 · 大陆驾照现办来得及",
         body_zh:
-          "**已经有 HK 驾照的话**,这是最顺的路径之一:在 HK 运输署 (TD) 申请 IDP,工本费 ¥80 港币,当场或一两天发证;入境日本后凭 HK 驾照原件 + IDP 原件,12 个月内合法驾驶,无需 JAF 翻译。 **从零开始办 HK 驾照不现实**——必须有 HK 身份证 / 居住身份才能申请;若持其他认可国家驾照 (英、美、澳、加、日 等) 可走「直接发牌」(direct issue) 转 HK 驾照,但本身需要赴港 + 预约 + 证件齐全;持中国大陆驾照不在直接发牌名单上,需在 HK 居住后参加考试。 **结论**:这趟行程能走 HK 路径的前提是「证件已经到手」。",
+          "**已经有 HK 驾照**:HK 运输署申请 1949 IDP,HK$80,当天发证;入境日本后凭 HK 驾照 + IDP 原件,12 个月内合法驾驶,无需 JAF 翻译。\n\n**大陆驾照现办 HK 驾照——是可行路径**。HK 把中国大陆纳入「**免试签发**」(Direct Issue) 名单 (《道路交通条例》第 374B 章)。条件:**大陆驾照持有 ≥ 1 年,有效期剩余 ≥ 3 年,非实习期证件**。流程: **(a)** 准备护照 + 港澳通行证 + 大陆驾照正本 + 副页 + HK 地址证明 + 大陆地址证明 (各一份,3 个月内的水电单 / 银行单等)。 **(b)** 自 2026 年 3 月 16 日起须先在 HK 运输署网上预约「电子即日筹」(没了线下排号)。 **(c)** 申请人或其代理人到 HK 运输署柜台递件,官费 HK$900 + HK$160 (驾照详情证明)。 **(d)** ~3-4 周后拿 HK 驾照,再加办 1949 IDP,HK$80。",
+      },
+      {
+        id: "hk-taobao-agents",
+        title_zh: "淘宝代办「香港驾照」服务",
+        body_zh:
+          "市面上确实大量存在——中介帮忙搞定 HK 地址证明、网上预约、柜台递件,服务费一般 **¥800-1500 RMB**(加官费 ~HK$1140)。流程合法的话,拿到的就是 HK 运输署正式签发的真驾照。\n\n**怎么挑**: **(1)** 看是否要求你本人赴港一次签字 / 拍照——香港运输署正规流程要求申请人本人或正式代理人到场,**完全不用本人到港的服务可疑**。 **(2)** 看 HK 地址证明的来源——租住短期 service 公寓 / 真实地址相对干净;伪造水电单 = 刑事风险。 **(3)** 留够时间——今天距 12/26 出发还有约 8 个月,**建议 7 月前启动**,留出补材料和签发缓冲。\n\n⚠️ **走灰色渠道的风险**:伪造材料一旦被 HK 入境处或运输署发现,大陆护照直接被拒入境 / 留案底;租车公司也可能验证 HK 运输署在线编号,假证当场拒租。值得慢慢做对,不值得抢快出错。",
+        warning: false,
       },
       {
         id: "verify-before-rental",
@@ -351,7 +358,7 @@ const GROUPS: Group[] = [
   },
 ];
 
-function FormattedText({ text }: { text: string }) {
+function FormattedInline({ text }: { text: string }) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g);
   return (
     <>
@@ -365,6 +372,22 @@ function FormattedText({ text }: { text: string }) {
         }
         return <Fragment key={i}>{p}</Fragment>;
       })}
+    </>
+  );
+}
+
+function FormattedText({ text }: { text: string }) {
+  const paragraphs = text.split(/\n\n+/);
+  if (paragraphs.length === 1) {
+    return <FormattedInline text={text} />;
+  }
+  return (
+    <>
+      {paragraphs.map((para, i) => (
+        <span key={i} className={i > 0 ? "block mt-3" : "block"}>
+          <FormattedInline text={para} />
+        </span>
+      ))}
     </>
   );
 }
