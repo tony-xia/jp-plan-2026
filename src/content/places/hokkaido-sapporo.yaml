@@ -163,6 +163,8 @@ places:
         ja: 〒064-8505 北海道札幌市中央区宮ヶ丘474
     photos:
       - /photos/hokkaido-jingu/01.jpg
+      - /photos/hokkaido-jingu/02.jpg
+      - /photos/hokkaido-jingu/03.jpg
   - id: jr-tower-t38
     name:
       zh: JR Tower 展望室 T38
