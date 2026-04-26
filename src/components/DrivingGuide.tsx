@@ -42,7 +42,13 @@ const GROUPS: Group[] = [
         id: "valid-paths",
         title_zh: "合规路径有这几条",
         body_zh:
-          "**(1)** 持台湾驾照 + JAF 中文翻译件 (出发前在线申请,日本便利店打印)。 **(2)** 持英联邦 / 北美 / 欧盟等公约成员国驾照 + 该国出的国际驾照 (IDP) 原件。 **(3)** 在日本居住后做「外免切替」拿日本驾照 (不适用游客)。 **(4)** 同行人里有以上证件的话,由那位主驾。",
+          "**(1)** 持**香港驾照** + 香港运输署签发的 IDP (1949 年日内瓦公约格式)——入境后可连续驾驶 12 个月,日本租车公司接受度高。 **(2)** 持**台湾驾照** + JAF 中文翻译件 (出发前在线申请,日本便利店打印)。 **(3)** 持英联邦 / 北美 / 欧盟 / 澳新 等 1949 公约成员国驾照 + 该国签发的 IDP 原件。 **(4)** 在日本居住后做「外免切替」拿日本驾照 (不适用游客)。 **(5)** 同行人里有以上证件的话,由那位主驾。",
+      },
+      {
+        id: "hk-license-detail",
+        title_zh: "香港驾照路径 · 现办来得及吗?",
+        body_zh:
+          "**已经有 HK 驾照的话**,这是最顺的路径之一:在 HK 运输署 (TD) 申请 IDP,工本费 ¥80 港币,当场或一两天发证;入境日本后凭 HK 驾照原件 + IDP 原件,12 个月内合法驾驶,无需 JAF 翻译。 **从零开始办 HK 驾照不现实**——必须有 HK 身份证 / 居住身份才能申请;若持其他认可国家驾照 (英、美、澳、加、日 等) 可走「直接发牌」(direct issue) 转 HK 驾照,但本身需要赴港 + 预约 + 证件齐全;持中国大陆驾照不在直接发牌名单上,需在 HK 居住后参加考试。 **结论**:这趟行程能走 HK 路径的前提是「证件已经到手」。",
       },
       {
         id: "verify-before-rental",
@@ -61,6 +67,16 @@ const GROUPS: Group[] = [
         label_zh: "JAF · 驾照翻译申请",
         url: "https://english.jaf.or.jp/driving-in-japan/drive-in-japan/about-dltas",
         desc_zh: "覆盖国家清单 + 在线申请流程",
+      },
+      {
+        label_zh: "香港运输署 · IDP 申请",
+        url: "https://www.td.gov.hk/en/public_services/licences_and_permits/driving_licences/international_driving_permit/index.html",
+        desc_zh: "1949 日内瓦公约格式,日本可用",
+      },
+      {
+        label_zh: "香港运输署 · 海外驾照转 HK 驾照",
+        url: "https://www.td.gov.hk/en/public_services/licences_and_permits/driving_licences/how_to_apply_for_a_driving_licence/driving_in_hong_kong_for_overseas_driving_licence_/index.html",
+        desc_zh: "Direct Issue 名单与流程",
       },
     ],
   },
