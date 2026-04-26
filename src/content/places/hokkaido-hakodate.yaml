@@ -42,6 +42,7 @@ places:
     photos:
       - /photos/hachimanzaka/01.jpg
       - /photos/hachimanzaka/02.jpg
+      - /photos/hachimanzaka/03.jpg
   - id: kanemori-red-brick-warehouses
     name:
       zh: 金森赤砖仓库
@@ -55,6 +56,7 @@ places:
     photos:
       - /photos/kanemori-red-brick-warehouses/01.jpg
       - /photos/kanemori-red-brick-warehouses/02.jpg
+      - /photos/kanemori-red-brick-warehouses/03.jpg
   - id: goryokaku-tower
     name:
       zh: 五稜郭塔
@@ -69,3 +71,4 @@ places:
     photos:
       - /photos/goryokaku-tower/01.jpg
       - /photos/goryokaku-tower/02.jpg
+      - /photos/goryokaku-tower/03.jpg

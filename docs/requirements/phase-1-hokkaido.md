@@ -93,8 +93,9 @@ Full-day self-drive round trip from Sapporo hotel. Sapporo → Biei ~180 km / ~3
 
 ### day-08 Sat 2027-01-02 — Rusutsu two-route loop (Sapporo base)
 - **Hill of the Buddha / 頭大佛殿 (真駒内滝野霊園)** · [Maps](https://maps.app.goo.gl/FaoXKA6y4uEwWEU8A)
-- **Rusutsu Resort / 留寿都 (ルスツリゾート)** · [Maps](https://maps.app.goo.gl/zEtbXATTGfTUuxZF8) — **moved here 2026-04-25** (was day-16, resolved by user). Two-route loop from Sapporo: outbound 中山峠 (R230) → Rusutsu lunch / 雪上活动 → return via ニセコ + R5 余市沿海 → Sapporo. ~7–9 hr door-to-door, ~180 km. Flip direction if weather favors sunset on the mountain pass.
+- **Rusutsu Resort / 留寿都 (ルスツリゾート)** · [Maps](https://maps.app.goo.gl/zEtbXATTGfTUuxZF8) — **moved here 2026-04-25** (was day-16, resolved by user). Loop from Sapporo to Rusutsu (lunch / 雪上活动) and back via ニセコ + R5 余市沿海. Flip direction if weather favors sunset on the coast.
 - **Note 2026-04-25:** 大倉山 moved to day-04. Rusutsu conflict resolved by moving the Rusutsu loop here from day-16; day-16 loses its anchor and is re-scoped (see day-16 below). Pairing Rusutsu with 頭大佛 in one day is tight — 頭大佛 may need to demote to a quick stop or shift to day-09 if loop runs long.
+- **2026-04-26:** 中山峠 removed from day-08 per user — no stop at 中山峠展望台. The route to Rusutsu still uses R230 by geography, but it's no longer a narrated stop.
 
 ### day-09 Sun 2027-01-03 — Sapporo city walk
 - 2026-04-25: user requested **Sapporo city walk** for this day (downtown 大通 / 狸小路 / 薄野 stroll, 札幌市時計台, 北海道庁旧本庁舎, 札幌駅 周辺). No driving — car stays parked. Final unstructured day before day-10 long drive.
@@ -187,7 +188,7 @@ Arrival only. Hotel check-in + early dinner.
 - **Mt. Tengu Ropeway / 小樽天狗山ロープウェイ** · [Maps](https://maps.app.goo.gl/jEUzKT7ByXnta1xF9)
 
 ### day-16 Sun — 朝里 + Otaru-area scope (Rusutsu moved out)
-- **2026-04-25:** Rusutsu moved to **day-08** (Sapporo base) per user. Day-16 loses its Rusutsu anchor; the 中山峠 + ニセコ two-route loop now lives on day-08. Day-16 is re-scoped to an Otaru-area lighter day — open for user input.
+- **2026-04-25:** Rusutsu moved to **day-08** (Sapporo base) per user. Day-16 loses its Rusutsu anchor; the Rusutsu loop now lives on day-08. Day-16 is re-scoped to an Otaru-area lighter day — open for user input.
 - **朝里 (Asari) area** · [Maps](https://maps.app.goo.gl/uq4xJXgwdisyyzFa9) — moved here 2026-04-25 (was day-17). Drone window depends on weather; ground-level photo fallback if conditions don't permit.
 - Candidates / spillover: Otaru-area items not covered on day-15 / day-17, or quieter rest day before day-18 transit to Toya.
 

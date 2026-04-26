@@ -1,13 +1,12 @@
-# Day 08 — 2027-01-02 — 札幌 → Rusutsu 双线环游 + 头大佛
+# Day 08 — 2027-01-02 — 札幌 → Rusutsu 环游 + 头大佛
 day:
   id: day-08
   date: "2027-01-02"
   city: hokkaido
-  title_zh: 第 8 天 · 漫游 Rusutsu 双线环线（中山峠 · ニセコ）· 头大佛
+  title_zh: 第 8 天 · 漫游 Rusutsu 环线 · 头大佛
   intro_zh: >-
     ★ 2026-04-25：Rusutsu 从 day-16 移到今天。
     1/2（周六）元旦次日多数景点恢复营业。从札幌基地出发，一整天慢慢开 ——
-    去程走 中山峠（R230），羊蹄山在车窗外慢慢露脸，到 中山峠展望台 吃个 あげいも 暖手；
     中午到 Rusutsu，吃饭、玩玩雪上活动；
     回程走 ニセコ + R5 余市沿海，看日本海冬天的样子，回札幌。
     哪边光线好就走哪边，方向也可以反过来。
@@ -15,8 +14,6 @@ day:
     回得晚或想留到 day-09 再去，都行。
     （大倉山 已移到 day-04。）
   activities:
-    - id: day-08-nakayama-toge
-      place: { ref: nakayama-toge }
     - id: day-08-rusutsu
       place: { ref: rusutsu-resort }
     - id: day-08-hill-of-buddha
