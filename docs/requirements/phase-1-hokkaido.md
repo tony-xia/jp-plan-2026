@@ -161,7 +161,7 @@ Arrival only. Hotel check-in + early dinner.
 
 ### day-14 Fri — 知床 Utoro day + weather buffer
 ~1 hr drive E to 斜里. This day also absorbs any weather setback from day-12 / 13.
-- **オシンコシンの滝 (Oshinkoshin Falls)**
+- **2026-04-26:** オシンコシンの滝 removed from day-14 per user.
 - **天に続く道 (Road to Heaven)** · [Maps](https://maps.app.goo.gl/r3C2FxVxaEjwjekk9) — also visited day-13; can re-shoot here in different light
 - **流冰物語号 (Ryuhyo Monogatari Train)** — OPTIONAL; confirm 2027 start date
 - **象の鼻展望 (Zō-no-hana Lookout, Shiretoko coast)** · [Maps](https://maps.app.goo.gl/3B4vxRxWLBgVCzSr6) — 2026-04-25 user-pinned drone spot. **Weather-dependent**: only fly if 风速 / 天气 OK and Shiretoko / 国立公園 飞行规定 confirmed clear that day.
@@ -229,13 +229,13 @@ Transit day — no overnight in Sapporo in this plan.
 Shuttle + check-in + dinner + spa.
 
 ### day-19 Wed — Lake Toya full day
-- **Silo Observation Deck (サイロ展望台)** · [Maps](https://maps.app.goo.gl/vbz1fb4sMXW5NMvJ8)
+- **2026-04-26:** Silo Observation Deck removed from day-19 per user.
 - **Usuzan Ropeway (有珠山ロープウェイ)** · [Maps](https://maps.app.goo.gl/XEf1pdWgJFufiVg66)
 - **Noboribetsu Jigokudani (登別地獄谷)** · [Maps](https://maps.app.goo.gl/FbdgvTbkqZjrhgtx7) — time-permitting today only (no longer carried over to day-20)
 
 ### day-20 Thu — slack / spillover + Windsor enjoyment
 - **Windsor spa / onsen / gallery / lake-view dining** — covered by the Windsor lodging booking, not as a separate activity card
-- Day-19 湖周补遗 (Silo / 有珠山 / 壮瞥 etc.); **登別 dropped from this day per 2026-04-25**
+- Day-19 湖周补遗 (有珠山 / 壮瞥 etc.); **登別 dropped from this day per 2026-04-25**
 - **Weather buffer for day-21 transit** — if threatened, start 新千歳 → 羽田 flight backup booking today.
 
 ### day-21 Fri — transit to Tokyo

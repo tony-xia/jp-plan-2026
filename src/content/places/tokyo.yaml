@@ -43,6 +43,7 @@ places:
     photos:
       - /photos/a-pit-autobacs-shinonome/01.jpg
       - /photos/a-pit-autobacs-shinonome/02.jpg
+      - /photos/a-pit-autobacs-shinonome/03.jpg
   - id: mominotakumi-shibuya
     name:
       zh: もみの匠 涩谷店 (按摩)
@@ -91,6 +92,7 @@ places:
     photos:
       - /photos/gonpachi-nishiazabu/01.jpg
       - /photos/gonpachi-nishiazabu/02.jpg
+      - /photos/gonpachi-nishiazabu/03.jpg
   - id: oedo-antique-market
     name:
       zh: 大江户骨董市
