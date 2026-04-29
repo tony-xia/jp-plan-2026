@@ -12,7 +12,7 @@ const VIDEOS: Video[] = [
     title_zh: "钏路 · HDR",
     title_ja: "釧路",
     title_en: "Kushiro, Hokkaido",
-    src: "https://jpplan.blob.core.windows.net/website/KUSHIRO%20Hokkaido%20HDR.mp4?sp=r&st=2026-04-28T01:24:16Z&se=2026-06-01T09:39:16Z&spr=https&sv=2025-11-05&sr=b&sig=%2BEGQgn1dBF1m7bpLWKD%2BxPu2Uwiq2NOfc9bVurCPmh4%3D",
+    src: "https://jpplan.z23.web.core.windows.net/testhdr.mp4",
   },
 ];
 
