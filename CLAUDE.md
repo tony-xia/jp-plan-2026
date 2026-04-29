@@ -79,6 +79,29 @@ When the user pushes back on a "tight" / "hurried" framing, treat it as a tone c
 
 Azure Web App **`jp-plan`** (`jp-plan.azurewebsites.net`), Linux/Container mode. [`.github/workflows/azure-deploy.yml`](.github/workflows/azure-deploy.yml) on push to `main` builds [`Dockerfile`](Dockerfile) → GHCR (`ghcr.io/<owner>/jp-plan-2026:<sha>`) → `azure/webapps-deploy@v3`. Container listens on `PORT=8080`; Web App needs `WEBSITES_PORT=8080`. Next.js `output: "standalone"` ([`next.config.ts`](next.config.ts)) produces the minimal `server.js` bundle.
 
+## HDR video from YouTube → Apple-friendly MP4
+
+YouTube serves HDR in AV1 or VP9.2 (HLG, BT.2020, 10-bit). **Apple platforms (QuickTime, Safari HDR rendering, iOS Photos, AirPlay) don't decode AV1** — they need HEVC. Workflow:
+
+1. **Download.** `yt-dlp -F <url>` to list formats; the HDR ones are tagged `HDR`. Pick the AV1/MP4 line at the resolution you want (e.g. `401` = 2160p HDR AV1, `701` = same res higher bitrate). Mux to MKV — safest container for HDR side-data during yt-dlp's merge step:
+
+   ```bash
+   yt-dlp -f "401+bestaudio" --merge-output-format mkv <url>
+   ```
+
+2. **Convert to HEVC HLG MP4** for Apple playback. Stream-copy is *not* an option — the codec must change. Use `hevc_videotoolbox` (Apple Silicon hardware encoder, supports 10-bit), tag as `hvc1` (Safari/QuickTime require this; the default `hev1` won't play), and keep BT.2020 + HLG flags so HDR signaling survives:
+
+   ```bash
+   ffmpeg -i in.mkv \
+     -c:v hevc_videotoolbox -profile:v main10 -pix_fmt p010le -b:v 15M -tag:v hvc1 \
+     -color_primaries bt2020 -color_trc arib-std-b67 -colorspace bt2020nc \
+     -c:a aac -b:a 192k -movflags +faststart out.mp4
+   ```
+
+3. **Verify** with `ffprobe`: expect `codec_name=hevc`, `profile=Main 10`, `codec_tag_string=hvc1`, `pix_fmt=yuv420p10le`, `color_transfer=arib-std-b67`, plus a `Mastering display metadata` side-data block.
+
+4. **Web embedding.** Single `<video src="…hevc.mp4">` works in Safari (renders as HDR on capable displays) and Chrome/Edge on macOS via the system HEVC decoder. For Chrome on Linux/Windows + Firefox, also serve the original AV1 MP4 as a `<source>` fallback (`type="video/mp4; codecs=av01.0.12M.10"`) — the HEVC source needs `type="video/mp4; codecs=hvc1.2.4.L150.B0"` so Safari picks it for HDR.
+
 ## Misc
 
 - **Design spec**: [`docs/superpowers/specs/2026-04-19-jp-itinerary-design.md`](docs/superpowers/specs/2026-04-19-jp-itinerary-design.md).
